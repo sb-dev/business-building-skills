@@ -2,10 +2,10 @@
 
 Branch: `feat/bootstrap`. Date: 9 September 2026.
 
-Stage 1 is reviewed. Stage 2 has a provisional synthesis with full-book access gaps. Stage 3 has an independent professional-practice map and evidence policy; it does not claim universal empirical validation.
+Stages 1 and 3–4 have completed their design/research exits. Stage 2 remains a provisional source synthesis with full-book access gaps. No universal empirical validation is claimed.
 
-Latest completed stage: **3 — Professional practice and evidence**.
+Latest completed stage: **4 — Business, customer and value model**.
 
-Record: [Stage 3](2026-09-09-stage-3-professional-practice-and-evidence.md).
+Record: [Stage 4](2026-09-09-stage-4-business-customer-and-value-model.md). Prior records remain in this directory.
 
-Next: Stage 4. Stages 4–26 have not yet been recorded. Each will be committed separately. No production scaffolding, live commercial experiment or merge has occurred.
+Next: Stage 5. Stages 5–26 have not yet been recorded. Each stage receives a separate commit. No production scaffolding, live customer experiment or merge has occurred.
