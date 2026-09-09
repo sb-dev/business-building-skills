@@ -2,10 +2,10 @@
 
 Branch: `feat/bootstrap`. Date: 9 September 2026.
 
-Stages 1 and 3–17 have completed their design/research exits. Stage 2 remains provisional with full-book access gaps.
+Stages 1 and 3–19 have completed their design/research exits. Stage 2 remains provisional with full-book access gaps. Six canonical specs now exist.
 
-Latest completed stage: **17 — Evals, benchmarks and regression fixtures**.
+Latest completed stage: **19 — Public README design**.
 
-Record: [Stage 17](2026-09-09-stage-17-evals-benchmarks-and-regressions.md).
+Record: [Stage 19](2026-09-09-stage-19-public-readme-design.md).
 
-Next: Stage 18. Each stage receives a separate commit. No live commercial experiment or merge has occurred.
+Next: Stage 20. Each stage receives a separate commit. No live commercial experiment or merge has occurred.
