@@ -8,13 +8,13 @@
 
 ## Current boundary
 
-Stage 0 workspace prerequisites have been verified. **Stage 1 is COMPLETE:** its content checks, commit, remote ref and committed file tree have passed verification. Stage 2 source analysis and conformance have passed content verification and are ready for its own commit. Stage 2 is not COMPLETE until its remote commit and intended files have been verified. Stages 3–26 have not been started.
+Stage 0 workspace prerequisites have been verified. **Stage 1 is COMPLETE:** its content checks, commit, remote ref and committed file tree have passed verification. **Stage 2 is COMPLETE:** its source extraction, conformance checks, stage-scoped commit, remote ref and committed files have passed verification. Stages 3–26 have not been started.
 
 | Stage | Record | State |
 |---|---|---|
 | 0 | Baseline README files, governing specification and repository tree | Workspace verified; no production maturity implied |
 | 1 | [Domain and professional boundary](2026-09-09-stage-01-domain-and-professional-boundary.md); [conformance evidence](2026-09-09-stage-01-conformance.md) | COMPLETE; content commit and remote files verified |
-| 2 | [Five-book corpus](2026-09-09-stage-02-five-book-capability-corpus.md); [candidate matrix](2026-09-09-stage-02-source-to-capability-matrix.md); [reconciliation/taxonomy](2026-09-09-stage-02-reconciliation-and-taxonomy.md); [conformance](2026-09-09-stage-02-conformance.md) | Content verified; completion awaits stage commit and remote verification |
+| 2 | [Five-book corpus](2026-09-09-stage-02-five-book-capability-corpus.md); [candidate matrix](2026-09-09-stage-02-source-to-capability-matrix.md); [reconciliation/taxonomy](2026-09-09-stage-02-reconciliation-and-taxonomy.md); [conformance](2026-09-09-stage-02-conformance.md) | COMPLETE; content commit and remote files verified |
 | 3–26 | No accepted outputs | NOT STARTED |
 
 No PR, merge, release, registry change or maturity promotion has been performed. Neither this progress record nor a content check grants permission to start another stage before the remote boundary is verified.
@@ -23,7 +23,7 @@ No PR, merge, release, registry change or maturity promotion has been performed.
 
 Read the original specification from `main` afresh, the complete current-stage section, its global constraints, this progress record and the accepted earlier outputs on `feat/bootstrap-2`. Verify their commits and exit evidence. Follow the attached execution contract literally. Any requirement needing a user decision blocks the entire process; do not substitute an assumption, representative subset or later-stage work.
 
-Only `feat/bootstrap-2` is authorised. Do not consume `feat/bootstrap` or other failed-attempt artefacts. Keep each stage's work and commits separate. The completion receipt below identifies the immutable Stage 1 content commit. Receipt-only commits do not change that accepted content or combine stages.
+Only `feat/bootstrap-2` is authorised. Do not consume `feat/bootstrap` or other failed-attempt artefacts. Keep each stage's work and commits separate. The completion receipts below identify the immutable Stage 1 and Stage 2 content commits. Receipt-only commits do not change that accepted content or combine stages.
 
 ## Stage 1 completion receipt
 
@@ -63,6 +63,51 @@ A later attempt to rerun the session-local verifier failed because the earlier l
 
 ## Stage 2 resumption and boundary
 
-All five user-supplied books are readable. The previous source-access and GitHub-write blockers have been resolved for this stage. Only independently expressed extraction and analysis are staged; no PDFs, raw book text, screenshots or proprietary examples are published. The source register identifies editions, page counts and file hashes without claiming publisher authentication.
+All five user-supplied books are readable. The previous source-access and GitHub-write blockers have been resolved for this stage. Only independently expressed extraction and analysis were committed; no PDFs, raw book text, screenshots or proprietary examples are published. The source register identifies editions, page counts and file hashes without claiming publisher authentication.
 
 Stage 2 records all eleven fields for each book, the source-to-capability matrix, overlaps, conflicts, a provisional taxonomy and broader-validation questions. Source support is distinguished from project analysis and independent validation. Stage 3 owns the broader research; it has not begun. The Stage 1 receipt above is preserved unchanged.
+
+## Stage 2 completion receipt
+
+**Stage:** 2, Extract and Reconcile the Five-Book Capability Corpus  
+**Status:** COMPLETE  
+**Content commit:** `776b6ad6c51aa6df3d953cdb45d4ac01462d7088`  
+**Commit message:** `docs: complete stage 2 five-book capability extraction and reconciliation`  
+**Parent:** `b7905ae3657813001f487106ff8f5d8d6a538067`  
+**Committed root tree:** `959221f4a4a6da9b372dc2fa86cd3e563aede606`  
+**Verification date:** 9 September 2026  
+**Remaining Stage 2 blockers:** none
+
+The accepted outputs cover all five books and all eleven required fields per book: 55 populated extraction fields. The source-to-capability matrix contains 69 unique entries, consolidated into 22 provisional capabilities. The overlap analysis includes the 22-by-five source matrix and all ten source-pair comparisons. All 21 original capability seeds are mapped. The conflict log contains all four specified tensions and fourteen additional conflicts; eighteen consolidated questions identify the broader validation required in Stage 3.
+
+The conformance record preserves the direct review against original bootstrap §9, all 31 executed content checks with 31 PASS and 0 FAIL, and the reproducible checker. Six source figures were visually inspected and relevant calculations independently recomputed. Arithmetic inconsistencies in the source books are recorded as findings; they are not silently corrected or represented as evidence of business effectiveness. The taxonomy remains provisional rather than empirically validated.
+
+| Requirement | Specification reference | Deliverable / evidence | Verification performed | Result |
+|---|---|---|---|---|
+| Complete Stage 2 source extraction and reconciliation | Bootstrap §9; applicable §§3–5, 34–36 | Four Stage 2 research logs | Original section reread after drafting; five dossiers, all fields, matrices, conflicts and taxonomy reviewed | PASS |
+| Exact coverage and consistency | Execution contract §5 | Conformance §§3–5 | 31 checks executed with exit 0; all 55 fields, source identities, matrix references, original seeds, required comparisons and document links checked | PASS |
+| Preserve accepted Stage 1 work | Execution contract §§3, 5, 7 | Parent tree and new tree; Stage 1 receipt | All six earlier files other than progress have identical blobs; Stage 1 receipt retained unchanged | PASS |
+| Only current-stage files changed | Execution contract §7.4–5 | Staged tree and committed recursive tree | Exactly four new Stage 2 logs and the progress update; eleven total files; no later-stage output or unrelated path | PASS |
+| Stage-scoped commit exists | Execution contract §7.5 | Content commit above | GitHub commit read returned the expected message, parent and reviewed root tree | PASS |
+| Remote branch updated without force | Execution contract §7.6 | `refs/heads/feat/bootstrap-2` | Ref read after the successful non-force update returned the content commit above | PASS |
+| Intended files exist at the content commit | Execution contract §7.7 | Recursive tree and five file reads by immutable commit SHA | All five intended blobs match the reviewed payload; file reads confirm their identities | PASS |
+| Copyright-safe repository output boundary | Bootstrap §3; §34 source integrity | Source register, abstract patterns and committed paths | Only independently expressed Markdown research is committed; no PDFs, extracted book text, source images or copied proprietary examples | PASS |
+| Capability-shaped exit and maturity honesty | Bootstrap §9 exit; §§34–36 | Corpus, matrix and reconciliation | Source ideas support business responsibilities, not five book-shaped skills; no commercial validation, installed product or maturity claim | PASS |
+
+Verified changed blobs at the content commit:
+
+| Path under `docs/research-logs/` | Git blob |
+|---|---|
+| `2026-09-09-stage-02-five-book-capability-corpus.md` | `2dfc5c0d571068aef45f2416cc8f1fc1789e1341` |
+| `2026-09-09-stage-02-source-to-capability-matrix.md` | `db863e658a74e7657bac3072f6edea27eba33e82` |
+| `2026-09-09-stage-02-reconciliation-and-taxonomy.md` | `3936ab4f89ebe8437f54f21c0581e26f6d33920a` |
+| `2026-09-09-stage-02-conformance.md` | `b3eea49e0b92419db29ffca23940e8776108c204` |
+| `bootstrap-2-progress.md` (pre-receipt version) | `2ebb197d40a81b5cf71879200d0f913ba7612930` |
+
+These remote checks were completed before writing this receipt. The receipt is a separate Stage 2-only documentation update and does not change the four accepted research logs. Its own future commit SHA is not preclaimed here. Remote verification establishes ref, commit, tree and content identities; it is not a claim of a cryptographic signature.
+
+## Verified stopping point and next task
+
+Execution pauses at the verified Stage 2 boundary for context safety under execution contract §9. Stage 3, **Research Broader Professional and Empirical Business Practice**, has not started. Resume from the original specification on `main`, both accepted stages and this progress record, not from conversational recollection. Stage 3 must perform its full independent research coverage and criticisms; the eighteen validation questions are inputs, not a substitute for that work.
+
+No PR, merge, release, registry change or maturity promotion has been performed. No remaining Stage 2 requirement needs user input.
