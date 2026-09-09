@@ -8,13 +8,14 @@
 
 ## Current boundary
 
-Stage 0 workspace prerequisites have been verified. **Stage 1 is COMPLETE:** its content checks, commit, remote ref and committed file tree have passed verification. Stages 2–26 have not been started.
+Stage 0 workspace prerequisites have been verified. **Stage 1 is COMPLETE:** its content checks, commit, remote ref and committed file tree have passed verification. Stage 2 source analysis and conformance have passed content verification and are ready for its own commit. Stage 2 is not COMPLETE until its remote commit and intended files have been verified. Stages 3–26 have not been started.
 
 | Stage | Record | State |
 |---|---|---|
 | 0 | Baseline README files, governing specification and repository tree | Workspace verified; no production maturity implied |
 | 1 | [Domain and professional boundary](2026-09-09-stage-01-domain-and-professional-boundary.md); [conformance evidence](2026-09-09-stage-01-conformance.md) | COMPLETE; content commit and remote files verified |
-| 2–26 | No accepted outputs | NOT STARTED |
+| 2 | [Five-book corpus](2026-09-09-stage-02-five-book-capability-corpus.md); [candidate matrix](2026-09-09-stage-02-source-to-capability-matrix.md); [reconciliation/taxonomy](2026-09-09-stage-02-reconciliation-and-taxonomy.md); [conformance](2026-09-09-stage-02-conformance.md) | Content verified; completion awaits stage commit and remote verification |
+| 3–26 | No accepted outputs | NOT STARTED |
 
 No PR, merge, release, registry change or maturity promotion has been performed. Neither this progress record nor a content check grants permission to start another stage before the remote boundary is verified.
 
@@ -59,3 +60,9 @@ Verified new blobs at the content commit:
 These checks were completed before writing this receipt. The receipt update is a separate Stage 1-only documentation commit; its SHA is not preclaimed inside its own content. Remote verification here means checking the ref, commit, tree and file content identities, not claiming a cryptographic commit signature. No benchmark, external installation, commercial validation or production maturity is inferred.
 
 A later attempt to rerun the session-local verifier failed because the earlier local staging paths were no longer available. That attempt is not a new test pass. The earlier executed results remain recorded in the immutable conformance file; the accepted repository content was independently identified through the GitHub commit/tree/blob reads above. Future sessions must reconstruct working files from the repository rather than assume session-local paths persist.
+
+## Stage 2 resumption and boundary
+
+All five user-supplied books are readable. The previous source-access and GitHub-write blockers have been resolved for this stage. Only independently expressed extraction and analysis are staged; no PDFs, raw book text, screenshots or proprietary examples are published. The source register identifies editions, page counts and file hashes without claiming publisher authentication.
+
+Stage 2 records all eleven fields for each book, the source-to-capability matrix, overlaps, conflicts, a provisional taxonomy and broader-validation questions. Source support is distinguished from project analysis and independent validation. Stage 3 owns the broader research; it has not begun. The Stage 1 receipt above is preserved unchanged.
