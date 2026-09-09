@@ -1,0 +1,11 @@
+{
+  "classification": "synthetic",
+  "customer_evidence": [
+    {"statement": "Two fictional interview fixtures describe onboarding handoff problems", "basis": "synthetic"}
+  ],
+  "capacity_hours_per_week": 20,
+  "delivery_hours_per_engagement": 10,
+  "prices_gbp": [1500, 2400],
+  "variable_costs_gbp": {"delivery_labour_at_internal_basis": 800, "payment_fee": 50},
+  "willingness_to_pay": "unknown"
+}
