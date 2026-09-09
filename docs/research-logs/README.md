@@ -20,14 +20,17 @@ Read the current work from `feat/bootstrap`, not only from `main`, until the wor
 |---|---|---|
 | 0 — Bootstrap workspace | Complete | Minimal repository and governing process |
 | 1 — Business-building domain and professional boundary | Complete and reviewed; design version 1.1 | [Domain charter and boundary review](2026-09-09-stage-1-business-building-domain-and-professional-boundary.md) |
-| 2 — Extract and reconcile the five-book capability corpus | Next; not started | Requirements in the governing process |
-| 3–26 — Remaining bootstrap stages | Not started | Requirements in the governing process |
+| 2 — Extract and reconcile the five-book capability corpus | Provisional synthesis complete; full-text source-coverage gaps remain | [Capability extraction and reconciliation v1.0](2026-09-09-stage-2-five-book-capability-extraction-and-reconciliation.md) and [source register v1.0](2026-09-09-stage-2-source-register.md) |
+| 3 — Broader professional and empirical business practice | Next; not started | Research questions in the Stage 2 synthesis and requirements in the governing process |
+| 4–26 — Remaining bootstrap stages | Not started | Requirements in the governing process |
 
-Stage 1 completion establishes the domain boundary, not empirical validation of the source books, installed skills or production maturity. Source extraction belongs to Stage 2 and broader professional validation to Stage 3.
+Stage 1 establishes the domain boundary. Stage 2 records 24 source-concept candidates, 12 provisional capability families, overlaps and conflict decisions from explicitly identified public material. It does not claim a complete reading of five books. Stage 3 must independently validate and extend those candidates; book-specific access gaps remain explicit until closed.
+
+No stage recorded here establishes installed skills or production maturity.
 
 ## Recordkeeping
 
-Persist the substantive output of each stage here and update this index when that stage is complete. Record sources actually examined, decisions, uncertainties, deferred questions, exit assessment and inputs for the next stage. Revisions should preserve traceability to earlier decisions without treating them as immune to new evidence.
+Persist each substantive stage output here and update this index to reflect its actual completion and evidence limits. Record sources examined, decisions, uncertainties, deferred questions, exit assessment and inputs for the next stage. Revisions should preserve traceability without treating earlier decisions as immune to evidence.
 
 Use this directory for:
 
