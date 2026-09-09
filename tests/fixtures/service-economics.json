@@ -1,0 +1,13 @@
+{
+  "currency": "GBP",
+  "unit": "engagement",
+  "period": "per engagement",
+  "revenue": 2400,
+  "variable_costs": {
+    "delivery_labour": 800,
+    "payment_fee": 50
+  },
+  "opening_cash": 1000,
+  "cash_receipts": [2400],
+  "cash_obligations": [800, 50]
+}
