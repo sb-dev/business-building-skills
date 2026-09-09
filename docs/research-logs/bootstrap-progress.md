@@ -2,12 +2,12 @@
 
 Branch: `feat/bootstrap`. Date: 9 September 2026.
 
-Stages 1 and 3–25 have completed their defined responsibilities at the level stated in each record. Stage 2 remains provisional with full-book access gaps.
+**Bootstrap stages 0–26 have now been processed.** Stage 2 remains explicitly provisional because complete five-book access was unavailable; later stages used independent professional evidence rather than pretending that gap was closed.
 
-Latest completed stage: **25 — Optional Pactwright integration and registry promotion review**.
+Latest completed stage: **26 — Shared-abstraction review**.
 
-Record: [Stage 25](2026-09-09-stage-25-pactwright-and-registry.md).
+Record: [Stage 26](2026-09-09-stage-26-shared-abstraction-review.md).
 
-Current demonstrated maturity: **scaffolded with implemented core contracts and validation suite**. Central registry remains correctly `proposed`; semantic `working`/`benchmarked` maturity is not claimed.
+Current demonstrated maturity: **scaffolded with implemented core contracts, first Extension Pack and validation suite**. `working`/`benchmarked` remain unclaimed until actual deterministic/installation execution and semantic agent benchmarks are observed.
 
-Next: Stage 26 — shared-abstraction review. Each stage receives a separate commit. No live commercial experiment or merge has occurred.
+No live customer experiment, central registry promotion, merge to `main`, or fabricated benchmark result occurred during the bootstrap.

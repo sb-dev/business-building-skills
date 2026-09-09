@@ -1,19 +1,51 @@
 # Research Logs
 
-This directory is the durable bootstrap record for `business-building-skills`. Use `feat/bootstrap` for the entire process; stage-specific branches are not the continuation strategy. The original Stage 1 branch is historical only. `main` does not include unmerged bootstrap work.
+This directory is the durable bootstrap record for `business-building-skills`. The full bootstrap was developed on `feat/bootstrap`, with a separate commit at each stage boundary.
 
 ## Governing records
 
 - [Bootstrap process v1.1](2026-09-08-business-building-skills-new-project-bootstrap-process.md)
-- [Reviewed Stage 1 charter v1.1](2026-09-09-stage-1-business-building-domain-and-professional-boundary.md)
-- [Stage 2 capability synthesis v1.0](2026-09-09-stage-2-five-book-capability-extraction-and-reconciliation.md)
-- [Stage 2 source register v1.0](2026-09-09-stage-2-source-register.md)
-- [Current progress and evidence limits](bootstrap-progress.md)
+- [Reviewed Stage 1 charter](2026-09-09-stage-1-business-building-domain-and-professional-boundary.md)
+- [Stage 2 source register](2026-09-09-stage-2-source-register.md) and [capability synthesis](2026-09-09-stage-2-five-book-capability-extraction-and-reconciliation.md)
+- [Bootstrap progress](bootstrap-progress.md)
 
-Stage 2 is provisional because complete five-book access was not available. Later independent research must not silently relabel the corpus as fully inspected.
+## Stage records
 
-Each stage ends in its own commit. Read its dated research log for decisions, sources, outputs, checks, unresolved questions and the next-stage handoff. The progress file records the latest committed stage and distinguishes design completion from executable or measured evidence. A final repository audit will consolidate the full stage index.
+```text
+1   domain/professional boundary
+2   five-book capability synthesis + explicit source gaps
+3   professional/empirical practice
+4   business/customer/value model
+5   offer/pricing/monetisation
+6   demand/sales/conversion
+7   delivery/retention/economics/cash
+8   assumptions/experiments/diagnosis
+9   ethical/legal handoffs
+10  existing skills/tools/business systems
+11  execution layer
+12  gap analysis
+13  core skills/commands
+14  Extension Packs
+15  progressive examples
+16  canonical stress tests
+17  evals/benchmarks/regressions
+18  six canonical specifications
+19  public README design
+20  cross-project review
+21  production scaffold
+22  core vertical implementation
+23  progressive coverage + first pack
+24  installation/integrity validation
+25  optional Pactwright/registry review
+26  shared-abstraction review
+```
 
-The user has authorised continuation through the remaining stages, with a commit at each stage boundary. This does not authorise merging to `main`, spending on external providers, contacting customers or inventing empirical results.
+Each dated file states its actual evidence and completion level. Stage 2 never becomes a full-book extraction by implication. Stage 24 implements validation but does not fabricate execution results. Semantic benchmarks require actual agent runs.
 
-Research logs are not production maturity evidence by themselves. Production directories may be created only at Stage 21 or later, after the corresponding contracts have been designed. Keep external source material paraphrased, attributable and distinct from generated fixtures.
+## Final bootstrap status
+
+The repository has moved from a minimal research workspace to a production scaffold with four Agent Skills, deterministic economics tooling, representative examples, one implemented Extension Pack, six canonical specs and validation/CI contracts.
+
+It is **not** yet justified to claim `working`, `benchmarked` or `mature` solely from this bootstrap. Remaining work is normal implementation/evaluation: run deterministic/installation validation, execute the first semantic vertical and pack differential, complete the 15-example product set and then promote maturity according to measured evidence.
+
+No merge to `main` is implied by completion of the bootstrap branch.
