@@ -8,14 +8,14 @@
 
 ## Current boundary
 
-Stage 0 workspace prerequisites have been verified. **Stage 1 is COMPLETE:** its content checks, commit, remote ref and committed file tree have passed verification. **Stage 2 is COMPLETE:** its source extraction, conformance checks, stage-scoped commit, remote ref and committed files have passed verification. Stage 3 research and conformance have passed content verification and are ready for their own content commit; Stage 3 is not COMPLETE until that commit and the intended remote files are verified. Stages 4–26 have not been started.
+Stage 0 workspace prerequisites have been verified. **Stage 1 is COMPLETE:** its content checks, commit, remote ref and committed file tree have passed verification. **Stage 2 is COMPLETE:** its source extraction, conformance checks, stage-scoped commit, remote ref and committed files have passed verification. **Stage 3 is COMPLETE:** its research, conformance checks, stage-scoped commit, remote ref and committed files have passed verification. Stages 4–26 have not been started.
 
 | Stage | Record | State |
 |---|---|---|
 | 0 | Baseline README files, governing specification and repository tree | Workspace verified; no production maturity implied |
 | 1 | [Domain and professional boundary](2026-09-09-stage-01-domain-and-professional-boundary.md); [conformance evidence](2026-09-09-stage-01-conformance.md) | COMPLETE; content commit and remote files verified |
 | 2 | [Five-book corpus](2026-09-09-stage-02-five-book-capability-corpus.md); [candidate matrix](2026-09-09-stage-02-source-to-capability-matrix.md); [reconciliation/taxonomy](2026-09-09-stage-02-reconciliation-and-taxonomy.md); [conformance](2026-09-09-stage-02-conformance.md) | COMPLETE; content commit and remote files verified |
-| 3 | [Professional-practice map](2026-09-10-stage-03-professional-practice-map.md); [evidence and terminology](2026-09-10-stage-03-evidence-and-terminology.md); [claims, failures and principles](2026-09-10-stage-03-claims-failures-and-principles.md); [conformance](2026-09-10-stage-03-conformance.md) | Content verified; completion requires stage commit and remote verification |
+| 3 | [Professional-practice map](2026-09-10-stage-03-professional-practice-map.md); [evidence and terminology](2026-09-10-stage-03-evidence-and-terminology.md); [claims, failures and principles](2026-09-10-stage-03-claims-failures-and-principles.md); [conformance](2026-09-10-stage-03-conformance.md) | COMPLETE; content commit and remote files verified |
 | 4–26 | No accepted outputs | NOT STARTED |
 
 No PR, merge, release, registry change or maturity promotion has been performed. Neither this progress record nor a content check grants permission to start another stage before the remote boundary is verified.
@@ -24,7 +24,7 @@ No PR, merge, release, registry change or maturity promotion has been performed.
 
 Read the original specification from `main` afresh, the complete current-stage section, its global constraints, this progress record and the accepted earlier outputs on `feat/bootstrap-2`. Verify their commits and exit evidence. Follow the attached execution contract literally. Any requirement needing a user decision blocks the entire process; do not substitute an assumption, representative subset or later-stage work.
 
-Only `feat/bootstrap-2` is authorised. Do not consume `feat/bootstrap` or other failed-attempt artefacts. Keep each stage's work and commits separate. The completion receipts below identify the immutable Stage 1 and Stage 2 content commits. Receipt-only commits do not change that accepted content or combine stages.
+Only `feat/bootstrap-2` is authorised. Do not consume `feat/bootstrap` or other failed-attempt artefacts. Keep each stage's work and commits separate. The completion receipts below identify the immutable Stage 1, Stage 2 and Stage 3 content commits. Receipt-only commits do not change that accepted content or combine stages.
 
 ## Stage 1 completion receipt
 
@@ -116,3 +116,46 @@ Stage 3 began after the original specification, earlier accepted records and cur
 The intended Stage 3 changes are four research logs and this progress record only. They cover the 27 specified professional-practice areas, nine fields for each, selected outside sources and their limitations, a terminology map, evidence hierarchy, the eighteen prior validation questions, failure taxonomy and independent principle support. No live business experiment or implemented product is claimed. Source PDFs, raw external text, images and the private working scripts are not publication payloads.
 
 Stage 3 must pass content verification, receive a stage-scoped commit and have its remote commit/tree/files verified before Stage 4 begins. The resulting receipt will record the actual identifiers after those operations. There is no planned approval pause between verified stages; tool-level write confirmation remains enabled. No PR, merge, release or registry promotion has occurred.
+
+## Stage 3 completion receipt
+
+**Stage:** 3, Research Broader Professional and Empirical Business Practice  
+**Status:** COMPLETE  
+**Content commit:** `5d23b0ad115769ae044185efe2c5692b813da2c0`  
+**Commit message:** `docs: complete stage 3 professional and empirical business research`  
+**Parent:** `901bc6469b247622c9b24d773cdcf98f8163d53c`  
+**Committed root tree:** `e0ca589bb99321240dacdd9f161c8ec7fa861709`  
+**Verification date:** 10 September 2026  
+**Remaining Stage 3 blockers:** none
+
+Four research logs supply all five required output categories. They cover all 27 specified practice areas with all nine required fields, totalling 243 populated fields; 46 selected sources with reading limits; 30 terminology distinctions; all 18 carried-forward validation questions; 16 failure classes; and separate, qualified support for all 15 governing principles. The eighteen research questions retain context-specific uncertainties rather than pretending that the available sources establish universal commercial effects.
+
+The original Stage 3 section was reread after drafting. The conformance record contains direct semantic review, including every practice, and the reproducible checker. The executed result was 30 PASS, 0 FAIL, process exit 0. Source findings, theoretical claims, professional or normative guidance and project applications remain distinct. No customer experiment, installation, product benchmark or commercial efficacy result is claimed.
+
+| Requirement | Specification reference | Deliverable / evidence | Verification performed | Result |
+|---|---|---|---|---|
+| Complete research content and exit | Bootstrap §10; applicable §§3–5,34–36 | Four Stage 3 reports | Original section reread; 27 practice cards, all nine fields, five outputs, criticism and independent principle support reviewed | PASS |
+| Executed content verification | Execution contract §5 | Stage 3 conformance §§3–5 | 30 checks executed, 30 PASS, 0 FAIL; exact coverage, source/claim references, links, receipt preservation and checker identity verified | PASS |
+| Reviewed payload reaches GitHub unchanged | Execution contract §7.1–5 | Five create-blob results and local Git blob manifest | Every returned blob SHA equals the reviewed local UTF-8 payload hash | PASS |
+| Preserve earlier accepted files | Execution contract §§3,5,7 | Parent and new recursive trees | All ten earlier files other than progress retain their original blobs; Stage 1 and Stage 2 receipt sections remain unchanged | PASS |
+| Only Stage 3 changes | Execution contract §7.4–5 | Staged tree and immutable committed tree | Exactly four new Stage 3 logs and one progress update; fifteen total files; no unrelated path or later-stage work | PASS |
+| Stage-scoped commit and parent | Execution contract §7.5 | Git commit read by SHA | Expected message, accepted parent and reviewed root tree returned | PASS |
+| Remote branch points to content commit | Execution contract §7.6 | Ref read after non-force update | `refs/heads/feat/bootstrap-2` returned `5d23b0ad115769ae044185efe2c5692b813da2c0` | PASS |
+| Intended files exist at content commit | Execution contract §7.7 | Recursive tree and five file reads by immutable commit SHA | All five changed files returned expected identities; their blobs match the reviewed payloads | PASS |
+| Publication and maturity boundary | Bootstrap §§3,7,34–36 | Committed paths and report limitations | Only independently expressed Markdown research; no source books/articles/images, production scaffold, live commercial action or maturity promotion | PASS |
+
+Verified changed blobs at the content commit:
+
+| Path under `docs/research-logs/` | Git blob |
+|---|---|
+| `2026-09-10-stage-03-professional-practice-map.md` | `7556e450ab5ae548881cb33d556d68d0e6f5efb4` |
+| `2026-09-10-stage-03-evidence-and-terminology.md` | `3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5` |
+| `2026-09-10-stage-03-claims-failures-and-principles.md` | `92d903925fc2fcaf27c238816620ff7239af3acf` |
+| `2026-09-10-stage-03-conformance.md` | `c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b` |
+| `bootstrap-2-progress.md` (pre-receipt version) | `e5566da09e3eb0f9d523114cfe3a5a6848e6358f` |
+
+These operations were verified before this receipt was written. This receipt changes only the Stage 3 progress record, not the four accepted reports; its own future commit SHA is not preclaimed. Verification means repository ref, commit, tree and content identity, not a cryptographic commit signature or independent professional endorsement.
+
+## Next authorised task
+
+Proceed directly to Stage 4, **Define Business-System, Customer and Value Model**, after verifying this receipt update. Reconstruct the current-stage requirements from the original specification on `main` and accepted earlier outputs. Stage 4 has not begun in this receipt. GitHub remains configured to ask before writes; no fresh scope approval or arbitrary stage-boundary pause is required. No PR, merge, release, registry change or maturity promotion has occurred.
