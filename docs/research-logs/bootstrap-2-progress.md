@@ -8,7 +8,7 @@
 
 ## Current boundary
 
-Stages 1–5 are COMPLETE. Stage 6 content has passed verification; its stage-scoped commit and remote receipt remain outstanding. Stages 7–26 have not started. This is a bootstrap research workspace, not a working or benchmarked product.
+Stages 1–6 are COMPLETE. Stage 6 has passed content verification and remote ref, commit, tree and file checks. Stages 7–26 have not started. This is a bootstrap research workspace, not a working or benchmarked product.
 
 | Stage | Accepted output / evidence | State |
 |---|---|---|
@@ -18,7 +18,7 @@ Stages 1–5 are COMPLETE. Stage 6 content has passed verification; its stage-sc
 | 3 | [Practice map](2026-09-10-stage-03-professional-practice-map.md); [evidence and terminology](2026-09-10-stage-03-evidence-and-terminology.md); [claims and principles](2026-09-10-stage-03-claims-failures-and-principles.md); [conformance](2026-09-10-stage-03-conformance.md) | COMPLETE |
 | 4 | [Business, customer and value model](2026-09-10-stage-04-business-customer-and-value-model.md); [conformance](2026-09-10-stage-04-conformance.md) | COMPLETE |
 | 5 | [Offer/pricing architecture](2026-09-10-stage-05-offer-and-pricing-architecture.md); [money models](2026-09-10-stage-05-money-model-taxonomy.md); [research/checks](2026-09-10-stage-05-research-and-checks.md); [conformance](2026-09-10-stage-05-conformance.md) | COMPLETE |
-| 6 | [Architecture](2026-09-10-stage-06-demand-lead-and-sales-architecture.md); [research/checks](2026-09-10-stage-06-research-and-checks.md); [conformance](2026-09-10-stage-06-conformance.md) | IN PROGRESS; content verified |
+| 6 | [Architecture](2026-09-10-stage-06-demand-lead-and-sales-architecture.md); [research/checks](2026-09-10-stage-06-research-and-checks.md); [conformance](2026-09-10-stage-06-conformance.md) | COMPLETE |
 | 7–26 | No accepted outputs | NOT STARTED |
 
 ## Preserved completion receipts for Stages 1–3
@@ -113,10 +113,43 @@ Verified changed blobs at the content commit:
 
 These checks were completed before this receipt was written. This receipt changes only progress, not the accepted outputs; its own future commit is not preclaimed. Remote verification concerns repository identities, not a cryptographic signature or independent professional review.
 
-## Stage 6 publication boundary
+## Stage 6 completion receipt
 
-Stage 6's three research documents deliver the acquisition/channel, lead-quality and sales-path models plus channel-selection evidence. They retain the original seven candidate lifecycle stages, thirteen channel classes, nine lead-quality dimensions, eight sales paths and five diagnosis classes. Seventeen primary-source records retain scope and limits. Three explicitly synthetic selection decisions and eight synthetic probes test context, measurement, cost, timing, attribution, message/offer/execution and authority. They are not customer research, later primary examples or installed-agent benchmarks.
+**Stage:** 6, Define Demand, Lead Generation, Sales and Conversion Architecture  
+**Status:** COMPLETE  
+**Content commit:** `8c9d9caf26d4c9835c1f9548581e8a3c0d076f2a`  
+**Commit message:** `docs: complete stage 6 demand lead and sales architecture`  
+**Parent:** `875a4c7440c3383f2550ed3eafa9f14657ee3580`  
+**Committed root tree:** `11713aa342360a7d0783c73bd4d42df1e25c1942`  
+**Verification date:** 10 September 2026  
+**Remaining Stage 6 blockers:** none
 
-The complete original §13 was reread after drafting. Final verification returned 44 PASS, 0 FAIL, exit 0, with an identical rerun. The exact checker, actual output, initial threshold failure/correction and semantic review are persisted. There are no unresolved current-stage user decisions.
+The three research documents deliver acquisition/channel, lead-quality and sales-path models and channel-selection evidence. Coverage retains all seven candidate lifecycle stages, thirteen channel classes, nine lead-quality dimensions, eight sales paths and five diagnosis classes. Seventeen primary-source records preserve scope and limitations. Three synthetic selection decisions and eight synthetic probes exercise context, measurement, cost, timing, attribution, message/offer/execution and authority; they are not customer observations, progressive examples or installed-agent benchmarks.
 
-The Stage 6 payload changes only these three new documents and this progress index. All twenty-one other existing files and the Stage 4/5 completion receipts remain unchanged. Expected total files: twenty-five. The actual commit, ref, tree and file identities must be remotely verified and recorded in the receipt; no future SHA or remote success is preclaimed here. Do not start Stage 7 before that boundary is verified. No PR, merge, release, registry change, campaign or maturity promotion is included.
+The full original §13 was reread after drafting. Final content verification returned 44 PASS, 0 FAIL, exit 0, including an identical rerun before publication. The exact checker, output, initial coverage-threshold failure and correction, and substantive review are preserved in the research and conformance documents. The criteria were not weakened to obtain a pass. The three uploaded blobs matched the reviewed local files and the immutable file read-backs.
+
+| Requirement | Specification reference | Deliverable / evidence | Verification performed | Result |
+|---|---|---|---|---|
+| Complete researched models and diagnostic exit | Bootstrap §13; §§1–5,34–36 | Architecture, research and direct conformance | Original lists and exit reread; all categories, sources, decision evidence and distinct repairs reviewed | PASS |
+| Actual executed verification | Execution contract §5 | Research/check log and embedded checker | 44 PASS, 0 FAIL, exit 0; repeat run matched; manual CS01–CS03 and S01–S08 review separate from market-effect claims | PASS |
+| Reviewed content identities preserved | Execution contract §§5,7 | Three uploaded blobs and immutable file reads | Final architecture, research and conformance hashes match the verified local versions exactly | PASS |
+| Stage-scoped remote commit | Execution contract §7 | Content commit, parent and tree above | Commit read returned the expected message, accepted parent and inspected twenty-five-file tree | PASS |
+| Branch updated without force | Execution contract §7 | refs/heads/feat/bootstrap-2 | Non-force update succeeded; subsequent ref read returned the exact content commit | PASS |
+| No prior-content loss or unrelated changes | Execution contract §7 | Parent/new tree and commit comparison | One commit ahead; four changed paths only; twenty-one other existing files unchanged; Stage 4/5 receipts preserved verbatim | PASS |
+| Intended progress and outputs present | Execution contract §7 | Four reads at the immutable content commit | Model exit, research results, executable conformance and progress publication boundary returned the expected blob identities | PASS |
+| No exaggerated execution or maturity | Bootstrap §§3,34–36 | Research/conformance boundaries | No live outreach, spend, platform agreement, customer validation, legal approval, installed benchmark or maturity promotion claimed | PASS |
+
+Verified changed blobs at the content commit:
+
+| Path under docs/research-logs/ | Git blob |
+|---|---|
+| `2026-09-10-stage-06-demand-lead-and-sales-architecture.md` | `091c8b69416c045042f4412caf348f59dad27c16` |
+| `2026-09-10-stage-06-research-and-checks.md` | `225dbfcc90632287deff207be152132376257ac4` |
+| `2026-09-10-stage-06-conformance.md` | `4f33bce2c7294fd17e2f565684369626f865dc28` |
+| `bootstrap-2-progress.md` (pre-receipt version) | `9604796b44f684380468e951df65c96184c35198` |
+
+These checks occurred before this receipt was written. This update changes only progress and does not alter accepted outputs. Its own future commit SHA is not preclaimed. Verification concerns repository identity and content, not a cryptographic signature or independent professional endorsement.
+
+## Next authorised task
+
+After verifying this receipt update, proceed directly to Stage 7, Define Delivery, Retention, Expansion, Unit Economics and Cash Model. Reread the original complete section and applicable globals from `main`, inspect accepted relevant inputs and extract its full checklist before authoring. Stage 7 has not begun in this receipt. No arbitrary pause or fresh scope approval is required.
