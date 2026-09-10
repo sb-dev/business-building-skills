@@ -6,53 +6,28 @@
 
 ## Current boundary
 
-Stages 1–10 are COMPLETE. Stage 10's existing content commit has been read back and verified; the receipt below closes its outstanding publication record. Stages 11–26 have no accepted outputs. This is a bootstrap research workspace, not an installed, working, benchmarked or mature product.
+Stages 1–10 are COMPLETE. Stage 11 content has passed verification; its overall completion requires the actual stage-scoped commit and remote verification receipt. Stages 12–26 have not started. This remains a bootstrap research workspace, not a working, installed, benchmarked or mature product.
 
 | Stage | Durable evidence | State |
 |---|---|---|
-| 0–9 | [Preserved prior progress and receipts](2026-09-10-bootstrap-2-progress-through-stage-10-content.md), with the Stage 9 receipt and links to earlier snapshots | COMPLETE; Stage 0 is the workspace |
-| 10 | [Landscape](2026-09-10-stage-10-capability-landscape.md), [execution candidates](2026-09-10-stage-10-execution-system-candidates.md), [reuse decisions](2026-09-10-stage-10-reuse-decisions-and-boundaries.md), [conformance](2026-09-10-stage-10-conformance.md) | COMPLETE |
-| 11–26 | No accepted outputs | NOT STARTED |
+| 0–10 | [Preserved progress and completion receipts](2026-09-10-bootstrap-2-progress-through-stage-10.md), including the Stage 10 receipt and links to earlier history | COMPLETE; Stage 0 is the workspace |
+| 11 | [Execution-layer decision](2026-09-10-stage-11-execution-layer.md), [research/checks](2026-09-10-stage-11-research-and-checks.md), [conformance](2026-09-10-stage-11-conformance.md), [verifier](2026-09-10-stage-11-verifier.py) | Content verified; remote completion pending |
+| 12–26 | No accepted outputs | NOT STARTED |
 
-The preceding live index is preserved byte-for-byte as `2026-09-10-bootstrap-2-progress-through-stage-10-content.md`, reusing its actual blob `34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2`. Its Stage 10 pending statements are historical, superseded by this receipt. No previous verification caveat, source limitation or receipt is discarded. The Stage 9 content and receipt remain `fcf8abedb51ce7f99b3c11e8a93bdf67927c55a8` and `9039cb96b8cc54c042e502789c7fc6627b8e5c52` respectively.
+## Preserved state
 
-## Stage 10 completion receipt
+The preceding live progress file is preserved byte-for-byte as `2026-09-10-bootstrap-2-progress-through-stage-10.md`, reusing blob `cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07`. The verified starting head is Stage 10 receipt `92fdd644decb6e469e5cf2ac3874d01919bd9330`, root `1517229364f39556de3c7a53b2c5d9b3d80ebd4e`. Its parent is Stage 10 content `348e1471926881b5da13002c1d8a0fdc8a30a1f9`. Historical receipt statements describe their original boundary; the current index supersedes only their current-state labels, not their evidence or limitations.
 
-**Stage:** 10, Research Existing Agent Skills, Tools and Business Systems  
-**Status:** COMPLETE  
-**Content commit:** `348e1471926881b5da13002c1d8a0fdc8a30a1f9`  
-**Commit message:** `docs: complete stage 10 capability landscape and reuse decisions`  
-**Parent:** `9039cb96b8cc54c042e502789c7fc6627b8e5c52`  
-**Root tree:** `88e60450c2926ac6effad7ecac7b837fd5e92822`  
-**Verification date:** 10 September 2026  
-**Remaining Stage 10 blockers:** none
+## Stage 11 content verification
 
-Fresh connector reads confirmed the actual branch head, commit, parent and root tree, followed by the four reports and progress at the immutable content commit. Parent comparison returned exactly one commit ahead, four added Stage 10 reports and the live-index change only. All earlier report files are preserved. There is no failed publication to redo and no missing write authorisation. A shell Git read failed DNS resolution; that does not invalidate the working connector or the verified remote commit.
+The selected architecture is document-led business reasoning with optional task-scoped existing execution systems and operators. All eleven business decisions and eleven external responsibilities in original §18 retain their proper owners. Eight execution annotations reuse existing business, calculation, experiment and legal records. No compulsory provider, custom platform, universal adapter runtime or new customer database is introduced.
 
-The original complete Stage 10 section (§17) was reread from main. The 26 candidate assessments, 22 category findings, ten execution responsibilities, scoped dispositions and retained source limitations were reviewed against it. The records contain all 15 candidate fields, 390 assessments in total, and acknowledge existing strategic and analytical judgement rather than fabricating its absence. The persisted checker and output record 57 PASS, 0 FAIL, exit 0, including the original failure, its correction and identical reruns. This receipt continuation inspected those executions; it does not claim a new suite run, repeated external research, live SaaS test or installed-agent benchmark.
+Five primary-source records document actual reading scope. The local verifier tests original synthetic export shapes using separate Decimal and integer arithmetic, semantic mismatches, identities, missing data, action scope, returned errors, uncertain effects, retry prerequisites, stale calculation receipts and preservation. The first full run and final repository-relative rerun returned 51 PASS, 0 FAIL, exit 0 on Python 3.13.5; outputs matched byte-for-byte. The 25-field pre-work checklist and exact verifier copy were checked separately. These are local design checks, not live provider integration, actual spreadsheet recalculation, installed-agent benchmarks or customer evidence.
 
-| Requirement | Specification reference | Deliverable / evidence | Verification performed | Result |
-|---|---|---|---|---|
-| Capability landscape and scoped reuse | §17 categories and fields | TC01–TC26; LC01–LC22 | Read assessments and original requirements; 15 fields and source/read limits retained | PASS |
-| Established execution ownership and justified native gaps | §17 output and exit | ES01–ES10; comparisons and gap implications | Read responsibility, licence, metric and authority boundaries; no replacement CRM or accounting platform | PASS |
-| Executed verification evidence | Execution §§5–6 | Committed conformance and embedded checker | Reviewed recorded 57-pass result and rerun/correction history; no new run claimed | PASS |
-| Real stage-scoped commit and branch | Execution §7 | Ref and commit GETs | Exact SHA, message, Stage 9 receipt parent and root tree confirmed | PASS |
-| Intended files exist at that commit | Execution §7 | Five immutable file reads | Actual returned identities match the records below | PASS |
-| Previous work preserved | Execution §§5,7 | Parent comparison and progress | Four additions and one index modification only; Stage 9 receipt retained in archived index | PASS |
-| No premature execution or maturity claim | §§7,35; execution §11 | Research boundaries | No live action, release, PR, installed skill or maturity promotion asserted | PASS |
+The payload contains four Stage 11 files, the exact historical progress snapshot and this index only. All earlier reports must remain unchanged. A blob upload is not a completed commit. Verify the returned commit, accepted parent, branch, changed paths and intended content identities before adding the completion receipt. No future Git identifier or remote success is asserted here.
 
-| Path under docs/research-logs/ | Verified content blob |
-|---|---|
-| `2026-09-10-stage-10-capability-landscape.md` | `fa0dab2aa8c6f4925309aeb125013ae8338ef886` |
-| `2026-09-10-stage-10-execution-system-candidates.md` | `fd6b74e5f3ff7512fe2d978b662484131635fdc2` |
-| `2026-09-10-stage-10-reuse-decisions-and-boundaries.md` | `849b0ae2d806344027c099668bf48fc5423edc62` |
-| `2026-09-10-stage-10-conformance.md` | `a4d6db234ad2084352b59d4fde129260e8375e93` |
-| `bootstrap-2-progress.md` before this receipt | `34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2` |
+## Resumption and authority
 
-These checks occurred before authoring this receipt. Its own future commit identifier is not asserted. This receipt changes only the index and adds its exact historical snapshot; no accepted report is modified. Verify its returned commit, parent, branch, changed paths and progress content before advancing.
+Use only `feat/bootstrap-2`, never the failed `feat/bootstrap` attempt. At each stage reread the original main specification and accepted inputs, extract all requirements, complete and execute the appropriate checks, commit only that stage and verify the remote result before advancing. Repair ordinary execution failures; do not confuse an absent local draft with failed tooling. A genuine user-owned decision still requires a specific question.
 
-## Next authorised task
-
-Proceed to Stage 11, Choose Execution Layer, after this receipt is verified. Reconstruct the stage from the original main specification and accepted branch outputs. Complete its requirements, verification and stage-scoped commit before Stage 12. Repair ordinary execution failures; do not restart accepted stages or confuse missing local drafts with tool failure. A genuine unresolved user-owned decision still requires a specific question under the execution contract.
-
-Use only `feat/bootstrap-2`; never use the failed `feat/bootstrap` attempt. No PR, merge, release, registry promotion or live business action has been authorised by these research receipts.
+After Stage 11's verified receipt, proceed to Stage 12, Gap Analysis and Over-Engineering Guardrails. No Stage 12 output belongs in this commit. No PR, merge, release, registry promotion or live business action is included.
