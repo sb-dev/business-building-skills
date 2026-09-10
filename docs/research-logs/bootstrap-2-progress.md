@@ -7,14 +7,15 @@
 
 ## Current boundary
 
-Stages 1–9 are COMPLETE. Stage 9’s researched handoff model, adversarial evaluation, content commit and remote ref, parent, tree, changed paths and file identities have been verified. Stages 10–26 have not started. This remains a bootstrap research workspace, not an installed or benchmarked product.
+Stages 1–9 are COMPLETE. Stage 9’s researched handoff model, adversarial evaluation, content commit and remote ref, parent, tree, changed paths and file identities have been verified. Stage 10 content is verified; its stage-scoped publication and remote verification are required before overall completion. Stages 11–26 have not started. This remains a bootstrap research workspace, not an installed or benchmarked product.
 
 | Stage | Outputs and evidence | State |
 |---|---|---|
 | 0 | Original workspace and governing specification | Workspace verified |
 | 1–8 | [Preserved progress and completion receipts](2026-09-10-bootstrap-2-progress-through-stage-08.md) | COMPLETE |
 | 9 | [Handoff model](2026-09-10-stage-09-ethical-and-legal-handoffs.md); [research/sources](2026-09-10-stage-09-research-and-sources.md); [evaluation](2026-09-10-stage-09-adversarial-evaluation.md); [conformance](2026-09-10-stage-09-conformance.md) | COMPLETE |
-| 10–26 | No accepted outputs | NOT STARTED |
+| 10 | [Landscape](2026-09-10-stage-10-capability-landscape.md); [execution candidates](2026-09-10-stage-10-execution-system-candidates.md); [reuse and boundaries](2026-09-10-stage-10-reuse-decisions-and-boundaries.md); [conformance](2026-09-10-stage-10-conformance.md) | Content verified; remote completion pending |
+| 11–26 | No accepted outputs | NOT STARTED |
 
 ## Preserved earlier state
 
@@ -63,4 +64,12 @@ These checks precede this receipt. This receipt-only update changes no accepted 
 
 At each stage, reread the original specification on main, its complete current section and applicable globals, and relevant accepted earlier outputs. Extract every requirement, finish and verify that stage, commit only its work, and verify the remote result before proceeding. Use only `feat/bootstrap-2`; never reuse the failed `feat/bootstrap` attempt. Repair ordinary execution failures rather than treating them as reasons to stop. A genuine unresolved user-owned decision or mandatory blocker still requires a specific question under the execution contract.
 
-No PR, merge, release, registry promotion, live business action or maturity change is included. After Stage 9’s verified receipt, the next authorised task is Stage 10, Research Existing Agent Skills, Tools and Business Systems. No Stage 10 output belongs in this commit.
+No PR, merge, release, registry promotion, live business action or maturity change is included. Stage 9’s receipt is verified at 9039cb96b8cc54c042e502789c7fc6627b8e5c52. Stage 10 is the current task; no Stage 11 output belongs in this commit.
+
+## Stage 10 publication boundary
+
+Four Stage 10 research logs assess 26 current candidates with all 15 original fields (390 assessments), cover all 22 categories, and retain all ten external execution responsibilities. Reuse decisions acknowledge existing strategic, pricing and analytical judgement rather than inventing its absence. Restricted packaging, unsupported heuristics, provider-specific metrics and actual execution authority are explicitly bounded.
+
+The original §17 was reread after drafting. The initial run returned 56 PASS and 1 FAIL; the missing explicit source-scope caveat was added to the landscape without weakening checks. The final full run and exact embedded-code rerun returned 57 PASS, 0 FAIL, exit 0 with identical output. The 25-field checklist and embedded-code identity were checked separately. The Decimal probe is an actual local execution on synthetic inputs; no SaaS account, installed skill, forecast model or workbook was run.
+
+Only four new reports and this progress index change. Expected resulting tree: 43 files; all 38 other existing files and the Stage 9 receipt remain unchanged. All four uploaded blob identities match the locally checked files. Starting head: 9039cb96b8cc54c042e502789c7fc6627b8e5c52; root: 02a24bdad63dcf5d525a44ff787c13c9e10fd150. Overall completion requires the actual stage-scoped commit and remote ref, parent, tree, changed-path and file verification. No future SHA is preclaimed. After its verified receipt, proceed directly to Stage 11, Choose Execution Layer.
