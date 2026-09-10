@@ -8,14 +8,15 @@
 
 ## Current boundary
 
-Stages 1–7 are COMPLETE. Stage 7 has passed content verification, its stage-scoped commit and remote ref, commit, tree and file checks. Stages 8–26 have not started. This remains a bootstrap research workspace, not a working or benchmarked product.
+Stages 1–7 are COMPLETE. Stage 7 has passed content verification, its stage-scoped commit and remote ref, commit, tree and file checks. Stage 8 content has passed verification; publication and remote verification are pending. Stages 9–26 have not started. This remains a bootstrap research workspace, not a working or benchmarked product.
 
 | Stage | Outputs and evidence | State |
 |---|---|---|
 | 0 | Original workspace and specification | Workspace verified; no production maturity implied |
 | 1–6 | [Preserved progress and completion receipts](2026-09-10-bootstrap-2-progress-through-stage-06.md), including links to all accepted reports | COMPLETE |
 | 7 | [Delivery and retention](2026-09-10-stage-07-delivery-and-retention-model.md); [economics and cash](2026-09-10-stage-07-unit-economics-and-cash-contract.md); [research and checks](2026-09-10-stage-07-research-and-checks.md); [conformance](2026-09-10-stage-07-conformance.md) | COMPLETE |
-| 8–26 | No accepted outputs | NOT STARTED |
+| 8 | [Assumptions/experiments/learning](2026-09-10-stage-08-assumptions-experiments-and-learning.md); [diagnosis/repair](2026-09-10-stage-08-constraint-diagnosis-and-repair.md); [research/checks](2026-09-10-stage-08-research-and-checks.md); [conformance](2026-09-10-stage-08-conformance.md) | Content verified; remote completion pending |
+| 9–26 | No accepted outputs | NOT STARTED |
 
 ## Preserved earlier state
 
@@ -77,6 +78,12 @@ Verified changed blobs at the content commit:
 
 These checks occurred before this receipt was written. The receipt changes only progress, not the accepted reports. Its own future commit identity is not preclaimed. Remote verification establishes ref, commit, tree and content identity, not a cryptographic signature or independent professional endorsement.
 
-## Next authorised task
+## Stage 8 publication and recovery
 
-After verifying this receipt update, proceed to Stage 8, Define Assumption, Experiment, Learning and Constraint-Diagnosis Model. Reread the complete original stage section and applicable globals on main, inspect relevant accepted inputs, and extract its full checklist before authoring. Stage 8 has not started in this receipt. No arbitrary approval pause or new scope authorisation is needed.
+The four Stage 8 reports provide all five required models, ten assumption classes, nine experiment fields and eight learning fields. Fifteen constraint routes and eight repair fields retain earlier accepted definitions. Seven methodological source records state reading limits; eleven synthetic fixtures, including a complete service-decision loop, do not claim customer evidence or installed-agent validation.
+
+A fresh full rerun during publication recovery returned 51 PASS, 0 FAIL, exit 0. The original complete §15 was reread again. All four actual GitHub create-blob identities match the local files: `a939843b6a262753ce64b5faef171d920beb925c`, `c626781cd0dbcaac139ab99d54b69beaadafdd29`, `6a3ef07398a94ff1f736f6f882280e450db7d2bb`, and `b008eeed22083dbf4d90dc695a3137127703a836`.
+
+The first publication attempt used incorrect, nonexistent blob identities. GitHub rejected the tree, subsequent nonexistent commit/ref operations and the receipt update. Contrary completion statements in the conversation were incorrect; no Stage 8 commit or receipt was created by those failed attempts. A new ref read confirmed the unchanged Stage 7 receipt head `157f001ec3f35465f0d09868cae2f202d2778e40`. This retry uses only the actual returned blob identities. Stage 9 has not been executed; its preliminary specification read is not an accepted output.
+
+The Stage 8 payload changes four new reports and this progress index only. Expected tree: 34 files, with all 29 other prior files and the Stage 7 receipt unchanged. Overall Stage 8 completion requires an actual successful stage-scoped commit, non-force ref update and remote commit/tree/file verification. No future identifiers or successful operations are preclaimed here. No release, PR, registry or maturity change is included.
