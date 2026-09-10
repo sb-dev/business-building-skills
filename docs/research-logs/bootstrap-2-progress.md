@@ -8,7 +8,7 @@
 
 ## Current boundary
 
-Stages 1–4 are COMPLETE. Stage 5 content has passed verification; its stage-scoped commit and remote receipt remain outstanding. Stages 6–26 have not started. This is a bootstrap research workspace, not a working or benchmarked product.
+Stages 1–5 are COMPLETE. Stage 5 has passed content verification and remote ref, commit, tree and file checks. Stages 6–26 have not started. This is a bootstrap research workspace, not a working or benchmarked product.
 
 | Stage | Accepted output / evidence | State |
 |---|---|---|
@@ -17,7 +17,7 @@ Stages 1–4 are COMPLETE. Stage 5 content has passed verification; its stage-sc
 | 2 | [Five-book corpus](2026-09-09-stage-02-five-book-capability-corpus.md); [matrix](2026-09-09-stage-02-source-to-capability-matrix.md); [taxonomy](2026-09-09-stage-02-reconciliation-and-taxonomy.md); [conformance](2026-09-09-stage-02-conformance.md) | COMPLETE |
 | 3 | [Practice map](2026-09-10-stage-03-professional-practice-map.md); [evidence and terminology](2026-09-10-stage-03-evidence-and-terminology.md); [claims and principles](2026-09-10-stage-03-claims-failures-and-principles.md); [conformance](2026-09-10-stage-03-conformance.md) | COMPLETE |
 | 4 | [Business, customer and value model](2026-09-10-stage-04-business-customer-and-value-model.md); [conformance](2026-09-10-stage-04-conformance.md) | COMPLETE |
-| 5 | [Offer/pricing architecture](2026-09-10-stage-05-offer-and-pricing-architecture.md); [money models](2026-09-10-stage-05-money-model-taxonomy.md); [research/checks](2026-09-10-stage-05-research-and-checks.md); [conformance](2026-09-10-stage-05-conformance.md) | IN PROGRESS; content verified |
+| 5 | [Offer/pricing architecture](2026-09-10-stage-05-offer-and-pricing-architecture.md); [money models](2026-09-10-stage-05-money-model-taxonomy.md); [research/checks](2026-09-10-stage-05-research-and-checks.md); [conformance](2026-09-10-stage-05-conformance.md) | COMPLETE |
 | 6–26 | No accepted outputs | NOT STARTED |
 
 ## Preserved completion receipts for Stages 1–3
@@ -75,10 +75,43 @@ Verified changed blobs at the content commit:
 
 These checks were completed before this receipt was written. This receipt-only update changes no accepted model or conformance. Its own future commit SHA is not preclaimed. Remote verification concerns repository ref, commit, tree and content identity; it is not a cryptographic-signature or independent-professional-review claim.
 
-## Stage 5 publication boundary
+## Stage 5 completion receipt
 
-Stage 5's four research documents contain all fourteen offer components, fourteen pricing approaches, thirteen monetisation models with ten fields each, the pricing decision procedure and sixteen failure/repair cases. Seventeen primary-source records preserve source type, scope and limitations. The original section was reread after drafting. All 46 deterministic document/arithmetic checks passed with exit 0 and an identical rerun. Seven quantitative synthetic fixtures and one qualitative suite were manually reviewed; they are not customer studies, primary progressive examples or installed-agent benchmarks.
+**Stage:** 5, Define Offer, Pricing and Monetisation Architecture  
+**Status:** COMPLETE  
+**Content commit:** `6618da5e10e7a72bed6d2034b400e56279090626`  
+**Commit message:** `docs: complete stage 5 offer pricing and monetisation architecture`  
+**Parent:** `b555558b93d0c625018b48fa5694fa4f3872b887`  
+**Committed root tree:** `43bee07960bdc7c2a959dddba81020919c7f5402`  
+**Verification date:** 10 September 2026  
+**Remaining Stage 5 blockers:** none
 
-The payload changes only these four new research documents and this progress index. All earlier content and this file's Stage 4 receipt remain unchanged. The source/checker files and full conformance are preserved, rather than replaced with a completion claim. The publication process must verify the actual commit, ref, tree, five changed file identities and preservation of the seventeen other existing files. The expected resulting file count is twenty-two. No future commit or verification result is invented in this pre-receipt record.
+The four research documents deliver the offer model, pricing decision framework, money-model taxonomy and failure modes. Coverage is fourteen offer components, fourteen pricing approaches, thirteen models with ten substantive fields each (130 fields), and sixteen failure/repair cases. Seventeen primary-source records preserve reading scope and limitations. The original main specification was reread after drafting.
 
-Do not start Stage 6 until the Stage 5 content commit and its completion receipt are remotely verified. No unresolved user-owned content decision or missing mandatory research input has been identified. No PR, merge, release, registry update or maturity promotion is included.
+All 46 deterministic document/arithmetic checks passed with exit 0, including an identical rerun; the exact checker and output are persisted. Seven original quantitative synthetic fixtures and a five-case qualitative suite were manually reviewed. These are design checks, not customer studies, installed-agent benchmarks, primary progressive examples or evidence of commercial efficacy.
+
+| Requirement | Specification reference | Deliverable / evidence | Verification performed | Result |
+|---|---|---|---|---|
+| Complete researched architecture and exit | Bootstrap §12; §§1–5,34–36 | Four research documents and direct conformance | Original requirements reread; all enumerations, dependencies, sources, risk boundaries and failure/repair rules reviewed | PASS |
+| Actual executed verification | Execution contract §5 | Research/check log and embedded checker | 46 PASS, 0 FAIL, exit 0; identical rerun; semantic S01–S08 review kept separate | PASS |
+| Reviewed payload preserved | Execution contract §§5,7 | Uploaded model, taxonomy, research and conformance blobs | All four uploaded SHA values matched locally verified files exactly; immutable file reads returned the same values | PASS |
+| Stage-scoped remote commit | Execution contract §7 | Content commit, parent and root above | Read-back returned the expected message, accepted parent and inspected twenty-two-file tree | PASS |
+| Branch advanced without force | Execution contract §7 | refs/heads/feat/bootstrap-2 | Non-force update succeeded; subsequent ref read returned the exact content commit | PASS |
+| No unrelated changes or prior-content loss | Execution contract §7 | Parent/new tree and commit comparison | One commit ahead; five changed paths only; seventeen other existing files unchanged; Stage 4 receipt preserved verbatim | PASS |
+| No exaggerated maturity or professional claims | Bootstrap §§3,34–36 | Research and conformance boundaries | No live pricing action, customer validation, legal approval, production implementation, release or maturity promotion claimed | PASS |
+
+Verified changed blobs at the content commit:
+
+| Path under docs/research-logs/ | Git blob |
+|---|---|
+| `2026-09-10-stage-05-offer-and-pricing-architecture.md` | `e7f4cc70e0f386ec04a9d36f717abbbb378d8916` |
+| `2026-09-10-stage-05-money-model-taxonomy.md` | `d918595ea9d5f3b8f3670078bcf69b4f3be3014d` |
+| `2026-09-10-stage-05-research-and-checks.md` | `f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301` |
+| `2026-09-10-stage-05-conformance.md` | `1370e121e4cc69e0ed4efa56a68010ed48ede3d0` |
+| `bootstrap-2-progress.md` (pre-receipt version) | `f144629d58c75119dafc36b37d2f4026e784fe8a` |
+
+These checks were completed before this receipt was written. This receipt changes only progress, not the accepted outputs; its own future commit is not preclaimed. Remote verification concerns repository identities, not a cryptographic signature or independent professional review.
+
+## Next authorised task
+
+After verifying this receipt update, proceed directly to Stage 6, Define Demand, Lead Generation, Sales and Conversion Architecture. Reread the original stage section and relevant globals on `main`, then the accepted earlier inputs; extract its complete requirements before authoring. Stage 6 has not started in this receipt. No fresh scope approval or arbitrary stage-boundary pause is required.
