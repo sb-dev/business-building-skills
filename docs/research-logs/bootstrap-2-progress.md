@@ -6,60 +6,28 @@
 
 ## Current boundary
 
-Stages 1–11 are COMPLETE. Stage 11's content commit, parent, branch and intended files have been read back and verified. The completion receipt below records that result. Stages 12–26 have not started. This remains a bootstrap research workspace, not a working, installed, benchmarked or mature product.
+Stages 1–11 are COMPLETE. Stage 12 content has passed verification; its overall completion requires the stage-scoped commit and remote verification receipt. Stages 13–26 have not started. This remains a bootstrap research workspace, not a working, installed, benchmarked or mature product.
 
 | Stage | Durable evidence | State |
 |---|---|---|
-| 0–10 | [Preserved progress and completion receipts](2026-09-10-bootstrap-2-progress-through-stage-10.md), including the Stage 10 receipt and links to earlier history | COMPLETE; Stage 0 is the workspace |
-| 11 | [Execution-layer decision](2026-09-10-stage-11-execution-layer.md), [research/checks](2026-09-10-stage-11-research-and-checks.md), [conformance](2026-09-10-stage-11-conformance.md), [verifier](2026-09-10-stage-11-verifier.py) | COMPLETE |
-| 12–26 | No accepted outputs | NOT STARTED |
+| 0–11 | [Preserved progress and completion receipts](2026-09-10-bootstrap-2-progress-through-stage-11.md), including the Stage 11 receipt and links to earlier history | COMPLETE; Stage 0 is the workspace |
+| 12 | [Gap analysis and shortlists](2026-09-10-stage-12-gap-analysis.md), [guardrails/comparisons](2026-09-10-stage-12-guardrails.md), [conformance](2026-09-10-stage-12-conformance.md), [verifier](2026-09-10-stage-12-verifier.py) | Content verified; remote completion pending |
+| 13–26 | No accepted outputs | NOT STARTED |
 
 ## Preserved state
 
-The preceding live progress file is preserved byte-for-byte as `2026-09-10-bootstrap-2-progress-through-stage-10.md`, reusing blob `cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07`. The verified starting head is Stage 10 receipt `92fdd644decb6e469e5cf2ac3874d01919bd9330`, root `1517229364f39556de3c7a53b2c5d9b3d80ebd4e`. Its parent is Stage 10 content `348e1471926881b5da13002c1d8a0fdc8a30a1f9`. Historical receipt statements describe their original boundary; the current index supersedes only their current-state labels, not their evidence or limitations.
+The preceding live progress file is preserved byte-for-byte as `2026-09-10-bootstrap-2-progress-through-stage-11.md`, reusing blob `174747f3897963653295b3e9433fec65b93893f7`. The verified starting head is Stage 11 receipt `d03fc7757f6279c21ee68f1051950d58c6669974`, root `7e78ba400186584674b307fe01e127cd04d1db4a`. Its parent is Stage 11 content `31b160cc0b74f37b4e4405495c165eeccd216c53`. Earlier receipts and their limits are preserved, not replaced with conversation recollection.
 
-## Stage 11 content verification
+## Stage 12 content verification
 
-The selected architecture is document-led business reasoning with optional task-scoped existing execution systems and operators. All eleven business decisions and eleven external responsibilities in original §18 retain their proper owners. Eight execution annotations reuse existing business, calculation, experiment and legal records. No compulsory provider, custom platform, universal adapter runtime or new customer database is introduced.
+The complete analysis covers the fifteen original gap areas, the explicitly additional specialisation-authoring concern, eight bounded native responsibilities, seven reused groups and all thirteen deferred/rejected ideas. Coverage is one covered and fifteen partially covered responsibilities, with no fabricated missing-market claim. Every native responsibility maps to a specific residual; all C01–C22 responsibilities remain traceable. Eight responsibilities do not predetermine eight skills.
 
-Five primary-source records document actual reading scope. The local verifier tests original synthetic export shapes using separate Decimal and integer arithmetic, semantic mismatches, identities, missing data, action scope, returned errors, uncertain effects, retry prerequisites, stale calculation receipts and preservation. The first full run and final repository-relative rerun returned 51 PASS, 0 FAIL, exit 0 on Python 3.13.5; outputs matched byte-for-byte. The 25-field pre-work checklist and exact verifier copy were checked separately. These are local design checks, not live provider integration, actual spreadsheet recalculation, installed-agent benchmarks or customer evidence.
+The first local run recorded 31 PASS and 3 FAIL. Evidence and reuse explanations were expanded, while all acceptance thresholds and required relationships were retained. A weak phrase check was strengthened. The repaired and final repository-relative runs returned 34 PASS, 0 FAIL, exit 0 on Python 3.13.5, with identical output. The exact verifier copy and 25 pre-work checklist fields were checked. Source-derived comparisons, eight synthetic cases and stipulated admission packets are identified separately. None is an installed-agent benchmark or a fresh global vendor audit.
 
-The content payload contains four Stage 11 files, the exact historical progress snapshot and this index only. All earlier reports remain unchanged. The pre-publication index at the content commit is retained in Git history, blob `f86bad2a5208bf66489b981a34e065196392ccee`; its pending labels are superseded by this receipt.
-
-## Stage 11 completion receipt
-
-**Stage:** 11, Choose Execution Layer  
-**Status:** COMPLETE  
-**Content commit:** `31b160cc0b74f37b4e4405495c165eeccd216c53`  
-**Message:** `docs: complete stage 11 execution layer and tool substitution`  
-**Parent:** `92fdd644decb6e469e5cf2ac3874d01919bd9330`  
-**Root tree:** `fa4ae6f3d7d85af402460c33848d1132196d0630`  
-**Verification date:** 10 September 2026  
-**Remaining Stage 11 blockers:** none
-
-| Requirement | Specification reference | Evidence | Verification performed | Result |
-|---|---|---|---|---|
-| Execution-layer choice and complete ownership | §18 | Decision model BD01–BD11 and EX01–EX11 | Original section reread after authoring; every original responsibility and both boundaries reviewed | PASS |
-| Substitution preserves business workflow | §18 exit | H01–H08 and S01–S09 | Actual local transformations/calculations agree for equivalent facts; mismatches and scope changes are rejected; baseline unchanged | PASS |
-| Executed verification | Execution §§5–6 | Conformance and exact verifier | 51 PASS, 0 FAIL, exit 0; identical final-path rerun; record-integrity checks passed | PASS |
-| Stage-scoped publication | Execution §7 | Actual commit/ref/parent | Create-commit and non-force update succeeded; fresh ref and commit reads returned the actual identifiers above | PASS |
-| Intended file identity | Execution §7 | Six immutable file reads | Four stage files, exact prior-progress snapshot and current index returned their expected identities | PASS |
-| Earlier work preserved | Execution §§5,7 | Parent comparison | One commit ahead; five additions and one progress modification only; no earlier report changed | PASS |
-| No inflated product or execution claims | §§7,18,35 | Explicit research/test scope | No live provider, actual workbook, installed-agent, PR, release or maturity claim | PASS |
-
-| Path under docs/research-logs/ | Verified blob |
-|---|---|
-| `2026-09-10-stage-11-execution-layer.md` | `58f7cd494d7361fc3beac569f1932174a76496a4` |
-| `2026-09-10-stage-11-research-and-checks.md` | `f7ceea535d3e2ed3dad67f48a693443a3aad9fc7` |
-| `2026-09-10-stage-11-conformance.md` | `88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3` |
-| `2026-09-10-stage-11-verifier.py` | `a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464` |
-| `2026-09-10-bootstrap-2-progress-through-stage-10.md` | `cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07` |
-| `bootstrap-2-progress.md` before receipt | `f86bad2a5208bf66489b981a34e065196392ccee` |
-
-The four stage-file blobs match their tested local UTF-8 files exactly. This receipt records completed checks and does not preclaim its own future commit identity. Verify its actual ref, commit, parent and progress file before advancing; repository identity checks do not certify a cryptographic signature or professional endorsement.
+The content payload contains four Stage 12 files, the exact historical progress snapshot and this index only. Earlier reports must remain unchanged. Verify the actual content commit, accepted parent, branch, changed paths and intended file identities before adding the receipt. No future Git identity or remote success is preclaimed.
 
 ## Resumption and authority
 
-Use only `feat/bootstrap-2`, never the failed `feat/bootstrap` attempt. At each stage reread the original main specification and accepted inputs, extract all requirements, complete and execute the appropriate checks, commit only that stage and verify the remote result before advancing. Repair ordinary execution failures; do not confuse an absent local draft with failed tooling. A genuine user-owned decision still requires a specific question.
+Use only `feat/bootstrap-2`, never the failed `feat/bootstrap` attempt. Reread the original specification and accepted inputs at each stage, extract every requirement, execute the checks, commit only that stage and verify its remote result before advancing. Repair ordinary execution failures; a missing local draft is not evidence of failed tools. Ask only for a genuine user-owned decision or mandatory unresolved blocker.
 
-After this receipt is verified, proceed to Stage 12, Gap Analysis and Over-Engineering Guardrails. No Stage 12 output belongs in this commit. No PR, merge, release, registry promotion or live business action is included.
+After Stage 12's verified receipt, proceed to Stage 13, Design Core Skills and Commands. No Stage 13 output belongs in this commit. No PR, merge, release, registry promotion or live business action is included.
