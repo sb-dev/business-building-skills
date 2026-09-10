@@ -8,14 +8,15 @@
 
 ## Current boundary
 
-Stage 0 workspace prerequisites have been verified. **Stage 1 is COMPLETE:** its content checks, commit, remote ref and committed file tree have passed verification. **Stage 2 is COMPLETE:** its source extraction, conformance checks, stage-scoped commit, remote ref and committed files have passed verification. Stages 3–26 have not been started.
+Stage 0 workspace prerequisites have been verified. **Stage 1 is COMPLETE:** its content checks, commit, remote ref and committed file tree have passed verification. **Stage 2 is COMPLETE:** its source extraction, conformance checks, stage-scoped commit, remote ref and committed files have passed verification. Stage 3 research and conformance have passed content verification and are ready for their own content commit; Stage 3 is not COMPLETE until that commit and the intended remote files are verified. Stages 4–26 have not been started.
 
 | Stage | Record | State |
 |---|---|---|
 | 0 | Baseline README files, governing specification and repository tree | Workspace verified; no production maturity implied |
 | 1 | [Domain and professional boundary](2026-09-09-stage-01-domain-and-professional-boundary.md); [conformance evidence](2026-09-09-stage-01-conformance.md) | COMPLETE; content commit and remote files verified |
 | 2 | [Five-book corpus](2026-09-09-stage-02-five-book-capability-corpus.md); [candidate matrix](2026-09-09-stage-02-source-to-capability-matrix.md); [reconciliation/taxonomy](2026-09-09-stage-02-reconciliation-and-taxonomy.md); [conformance](2026-09-09-stage-02-conformance.md) | COMPLETE; content commit and remote files verified |
-| 3–26 | No accepted outputs | NOT STARTED |
+| 3 | [Professional-practice map](2026-09-10-stage-03-professional-practice-map.md); [evidence and terminology](2026-09-10-stage-03-evidence-and-terminology.md); [claims, failures and principles](2026-09-10-stage-03-claims-failures-and-principles.md); [conformance](2026-09-10-stage-03-conformance.md) | Content verified; completion requires stage commit and remote verification |
+| 4–26 | No accepted outputs | NOT STARTED |
 
 No PR, merge, release, registry change or maturity promotion has been performed. Neither this progress record nor a content check grants permission to start another stage before the remote boundary is verified.
 
@@ -106,8 +107,12 @@ Verified changed blobs at the content commit:
 
 These remote checks were completed before writing this receipt. The receipt is a separate Stage 2-only documentation update and does not change the four accepted research logs. Its own future commit SHA is not preclaimed here. Remote verification establishes ref, commit, tree and content identities; it is not a claim of a cryptographic signature.
 
-## Verified stopping point and next task
+## Stage 3 resumption and current boundary
 
-Execution pauses at the verified Stage 2 boundary for context safety under execution contract §9. Stage 3, **Research Broader Professional and Empirical Business Practice**, has not started. Resume from the original specification on `main`, both accepted stages and this progress record, not from conversational recollection. Stage 3 must perform its full independent research coverage and criticisms; the eighteen validation questions are inputs, not a substitute for that work.
+The user directed continued sequential execution and requested permission before GitHub write actions. GitHub was configured to `ask_before_writes`. A write-route check using the unchanged root README returned its existing blob and made no file or branch change. The GitHub API is the repository route; the shell Git DNS failure is not represented as a successful checkout or as a blocker when the necessary API actions work.
 
-No PR, merge, release, registry change or maturity promotion has been performed. No remaining Stage 2 requirement needs user input.
+Stage 3 began after the original specification, earlier accepted records and current remote state were rechecked. The historical Stage 2 resumption paragraph above describes the position at that earlier receipt; the Current boundary section is authoritative for current progress. Both earlier completion receipts remain unchanged.
+
+The intended Stage 3 changes are four research logs and this progress record only. They cover the 27 specified professional-practice areas, nine fields for each, selected outside sources and their limitations, a terminology map, evidence hierarchy, the eighteen prior validation questions, failure taxonomy and independent principle support. No live business experiment or implemented product is claimed. Source PDFs, raw external text, images and the private working scripts are not publication payloads.
+
+Stage 3 must pass content verification, receive a stage-scoped commit and have its remote commit/tree/files verified before Stage 4 begins. The resulting receipt will record the actual identifiers after those operations. There is no planned approval pause between verified stages; tool-level write confirmation remains enabled. No PR, merge, release or registry promotion has occurred.
