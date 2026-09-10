@@ -1,0 +1,578 @@
+{
+  "stage": 15,
+  "scope": "Design integrity and original synthetic arithmetic/input-preservation, not installed-agent, customer or professional validation.",
+  "python": "3.13.5",
+  "decimal_precision": 28,
+  "checks": [
+    {
+      "name": "percentage accepts finite internal Decimal operands",
+      "passed": true
+    },
+    {
+      "name": "percentage rejects non-finite internal Decimal operands",
+      "passed": true
+    },
+    {
+      "name": "30 original candidates, six per level",
+      "passed": true
+    },
+    {
+      "name": "all original level purposes preserved",
+      "passed": true
+    },
+    {
+      "name": "20 original coverage lines and 32 exact atomic values",
+      "passed": true
+    },
+    {
+      "name": "candidate identities and genuine alternatives retained",
+      "passed": true
+    },
+    {
+      "name": "Level 1: exact purpose and three primary entries",
+      "passed": true
+    },
+    {
+      "name": "Level 2: exact purpose and three primary entries",
+      "passed": true
+    },
+    {
+      "name": "Level 3: exact purpose and three primary entries",
+      "passed": true
+    },
+    {
+      "name": "Level 4: exact purpose and three primary entries",
+      "passed": true
+    },
+    {
+      "name": "Level 5: exact purpose and three primary entries",
+      "passed": true
+    },
+    {
+      "name": "all 15 complete self-contained contracts, prompts, commands and boundaries",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "E01: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E02: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E03: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E04: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E05: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E06: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E07: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E08: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E09: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E10: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E11: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E12: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E13: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E14: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "E15: exact prompt has fixed JSON, preserved versions, unknowns and all case sections",
+      "passed": true
+    },
+    {
+      "name": "all 32 coverage values have selected primary witnesses",
+      "passed": true
+    },
+    {
+      "name": "all C01–C22 responsibilities have selected witnesses",
+      "passed": true
+    },
+    {
+      "name": "all 30 candidate dispositions retained with reasons",
+      "passed": true
+    },
+    {
+      "name": "selection rows agree with the fifteen actual entries",
+      "passed": true
+    },
+    {
+      "name": "matrix supplies exact per-value evidence pointers",
+      "passed": true
+    },
+    {
+      "name": "physical delivery is not inferred from a web shop",
+      "passed": true
+    },
+    {
+      "name": "full models and theses request all fifteen map concerns",
+      "passed": true
+    },
+    {
+      "name": "theses add alternatives and sequenced evidence/commitment programmes",
+      "passed": true
+    },
+    {
+      "name": "named project data remain explicitly synthetic",
+      "passed": true
+    },
+    {
+      "name": "all relative documentation targets resolve to new or inspected earlier files",
+      "passed": true
+    },
+    {
+      "name": "E01: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E01: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E02: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E02: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E03: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E03: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E04: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E04: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E05: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E05: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E06: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E06: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E07: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E07: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E08: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E08: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E09: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E09: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E10: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E10: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E11: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E11: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E12: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E12: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E13: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E13: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E14: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E14: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "E15: synthetic arithmetic and declared reconciliation match independent reference",
+      "passed": true
+    },
+    {
+      "name": "E15: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "Negative mutation rejected: missing primary example",
+      "passed": true
+    },
+    {
+      "name": "Negative mutation rejected: duplicate primary identity",
+      "passed": true
+    },
+    {
+      "name": "Negative mutation rejected: wrong level distribution",
+      "passed": true
+    },
+    {
+      "name": "Negative mutation rejected: empty exact prompt",
+      "passed": true
+    },
+    {
+      "name": "Negative mutation rejected: unlabelled synthetic input",
+      "passed": true
+    },
+    {
+      "name": "Negative mutation rejected: missing preservation baseline",
+      "passed": true
+    },
+    {
+      "name": "Negative mutation rejected: invented command",
+      "passed": true
+    },
+    {
+      "name": "Negative mutation rejected: unknown evaluation mode",
+      "passed": true
+    },
+    {
+      "name": "Negative mutation rejected: lost required coverage",
+      "passed": true
+    },
+    {
+      "name": "non-finite, boolean, float and malformed numbers rejected",
+      "passed": true
+    },
+    {
+      "name": "zero and negative denominators do not become valid rates",
+      "passed": true
+    },
+    {
+      "name": "cash duplicate identities and reversed dates rejected",
+      "passed": true
+    },
+    {
+      "name": "missing mandatory numeric input is not silently zero",
+      "passed": true
+    }
+  ],
+  "fixture_outputs": {
+    "E01": {
+      "fixed_contribution": [
+        "50",
+        "20",
+        "-40"
+      ],
+      "hourly_consideration": [
+        "80",
+        "120",
+        "200"
+      ],
+      "hourly_contribution": [
+        "10",
+        "20",
+        "40"
+      ],
+      "fixed_hours_boundary": "11/3"
+    },
+    "E02": {
+      "paid": {
+        "CAC": "150",
+        "cohort_after_acquisition": "60",
+        "qualified_pct": "10",
+        "paid_pct": "2"
+      },
+      "referral": {
+        "CAC": "50",
+        "cohort_after_acquisition": "520",
+        "qualified_pct": "60",
+        "paid_pct": "20"
+      }
+    },
+    "E03": {
+      "gross": "2400",
+      "net": "2310",
+      "direct_cost": "500",
+      "contribution": "1810",
+      "creation_inclusive_residual": "-190"
+    },
+    "E04": {
+      "hours": "32",
+      "direct_cost": "1360",
+      "standard_contribution": "440",
+      "discount_contribution": "-160",
+      "nominal_engagement_bound": 1,
+      "cash": {
+        "closing": "940",
+        "minimum": "40",
+        "floor_gap": "160",
+        "first_breach": "day-14"
+      }
+    },
+    "E05": {
+      "sales_cost": "300",
+      "acquisition_cost": "420",
+      "contribution_before_acquisition": "400",
+      "after_acquisition": "-20",
+      "permitted_follow_up": 15
+    },
+    "E06": {
+      "paid_renewal_pct": "80",
+      "entitlement_pct": "85",
+      "meaningful_use_pct": "60",
+      "gross": "960",
+      "net": "936",
+      "service_cost": "170",
+      "direct_cost": "290",
+      "contribution": "646"
+    },
+    "E07": {
+      "visit_hours": "1.5",
+      "month_hours": "44",
+      "receipts": "2160",
+      "variable_cash_cost": "600",
+      "cash_after_overhead": "1400",
+      "full_valued_residual": "520",
+      "whole_visit_bound": 26,
+      "max_visit_cash_after_overhead": "1530"
+    },
+    "E08": {
+      "consideration": "1170",
+      "direct_cost": "405",
+      "contribution": "765",
+      "after_fixed_acquisition": "285",
+      "heavy_contribution_each": "3",
+      "downside_heavy_each": "-27",
+      "downside_contribution": "615",
+      "downside_residual": "135",
+      "renewal_pct": "80",
+      "old_use_pct": "60",
+      "CAC_fraction": "150/7"
+    },
+    "E09": {
+      "gross": "2000",
+      "net": "1900",
+      "consumed_stock": "800",
+      "direct_cost": "1080",
+      "contribution": "820",
+      "after_acquisition": "620",
+      "remaining_units": 20,
+      "remaining_stock_cost": "400",
+      "cash": {
+        "closing": "920",
+        "minimum": "-900",
+        "floor_gap": "1000",
+        "first_breach": "day-00"
+      }
+    },
+    "E10": {
+      "A": {
+        "qualified_pct": "20",
+        "qualified_to_paid_pct": "20",
+        "all_in_CAC": "125",
+        "after_acquisition": "600"
+      },
+      "B": {
+        "qualified_pct": "10",
+        "qualified_to_paid_pct": "20",
+        "all_in_CAC": "256.25",
+        "after_acquisition": "-450"
+      }
+    },
+    "E11": {
+      "current": {
+        "hours": "148",
+        "headroom": "-8",
+        "N": "12000",
+        "K": "5200",
+        "C": "6800",
+        "A": "320",
+        "H": "800",
+        "residual": "5680"
+      },
+      "proposed": {
+        "hours": "180",
+        "headroom": "-40",
+        "N": "15000",
+        "K": "6500",
+        "C": "8500",
+        "A": "400",
+        "H": "800",
+        "residual": "7300"
+      }
+    },
+    "E12": {
+      "base": {
+        "closing": "4800",
+        "minimum": "-3200",
+        "floor_gap": "3700",
+        "first_breach": "day-00"
+      },
+      "agreed_deposit_scenario": {
+        "closing": "4800",
+        "minimum": "500",
+        "floor_gap": "0",
+        "first_breach": null
+      },
+      "reduced_orders": {
+        "closing": "3600",
+        "minimum": "-400",
+        "floor_gap": "900",
+        "first_breach": "day-14"
+      },
+      "total_deposit": "3700",
+      "remaining_collection": "4300"
+    },
+    "E13": {
+      "old_paid_renewal_pct": "70",
+      "old_entitlement_pct": "75",
+      "old_review_pct": "50",
+      "gross": "1440",
+      "net": "1380",
+      "direct_cost": "480",
+      "contribution": "900",
+      "residual": "-400",
+      "cash_scenario": {
+        "closing": "600",
+        "minimum": "-730",
+        "floor_gap": "930",
+        "first_breach": "day-01"
+      },
+      "twelve_monthly_payments": "72",
+      "proposed_annual_payment": "60"
+    },
+    "E14": {
+      "one_project_hours": "114",
+      "two_project_hours": "184",
+      "one_retainer_hours": "92",
+      "two_retainer_hours": "140",
+      "one_project_full_valued_residual": "1960",
+      "one_retainer_full_valued_residual": "-720",
+      "cash_scenario": {
+        "closing": "4800",
+        "minimum": "-1200",
+        "floor_gap": "1700",
+        "first_breach": "day-45"
+      }
+    },
+    "E15": {
+      "service_revenue": "3000",
+      "valued_maintenance": "1200",
+      "maintenance_gap_after_sponsor": "600",
+      "hours": "84",
+      "capacity_headroom": "-4",
+      "valued_cost_plus_hosting": "3600",
+      "total_stated_funding": "3600",
+      "cash_before": {
+        "total": "4600",
+        "restricted": "600",
+        "usable": "4000"
+      },
+      "cash_after_eligible_settlement": {
+        "total": "4200",
+        "restricted": "200",
+        "usable": "4000"
+      },
+      "observed_support_revenue": "0"
+    }
+  },
+  "coverage": {
+    "candidate_pool": 30,
+    "primary_examples": 15,
+    "levels": 5,
+    "distribution": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "exact_prompts": 15,
+    "original_coverage_lines": 20,
+    "atomic_coverage_values": 32,
+    "capabilities": 22
+  },
+  "input_sha256": {
+    "2026-09-10-stage-15-candidate-pool.json": "5e2d741a27aa965d6d4e584d2cc60848e5eb2072460f423fabcd779e8d0f5c31",
+    "2026-09-10-stage-15-selection-and-coverage.md": "14c431c16c13c0ed78aede26175d2df9003baa7d4d114c34d007841cfe42cfc6",
+    "2026-09-10-stage-15-level-01.md": "6515efaca5470bc11688cfaa476228dc3dd7b9aa952a8750c417cc7c651fbb69",
+    "2026-09-10-stage-15-level-02.md": "a5a2a874c66eb25afe398658d1f91590a35101fd4a6b74e4e372e7e19f708421",
+    "2026-09-10-stage-15-level-03.md": "e6dd70a8ab28992e9a8ff4f1784d10cb33c98f9baef2bfcec0dd3a3d74a6d2b9",
+    "2026-09-10-stage-15-level-04.md": "208d43d657ec1d6d26c91dc81a490d3df9567401d0b1024816e9b8d6f6608550",
+    "2026-09-10-stage-15-level-05.md": "e7c8fc953f4c4f084be97391528a74e9a8d6425fdd0b3beedda007fa9d64ef22"
+  },
+  "verifier_sha256": "ffb073f03b1ef666e6985795fb3be0a104be9691575ac35531a00a2c1f702190",
+  "total": 80,
+  "passed": 80,
+  "failed": 0
+}
