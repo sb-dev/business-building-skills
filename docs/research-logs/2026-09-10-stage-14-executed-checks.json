@@ -1,0 +1,959 @@
+{
+  "stage": 14,
+  "scope": "local structural, arithmetic and stipulated design-contract checks; not installed-pack performance",
+  "python": "3.13.5",
+  "checks": [
+    {
+      "name": "nine original candidate names in order",
+      "passed": true
+    },
+    {
+      "name": "eight retained candidates and one explicit advisory merge",
+      "passed": true
+    },
+    {
+      "name": "every candidate remains unimplemented",
+      "passed": true
+    },
+    {
+      "name": "fourteen model dimensions in original order",
+      "passed": true
+    },
+    {
+      "name": "PK01: all fourteen dimension treatments",
+      "passed": true
+    },
+    {
+      "name": "PK01: fit, non-fit, comparison and discriminating case",
+      "passed": true
+    },
+    {
+      "name": "PK01: three traced effects and valid command owners",
+      "passed": true
+    },
+    {
+      "name": "PK02: all fourteen dimension treatments",
+      "passed": true
+    },
+    {
+      "name": "PK02: fit, non-fit, comparison and discriminating case",
+      "passed": true
+    },
+    {
+      "name": "PK02: three traced effects and valid command owners",
+      "passed": true
+    },
+    {
+      "name": "PK03: all fourteen dimension treatments",
+      "passed": true
+    },
+    {
+      "name": "PK03: fit, non-fit, comparison and discriminating case",
+      "passed": true
+    },
+    {
+      "name": "PK03: three traced effects and valid command owners",
+      "passed": true
+    },
+    {
+      "name": "PK04: all fourteen dimension treatments",
+      "passed": true
+    },
+    {
+      "name": "PK04: fit, non-fit, comparison and discriminating case",
+      "passed": true
+    },
+    {
+      "name": "PK04: three traced effects and valid command owners",
+      "passed": true
+    },
+    {
+      "name": "PK05: all fourteen dimension treatments",
+      "passed": true
+    },
+    {
+      "name": "PK05: fit, non-fit, comparison and discriminating case",
+      "passed": true
+    },
+    {
+      "name": "PK05: three traced effects and valid command owners",
+      "passed": true
+    },
+    {
+      "name": "PK06: all fourteen dimension treatments",
+      "passed": true
+    },
+    {
+      "name": "PK06: fit, non-fit, comparison and discriminating case",
+      "passed": true
+    },
+    {
+      "name": "PK06: three traced effects and valid command owners",
+      "passed": true
+    },
+    {
+      "name": "PK07: all fourteen dimension treatments",
+      "passed": true
+    },
+    {
+      "name": "PK07: fit, non-fit, comparison and discriminating case",
+      "passed": true
+    },
+    {
+      "name": "PK07: three traced effects and valid command owners",
+      "passed": true
+    },
+    {
+      "name": "PK08: all fourteen dimension treatments",
+      "passed": true
+    },
+    {
+      "name": "PK08: fit, non-fit, comparison and discriminating case",
+      "passed": true
+    },
+    {
+      "name": "PK08: three traced effects and valid command owners",
+      "passed": true
+    },
+    {
+      "name": "PK09: all fourteen dimension treatments",
+      "passed": true
+    },
+    {
+      "name": "PK09: fit, non-fit, comparison and discriminating case",
+      "passed": true
+    },
+    {
+      "name": "PK09: three traced effects and valid command owners",
+      "passed": true
+    },
+    {
+      "name": "eleven authoring steps in original order",
+      "passed": true
+    },
+    {
+      "name": "all P01-P07 command responsibilities retained",
+      "passed": true
+    },
+    {
+      "name": "four original label-only controls",
+      "passed": true
+    },
+    {
+      "name": "precedence separates mandatory core invariants from defaults",
+      "passed": true
+    },
+    {
+      "name": "selection, hybrid scopes and withdrawal are explicit",
+      "passed": true
+    },
+    {
+      "name": "no official pack protocol or installed claim",
+      "passed": true
+    },
+    {
+      "name": "seventeen scoped selected source records",
+      "passed": true
+    },
+    {
+      "name": "candidate sources resolve to actual register",
+      "passed": true
+    },
+    {
+      "name": "source discrepancy and failed retrieval limits explicit",
+      "passed": true
+    },
+    {
+      "name": "source URLs have explicit https hosts",
+      "passed": true
+    },
+    {
+      "name": "document links resolve to local outputs or read baseline paths",
+      "passed": true
+    },
+    {
+      "name": "templates distinguished from concrete execution",
+      "passed": true
+    },
+    {
+      "name": "nine original fixed cases, all synthetic",
+      "passed": true
+    },
+    {
+      "name": "nine concrete exact tasks in prompts",
+      "passed": true
+    },
+    {
+      "name": "comparison scope excludes installed-agent superiority",
+      "passed": true
+    },
+    {
+      "name": "S01: identical common core report in both conditions",
+      "passed": true
+    },
+    {
+      "name": "S01: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "S01: expected contribution; no scale or external authority",
+      "passed": true
+    },
+    {
+      "name": "S02: identical common core report in both conditions",
+      "passed": true
+    },
+    {
+      "name": "S02: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "S02: expected contribution; no scale or external authority",
+      "passed": true
+    },
+    {
+      "name": "S03: identical common core report in both conditions",
+      "passed": true
+    },
+    {
+      "name": "S03: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "S03: expected contribution; no scale or external authority",
+      "passed": true
+    },
+    {
+      "name": "S04: identical common core report in both conditions",
+      "passed": true
+    },
+    {
+      "name": "S04: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "S04: expected contribution; no scale or external authority",
+      "passed": true
+    },
+    {
+      "name": "S05: identical common core report in both conditions",
+      "passed": true
+    },
+    {
+      "name": "S05: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "S05: expected contribution; no scale or external authority",
+      "passed": true
+    },
+    {
+      "name": "S06: identical common core report in both conditions",
+      "passed": true
+    },
+    {
+      "name": "S06: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "S06: expected contribution; no scale or external authority",
+      "passed": true
+    },
+    {
+      "name": "S07: identical common core report in both conditions",
+      "passed": true
+    },
+    {
+      "name": "S07: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "S07: expected contribution; no scale or external authority",
+      "passed": true
+    },
+    {
+      "name": "S08: identical common core report in both conditions",
+      "passed": true
+    },
+    {
+      "name": "S08: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "S08: expected contribution; no scale or external authority",
+      "passed": true
+    },
+    {
+      "name": "S09: identical common core report in both conditions",
+      "passed": true
+    },
+    {
+      "name": "S09: input and accepted versions unchanged",
+      "passed": true
+    },
+    {
+      "name": "S09: expected contribution; no scale or external authority",
+      "passed": true
+    },
+    {
+      "name": "S01: account and usage bridges",
+      "passed": true
+    },
+    {
+      "name": "S02: distinct renewal, entitlement and use",
+      "passed": true
+    },
+    {
+      "name": "S02: cash timing retained",
+      "passed": true
+    },
+    {
+      "name": "S03: full work denominator and finite capacity",
+      "passed": true
+    },
+    {
+      "name": "S04: delivery is not acceptance, adoption or impact",
+      "passed": true
+    },
+    {
+      "name": "S05: physical, committed and available reconcile",
+      "passed": true
+    },
+    {
+      "name": "S05: positive contribution and closing do not erase cash trough",
+      "passed": true
+    },
+    {
+      "name": "S06: source inversion rejected by eligible-request share",
+      "passed": true
+    },
+    {
+      "name": "S06: restricted funds settle without double deduction",
+      "passed": true
+    },
+    {
+      "name": "S07: access obligation and scenario label preserved",
+      "passed": true
+    },
+    {
+      "name": "S08: funding gap and actor counts remain distinct",
+      "passed": true
+    },
+    {
+      "name": "S09: complete visit time and cost, not a route guarantee",
+      "passed": true
+    },
+    {
+      "name": "missing cash schedule remains unknown",
+      "passed": true
+    },
+    {
+      "name": "share rejects inverted or invalid populations",
+      "passed": true
+    },
+    {
+      "name": "zero eligible population is undefined, not zero success",
+      "passed": true
+    },
+    {
+      "name": "non-finite and binary-float financial inputs rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicated cost identity rejected",
+      "passed": true
+    },
+    {
+      "name": "missing specialised input does not become zero",
+      "passed": true
+    },
+    {
+      "name": "reversed cash calendar rejected",
+      "passed": true
+    },
+    {
+      "name": "PK01: applicable selected compatible control",
+      "passed": true
+    },
+    {
+      "name": "PK01: non-fit, unknown and unselected do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK01: string true and incompatible version do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK02: applicable selected compatible control",
+      "passed": true
+    },
+    {
+      "name": "PK02: non-fit, unknown and unselected do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK02: string true and incompatible version do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK03: applicable selected compatible control",
+      "passed": true
+    },
+    {
+      "name": "PK03: non-fit, unknown and unselected do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK03: string true and incompatible version do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK04: applicable selected compatible control",
+      "passed": true
+    },
+    {
+      "name": "PK04: non-fit, unknown and unselected do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK04: string true and incompatible version do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK05: applicable selected compatible control",
+      "passed": true
+    },
+    {
+      "name": "PK05: non-fit, unknown and unselected do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK05: string true and incompatible version do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK06: applicable selected compatible control",
+      "passed": true
+    },
+    {
+      "name": "PK06: non-fit, unknown and unselected do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK06: string true and incompatible version do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK07: applicable selected compatible control",
+      "passed": true
+    },
+    {
+      "name": "PK07: non-fit, unknown and unselected do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK07: string true and incompatible version do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK08: applicable selected compatible control",
+      "passed": true
+    },
+    {
+      "name": "PK08: non-fit, unknown and unselected do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK08: string true and incompatible version do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK09: applicable selected compatible control",
+      "passed": true
+    },
+    {
+      "name": "PK09: non-fit, unknown and unselected do not activate",
+      "passed": true
+    },
+    {
+      "name": "PK09: string true and incompatible version do not activate",
+      "passed": true
+    },
+    {
+      "name": "unknown pack fails selector validation",
+      "passed": true
+    },
+    {
+      "name": "label alone never supplies mechanism: AI startup",
+      "passed": true
+    },
+    {
+      "name": "label alone never supplies mechanism: finance company",
+      "passed": true
+    },
+    {
+      "name": "label alone never supplies mechanism: fitness business",
+      "passed": true
+    },
+    {
+      "name": "label alone never supplies mechanism: London business",
+      "passed": true
+    },
+    {
+      "name": "qualification: complete reviewed design packet is admitted",
+      "passed": true
+    },
+    {
+      "name": "qualification: adequate existing option avoids a new pack",
+      "passed": true
+    },
+    {
+      "name": "qualification: label and replacement execution rejected",
+      "passed": true
+    },
+    {
+      "name": "qualification: absent or no-effect contract rejected",
+      "passed": true
+    },
+    {
+      "name": "qualification: unrecognised command cannot be hidden in a pack",
+      "passed": true
+    },
+    {
+      "name": "qualification: cannot drop facts",
+      "passed": true
+    },
+    {
+      "name": "qualification: cannot drop accepted_decisions",
+      "passed": true
+    },
+    {
+      "name": "qualification: cannot drop truthfulness",
+      "passed": true
+    },
+    {
+      "name": "qualification: cannot drop rights",
+      "passed": true
+    },
+    {
+      "name": "qualification: cannot drop core_gates",
+      "passed": true
+    },
+    {
+      "name": "qualification: cannot drop external_authority",
+      "passed": true
+    },
+    {
+      "name": "qualification: missing mechanism_evidence_reviewed blocks admission",
+      "passed": true
+    },
+    {
+      "name": "qualification: missing comparison_reviewed blocks admission",
+      "passed": true
+    },
+    {
+      "name": "qualification: missing positive_case blocks admission",
+      "passed": true
+    },
+    {
+      "name": "qualification: missing negative_case blocks admission",
+      "passed": true
+    },
+    {
+      "name": "qualification: missing source_locators blocks admission",
+      "passed": true
+    },
+    {
+      "name": "qualification: string review flag is not evidence",
+      "passed": true
+    },
+    {
+      "name": "accepted decision outranks pack default without mutation",
+      "passed": true
+    },
+    {
+      "name": "explicit one-time fact outranks subscription preference",
+      "passed": true
+    },
+    {
+      "name": "zero or false higher-priority value is not ignored",
+      "passed": true
+    },
+    {
+      "name": "new fact versus accepted decision triggers review",
+      "passed": true
+    },
+    {
+      "name": "top-level conflict remains explicit rather than rewritten",
+      "passed": true
+    },
+    {
+      "name": "known constraint rejects contrary lower default",
+      "passed": true
+    },
+    {
+      "name": "unverified constraint is not treated as permission",
+      "passed": true
+    },
+    {
+      "name": "open pack default and fallback core default remain labelled",
+      "passed": true
+    },
+    {
+      "name": "core safeguards and external effects cannot be overridden",
+      "passed": true
+    }
+  ],
+  "total": 150,
+  "passed": 150,
+  "failed": 0,
+  "coverage": {
+    "candidates": 9,
+    "independent_candidates": 8,
+    "merged_modes": 1,
+    "dimension_treatments": 126,
+    "core_effects": 27,
+    "authoring_steps": 11,
+    "paired_design_cases": 9
+  },
+  "paired_design_outputs": {
+    "S01": {
+      "input_identity": "bf78612b9509ecbfddcc2f270b11791e0375bb15cb5dbd86415f47297ffbddf0",
+      "core_only": {
+        "net": "200",
+        "direct_cost": "160",
+        "contribution": "40",
+        "cash": null,
+        "resource_headroom": {},
+        "scale": "BLOCKED",
+        "scale_reason": "incomplete; no scale approval",
+        "external_actions": [],
+        "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+      },
+      "core_plus_candidate": {
+        "common": {
+          "net": "200",
+          "direct_cost": "160",
+          "contribution": "40",
+          "cash": null,
+          "resource_headroom": {},
+          "scale": "BLOCKED",
+          "scale_reason": "incomplete; no scale approval",
+          "external_actions": [],
+          "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+        },
+        "specialised": {
+          "account_contributions": [
+            "70",
+            "-30"
+          ],
+          "billable_not_invoiced": 1000,
+          "consumed_not_billable": 3000
+        }
+      }
+    },
+    "S02": {
+      "input_identity": "0d951ca82d57fb9eb8013ea2fe489021a7bef7d30590a0c988be61f0eb4b4bb5",
+      "core_only": {
+        "net": "880",
+        "direct_cost": "170",
+        "contribution": "710",
+        "cash": {
+          "minimum": "-80",
+          "closing": "710"
+        },
+        "resource_headroom": {},
+        "scale": "BLOCKED",
+        "scale_reason": "incomplete; no scale approval",
+        "external_actions": [],
+        "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+      },
+      "core_plus_candidate": {
+        "common": {
+          "net": "880",
+          "direct_cost": "170",
+          "contribution": "710",
+          "cash": {
+            "minimum": "-80",
+            "closing": "710"
+          },
+          "resource_headroom": {},
+          "scale": "BLOCKED",
+          "scale_reason": "incomplete; no scale approval",
+          "external_actions": [],
+          "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+        },
+        "specialised": {
+          "paid_share": "0.9",
+          "entitled_share": "0.95",
+          "meaningful_use_share": "0.6"
+        }
+      }
+    },
+    "S03": {
+      "input_identity": "7ecf6922f82b840e9e2c1c968be83a63c3d7fc6ee03a0d3fed2e369b87fbf8c0",
+      "core_only": {
+        "net": "1000",
+        "direct_cost": "800",
+        "contribution": "200",
+        "cash": null,
+        "resource_headroom": {
+          "consultant": "-2"
+        },
+        "scale": "BLOCKED",
+        "scale_reason": "incomplete; no scale approval",
+        "external_actions": [],
+        "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+      },
+      "core_plus_candidate": {
+        "common": {
+          "net": "1000",
+          "direct_cost": "800",
+          "contribution": "200",
+          "cash": null,
+          "resource_headroom": {
+            "consultant": "-2"
+          },
+          "scale": "BLOCKED",
+          "scale_reason": "incomplete; no scale approval",
+          "external_actions": [],
+          "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+        },
+        "specialised": {
+          "total_hours": "24",
+          "net_consideration_per_total_hour": "41.66666666666666666666666667"
+        }
+      }
+    },
+    "S04": {
+      "input_identity": "13e1afb1207349a1e45de132934f25a323a157ea863b70d016136799bf2b550e",
+      "core_only": {
+        "net": "1000",
+        "direct_cost": "600",
+        "contribution": "400",
+        "cash": null,
+        "resource_headroom": {},
+        "scale": "BLOCKED",
+        "scale_reason": "incomplete; no scale approval",
+        "external_actions": [],
+        "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+      },
+      "core_plus_candidate": {
+        "common": {
+          "net": "1000",
+          "direct_cost": "600",
+          "contribution": "400",
+          "cash": null,
+          "resource_headroom": {},
+          "scale": "BLOCKED",
+          "scale_reason": "incomplete; no scale approval",
+          "external_actions": [],
+          "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+        },
+        "specialised": {
+          "report_delivered": true,
+          "acceptance_met": false,
+          "adoption": null,
+          "realised_impact": null,
+          "milestone_supported": false
+        }
+      }
+    },
+    "S05": {
+      "input_identity": "be26bbc3e80f31aca6bee8bc0e54299f27e0e53b981ea967a4e3b715fa491f39",
+      "core_only": {
+        "net": "800",
+        "direct_cost": "520",
+        "contribution": "280",
+        "cash": {
+          "minimum": "-620",
+          "closing": "180"
+        },
+        "resource_headroom": {},
+        "scale": "BLOCKED",
+        "scale_reason": "incomplete; no scale approval",
+        "external_actions": [],
+        "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+      },
+      "core_plus_candidate": {
+        "common": {
+          "net": "800",
+          "direct_cost": "520",
+          "contribution": "280",
+          "cash": {
+            "minimum": "-620",
+            "closing": "180"
+          },
+          "resource_headroom": {},
+          "scale": "BLOCKED",
+          "scale_reason": "incomplete; no scale approval",
+          "external_actions": [],
+          "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+        },
+        "specialised": {
+          "physical": 10,
+          "available": 8,
+          "committed": 2,
+          "gross_sold_received_share": "0.6666666666666666666666666667"
+        }
+      }
+    },
+    "S06": {
+      "input_identity": "9a6512576687f1b2fc8744a60d03bdbef050f17dd5a0e69e6b85ba69f5fef9a7",
+      "core_only": {
+        "net": "40",
+        "direct_cost": "20",
+        "contribution": "20",
+        "cash": {
+          "minimum": "100",
+          "closing": "100"
+        },
+        "resource_headroom": {},
+        "scale": "BLOCKED",
+        "scale_reason": "incomplete; no scale approval",
+        "external_actions": [],
+        "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+      },
+      "core_plus_candidate": {
+        "common": {
+          "net": "40",
+          "direct_cost": "20",
+          "contribution": "20",
+          "cash": {
+            "minimum": "100",
+            "closing": "100"
+          },
+          "resource_headroom": {},
+          "scale": "BLOCKED",
+          "scale_reason": "incomplete; no scale approval",
+          "external_actions": [],
+          "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+        },
+        "specialised": {
+          "matched_request_share": "0.4",
+          "transaction_value": "400",
+          "own_consideration": "40",
+          "usable_before": "100",
+          "usable_after_seller_settlement": "100",
+          "usable_after_reserved_refund": "100"
+        }
+      }
+    },
+    "S07": {
+      "input_identity": "f471a05cb24605dc2a01e5f27c46d89c0fa8cffb0afdc96a1b85e6eee6a44664",
+      "core_only": {
+        "net": "500",
+        "direct_cost": "490",
+        "contribution": "10",
+        "cash": {
+          "minimum": "50",
+          "closing": "360"
+        },
+        "resource_headroom": {},
+        "scale": "BLOCKED",
+        "scale_reason": "incomplete; no scale approval",
+        "external_actions": [],
+        "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+      },
+      "core_plus_candidate": {
+        "common": {
+          "net": "500",
+          "direct_cost": "490",
+          "contribution": "10",
+          "cash": {
+            "minimum": "50",
+            "closing": "360"
+          },
+          "resource_headroom": {},
+          "scale": "BLOCKED",
+          "scale_reason": "incomplete; no scale approval",
+          "external_actions": [],
+          "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+        },
+        "specialised": {
+          "access_removal": "FAIL",
+          "future_update_cost_is_scenario": true
+        }
+      }
+    },
+    "S08": {
+      "input_identity": "4613046622e13676dae1439b99ab16d5c2975fb014bfd22bd9333225890ab04e",
+      "core_only": {
+        "net": "3000",
+        "direct_cost": "3000",
+        "contribution": "0",
+        "cash": null,
+        "resource_headroom": {},
+        "scale": "BLOCKED",
+        "scale_reason": "incomplete; no scale approval",
+        "external_actions": [],
+        "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+      },
+      "core_plus_candidate": {
+        "common": {
+          "net": "3000",
+          "direct_cost": "3000",
+          "contribution": "0",
+          "cash": null,
+          "resource_headroom": {},
+          "scale": "BLOCKED",
+          "scale_reason": "incomplete; no scale approval",
+          "external_actions": [],
+          "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+        },
+        "specialised": {
+          "maintenance_funding_gap": "500",
+          "adopters": 1000,
+          "contributors": 20,
+          "payers": 3,
+          "stars": 5000,
+          "existing_open_source_rights": true
+        }
+      }
+    },
+    "S09": {
+      "input_identity": "453b062f031564720f4c1574e57810ab780073b7404231bd2c4dc81d601cbdff",
+      "core_only": {
+        "net": "300",
+        "direct_cost": "120",
+        "contribution": "180",
+        "cash": null,
+        "resource_headroom": {
+          "operator-day": "-40"
+        },
+        "scale": "BLOCKED",
+        "scale_reason": "incomplete; no scale approval",
+        "external_actions": [],
+        "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+      },
+      "core_plus_candidate": {
+        "common": {
+          "net": "300",
+          "direct_cost": "120",
+          "contribution": "180",
+          "cash": null,
+          "resource_headroom": {
+            "operator-day": "-40"
+          },
+          "scale": "BLOCKED",
+          "scale_reason": "incomplete; no scale approval",
+          "external_actions": [],
+          "accepted_identity": "c908d528afe8c3621fb4b2010060ce140d9b4a798956271ab8135d1835bc0905"
+        },
+        "specialised": {
+          "hands_on_minutes": 225,
+          "full_minutes": 400,
+          "other_minutes": 175,
+          "full_cycle_labour_cost": "120.00"
+        }
+      }
+    }
+  },
+  "inputs_sha256": {
+    "2026-09-10-stage-14-pack-model.md": "32e2b22833c19a88948b4acd181fc382cf1e0f9faab64f69016d3e21f87652b5",
+    "2026-09-10-stage-14-candidate-catalogue.md": "45b098d517466130ca38fbe248f9bc7727e034c44c65833a144347ccb8080edd",
+    "2026-09-10-stage-14-pack-authoring.md": "0b0c981ac1bd1b0402fef3f6ecef3293d93ff45299095d9f2b4b8ee78e884a2c",
+    "2026-09-10-stage-14-research-and-sources.md": "d54eda14d50b6329d594bf2792c6ea12d647a5116125afd1033b083966ed9505",
+    "2026-09-10-stage-14-design-probes.md": "ffa1723418d059bdc75140f72a0dfb798a7fdd6320d1db940f8a46d22d544830"
+  }
+}
