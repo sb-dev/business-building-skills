@@ -8,14 +8,14 @@
 
 ## Current boundary
 
-Stages 1–7 are COMPLETE. Stage 7 has passed content verification, its stage-scoped commit and remote ref, commit, tree and file checks. Stage 8 content has passed verification; publication and remote verification are pending. Stages 9–26 have not started. This remains a bootstrap research workspace, not a working or benchmarked product.
+Stages 1–8 are COMPLETE. Stage 8's content commit, parent, remote branch, tree, changed paths and intended file identities have been verified. The completion receipt below closes the previously outstanding publication record. Stages 9–26 have not started. This remains a bootstrap research workspace, not a working or benchmarked product.
 
 | Stage | Outputs and evidence | State |
 |---|---|---|
 | 0 | Original workspace and specification | Workspace verified; no production maturity implied |
 | 1–6 | [Preserved progress and completion receipts](2026-09-10-bootstrap-2-progress-through-stage-06.md), including links to all accepted reports | COMPLETE |
 | 7 | [Delivery and retention](2026-09-10-stage-07-delivery-and-retention-model.md); [economics and cash](2026-09-10-stage-07-unit-economics-and-cash-contract.md); [research and checks](2026-09-10-stage-07-research-and-checks.md); [conformance](2026-09-10-stage-07-conformance.md) | COMPLETE |
-| 8 | [Assumptions/experiments/learning](2026-09-10-stage-08-assumptions-experiments-and-learning.md); [diagnosis/repair](2026-09-10-stage-08-constraint-diagnosis-and-repair.md); [research/checks](2026-09-10-stage-08-research-and-checks.md); [conformance](2026-09-10-stage-08-conformance.md) | Content verified; remote completion pending |
+| 8 | [Assumptions/experiments/learning](2026-09-10-stage-08-assumptions-experiments-and-learning.md); [diagnosis/repair](2026-09-10-stage-08-constraint-diagnosis-and-repair.md); [research/checks](2026-09-10-stage-08-research-and-checks.md); [conformance](2026-09-10-stage-08-conformance.md) | COMPLETE |
 | 9–26 | No accepted outputs | NOT STARTED |
 
 ## Preserved earlier state
@@ -80,6 +80,8 @@ These checks occurred before this receipt was written. The receipt changes only 
 
 ## Stage 8 publication and recovery
 
+The following paragraphs preserve the historical pre-publication record. Their pending-state statements describe that earlier attempt; the completion receipt below records the subsequently verified result.
+
 The four Stage 8 reports provide all five required models, ten assumption classes, nine experiment fields and eight learning fields. Fifteen constraint routes and eight repair fields retain earlier accepted definitions. Seven methodological source records state reading limits; eleven synthetic fixtures, including a complete service-decision loop, do not claim customer evidence or installed-agent validation.
 
 A fresh full rerun during publication recovery returned 51 PASS, 0 FAIL, exit 0. The original complete §15 was reread again. All four actual GitHub create-blob identities match the local files: `a939843b6a262753ce64b5faef171d920beb925c`, `c626781cd0dbcaac139ab99d54b69beaadafdd29`, `6a3ef07398a94ff1f736f6f882280e450db7d2bb`, and `b008eeed22083dbf4d90dc695a3137127703a836`.
@@ -87,3 +89,43 @@ A fresh full rerun during publication recovery returned 51 PASS, 0 FAIL, exit 0.
 The first publication attempt used incorrect, nonexistent blob identities. GitHub rejected the tree, subsequent nonexistent commit/ref operations and the receipt update. Contrary completion statements in the conversation were incorrect; no Stage 8 commit or receipt was created by those failed attempts. A new ref read confirmed the unchanged Stage 7 receipt head `157f001ec3f35465f0d09868cae2f202d2778e40`. This retry uses only the actual returned blob identities. Stage 9 has not been executed; its preliminary specification read is not an accepted output.
 
 The Stage 8 payload changes four new reports and this progress index only. Expected tree: 34 files, with all 29 other prior files and the Stage 7 receipt unchanged. Overall Stage 8 completion requires an actual successful stage-scoped commit, non-force ref update and remote commit/tree/file verification. No future identifiers or successful operations are preclaimed here. No release, PR, registry or maturity change is included.
+
+## Stage 8 completion receipt
+
+**Stage:** 8, Define Assumption, Experiment, Learning and Constraint-Diagnosis Model  
+**Status:** COMPLETE  
+**Content commit:** `923d9c53bf2bdfae13d4e4cdbffac4aca4eb1ae0`  
+**Commit message:** `docs: complete stage 8 assumptions experiments learning and repair models`  
+**Parent:** `157f001ec3f35465f0d09868cae2f202d2778e40`  
+**Committed root tree:** `b7c66ef84d0786d13fd275f41981a3cbb5d22f4d`  
+**Verification date:** 10 September 2026  
+**Remaining Stage 8 blockers:** none
+
+This receipt records the actual successful content publication, not the earlier failed object operations. Fresh reads in the receipt continuation confirmed the remote head and commit, accepted parent, recursive tree with 34 files, five changed paths, and each intended file's identity. Both substantive models were reread in full. Their ten assumption classes, nine experiment fields, eight learning fields, constraint taxonomy and repair-routing model were checked against the original complete §15 fetched again from main. The conformance and research records retain the original executed 51 PASS, 0 FAIL result, corrections and identical reruns. This continuation reviewed those persisted executions; it does not claim to have rerun the Python suite or repeated the underlying source research.
+
+| Requirement | Specification reference | Deliverable / evidence | Verification performed | Result |
+|---|---|---|---|---|
+| All five required models and specified class/field coverage | Bootstrap §15 | Both substantive model files | Full model read; ten AS, nine EX, eight LR fields and developed diagnosis/repair responsibilities compared with original §15 | PASS |
+| Evidence can change the decision without treating activity as learning | Bootstrap §15 exit; §34 | Research §§4–6 and conformance §§3–5 | Complete synthetic service loop, alternate result states, independent guardrails and preservation decisions reviewed; no customer validation inferred | PASS |
+| Executed verification remains traceable | Execution contract §§5–6 | Committed conformance and research records | Original 51 PASS, 0 FAIL, exit 0 and reruns read with their failure/correction history; no new rerun claimed | PASS |
+| Stage-scoped content commit and correct parent | Execution contract §7 | Commit metadata above | Git commit GET returned exact message, Stage 7 receipt parent and root tree | PASS |
+| Remote branch points to actual content commit | Execution contract §7.6 | refs/heads/feat/bootstrap-2 | Fresh ref read returned 923d9c53bf2bdfae13d4e4cdbffac4aca4eb1ae0 | PASS |
+| All intended files exist with reviewed identities | Execution contract §7.7 | Recursive tree and five immutable file reads | Four reports and progress returned the actual blob identities below | PASS |
+| Earlier accepted files and Stage 7 receipt preserved | Execution contract §§5,7 | Parent comparison and progress read | One commit ahead; four added reports plus progress only; all 29 other prior files unchanged; Stage 7 receipt retained | PASS |
+| Honest stage and maturity boundary | Bootstrap §§3,7,34–36 | File scope and evidence limitations | No Stage 9 output, installed-agent result, live experiment, legal approval, PR, release or maturity promotion claimed | PASS |
+
+Verified content-commit blobs:
+
+| Path under docs/research-logs/ | Git blob |
+|---|---|
+| `2026-09-10-stage-08-assumptions-experiments-and-learning.md` | `a939843b6a262753ce64b5faef171d920beb925c` |
+| `2026-09-10-stage-08-constraint-diagnosis-and-repair.md` | `c626781cd0dbcaac139ab99d54b69beaadafdd29` |
+| `2026-09-10-stage-08-research-and-checks.md` | `6a3ef07398a94ff1f736f6f882280e450db7d2bb` |
+| `2026-09-10-stage-08-conformance.md` | `b008eeed22083dbf4d90dc695a3137127703a836` |
+| `bootstrap-2-progress.md` (pre-receipt version) | `2189afc23ad16e56732e762290f121558f00b15c` |
+
+These checks precede this receipt. This receipt-only commit changes no model or conformance file. Its own future SHA is not preclaimed. Verify its actual commit, parent, ref and resulting progress blob before beginning Stage 9. Remote verification establishes repository identities, not cryptographic signature validation or independent professional review.
+
+## Next authorised task
+
+After verifying this receipt update, proceed directly to Stage 9, Define Ethical, Consumer-Protection and Legal Handoffs. Reconstruct the stage from the original main specification and accepted earlier outputs, extract all requirements, research and define every specified handoff, and build and execute its adversarial design evaluation before committing only Stage 9. No new scope authorisation or arbitrary stage-boundary pause is required.
