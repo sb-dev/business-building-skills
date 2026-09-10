@@ -8,7 +8,7 @@
 
 ## Current boundary
 
-Stages 1–5 are COMPLETE. Stage 5 has passed content verification and remote ref, commit, tree and file checks. Stages 6–26 have not started. This is a bootstrap research workspace, not a working or benchmarked product.
+Stages 1–5 are COMPLETE. Stage 6 content has passed verification; its stage-scoped commit and remote receipt remain outstanding. Stages 7–26 have not started. This is a bootstrap research workspace, not a working or benchmarked product.
 
 | Stage | Accepted output / evidence | State |
 |---|---|---|
@@ -18,7 +18,8 @@ Stages 1–5 are COMPLETE. Stage 5 has passed content verification and remote re
 | 3 | [Practice map](2026-09-10-stage-03-professional-practice-map.md); [evidence and terminology](2026-09-10-stage-03-evidence-and-terminology.md); [claims and principles](2026-09-10-stage-03-claims-failures-and-principles.md); [conformance](2026-09-10-stage-03-conformance.md) | COMPLETE |
 | 4 | [Business, customer and value model](2026-09-10-stage-04-business-customer-and-value-model.md); [conformance](2026-09-10-stage-04-conformance.md) | COMPLETE |
 | 5 | [Offer/pricing architecture](2026-09-10-stage-05-offer-and-pricing-architecture.md); [money models](2026-09-10-stage-05-money-model-taxonomy.md); [research/checks](2026-09-10-stage-05-research-and-checks.md); [conformance](2026-09-10-stage-05-conformance.md) | COMPLETE |
-| 6–26 | No accepted outputs | NOT STARTED |
+| 6 | [Architecture](2026-09-10-stage-06-demand-lead-and-sales-architecture.md); [research/checks](2026-09-10-stage-06-research-and-checks.md); [conformance](2026-09-10-stage-06-conformance.md) | IN PROGRESS; content verified |
+| 7–26 | No accepted outputs | NOT STARTED |
 
 ## Preserved completion receipts for Stages 1–3
 
@@ -112,6 +113,10 @@ Verified changed blobs at the content commit:
 
 These checks were completed before this receipt was written. This receipt changes only progress, not the accepted outputs; its own future commit is not preclaimed. Remote verification concerns repository identities, not a cryptographic signature or independent professional review.
 
-## Next authorised task
+## Stage 6 publication boundary
 
-After verifying this receipt update, proceed directly to Stage 6, Define Demand, Lead Generation, Sales and Conversion Architecture. Reread the original stage section and relevant globals on `main`, then the accepted earlier inputs; extract its complete requirements before authoring. Stage 6 has not started in this receipt. No fresh scope approval or arbitrary stage-boundary pause is required.
+Stage 6's three research documents deliver the acquisition/channel, lead-quality and sales-path models plus channel-selection evidence. They retain the original seven candidate lifecycle stages, thirteen channel classes, nine lead-quality dimensions, eight sales paths and five diagnosis classes. Seventeen primary-source records retain scope and limits. Three explicitly synthetic selection decisions and eight synthetic probes test context, measurement, cost, timing, attribution, message/offer/execution and authority. They are not customer research, later primary examples or installed-agent benchmarks.
+
+The complete original §13 was reread after drafting. Final verification returned 44 PASS, 0 FAIL, exit 0, with an identical rerun. The exact checker, actual output, initial threshold failure/correction and semantic review are persisted. There are no unresolved current-stage user decisions.
+
+The Stage 6 payload changes only these three new documents and this progress index. All twenty-one other existing files and the Stage 4/5 completion receipts remain unchanged. Expected total files: twenty-five. The actual commit, ref, tree and file identities must be remotely verified and recorded in the receipt; no future SHA or remote success is preclaimed here. Do not start Stage 7 before that boundary is verified. No PR, merge, release, registry change, campaign or maturity promotion is included.
