@@ -8,7 +8,7 @@
 
 ## Current boundary
 
-Stages 1–4 are COMPLETE. Stage 4 has passed content verification, a stage-scoped commit and remote ref/commit/tree/file verification. Stages 5–26 have not started. This is a bootstrap research workspace, not a working or benchmarked product.
+Stages 1–4 are COMPLETE. Stage 5 content has passed verification; its stage-scoped commit and remote receipt remain outstanding. Stages 6–26 have not started. This is a bootstrap research workspace, not a working or benchmarked product.
 
 | Stage | Accepted output / evidence | State |
 |---|---|---|
@@ -17,7 +17,8 @@ Stages 1–4 are COMPLETE. Stage 4 has passed content verification, a stage-scop
 | 2 | [Five-book corpus](2026-09-09-stage-02-five-book-capability-corpus.md); [matrix](2026-09-09-stage-02-source-to-capability-matrix.md); [taxonomy](2026-09-09-stage-02-reconciliation-and-taxonomy.md); [conformance](2026-09-09-stage-02-conformance.md) | COMPLETE |
 | 3 | [Practice map](2026-09-10-stage-03-professional-practice-map.md); [evidence and terminology](2026-09-10-stage-03-evidence-and-terminology.md); [claims and principles](2026-09-10-stage-03-claims-failures-and-principles.md); [conformance](2026-09-10-stage-03-conformance.md) | COMPLETE |
 | 4 | [Business, customer and value model](2026-09-10-stage-04-business-customer-and-value-model.md); [conformance](2026-09-10-stage-04-conformance.md) | COMPLETE |
-| 5–26 | No accepted outputs | NOT STARTED |
+| 5 | [Offer/pricing architecture](2026-09-10-stage-05-offer-and-pricing-architecture.md); [money models](2026-09-10-stage-05-money-model-taxonomy.md); [research/checks](2026-09-10-stage-05-research-and-checks.md); [conformance](2026-09-10-stage-05-conformance.md) | IN PROGRESS; content verified |
+| 6–26 | No accepted outputs | NOT STARTED |
 
 ## Preserved completion receipts for Stages 1–3
 
@@ -74,6 +75,10 @@ Verified changed blobs at the content commit:
 
 These checks were completed before this receipt was written. This receipt-only update changes no accepted model or conformance. Its own future commit SHA is not preclaimed. Remote verification concerns repository ref, commit, tree and content identity; it is not a cryptographic-signature or independent-professional-review claim.
 
-## Next authorised task
+## Stage 5 publication boundary
 
-After verifying this receipt update, proceed directly to Stage 5, Define Offer, Pricing and Monetisation Architecture. Reconstruct its exact requirements from the original specification on `main` and the accepted earlier research. No fresh scope approval or arbitrary stage-boundary pause is required. Stage 5 has not begun in this receipt.
+Stage 5's four research documents contain all fourteen offer components, fourteen pricing approaches, thirteen monetisation models with ten fields each, the pricing decision procedure and sixteen failure/repair cases. Seventeen primary-source records preserve source type, scope and limitations. The original section was reread after drafting. All 46 deterministic document/arithmetic checks passed with exit 0 and an identical rerun. Seven quantitative synthetic fixtures and one qualitative suite were manually reviewed; they are not customer studies, primary progressive examples or installed-agent benchmarks.
+
+The payload changes only these four new research documents and this progress index. All earlier content and this file's Stage 4 receipt remain unchanged. The source/checker files and full conformance are preserved, rather than replaced with a completion claim. The publication process must verify the actual commit, ref, tree, five changed file identities and preservation of the seventeen other existing files. The expected resulting file count is twenty-two. No future commit or verification result is invented in this pre-receipt record.
+
+Do not start Stage 6 until the Stage 5 content commit and its completion receipt are remotely verified. No unresolved user-owned content decision or missing mandatory research input has been identified. No PR, merge, release, registry update or maturity promotion is included.
