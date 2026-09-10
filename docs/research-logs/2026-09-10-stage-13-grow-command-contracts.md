@@ -1,0 +1,161 @@
+# Stage 13: Grow command contracts
+
+**Date:** 10 September 2026  
+**Branch:** `feat/bootstrap-2`  
+**Authority:** [Original bootstrap §20](2026-09-08-business-building-skills-new-project-bootstrap-process.md).  
+**Architecture and common invariants:** [Core skill selection](2026-09-10-stage-13-skill-architecture.md).  
+**Status:** Complete command-contract design; no installed command or host execution is claimed.
+
+## 1. Scope
+
+The 8 logical selectors below belong to `business-grow`. Each includes all nine original contract fields. Apply the architecture’s evidence, version, scope and authority rules alongside the command-specific requirements. Selectors are not claims of an implemented shell or slash-command interface. Unknown material inputs remain unknown; a proposal or assessment never grants additional execution authority.
+
+## 2. Commands
+
+### G01 — `select-channel`
+
+**Native responsibilities:** NC03.  
+**Original §20 seeds:** `define-demand`, `select-channel`.
+
+| Required field | Contract |
+|---|---|
+| inputs | Accepted or explicitly hypothetical customer/value/offer, owner growth objective, relevant buying context, existing channel evidence, delivery/economic constraints and the bounded reach or demand question. |
+| evidence required | Suitable audience access, actual exposure/response, qualification and downstream outcomes where available; current platform/market facts must be verified when material. A catalogue or search-volume estimate is not local demand. |
+| assumptions allowed | Channel, demand and reach hypotheses may be compared under explicit uncertainty. Do not assume permission to contact, full audience accessibility, stable marginal CAC or that every business needs every channel. |
+| output | A demand/channel account and selected bounded channel hypothesis, compared with adequate alternatives and no change, including audience fit, sales path, cost/effort, downstream quality, constraints and the next test. |
+| allowed mutations | Write the named selection proposal and evidence links only. Preserve a working accepted channel unless implicated; no audience upload, contact purchase, ad launch or customer/offer revision is performed. |
+| forbidden behaviour | Pick the largest audience or lowest cost per lead without suitability and retained economics; invent acquisition data; launch all channels; or treat a provider’s access feature as permission. |
+| metrics/evidence | Actual reach and suitable progression, fit/intent/qualification, attributed versus incremental cost, sales effort and delay, retained contribution/cash and resource constraints under compatible cohorts and windows. |
+| failure states | BLOCKED when material access, evidence or authority is missing; FAIL for incompatible or deceptive acquisition mechanisms. An untested plausible channel remains a proposed test, not a winning acquisition system. |
+| legal/ethical boundaries | Apply Stage 9 contact, data, claim, incentive and platform constraints to the actual audience and purpose. Channel strategy neither grants consent nor authorises public messages, spending or regulated promotions. |
+
+### G02 — `design-acquisition`
+
+**Native responsibilities:** NC03.  
+**Original §20 seeds:** `design-lead-magnet`, `design-outreach`, `design-content-loop`.
+
+| Required field | Contract |
+|---|---|
+| inputs | A selected mode of lead-magnet, outreach or content-loop; customer/offer/channel versions; intended response and qualification; truthful proof; cost/capacity limits and the specific asset or sequence needing a brief. |
+| evidence required | Evidence of the audience’s actual need and access context, approved claim/term boundaries, existing relevant response/downstream outcomes and mode-specific facts listed below. No generated testimonial or assumed permission is evidence. |
+| assumptions allowed | The response mechanism, useful topic or sequence may be a labelled hypothesis. No assumed conversion lift, consent, free-to-paid cross-subsidy, automatically available asset or validated customer list may enter as fact. |
+| output | A mode-specific acquisition brief connecting useful value, accurate proposition, voluntary next step, qualification, sales handoff, measurement, cost and rights guardrails. Content production or delivery is separately owned. |
+| allowed mutations | Draft or revise the requested brief and planned measurement only. Do not publish assets, send outreach, operate a recurring scheduler, collect personal data or replace accepted offer terms. |
+| forbidden behaviour | Hide a sale behind a purported neutral study, use fabricated scarcity/proof, make lead count the sole success criterion, or turn a content-loop plan into autonomous repeated publishing or spam. |
+| metrics/evidence | Mode-specific suitable response and qualified progression, content/production and sales effort, actual downstream purchase/value evidence, observation windows and guardrail outcomes; raw views or opens are not sufficient intent evidence. |
+| failure states | BLOCKED for missing selected mode, material audience/proof facts or required approval; FAIL for a misleading or harmful mechanism. An approved brief is not an executed campaign or demonstrated acquisition effect. |
+| legal/ethical boundaries | Preserve purpose-specific data/contact limits, transparent material terms and truthful participation. Route consent, incentives, substantiation, vulnerable-user and regulated-message questions; external production/sending remains separately authorised. |
+
+**Explicit modes.** Select the applicable mode deliberately; this table adds mode-specific obligations rather than replacing the nine fields.
+
+| Mode | Required behaviour and evidence |
+|---|---|
+| `lead-magnet` | Specify the genuine standalone value, eligibility, production/delivery cost, requested data, disclosure and a qualification step aligned with the paid exchange. A download is not a qualified customer or proof that free users will pay. |
+| `outreach` | Specify actual recipient class, relationship, permissible contact basis, message purpose, proof, bounded cadence, suppression/opt-out handling and buyer-agreed next step. The brief contains no send authority or evasion of limits. |
+| `content-loop` | Specify audience questions, evidence/proof inputs, asset brief, distribution hypothesis, production cadence, response and feedback review. The loop is a proposed workflow, not an installed scheduler or permission to publish indefinitely. |
+
+### G03 — `design-referral-loop`
+
+**Native responsibilities:** NC03.  
+**Original §20 seeds:** `design-referral-loop`.
+
+| Required field | Contract |
+|---|---|
+| inputs | Accepted offer and delivered-value evidence, relevant customer or partner population, proposed recommendation mechanism, incentives, eligibility, ownership, acquisition cost and capacity/cash limits. |
+| evidence required | Actual appropriate recommendations, introductions and resulting suitable customers where available, plus partner/permission facts and incentive obligations. Friendly statements or hypothetical advocacy do not establish incremental demand. |
+| assumptions allowed | A referral motive, reward response or partner fit may be an explicit hypothesis. Do not assume all satisfied customers refer, every introduction is qualified or incentive-funded volume is economical. |
+| output | A bounded referral/partner-loop proposal defining value, parties, eligibility, incentive/disclosure, qualifying events, cost/attribution, buyer handoff, downstream measurement and conditions for testing, retaining or rejecting it. |
+| allowed mutations | Draft the named referral brief and analytical assumptions. Do not contact partners, enrol customers, pay rewards, share data or bind the business to a partnership without separately authorised execution. |
+| forbidden behaviour | Buy fake advocacy, conceal material incentives, count the same sale under several channels, presume access to a customer’s contacts or overlook the work and obligations created by reward-driven volume. |
+| metrics/evidence | Defined introduction, qualified lead and paid-customer events; unique transaction attribution; incentive and sales cost; retained contribution, refunds and capacity, with appropriate periods and uncertainty. |
+| failure states | FAIL for fabricated proof or conflicting incentives/obligations; BLOCKED for missing material rights, payout or partner facts. A planned loop cannot be counted as actual referrals or earned revenue. |
+| legal/ethical boundaries | Route endorsement, competition, data-sharing and contact questions to appropriate reviewers. Genuine customer choice and truthful incentive disclosure remain independent of conversion or revenue, and approved plans do not authorise transfers. |
+
+### G04 — `design-sales-path`
+
+**Native responsibilities:** NC03.  
+**Original §20 seeds:** `design-sales-path`.
+
+| Required field | Contract |
+|---|---|
+| inputs | Customer/buyer roles, accepted offer/terms, channel and qualification context, actual purchasing tasks, ownership and time/capacity constraints, plus the current path or bounded new-path hypothesis. |
+| evidence required | Source-located buyer actions, objections, approvals, handoffs and won/lost/open outcomes with cohort age. CRM stage names, seller activity or a signed interest form cannot substitute for actual economic authority and purchase. |
+| assumptions allowed | The expected progression or unresolved buying requirements may be hypotheses. Do not assign invented win probabilities, budget authority, guaranteed close dates or a single enterprise process to all customers. |
+| output | A suitable self-serve, assisted, consultative, enterprise, inbound/outbound, marketplace or partner path with entry/qualification, buyer tasks, truthful proof, seller ownership, next actions and downstream obligations. |
+| allowed mutations | Write or revise the proposed sales-path record. Do not mutate CRM opportunities, negotiate binding terms, schedule contacts or alter accepted offer, pricing or customer commitments through this design command. |
+| forbidden behaviour | Force every refusal into an objection to overcome, fabricate urgency, conflate message/offer/execution defects, count seller touches as buyer progress or pressure a user without purchasing authority. |
+| metrics/evidence | Qualified progression, actual buyer-agreed actions, close/defer/loss reasons, cohort-aware conversion, sales effort and time-to-close, with delivery capacity and cost consequences retained. |
+| failure states | BLOCKED for unresolved material roles, terms or approval requirements; FAIL for coercive or misleading paths. An immature sales cohort remains open/inconclusive rather than proof of failure or success. |
+| legal/ethical boundaries | Carry approved claims, full material terms, contact permissions and specialist constraints through every handoff. Sales operators own communication and agreements; this skill does not bind a client or approve regulated activity. |
+
+### G05 — `improve-conversion`
+
+**Native responsibilities:** NC03, NC06.  
+**Original §20 seeds:** `improve-conversion`.
+
+| Required field | Contract |
+|---|---|
+| inputs | A bounded conversion symptom, accepted audience/offer/price/path versions, current objective, observed funnel and evidence about message comprehension, trust, technical function, buyer requirements and downstream economics. |
+| evidence required | Compatible event/cohort data, source definitions, buyer or user observations, known defects, and rival explanations such as audience mix or outcome delay. A lower percentage alone does not identify the cause. |
+| assumptions allowed | A specific proposed cause and improvement may remain an explicit hypothesis with a discriminating test. No invented lift, universal benchmark, automatic repricing or assumption that all non-buyers are unsuitable is allowed. |
+| output | A smallest-sufficient conversion proposal identifying the supported/provisional layer, alternatives, preserved decisions, affected obligations, expected evidence and a bounded experiment or technical/operational handoff. |
+| allowed mutations | Draft the targeted proposal and test brief only. A live checkout/content/price change needs its actual owner and approval; do not edit the accepted source artefact merely to improve the displayed conversion. |
+| forbidden behaviour | Treat conversion lift as proof of value or acceptability, hide fees or cancellation, reset timers, invent testimonials, or redesign the customer, offer and brand when a local technical defect explains the symptom. |
+| metrics/evidence | Actual eligible progression and informed completion, comprehension/error signals, effect size and uncertainty where adequately estimated, downstream contribution/retention and independent quality, cash and rights guardrails. |
+| failure states | FAIL for known deceptive or adverse trade-offs; BLOCKED for missing material evidence or authority; inconclusive diagnoses remain qualified. A verified defect can justify a bounded repair without inventing a causal growth estimate. |
+| legal/ethical boundaries | Preserve truthful choice, accessibility-relevant requirements, existing terms and applicable specialist findings. Route data, claims and consumer concerns; professional/production owners implement approved changes rather than the optimiser granting itself permission. |
+
+### G06 — `design-retention`
+
+**Native responsibilities:** NC03, NC04.  
+**Original §20 seeds:** `design-retention`.
+
+| Required field | Contract |
+|---|---|
+| inputs | Accepted customer/offer/renewal terms, relevant subscription or repeat mechanism, mature and immature cohorts, actual delivered-value and exit evidence, support/cost/capacity context and the specific retention problem. |
+| evidence required | Defined use/outcome, repeat/renewal, payment failure, cancellation, refund and customer accounts with role and observation windows. Continued billing or high expansion does not establish satisfaction or active preference. |
+| assumptions allowed | A value, onboarding, billing or fit explanation and bounded retention intervention may remain hypotheses. Do not assume predicted churn implies treatment response, inactivity means permanent exit, or discounts always produce profitable retention. |
+| output | A bounded retention/renewal proposal tied to the evidenced cause and continuing value, with lawful customer exit, operational remedy, intervention cost, measured signals, uncertainty and a justified test/no-change decision. |
+| allowed mutations | Draft the proposed retention process and analytical assumptions. Do not change renewal/cancellation terms, stop legitimate exits, apply discounts, collect charges or contact customers without the relevant approved execution. |
+| forbidden behaviour | Hide cancellation, exploit forgotten billing, count new acquisition as cohort retention, erase departed customers through expansion metrics, or omit continuing support/delivery cost from an apparent retention win. |
+| metrics/evidence | Explicit eligible cohort retention, gross/net revenue retention when appropriate, repeat behaviour, value/use, involuntary loss, refunds and intervention contribution/cash under matched periods and units. |
+| failure states | FAIL for obstruction or known value/rights conflicts; BLOCKED for material missing cohort, intervention-cost or specialist inputs. Immature follow-up remains inconclusive and cannot support long-term lifetime assumptions. |
+| legal/ethical boundaries | Apply actual renewal, cancellation, refund, data and contact constraints from Stage 9. Customer rights remain intact during recovery, and a business review cannot grant billing authority or a legal determination. |
+
+### G07 — `design-expansion`
+
+**Native responsibilities:** NC03, NC04.  
+**Original §20 seeds:** `design-expansion`.
+
+| Required field | Contract |
+|---|---|
+| inputs | Current accepted entitlements and customer roles, evidence of an additional need, proposed upsell/cross-sell/usage or scope change, price/terms, marginal delivery effort and economic/cash constraints. |
+| evidence required | Customer-specific or appropriately scoped incremental-value evidence, actual acceptance/payment signals where available and cost/capacity facts. Existing payment alone does not show demand for another component or greater usage. |
+| assumptions allowed | The incremental need, acceptance or workload may be an explicit hypothesis. Do not assume expansion is always beneficial, move previously promised value behind a new paywall or invent revenue from unaccepted offers. |
+| output | An optional incremental-value expansion proposal with scope, payer, explicit acceptance, marginal cost/capacity/cash, retained-rights analysis and evidence that would support, challenge or bound the change. |
+| allowed mutations | Create or revise the proposed expansion record only. Do not upgrade accounts, impose recurring charges, alter current entitlements, change contracts or initiate customer communication through this design command. |
+| forbidden behaviour | Manufacture dependency, double-count renewal and expansion, treat higher billing as delivered value, conceal usage exposure or sell additional work that the business cannot fulfil at the promised quality. |
+| metrics/evidence | Incremental accepted scope and actual retained contribution, expansion/contraction on the same starting cohort, marginal service/support cost, capacity/headroom, payment timing and customer-value signals. |
+| failure states | FAIL for loss of existing rights, unsupported benefit or unfulfillable scope; BLOCKED for material unknown need, price acceptance or costs. A proposed upsell remains unvalidated even when the existing offer is successful. |
+| legal/ethical boundaries | Retain informed choice and full material terms; route contract, pricing, renewal, financial-promotion or sector-specific issues. Separate business rationale from the actual authorisation to upgrade, charge or change entitlements. |
+
+### G08 — `scale-channel`
+
+**Native responsibilities:** NC03, NC04, NC07.  
+**Original §20 seeds:** `scale-channel`.
+
+| Required field | Contract |
+|---|---|
+| inputs | Exact proposed volume/spend and timing, accepted channel/offer/customer versions, marginal acquisition evidence, delivery resources, retained economics, usable cash and current action authority. |
+| evidence required | Adequate evidence for all relevant Stage 7 GG01–GG07 gates, with matched source/cohort/definition and actual marginal constraints. Historical average CAC, positive revenue or a provider forecast alone is insufficient. |
+| assumptions allowed | Transparent bounded downside and marginal-response scenarios may inform a recommendation; untested critical assumptions cannot be converted into a scale pass. A funded experiment must remain distinct from profitable ongoing growth. |
+| output | A bounded retain, reduce, test, reject or propose-increase decision, with every independent gate, affected constraints, preserved choices, exact limit, stop/review trigger and required owner/operator approvals. |
+| allowed mutations | Write the scale assessment/proposal and explicit assumptions. Do not modify budgets, campaigns, hiring, infrastructure, purchase orders or accepted customer commitments; external execution is a separate authorised operation. |
+| forbidden behaviour | Average away a failed rights, cash or capacity gate; invent constant marginal economics; call an acknowledged ad request completed; or use the command name as permission to spend or grow automatically. |
+| metrics/evidence | Qualified incremental customer outcomes, full scoped acquisition and service costs, retained contribution, per-resource headroom and dated cash under adequate horizons/downside, plus gate-specific evidence and uncertainty. |
+| failure states | Any material unresolved gate yields BLOCKED; a known gate violation yields FAIL for the proposed increase. A justified no-change or reduced-scope proposal is valid; it is not a claim the whole business has failed. |
+| legal/ethical boundaries | Verify truthful claims, current applicable constraints and exact action authority independently. No scale result authorises contact, spend, revised terms, regulated promotions or an irreversible obligation outside its approved scope. |
+
+## 3. Verification and handoff
+
+[Selection and design checks](2026-09-10-stage-13-selection-and-checks.md) account for every original command seed and exercise complete workflows, mode selection and negative scope cases. [Conformance](2026-09-10-stage-13-conformance.md) records actual current-stage checks. Detailed pack grammar, primary examples, installed behaviour and clean consumer installation remain in their originally assigned later stages; these contracts do not claim those executions have happened.

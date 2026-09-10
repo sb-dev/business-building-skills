@@ -1,0 +1,156 @@
+# Stage 13: Evaluate command contracts
+
+**Date:** 10 September 2026  
+**Branch:** `feat/bootstrap-2`  
+**Authority:** [Original bootstrap §20](2026-09-08-business-building-skills-new-project-bootstrap-process.md).  
+**Architecture and common invariants:** [Core skill selection](2026-09-10-stage-13-skill-architecture.md).  
+**Status:** Complete command-contract design; no installed command or host execution is claimed.
+
+## 1. Scope
+
+The 7 logical selectors below belong to `business-evaluate`. Each includes all nine original contract fields. Apply the architecture’s evidence, version, scope and authority rules alongside the command-specific requirements. Selectors are not claims of an implemented shell or slash-command interface. Unknown material inputs remain unknown; a proposal or assessment never grants additional execution authority.
+
+## 2. Commands
+
+### E01 — `audit-customer-evidence`
+
+**Native responsibilities:** NC01, NC07.  
+**Original §20 seeds:** `audit-customer-evidence`.
+
+| Required field | Contract |
+|---|---|
+| inputs | The bounded customer/problem/value claim, intended and observed populations, buyer/user/payer roles, accepted source versions, available evidence locators and the question the assessment must resolve. |
+| evidence required | Authorised observations and attributed accounts with recruitment, sample or exposure, collection dates, exclusions and contrary findings. Check whether a record actually supports the exact claim rather than relying on a bibliography or generated persona. |
+| assumptions allowed | The assessment may preserve explicitly labelled hypotheses and identify untested mechanisms. It may not invent missing interviews, infer purchasing authority from a title, or extend one population’s evidence to another without justification. |
+| output | An assessment-only evidence account with supports, challenges or unresolved findings for each material claim, provenance and relevance limits, required additional evidence, protected versions and a bounded next recommendation. |
+| allowed mutations | Create a separate assessment or review record and append corrections to that assessment with history. Do not edit the customer/value dossier, overwrite source observations, approve a new target or mutate any customer record. |
+| forbidden behaviour | Upgrade owner beliefs or synthetic examples into customer facts, discard unsuitable or negative cases, count dependent sources as independent validation, or silently replace the assessed claim with a weaker one. |
+| metrics/evidence | Traceability, relevance to the stated role/population/context, observation maturity, evidence independence, sampling and missingness limits, and whether the actual decision remains justified. No universal evidence score or invented confidence percentage. |
+| failure states | FAIL when an asserted conclusion contradicts its evidence or fabricates proof; BLOCKED when material sources or permissions are absent. Legitimate hypotheses can remain unresolved without falsely declaring the entire business unviable. |
+| legal/ethical boundaries | Respect source access and permitted use; use minimal controlled locators rather than publishing personal transcripts. Route privacy, vulnerable-user, claim or regulated questions to the appropriate reviewer; audit status is not legal clearance. |
+
+### E02 — `evaluate-component`
+
+**Native responsibilities:** NC01, NC02, NC03, NC04, NC06, NC07.  
+**Original §20 seeds:** `evaluate-opportunity`, `evaluate-offer`, `evaluate-pricing`, `evaluate-money-model`, `evaluate-channel`, `evaluate-funnel`, `evaluate-retention`.
+
+| Required field | Contract |
+|---|---|
+| inputs | Exactly one declared mode: opportunity, offer, pricing, money-model, channel, funnel or retention; the bounded decision, corresponding accepted artefact/version, owner objective, relevant evidence and preserved dependencies. |
+| evidence required | The mode-specific evidence defined below plus common provenance, actual definitions, dates, counter-evidence and relevant economics/rights constraints. An artefact can be assessed as an explicit hypothesis; missing proof cannot be treated as a passed commitment. |
+| assumptions allowed | Explicit forecasts or assumptions may be examined as assumptions and tested for consequences. Do not silently complete missing material inputs, infer universal benchmarks, or change the question to fit the information available. |
+| output | A mode-labelled assessment with separate quality/evidence findings, supported defects, unresolved questions, responsible layer, preserved decisions and bounded recommendations. Every conclusion links to the actual assessed version and evidence scope. |
+| allowed mutations | Write the assessment and proposed review questions only. Never rewrite the assessed opportunity, offer, price, money model, channel, funnel or retention process; changes require a separately requested authoring task and applicable approval. |
+| forbidden behaviour | Use a generic persuasive score instead of the mode’s required judgement, average rights/cash blocks into a pass, apply a mode with no identified subject, invent customer results or broaden a local finding into a whole-business pivot. |
+| metrics/evidence | Use the mode-specific measures below with clear units, cohort/windows, uncertainty and independent constraints. Compare against the actual objective and unchanged alternative, not an arbitrary universal startup, price or growth target. |
+| failure states | Unknown or conflicting mode is an input error; unresolved material dependencies are BLOCKED; contradicted claims or known prohibited conduct are FAIL. An inconclusive evidence result remains separate from a no-change or stop recommendation. |
+| legal/ethical boundaries | Consume applicable Stage 9 findings and current action boundaries. A favourable commercial assessment does not authorise publication, contact, billing, spend or professional conclusions; legitimate existing customer obligations remain protected. |
+
+**Explicit modes.** Select the applicable mode deliberately; this table adds mode-specific obligations rather than replacing the nine fields.
+
+| Mode | Required behaviour and evidence |
+|---|---|
+| `opportunity` | Inspect owner objective, target roles, problem importance, alternatives and evidence of reachable demand together with feasible value/economics dependencies. Assess the bounded opportunity and its next adequate test; no market-size or product-market-fit claim from enthusiasm alone. |
+| `offer` | Inspect the exact outcome, scope, mechanism, deliverables, price/payment terms, proof, exclusions and remedies against actual delivery/cost/cash capacity. Optional bonuses or guarantees are not mandatory. Reject unsupported promises without inventing a new offer. |
+| `pricing` | Inspect payer, unit, package, total obligation, payment/renewal presentation, actual willingness-to-pay context and relevant cost/value alternatives. Distinguish survey preferences from purchases and price changes from earned revenue; assess a justified bounded option, not an automatic increase. |
+| `money-model` | Inspect value exchange, payer, pricing unit, canonical transactions, revenue tags, costs, retention/capacity dependency and collection dates. Reconcile pass-through funds, duplicate revenue and existing entitlements; a new revenue line must have its own value and economic basis. |
+| `channel` | Inspect suitable reach, contact purpose/permission, source mix, qualification, actual buyer progression, full acquisition effort and downstream retained economics. Differentiate attribution from incrementality and historical average performance from marginal scale; preserve an effective incumbent where adequate. |
+| `funnel` | Inspect event definitions, identities, matched population and maturity, qualification, informed buyer tasks, technical faults and handoffs. Distinguish message, offer and sales execution. Missing or immature events do not prove leakage or a cause for repricing. |
+| `retention` | Inspect eligible starting cohorts, use/value, repeat/renewal/payment, cancellation/refund and reactivation semantics with costs and intervention evidence. Separate voluntary value from continued billing; new acquisition and expansion cannot erase exits or prove treatment responsiveness. |
+
+### E03 — `evaluate-unit-economics`
+
+**Native responsibilities:** NC04, NC07.  
+**Original §20 seeds:** `evaluate-unit-economics`, `evaluate-cash-risk`.
+
+| Required field | Contract |
+|---|---|
+| inputs | The specific operating commitment and accepted model/version, scope economics, cash or both, source-located inputs, units/cohorts/windows, cost and revenue definitions, and actual or proposed obligation dates. |
+| evidence required | Reproducible HC01–HC08 calculation input/output evidence, canonical cost/adjustment identities, appropriate retention/CAC/LTV assumptions, resource limits and dated usable cash. Critical missing professional treatment or future obligations remain explicit. |
+| assumptions allowed | Labelled scenarios and sensitivity assumptions may be reviewed, not asserted as observations. No invented conversion, retention, tax, exchange rate, funding or constant marginal-cost assumptions may produce a scale pass. |
+| output | An assessment separating declared commercial contribution, accounting bridges where supplied, acquisition/retention implications, resource feasibility and dated cash findings. State exclusions, invalid calculations, uncertainty and the exact commitment that is supported, rejected or blocked. |
+| allowed mutations | Create the assessment and a proposed correction to an input or calculation only. Do not overwrite the source model, select accounting/tax treatment, post ledger entries, move funds or revise accepted prices and payment terms. |
+| forbidden behaviour | Call revenue profit, call a partial residual net profit, count the same cost twice, accept LTV/CAC without scope/windows, or let a positive margin or ending balance hide an earlier cash deficit. Never average economic and cash findings. |
+| metrics/evidence | Matched N, K, C and declared acquisition/shared costs; denominator validity, retention horizon and payback; per-resource capacity; minimum dated usable cash and headroom against obligations/floor over an adequate horizon and downside. |
+| failure states | FAIL for erroneous or contradictory conclusions and known unfunded proposed commitments; BLOCKED for material missing definitions, source access, calculation or specialist inputs. Undefined ratios remain undefined, not zero or infinite safety. |
+| legal/ethical boundaries | Accounting systems and qualified professionals own treatment and filings; operational business analysis is not investment or personal financial advice. Preserve refund rights, restrictions on funds and exact owner authority for any later action. |
+
+**Explicit modes.** Select the applicable mode deliberately; this table adds mode-specific obligations rather than replacing the nine fields.
+
+| Mode | Required behaviour and evidence |
+|---|---|
+| `economics` | Assess the declared unit, consideration, relevant cost and retention/acquisition assumptions. Cash need not receive a numerical verdict when outside the supplied assessment scope, but explicitly unassessed cash must block a safe-scale recommendation that depends on it. |
+| `cash` | Assess actual payment dates, usable versus restricted balances, existing/proposed commitments and adequate horizon/downside. Do not infer profit from positive cash; unassessed contribution or capacity cannot silently become passed growth gates. |
+| `both` | Return separate economics and cash findings with any bridges and independent blocks. Either adverse or unresolved relevant finding can block the proposed commitment; no combined score offsets one with the other. |
+
+### E04 — `evaluate-experiment`
+
+**Native responsibilities:** NC05, NC07.  
+**Original §20 seeds:** `evaluate-experiment`.
+
+| Required field | Contract |
+|---|---|
+| inputs | A plan-only or completed-test assessment request, exact assumption and frozen contract version where it exists, pending decision, target population, signals, guardrails and available execution/learning records. |
+| evidence required | For plan review inspect all nine Stage 8 contract fields and feasible methods. For results inspect actual exposure, assignment/analysis settings, source events, deviations, stopping conditions, maturation, calculations and adverse evidence; a written plan is not an executed test. |
+| assumptions allowed | Exploratory findings and declared forecast/model assumptions may be examined with their limits. Do not reconstruct a missing prespecified rule as though it existed, or promote an exploratory hypothesis into independent confirmation. |
+| output | An assessment of falsifiability, adequacy, validity, signals and learning/action consequences, with plan versus executed evidence clearly separated. Retain supported, challenged, inconclusive, uninterpretable and guardrail-stop findings within their scope. |
+| allowed mutations | Write a separate assessment and proposed design/measurement corrections. Do not change the frozen plan, rewrite observations, assign users, rerun external exposure, amend customer terms or record a test as completed without actual execution evidence. |
+| forbidden behaviour | Treat every outcome as success, infer equivalence from non-significance, ignore confounders or multiple changes, peek with an invalid stopping rule, or use a favourable primary signal to override a known guardrail breach. |
+| metrics/evidence | Relevant observable outcomes, units and denominators, effect/uncertainty when supported, design/measurement integrity, outcome maturity and whether results could change the actual decision. Activity count is not learning. |
+| failure states | An all-success rule or known invalid claim is FAIL; missing material design/execution evidence is BLOCKED; valid but insufficient information is inconclusive. A known breach requires containment even before the intended inference is resolved. |
+| legal/ethical boundaries | Respect participant information, permitted data, customer rights and approved exposure/budget. Route statistical or legal questions where necessary; model evaluation neither authorises another test nor supplies professional clearance. |
+
+### E05 — `audit-claims`
+
+**Native responsibilities:** NC07.  
+**Original §20 seeds:** `audit-claims`.
+
+| Required field | Contract |
+|---|---|
+| inputs | The exact proposed or published words and implied representations, medium/audience, offer and product versions, evidence, terms, actual service behaviour and applicable specialist findings or policies. |
+| evidence required | Original substantiation, genuine experience and permissions for proof, actual scarcity/urgency facts, complete price/renewal/remedy terms and current reviewed constraints. Compare wording with the real operation rather than accepting a policy document as proof. |
+| assumptions allowed | Unverified factual or legal propositions remain explicit questions. No synthetic customer, expected ROI, invented deadline or presumed exemption can be accepted as claim support; legitimate hypotheses must be presented honestly as such. |
+| output | An issue-by-issue claim assessment distinguishing project truthfulness, applicable legal constraints and action authority, plus a bounded Stage 9 handoff and smallest-sufficient correction proposal preserving existing obligations. |
+| allowed mutations | Create an assessment and proposed wording/behaviour changes separately from the source claim. Do not publish, edit live assets, delete adverse records, issue legal opinions or silently cancel existing customer entitlements. |
+| forbidden behaviour | Approve false scarcity, fabricated proof, unsupported returns, hidden renewal, misleading trials, spam, obstructed cancellation or fake guarantees because conversion improved. A disclaimer cannot silently cure a contradicted headline. |
+| metrics/evidence | Claim-to-evidence and claim-to-behaviour consistency, qualification visibility, source/currentness scope, satisfied review conditions and independent approval. No conversion, revenue or universal compliance score substitutes for these findings. |
+| failure states | FAIL for established fabrication, contradiction or known prohibited conduct; BLOCKED for material missing facts, applicability or review. Genuine bounded claims can pass without requiring a new opinion for every repetition of a valid policy. |
+| legal/ethical boundaries | Legal Skills and qualified reviewers own legal research/conclusions; preserve jurisdiction, effective dates, conditions and reviewer remit. Owner permission is separate from specialist constraints and cannot waive rights or professional authority. |
+
+### E06 — `diagnose-business-constraint`
+
+**Native responsibilities:** NC06, NC04, NC07.  
+**Original §20 seeds:** `diagnose-business-constraint`.
+
+| Required field | Contract |
+|---|---|
+| inputs | The owner’s actual objective, bounded next improvement and horizon, accepted business versions, observed symptom, source evidence, resource/economic dependencies and existing commitments. |
+| evidence required | Compatible definitions, cohorts, periods and source identities, plausible rival explanations, actual resource/cash/quality limits and observations capable of distinguishing causes. Use existing analytical findings with their limitations, not an arbitrary score ranking. |
+| assumptions allowed | A candidate cause may remain a working hypothesis or an inconclusive diagnosis. No missing metric is zero, no smallest conversion rate proves a bottleneck, and no highest activity/resource utilisation establishes causality by itself. |
+| output | An evidence-qualified supported or provisional constraint finding with appropriate CT routes, rivals, scope/consequence, what would improve if relieved, possible next constraints, preserved decisions and a bounded repair or discriminating-test recommendation. |
+| allowed mutations | Write the diagnosis assessment and proposed next investigation. Do not alter customer, offer, pricing, channel, systems or operations; identifying a possible cause does not authorise a corrective mutation. |
+| forbidden behaviour | Optimise every metric simultaneously, force one cause when several constraints bind, infer business failure from a logging defect, or prescribe a whole-business pivot while accepted evidence still supports unaffected layers. |
+| metrics/evidence | Evidence integrity, objective relevance, discriminating observations, actual headroom/obligations and conditional improvement under the stated mechanism. Retain separate quality, cash, authority and uncertainty findings rather than one bottleneck score. |
+| failure states | BLOCKED or inconclusive when evidence cannot discriminate the candidates; FAIL for unsupported causal certainty or broad repairs. Known harm or an unfunded commitment may require authorised containment without claiming a complete diagnosis. |
+| legal/ethical boundaries | Rights, truthfulness and authority constrain every route. Professional/operational owners supply missing treatment or execution facts; a diagnostic label does not make a legal, investment or accounting conclusion. |
+
+### E07 — `recommend-smallest-change`
+
+**Native responsibilities:** NC06, NC07.  
+**Original §20 seeds:** `recommend-smallest-change`.
+
+| Required field | Contract |
+|---|---|
+| inputs | A supported/provisional diagnosis, exact accepted versions and obligations, proposed objective, viable no-change/local/coupled alternatives, available evidence and relevant resource, cash and authority constraints. |
+| evidence required | Evidence implicating each proposed changed layer and reasons a smaller correction cannot suffice, with dependency/impact review and expected verification. Retain contrary findings and actual customer entitlements rather than only the preferred plan. |
+| assumptions allowed | A proposed repair mechanism may remain an explicit hypothesis requiring a bounded test. A coupled change is allowed only with a reasoned dependency basis; uncertainty does not permit regenerating every convenient artefact. |
+| output | A complete RR01–RR08 repair proposal: responsible layer, smallest sufficient change, preserved versions/rights, impact dispositions, owner/approval, resource/reversibility limits, verification rule and learning/regression handoff. |
+| allowed mutations | Write the proposal and assessment of alternatives only. Do not apply the repair, replace accepted artefacts, mutate production state or mark another discipline’s implementation complete; separate execution requires its own authority and evidence. |
+| forbidden behaviour | Change unimplicated customer/offer/brand/price decisions, lower quality criteria to pass, preserve unsafe/deceptive choices merely because previously approved, or invent rollback rights for irreversible external actions. |
+| metrics/evidence | Scope of implicated versus preserved layers, discriminating before/after evidence, relevant guardrails and whether the repair satisfies the actual objective. A smaller textual diff alone is not proof of a sufficient or responsible change. |
+| failure states | FAIL for an ungrounded broad change or rights violation; BLOCKED for material missing diagnosis, approval or feasibility. No change, containment, a bounded test or a justified coherent bundle can each be an appropriate proposal. |
+| legal/ethical boundaries | Preserve specialist constraints, customer rights and approval boundaries while comparing repairs. Route implementation to the actual owner; financial or legal work remains with the qualified reviewer, not the evaluator. |
+
+## 3. Verification and handoff
+
+[Selection and design checks](2026-09-10-stage-13-selection-and-checks.md) account for every original command seed and exercise complete workflows, mode selection and negative scope cases. [Conformance](2026-09-10-stage-13-conformance.md) records actual current-stage checks. Detailed pack grammar, primary examples, installed behaviour and clean consumer installation remain in their originally assigned later stages; these contracts do not claim those executions have happened.
