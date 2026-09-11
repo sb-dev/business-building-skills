@@ -1,8 +1,8 @@
 # Business Building Skills — New Project Bootstrap Process
 
 **Status:** Bootstrap specification  
-**Version:** 1.1  
-**Date:** 8 September 2026
+**Version:** 1.2  
+**Date:** 11 September 2026
 
 ## 1. Purpose
 
@@ -419,11 +419,11 @@ PROJECT IDEA
     ↓
 18. Generate Six Canonical Specifications
     ↓
-19. Design Public README
+19. Design Public README and Public Claims Contract
     ↓
 20. Cross-Project Review
     ↓
-21. Scaffold Production Repository
+21. Scaffold Production Repository and Preserve Public README
     ↓
 22. Implement and Prove Core Vertical
     ↓
@@ -1898,24 +1898,27 @@ Generate these specs from persisted research logs, not conversation memory.
 
 ---
 
-# 26. Stage 19 — Design Public README
+# 26. Stage 19 — Design Public README and Public Claims Contract
 
-Target structure:
+Stage 19 designs the complete **target public product surface**. It must not turn the root README into a bootstrap diary, implementation plan, maturity report or verification log.
+
+Use the current Production Skills public README process and family template as the governing pattern, adapted to Business Building rather than copied mechanically from another domain.
+
+The target README structure is:
 
 ```text
 # Business Building Skills
-positioning
-what business work it can perform
-evidence / experiment / commitment model
-truthful-growth boundary
+positioning and business-building capabilities
+evidence / experiment / commitment control
+truthful-growth and legal/ethical boundary
 installation
-quick start
+strong Level 1 quick start with complete prompt inline
 5 × 3 Learn by Building
 project structure grows with the business work
-core skills
+substantive core-skill sections
 Extension Packs
-execution tools
-evaluation / benchmark
+execution tools and cross-domain handoffs
+evaluation / benchmark entry points
 canonical stress tests
 source-book lineage
 documentation
@@ -1930,7 +1933,92 @@ A positioning direction to test:
 
 The README should make clear that the project is **derived from** the initial books but does not reproduce them or require users to adopt every framework they contain.
 
-**Exit:** a user can understand and try the project without reading the internal bootstrap.
+## Public-surface separation
+
+After the target public README is designed, keep these surfaces distinct:
+
+```text
+README.md
+→ public product and onboarding surface
+→ explains what Business Building Skills does and how to use it
+
+
+docs/research-logs/
+→ bootstrap execution history
+→ stage status
+→ verification and maturity evidence
+→ unresolved implementation/publication gates
+```
+
+Do not insert internal process language into the target README merely because later bootstrap stages have not executed.
+
+The public README must not contain user-facing bootstrap bookkeeping such as:
+
+```text
+Stage 19 / Stage 21 / Stage N
+feat/bootstrap or feat/bootstrap-2
+bootstrap progress
+production scaffold status
+maturity promotion steps
+completion commit SHAs
+validator check counts
+"not-run" suite bookkeeping
+"this will be implemented in Stage N"
+```
+
+A real product limitation may be documented when a user needs to know it, but express the limitation in product terms rather than bootstrap-stage terms.
+
+## Quick start and public examples
+
+The Level 1 quick start must contain its **complete copyable prompt inline**. A link to a research log is not a quick start.
+
+The Learn by Building progression must expose exactly five levels with three complementary primary examples per level. Once the public example surface exists, README navigation must use stable paths such as:
+
+```text
+examples/level-1-<example>/README.md
+examples/level-2-<example>/README.md
+```
+
+Research logs remain the evidence for selection/design reasoning, not the primary user onboarding path.
+
+## Skills
+
+Every core skill needs a substantive public section explaining:
+
+```text
+what it owns
+when to use it
+what business decision or production problem it resolves
+important evidence, preservation or legal/ethical boundaries
+```
+
+A compact table may supplement these sections but must not replace them.
+
+## Required Stage 19 outputs
+
+Produce three separate artefacts:
+
+1. **Complete target README** — the exact intended public product surface.
+2. **Business Building README contract** — required section order, domain control model, skills, 5 × 3 progression, public example-path rules and permitted deviations from the family template.
+3. **Public claims ledger** — internal mapping from important public claims to the later evidence gate that must support them before final publication.
+
+Example claims ledger:
+
+| Public claim | Evidence owner / gate |
+|---|---|
+| canonical installation works | clean external installation validation |
+| Level 1 quick start produces the promised business artefacts | proven core vertical |
+| an Extension Pack changes the stated business behaviour | pack differential evaluation |
+| benchmark result | executed benchmark report |
+| provider/host support | tested compatibility evidence |
+
+The claims ledger is an internal bootstrap artefact. Do not paste stage/evidence bookkeeping into the README.
+
+During bootstrap, the target README describes the intended public product. Do not distort it to mirror intermediate stage completion. Final publication later reconciles every claim against implementation and evaluation evidence: keep supported claims, narrow partially supported claims, finish required missing evidence or remove unsupported non-essential claims.
+
+**Research-log output:** complete target README, Business Building README contract and public claims ledger.
+
+**Exit:** a user can understand and try the intended project without reading the internal bootstrap, and later scaffold work has an explicit preservation contract rather than permission to redesign the README.
 
 ---
 
@@ -1977,11 +2065,13 @@ constraint diagnosis
 validity / confidence metadata
 ```
 
-**Exit:** integration opportunities are recorded without turning this project into a universal business operating system.
+As part of this review, verify the Stage 19 README contract against current Production Skills public patterns. Confirm that the public README remains product-facing, that bootstrap/maturity evidence stays in research logs, that the claims ledger remains internal and that substantive skill/example navigation is preserved.
+
+**Exit:** integration opportunities are recorded without turning this project into a universal business operating system, and no cross-project convention has reintroduced bootstrap mechanics into the public README.
 
 ---
 
-# 28. Stage 21 — Scaffold Production Repository
+# 28. Stage 21 — Scaffold Production Repository and Preserve Public README
 
 Only now expand the Stage 0 workspace.
 
@@ -2023,7 +2113,61 @@ accounting engine
 
 inside this repository.
 
-**Exit:** every production directory has a justified immediate purpose.
+## README handoff is preservation, not redesign
+
+Adopt the accepted Stage 19 target README and Stage 20 review findings. Stage 21 may make only mechanical publication changes required by the real repository, such as:
+
+```text
+rebase links from the Stage 19 design location to repository-root paths
+replace intentional repository-name placeholders
+link the selected repository licence
+point to public example paths created by the scaffold
+correct a factual repository path introduced by scaffolding
+```
+
+Stage 21 must not independently:
+
+```text
+change the product positioning
+replace or remove the Level 1 quick-start prompt
+change the five-level × three-example progression
+collapse substantive skill sections into a responsibility table
+introduce bootstrap-stage or maturity prose
+rewrite product limitations around current bootstrap status
+replace public example navigation with research-log links
+```
+
+If a substantive public-content problem is discovered, record it and reopen the owning README-design decision rather than silently redesigning the README inside scaffold work.
+
+## Public example surface
+
+Create usable public example navigation for all 15 primary examples. Public example files may initially contain the accepted prompt and production problem without pretending their outputs have already been executed. Later execution stages add actual outputs/evidence to the same stable public surface.
+
+The root README should link to `examples/...` rather than requiring users to navigate bootstrap research logs.
+
+## Deterministic README conformance
+
+Add repository checks that fail when the public README violates its accepted contract. At minimum verify:
+
+```text
+required canonical sections and domain-approved order
+complete inline Level 1 quick-start prompt
+five progressive levels
+exactly three primary examples per level
+all primary example links resolve to public example surfaces
+substantive section for every core skill
+installation / Extension Packs / execution / benchmark / docs / boundary / contributing / licence surfaces
+local links resolve
+no internal bootstrap mechanics leak into the public product copy
+```
+
+The leakage check should reject obvious process text such as stage-number references, `feat/bootstrap`, `feat/bootstrap-2`, completion SHAs, scaffold/maturity narration and `not-run` bookkeeping in the public README.
+
+These deterministic checks validate public structure and leakage only. They do not prove business quality or evidence for the public claims ledger.
+
+Preserve `docs/research-logs/` as the authoritative place for bootstrap status, maturity evidence, validation receipts and unfulfilled later-stage work.
+
+**Exit:** every production directory has a justified immediate purpose, the scaffold adopts the accepted public README without redesigning it around current bootstrap state, public examples are navigable through `examples/`, and deterministic checks protect the README contract.
 
 ---
 
