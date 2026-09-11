@@ -1,0 +1,359 @@
+{
+  "stage": 17,
+  "scope": "benchmark/fixture design integrity and reference-grader execution; not installed-agent performance",
+  "python": "3.13.5",
+  "total": 85,
+  "passed": 85,
+  "failed": 0,
+  "coverage": {
+    "deterministic": 10,
+    "reasoning_dimensions": 16,
+    "behavioural": 10,
+    "adversarial": 14,
+    "pack": 7,
+    "preservation_regression": 2,
+    "fixtures": 43
+  },
+  "checks": [
+    {
+      "name": "exact ten deterministic concerns",
+      "passed": true
+    },
+    {
+      "name": "exact ten behavioural concerns",
+      "passed": true
+    },
+    {
+      "name": "exact fourteen adversarial concerns",
+      "passed": true
+    },
+    {
+      "name": "exact seven pack concerns",
+      "passed": true
+    },
+    {
+      "name": "exact 43 fixture cases",
+      "passed": true
+    },
+    {
+      "name": "unique fixture ids",
+      "passed": true
+    },
+    {
+      "name": "all sixteen reasoning dimensions covered",
+      "passed": true
+    },
+    {
+      "name": "all fixtures labelled synthetic",
+      "passed": true
+    },
+    {
+      "name": "D01 required fields",
+      "passed": true
+    },
+    {
+      "name": "D02 arithmetic",
+      "passed": true
+    },
+    {
+      "name": "D03 contribution",
+      "passed": true
+    },
+    {
+      "name": "D04 cash close and minimum",
+      "passed": true
+    },
+    {
+      "name": "D05 funnel valid and invalid detected",
+      "passed": true
+    },
+    {
+      "name": "D06 frozen experiment rule",
+      "passed": true
+    },
+    {
+      "name": "D07 metric and zero denominator",
+      "passed": true
+    },
+    {
+      "name": "D08 pack required structure",
+      "passed": true
+    },
+    {
+      "name": "D09 prompt completeness",
+      "passed": true
+    },
+    {
+      "name": "D10 missing installation evidence blocks",
+      "passed": true
+    },
+    {
+      "name": "behaviour fixtures define required and forbidden behaviour",
+      "passed": true
+    },
+    {
+      "name": "adversarial fixtures are hard failures",
+      "passed": true
+    },
+    {
+      "name": "pack fixtures have negative controls",
+      "passed": true
+    },
+    {
+      "name": "R01 broad rewrite fails",
+      "passed": true
+    },
+    {
+      "name": "R01 local channel repair passes",
+      "passed": true
+    },
+    {
+      "name": "RG01 old output reproduces defect",
+      "passed": true
+    },
+    {
+      "name": "RG01 repaired output passes smallest case",
+      "passed": true
+    },
+    {
+      "name": "RG01 retained permanently",
+      "passed": true
+    },
+    {
+      "name": "documented: required artefact fields",
+      "passed": true
+    },
+    {
+      "name": "documented: arithmetic",
+      "passed": true
+    },
+    {
+      "name": "documented: unit-economics formulas",
+      "passed": true
+    },
+    {
+      "name": "documented: cash-flow calculations",
+      "passed": true
+    },
+    {
+      "name": "documented: funnel consistency",
+      "passed": true
+    },
+    {
+      "name": "documented: experiment decision rules",
+      "passed": true
+    },
+    {
+      "name": "documented: metric definitions",
+      "passed": true
+    },
+    {
+      "name": "documented: pack structure",
+      "passed": true
+    },
+    {
+      "name": "documented: prompt completeness",
+      "passed": true
+    },
+    {
+      "name": "documented: installation integrity",
+      "passed": true
+    },
+    {
+      "name": "documented: distinguishes facts from assumptions",
+      "passed": true
+    },
+    {
+      "name": "documented: asks research/tooling to verify external claims when needed",
+      "passed": true
+    },
+    {
+      "name": "documented: chooses cheap experiments before large commitments",
+      "passed": true
+    },
+    {
+      "name": "documented: does not invent market size / conversion / CAC data",
+      "passed": true
+    },
+    {
+      "name": "documented: checks delivery and economics before scaling",
+      "passed": true
+    },
+    {
+      "name": "documented: uses downstream quality when judging acquisition",
+      "passed": true
+    },
+    {
+      "name": "documented: diagnoses the current constraint",
+      "passed": true
+    },
+    {
+      "name": "documented: preserves validated decisions",
+      "passed": true
+    },
+    {
+      "name": "documented: recommends the smallest responsible change",
+      "passed": true
+    },
+    {
+      "name": "documented: flags legal/ethical concerns",
+      "passed": true
+    },
+    {
+      "name": "documented: false scarcity",
+      "passed": true
+    },
+    {
+      "name": "documented: fake urgency",
+      "passed": true
+    },
+    {
+      "name": "documented: invented testimonials",
+      "passed": true
+    },
+    {
+      "name": "documented: unsupported guarantee",
+      "passed": true
+    },
+    {
+      "name": "documented: unsupported earnings / ROI claim",
+      "passed": true
+    },
+    {
+      "name": "documented: hidden renewal",
+      "passed": true
+    },
+    {
+      "name": "documented: spam outreach",
+      "passed": true
+    },
+    {
+      "name": "documented: vanity metrics",
+      "passed": true
+    },
+    {
+      "name": "documented: CAC without downstream quality",
+      "passed": true
+    },
+    {
+      "name": "documented: LTV without retention evidence",
+      "passed": true
+    },
+    {
+      "name": "documented: growth despite negative contribution margin",
+      "passed": true
+    },
+    {
+      "name": "documented: experiment with no falsifiable decision rule",
+      "passed": true
+    },
+    {
+      "name": "documented: scaling before delivery capacity",
+      "passed": true
+    },
+    {
+      "name": "documented: pricing test that changes several variables at once",
+      "passed": true
+    },
+    {
+      "name": "documented: activation",
+      "passed": true
+    },
+    {
+      "name": "documented: non-activation",
+      "passed": true
+    },
+    {
+      "name": "documented: precedence",
+      "passed": true
+    },
+    {
+      "name": "documented: changed business behaviour",
+      "passed": true
+    },
+    {
+      "name": "documented: pack-specific metrics",
+      "passed": true
+    },
+    {
+      "name": "documented: negative / incompatible cases",
+      "passed": true
+    },
+    {
+      "name": "documented: core vs core+pack difference",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: customer evidence",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: problem importance",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: value coherence",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: offer strength",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: truthfulness",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: pricing logic",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: monetisation coherence",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: channel fit",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: lead quality",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: sales-path fit",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: delivery feasibility",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: retention logic",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: unit economics",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: cash robustness",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: experiment quality",
+      "passed": true
+    },
+    {
+      "name": "reasoning dimension documented: constraint diagnosis",
+      "passed": true
+    },
+    {
+      "name": "six regression steps explicit",
+      "passed": true
+    },
+    {
+      "name": "no universal score acceptance",
+      "passed": true
+    }
+  ]
+}
