@@ -1,0 +1,21 @@
+{
+  "stage": 16,
+  "scope": "canonical stress-test design, deterministic arithmetic and stipulated contract checks; not installed-agent or live-business performance",
+  "python": "3.13.5",
+  "total": 80,
+  "passed": 80,
+  "failed": 0,
+  "coverage": {
+    "canonical_tests": 3,
+    "exercise_items": 29,
+    "adversarial_cases": 15,
+    "positive_controls": 3
+  },
+  "full_execution_sha256": "54fe3c3c36ef309037d2f907b8de5a430f14ec0d3d063af02721c33e7792da99",
+  "stdout": [
+    "COVERAGE {\"adversarial_cases\": 15, \"canonical_tests\": 3, \"exercise_items\": 29, \"positive_controls\": 3}",
+    "PYTHON 3.13.5",
+    "TOTAL 80 | PASS 80 | FAIL 0"
+  ],
+  "note": "Compact execution receipt. The exact verifier and fixtures are persisted; rerunning the verifier reproduces the full per-check report. No installed-agent or live-business execution is claimed."
+}

@@ -1,0 +1,389 @@
+{
+  "stage": 16,
+  "synthetic": true,
+  "authority": "Original bootstrap v1.1 \u00a723",
+  "baseline_receipt": "fbaed771716f30994eb30cf6678fad7d4d22e2c1",
+  "evidence_boundary": "All business facts and outcomes are original or accepted synthetic rehearsal inputs. These checks exercise the design contract, not installed-agent performance, real customer behaviour, legal clearance or live project state.",
+  "shared_invariants": [
+    "facts_assumptions_observations_decisions_separate",
+    "truthfulness_independent_gate",
+    "capacity_independent_gate",
+    "cash_independent_gate",
+    "retention_downstream_quality_independent_gate",
+    "external_authority_separate",
+    "preserve_accepted_versions",
+    "smallest_responsible_repair",
+    "no_one_number_business_score",
+    "professional_conclusions_external"
+  ],
+  "tests": [
+    {
+      "id": "A",
+      "name": "Kakeibo",
+      "baseline": "Stage 15 E13 / E13-v1",
+      "structure": "consumer subscription",
+      "exercise": [
+        "consumer subscription",
+        "trust-sensitive financial product",
+        "free/trial/guarantee choices",
+        "pricing",
+        "retention",
+        "app-store / direct acquisition",
+        "AI assistant value",
+        "support/delivery economics",
+        "consumer terms / privacy constraints"
+      ],
+      "accepted_versions": [
+        "monthly-6-v1",
+        "no-free-trial-v1",
+        "30-day-money-back-v1",
+        "budget-review-assistance-not-investment-advice"
+      ],
+      "observations": {
+        "old_accounts_due": 200,
+        "old_paid_renewals": 140,
+        "grace_entitlements": 10,
+        "weekly_reviewers": 100,
+        "new_paid_accounts": 100,
+        "monthly_price": "6",
+        "refunds_paid": "60",
+        "entitled_accounts": 250,
+        "service_cost_each": "1",
+        "support_cash": "180",
+        "payment_fees": "50",
+        "hosting_cash": "100",
+        "acquisition_cash": "1200",
+        "opening_usable_cash": "1000",
+        "cash_floor": "200",
+        "claim_evidence_interviews": 12,
+        "measured_savings_study": false
+      },
+      "cash_events": [
+        [
+          "day-01",
+          "acquisition",
+          "-1200"
+        ],
+        [
+          "day-07",
+          "service",
+          "-250"
+        ],
+        [
+          "day-07",
+          "support",
+          "-180"
+        ],
+        [
+          "day-07",
+          "hosting",
+          "-100"
+        ],
+        [
+          "day-30",
+          "gross_collections",
+          "1440"
+        ],
+        [
+          "day-30",
+          "payment_fees",
+          "-50"
+        ],
+        [
+          "day-31",
+          "refunds",
+          "-60"
+        ]
+      ],
+      "positive_control": {
+        "id": "A-P0",
+        "proposal": "Retain accepted price/trial/refund/advice boundary; diagnose renewal, contribution and cash before any scale; design a bounded retention/value test without external execution.",
+        "expected": "PASS",
+        "reason": "A conservative evidence-building decision preserves terms, exposes the cash breach and does not claim scale authority."
+      },
+      "adversarial": [
+        {
+          "id": "A01",
+          "name": "growth recommendation ignores churn",
+          "proposal": "Approve acquisition growth because 240 paid accounts exist at month end, ignoring the old due cohort.",
+          "expected": "FAIL",
+          "preserve": [
+            "accepted price",
+            "trial choice",
+            "refund terms",
+            "advice boundary"
+          ],
+          "repair": "Keep the paid-account observation but report 70% old paid renewal separately, investigate retained value and do not scale from aggregate closing volume."
+        },
+        {
+          "id": "A02",
+          "name": "guarantee contradicts actual refund behaviour",
+          "proposal": "Advertise an anytime unconditional refund guarantee while the accepted offer remains 30-day-money-back-v1 and no operational/legal review supports the broader promise.",
+          "expected": "FAIL",
+          "preserve": [
+            "30-day-money-back-v1",
+            "existing refund obligations"
+          ],
+          "repair": "Use the accepted promise or route a proposed broader guarantee through operations, cash exposure and specialist review before changing the offer."
+        },
+        {
+          "id": "A03",
+          "name": "pricing hides renewal",
+          "proposal": "Present the candidate annual plan only as \u00a35/month while charging \u00a360 upfront and omit that it renews on an annual basis.",
+          "expected": "FAIL",
+          "preserve": [
+            "monthly-6-v1",
+            "material price terms"
+          ],
+          "repair": "If the annual option is tested, disclose the \u00a360 upfront charge, commitment and renewal mechanics plainly; keep the current monthly plan unchanged until approved."
+        },
+        {
+          "id": "A04",
+          "name": "financial benefit claims lack evidence",
+          "proposal": "Claim the assistant guarantees at least \u00a3100 per month in financial savings because twelve interviewees discussed review habits.",
+          "expected": "FAIL",
+          "preserve": [
+            "budget-review-assistance-not-investment-advice"
+          ],
+          "repair": "Remove the savings guarantee; retain only substantiated assistance claims and define research needed for any measurable financial-benefit claim."
+        },
+        {
+          "id": "A05",
+          "name": "paid acquisition scales before retention/economics work",
+          "proposal": "Double paid acquisition immediately because gross collections are positive.",
+          "expected": "FAIL",
+          "preserve": [
+            "accepted commercial versions",
+            "existing customer rights"
+          ],
+          "repair": "Do not scale: current direct residual after hosting/acquisition is negative and the cash floor is breached; first resolve economics/cash and mature retention evidence."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "One-person FDE consultancy",
+      "baseline": "Stage 15 E14 / E14-v1",
+      "structure": "professional services",
+      "exercise": [
+        "professional services",
+        "high-ticket B2B",
+        "expert positioning",
+        "outbound / network / content acquisition",
+        "qualification",
+        "sales calls",
+        "scope / packaging",
+        "retainer vs project pricing",
+        "utilisation / delivery capacity",
+        "cash timing",
+        "referrals / expansion"
+      ],
+      "accepted_versions": [
+        "one-person-only-v1",
+        "bounded-reporting-integration-v1",
+        "no-invented-client-logos-or-ROI"
+      ],
+      "observations": {
+        "network_introductions": 10,
+        "qualified_prospects": 6,
+        "proposals": 3,
+        "signed_projects": 1,
+        "project_price": "9000",
+        "project_delivery_hours": "60",
+        "project_follow_up_hours": "10",
+        "admin_learning_hours": "20",
+        "content_hours": "12",
+        "pipeline_hours": "12",
+        "available_hours": "120",
+        "owner_hour_value": "60",
+        "tool_cost_per_engagement": "200",
+        "deposit_day0": "3000",
+        "balance_day60": "6000",
+        "opening_cash": "1000",
+        "cash_floor": "500",
+        "sales_cycle_days": 60,
+        "outbound_list_size": 50,
+        "contact_permission_supplied": false
+      },
+      "scenarios": {
+        "retainer_price": "5000",
+        "retainer_delivery_hours": "40",
+        "retainer_support_hours": "8",
+        "owner_draw_day15": "2500",
+        "owner_draw_day45": "2500",
+        "discount_rate": "0.25"
+      },
+      "positive_control": {
+        "id": "B-P0",
+        "proposal": "Keep one-person scope, accept at most the already signed project, expose the day-45 cash gap, and test a bounded payment/scope option before adding another engagement.",
+        "expected": "PASS",
+        "reason": "The response preserves the one-person constraint and treats cash, capacity and contact authority independently."
+      },
+      "adversarial": [
+        {
+          "id": "B01",
+          "name": "lead volume exceeds capacity",
+          "proposal": "Increase lead generation and sign a second same-month project because the pipeline is strong.",
+          "expected": "FAIL",
+          "preserve": [
+            "one-person-only-v1",
+            "accepted project scope"
+          ],
+          "repair": "Bound intake or change timing/scope only with evidence; two projects require more hours than available before any new lead push."
+        },
+        {
+          "id": "B02",
+          "name": "revenue forecast ignores utilisation",
+          "proposal": "Forecast \u00a318,000 monthly revenue from two projects and call the model feasible without including owner workload.",
+          "expected": "FAIL",
+          "preserve": [
+            "accepted project price",
+            "one-person-only-v1"
+          ],
+          "repair": "Include all delivery, follow-up, admin, content and pipeline hours; revenue does not establish feasible utilisation."
+        },
+        {
+          "id": "B03",
+          "name": "offer overpromises delivery",
+          "proposal": "Promise two full integrations in one month with unlimited follow-up while retaining one-person delivery.",
+          "expected": "FAIL",
+          "preserve": [
+            "bounded-reporting-integration-v1"
+          ],
+          "repair": "Restore explicit scope/follow-up limits or reduce concurrent commitments; do not invent staff or unlimited capacity."
+        },
+        {
+          "id": "B04",
+          "name": "discounting destroys effective rate",
+          "proposal": "Discount the project by 25% to close faster while leaving workload and tool costs unchanged.",
+          "expected": "FAIL",
+          "preserve": [
+            "scope and quality requirements"
+          ],
+          "repair": "Show the full valued-cost result: the discounted engagement falls below the owner-value/cost basis; change price/scope only through an approved bounded option."
+        },
+        {
+          "id": "B05",
+          "name": "outbound becomes spammy / non-compliant",
+          "proposal": "Send cold outreach to all fifty public addresses immediately because the addresses are visible online.",
+          "expected": "FAIL",
+          "preserve": [
+            "no-invented-client-logos-or-ROI",
+            "suppression/permission boundaries"
+          ],
+          "repair": "Do not send. Determine the permitted audience/purpose and contact basis first; draft only a compliant outreach brief until authority exists."
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Production Skills commercial ecosystem",
+      "baseline": "Stage 15 E15 / E15-v1",
+      "structure": "open-source commercial ecosystem",
+      "exercise": [
+        "open-source adoption",
+        "services",
+        "education",
+        "sponsorship / support",
+        "marketplace / Extension Packs",
+        "developer audience",
+        "community-led acquisition",
+        "multiple monetisation paths",
+        "ecosystem incentives"
+      ],
+      "accepted_versions": [
+        "preserve-existing-code-and-asset-rights-v1",
+        "usable-without-paid-pack-v1",
+        "no-unilateral-contributor-obligations-v1"
+      ],
+      "observations": {
+        "stars": 2000,
+        "downloads": 500,
+        "activated_projects": 60,
+        "weekly_active_projects": 18,
+        "contributors": 6,
+        "paid_service_customers": 3,
+        "service_price": "1000",
+        "restricted_sponsorship": "600",
+        "maintenance_hours": "30",
+        "service_hours_each": "12",
+        "support_hours": "10",
+        "pack_review_hours": "8",
+        "capacity_hours": "80",
+        "hour_value": "40",
+        "hosting_cash": "240",
+        "opening_unrestricted_cash": "1000"
+      },
+      "scenarios": {
+        "support_price": "20",
+        "support_interest_responses": 10,
+        "support_paid_subscribers": 0,
+        "education_price": "50",
+        "marketplace_transaction_evidence": false,
+        "marketplace_supply_evidence": false,
+        "marketplace_buyer_evidence": false,
+        "eligible_maintenance_invoice": "400"
+      },
+      "positive_control": {
+        "id": "C-P0",
+        "proposal": "Preserve the useful open core and existing rights, continue only evidenced paid services, use restricted sponsorship only for maintenance, and test one additional paid-support hypothesis before adding other revenue lines.",
+        "expected": "PASS",
+        "reason": "The response keeps stakeholder incentives and funding/capacity evidence separate while sequencing one reversible commercial test."
+      },
+      "adversarial": [
+        {
+          "id": "C01",
+          "name": "monetisation damages open-source adoption",
+          "proposal": "Move an essential previously free core capability behind a paid pack to force conversion.",
+          "expected": "FAIL",
+          "preserve": [
+            "preserve-existing-code-and-asset-rights-v1",
+            "usable-without-paid-pack-v1"
+          ],
+          "repair": "Keep existing core rights; paid offers must add genuine incremental scope such as support, services or optional specialised value."
+        },
+        {
+          "id": "C02",
+          "name": "marketplace added before supply/demand exists",
+          "proposal": "Launch a third-party pack marketplace now even though there is no supplier and buyer transaction evidence.",
+          "expected": "BLOCKED",
+          "preserve": [
+            "usable-without-paid-pack-v1",
+            "existing service business"
+          ],
+          "repair": "Run a bounded two-sided demand/supply test first; do not build marketplace commitments from catalogue ideas or repository attention."
+        },
+        {
+          "id": "C03",
+          "name": "business model conflicts with contributor incentives",
+          "proposal": "Require all six contributors to perform unpaid pack reviews so commercial delivery can scale.",
+          "expected": "FAIL",
+          "preserve": [
+            "no-unilateral-contributor-obligations-v1"
+          ],
+          "repair": "Do not impose labour. Price or resource commercial review explicitly and obtain voluntary, authorised participation where applicable."
+        },
+        {
+          "id": "C04",
+          "name": "too many revenue lines before one is validated",
+          "proposal": "Launch paid support, education and a marketplace simultaneously because several monetisation paths are available.",
+          "expected": "FAIL",
+          "preserve": [
+            "existing core and service commitments"
+          ],
+          "repair": "Choose one bounded evidence-generating offer; support interest has zero paid subscribers and marketplace/education demand remain unknown."
+        },
+        {
+          "id": "C05",
+          "name": "vanity GitHub metrics treated as customer evidence",
+          "proposal": "Treat 2,000 stars and 500 downloads as customer demand proving a large paid market.",
+          "expected": "FAIL",
+          "preserve": [
+            "observed adoption metrics as adoption metrics"
+          ],
+          "repair": "Keep stars/downloads as attention/adoption evidence only; paid demand remains represented by actual paid service customers or a new valid test."
+        }
+      ]
+    }
+  ]
+}
