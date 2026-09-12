@@ -15,7 +15,7 @@ Continuation started at `5d973121ecf87d40f6d9f97e0794be2723b0985b`, one commit a
 | 0–15 | COMPLETE; Stage 0 is the existing research workspace | [Accepted historical progress](bootstrap-2-progress.md) and linked receipts |
 | 16 | COMPLETE | [Canonical stress-test design and conformance](2026-09-12-stage-16-stress-test-design.md), [actual design checks](2026-09-12-stage-16-executed-checks.json) |
 | 17 | COMPLETE | [Benchmark design and conformance](2026-09-12-stage-17-benchmark-design.md), [actual design checks](2026-09-12-stage-17-executed-checks.json) |
-| 18 | CONTENT VERIFIED; remote receipt required | [Six canonical specifications and conformance](2026-09-12-stage-18-canonical-specifications.md), [actual checks](2026-09-12-stage-18-executed-checks.json) |
+| 18 | COMPLETE | [Six canonical specifications and conformance](2026-09-12-stage-18-canonical-specifications.md), [actual checks](2026-09-12-stage-18-executed-checks.json) |
 | 19–26 | NOT STARTED | No later-stage outputs are included |
 
 This remains a bootstrap design workspace. It is not an installed, working, benchmarked or mature Agent Skills product. Synthetic business fixtures are not live commercial validation. No PR, merge, release, registry promotion or live business action is included.
@@ -100,12 +100,57 @@ This receipt follows those actual checks and changes only the live continuation 
 
 ## Continuation rule
 
-Complete, verify, commit and remotely verify the current stage before beginning the next. Reconstruct every new stage from the original specification and accepted branch evidence. Preserve Stages 1–15; a genuine contradiction requiring their modification needs the user's decision under execution-contract §2. Stage 18 content is verified. Complete its scoped commit and remote receipt before beginning Stage 19, Design Public README.
+Complete, verify, commit and remotely verify the current stage before beginning the next. Reconstruct every new stage from the original specification and accepted branch evidence. Preserve Stages 1–15; a genuine contradiction requiring their modification needs the user's decision under execution-contract §2. Stage 18 content and its remote commit are verified. Verify the completion receipt commit/ref before beginning Stage 19, Design Public README.
 
-## Stage 18 content verification
+## Stage 18 content verification at the content commit
 
 All six exact canonical specification files are complete, with all 60 original ownership concerns. Their contracts retain four skills, all 32 commands and 288 required fields, fifteen exact primary prompts at 3/3/3/3/3, all three stress structures, fourteen additional adversarial cases and eight independent pack candidates plus the professional-services advisory mode. All nine fixed pack prompts/inputs, 27 effects and 126 dimension treatments are retained.
 
 Actual final-input documentation verification records 842 PASS, 0 FAIL, exit 0 on Python 3.12.14. Direct substantive review checks each owner, cross-document meaning and four complete implementation paths. The 101 inherited files remain unchanged except this live index, whose previous bytes are preserved in the [Stage 17 progress snapshot](2026-09-12-bootstrap-3-progress-through-stage-17.md). No installed agent, real core/pack pair, clean installation or commercial result is claimed.
 
-The stage is not remotely complete until the content commit, branch, parent/tree, exact changed paths and immutable file contents are verified and the completion receipt is written.
+The content commit, branch, parent/tree, exact changed paths and all immutable file contents were subsequently verified as recorded below. The executed verifier pins the pre-receipt progress content at that commit.
+
+## Stage 18 completion receipt
+
+**Stage:** 18, Generate Six Canonical Specifications  
+**Status:** COMPLETE  
+**Content commit:** `60259c647ec33a08f9cd55e44c7a708bc5647ce0`  
+**Parent:** `ff97f73866012b296bc4a142e0de6258a7906c94`  
+**Root tree:** `a8deef55d0a57344e905b57dd651237dc9a3191e`  
+**Commit message:** `docs: complete stage 18 six canonical business specifications`  
+**Remaining Stage 18 blockers:** none
+
+All six exact specification files are complete. The conformance record reviews every one of the original 60 ownership concerns. Complete accepted domain records, all 32 nine-field command contracts and explicit modes, all fifteen exact primary prompts/artefact/findings/control/preservation contracts, the full pinned canonical stress and adversarial corpora, eight independent pack profiles plus advisory mode, nine fixed pack showcases, 27 effects and 126 dimension treatments are preserved. Concrete repository decisions cover local resource copies and manifests, explicit pack contents, actual host discovery and clean-install evidence requirements, scoped CI and release gates.
+
+The final publication-input verifier actually returned **842 PASS, 0 FAIL, exit 0 on Python 3.12.14**. Direct author review checked substantive ownership, source/evidence limits, cross-document consistency and four complete implementation paths. These are design and documentation results, not installed-agent performance, actual core/pack comparisons, clean external installation or commercial outcomes.
+
+A non-force update advanced only `feat/bootstrap-3`. Fresh connector reads verified the exact content commit, its single intended parent and root tree, and the branch ref. The remote comparison is one commit ahead, zero behind, with exactly eleven additions and the live continuation-index modification. Every one of the twelve intended files was fetched at the immutable content commit and matched both its expected blob identity and complete local UTF-8 content. No earlier accepted deliverable was modified; the previous live index is preserved byte-for-byte in the Stage 17 snapshot.
+
+| Requirement | Specification reference | Deliverable / evidence | Verification performed | Result |
+|---|---|---|---|---|
+| Six complete canonical owners | Original §25; continuation §§3–6 | Six specifications and 60-row substantive conformance | Exact filenames, complete responsibilities and four implementation traces reviewed | PASS |
+| Complete accepted contracts and cases | Original §§20–25,34 | Domain modules, 32 commands, primary/stress/adversarial and pack contracts | Exact fields, modes, prompts, data, source identities and distributions checked | PASS |
+| Actual current-stage verification | Continuation §5 | Verifier and executed JSON | Final 842 PASS / 0 FAIL, exit 0; publication-input hashes recorded | PASS |
+| Preserve accepted source work | Continuation §§2–5 | 101-file predecessor manifest and Stage 17 snapshot | 100 files unchanged; prior live index retained exactly; no Stage 1–17 deliverable changed | PASS |
+| Scoped commit and correct branch | Continuation §7 | Fresh branch, Git commit and comparison reads | Exact SHA/parent/tree; one commit ahead with eleven additions and one index modification | PASS |
+| Immutable remote contents | Continuation §7 | Twelve file reads at the content SHA | Every complete UTF-8 text and Git blob identity matched | PASS |
+| Honest implementation and maturity | Original §§25–35; continuation §11 | All six specs, conformance and progress | No production scaffold, installed result, measured pack superiority, release or maturity promotion claimed | PASS |
+
+| Path | Verified content blob |
+|---|---|
+| `docs/01-business-building-skills-system-spec.md` | `c7a6647d5c772fd7b629e5c2529e4f83e6a40f60` |
+| `docs/02-business-building-skills-workflows-and-artifacts-spec.md` | `26bffd61baa32c419927594e57ddf5b76260b249` |
+| `docs/03-business-building-skills-repository-and-contracts-spec.md` | `f6d6832490485daf5592465b865d5cbff3c5d7be` |
+| `docs/04-testing-and-benchmark-spec.md` | `799f7c24ad0c0cb1f5d4e453b84bd7fb1ae56359` |
+| `docs/05-business-building-customisation-packs-spec.md` | `20b485dc9c9c224cf68a07a54efb1b634000b3fc` |
+| `docs/06-business-building-extension-pack-catalogue.md` | `cca6a3dab8c192518df9cd7deadbba33ed616f59` |
+| `docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-17.md` | `eb84c93b9f6ef697ad9fc840863ffc324857b7bf` |
+| `docs/research-logs/2026-09-12-stage-18-canonical-specifications.md` | `12a01cb14f756d7937423f03504d4e62cd3becac` |
+| `docs/research-logs/2026-09-12-stage-18-executed-checks.json` | `dd5aa073af89ef7e17b474c9735d42b26a9fd176` |
+| `docs/research-logs/2026-09-12-stage-18-specification-contracts.json` | `9bc3b6124287ddd76e847bafccabf92304bc7d77` |
+| `docs/research-logs/2026-09-12-stage-18-verifier.py` | `448fb1df48687030e39275b437a32a6974a33021` |
+| `docs/research-logs/bootstrap-3-progress.md before receipt` | `3579964967f0dacd8dedba14bee1d12feabd19f9` |
+
+This receipt is written after the checks above and changes only the live continuation index. Its pre-receipt form remains at the content commit; all eleven other Stage 18 files stay unchanged. Verify this receipt's actual commit, parent, resulting blob and branch ref before starting the next stage. Remote identity checks do not imply signing, independent professional endorsement or commercial validation.
+
+**Continuation boundary:** Stage 18 is complete; Stages 19–26 have not started. The session stops at this verified stage boundary under execution-contract §9 after reconstructing and incorporating the extensive accepted source contracts. The next task is Stage 19, Design Public README, beginning with the original specification and these immutable Stage 18 outputs. There is no unresolved Stage 18 blocker and no permission request.
