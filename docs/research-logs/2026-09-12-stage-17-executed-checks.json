@@ -1,0 +1,3137 @@
+{
+  "stage": 17,
+  "scope": "Design structure, identity, exact coverage and arithmetic; calibration is separately attributed direct review, not installed-agent performance",
+  "python": "3.12.14",
+  "starting_head": "8bcf1bf11e5bef60fe8cc0a95d63c76e9c6a7d9c",
+  "inputs_sha256": {
+    "docs/research-logs/2026-09-12-stage-17-case-contracts.json": "75ef915078025882a4dece6b02f41ebf3176c8ce774f9ca55a999873b328d1c6",
+    "docs/research-logs/2026-09-12-stage-17-verifier.py": "a1f7fad350121fd2607e4d7e9f9f73d944110640182dba7424da3301aa0ccc28",
+    "docs/research-logs/2026-09-12-stage-17-benchmark-design.md": "46142c6d6f1ffbef0391fb54952432b82660822c0986fcd213d03bc2316eb2d0",
+    "docs/research-logs/2026-09-12-stage-17-rubrics-and-regression.md": "50d81c43a21b8ea472454011a51eba417c2b1585bfb31661c792792b8c6282d5",
+    "docs/research-logs/2026-09-12-stage-17-adversarial-fixtures.md": "65a5c7542c2dd130c7bb0503d5fd57317dfc881c45e03d44f0fa944dc3ed3d5a",
+    "docs/research-logs/2026-09-12-stage-17-calibration.md": "fdbaf46f32fc24ef49e80df11a77aa10da33ebe149406189b45d5955df8bb6d5",
+    "docs/research-logs/bootstrap-3-progress.md": "28a340d1a62b0f6a6e02bace5c46513bf8c17ae90ad6adcd054a3bc43b4e3788",
+    "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-16.md": "8b1de3876b74fab305906cd0cd0a7d02df5ae6971678d42cca2289ba4b5a14f9"
+  },
+  "summary": {
+    "PASS": 393,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "check": "Original specification identity",
+      "result": "PASS",
+      "evidence": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d"
+    },
+    {
+      "check": "deterministic complete original literal list",
+      "result": "PASS",
+      "evidence": {
+        "required": [
+          "required artefact fields",
+          "arithmetic",
+          "unit-economics formulas",
+          "cash-flow calculations",
+          "funnel consistency",
+          "experiment decision rules",
+          "metric definitions",
+          "pack structure",
+          "prompt completeness",
+          "installation integrity"
+        ],
+        "actual": [
+          "required artefact fields",
+          "arithmetic",
+          "unit-economics formulas",
+          "cash-flow calculations",
+          "funnel consistency",
+          "experiment decision rules",
+          "metric definitions",
+          "pack structure",
+          "prompt completeness",
+          "installation integrity"
+        ]
+      }
+    },
+    {
+      "check": "deterministic unique IDs",
+      "result": "PASS",
+      "evidence": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10"
+      ]
+    },
+    {
+      "check": "D01 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "required artefact fields"
+    },
+    {
+      "check": "D02 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "arithmetic"
+    },
+    {
+      "check": "D03 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "unit-economics formulas"
+    },
+    {
+      "check": "D04 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "cash-flow calculations"
+    },
+    {
+      "check": "D05 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "funnel consistency"
+    },
+    {
+      "check": "D06 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "experiment decision rules"
+    },
+    {
+      "check": "D07 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "metric definitions"
+    },
+    {
+      "check": "D08 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "pack structure"
+    },
+    {
+      "check": "D09 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "prompt completeness"
+    },
+    {
+      "check": "D10 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "installation integrity"
+    },
+    {
+      "check": "reasoning complete original literal list",
+      "result": "PASS",
+      "evidence": {
+        "required": [
+          "customer evidence",
+          "problem importance",
+          "value coherence",
+          "offer strength",
+          "truthfulness",
+          "pricing logic",
+          "monetisation coherence",
+          "channel fit",
+          "lead quality",
+          "sales-path fit",
+          "delivery feasibility",
+          "retention logic",
+          "unit economics",
+          "cash robustness",
+          "experiment quality",
+          "constraint diagnosis"
+        ],
+        "actual": [
+          "customer evidence",
+          "problem importance",
+          "value coherence",
+          "offer strength",
+          "truthfulness",
+          "pricing logic",
+          "monetisation coherence",
+          "channel fit",
+          "lead quality",
+          "sales-path fit",
+          "delivery feasibility",
+          "retention logic",
+          "unit economics",
+          "cash robustness",
+          "experiment quality",
+          "constraint diagnosis"
+        ]
+      }
+    },
+    {
+      "check": "reasoning unique IDs",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "R01 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "customer evidence"
+    },
+    {
+      "check": "R02 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "problem importance"
+    },
+    {
+      "check": "R03 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "value coherence"
+    },
+    {
+      "check": "R04 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "offer strength"
+    },
+    {
+      "check": "R05 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "truthfulness"
+    },
+    {
+      "check": "R06 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "pricing logic"
+    },
+    {
+      "check": "R07 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "monetisation coherence"
+    },
+    {
+      "check": "R08 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "channel fit"
+    },
+    {
+      "check": "R09 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "lead quality"
+    },
+    {
+      "check": "R10 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "sales-path fit"
+    },
+    {
+      "check": "R11 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "delivery feasibility"
+    },
+    {
+      "check": "R12 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "retention logic"
+    },
+    {
+      "check": "R13 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "unit economics"
+    },
+    {
+      "check": "R14 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "cash robustness"
+    },
+    {
+      "check": "R15 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "experiment quality"
+    },
+    {
+      "check": "R16 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "constraint diagnosis"
+    },
+    {
+      "check": "behaviour complete original literal list",
+      "result": "PASS",
+      "evidence": {
+        "required": [
+          "distinguishes facts from assumptions",
+          "asks research/tooling to verify external claims when needed",
+          "chooses cheap experiments before large commitments",
+          "does not invent market size / conversion / CAC data",
+          "checks delivery and economics before scaling",
+          "uses downstream quality when judging acquisition",
+          "diagnoses the current constraint",
+          "preserves validated decisions",
+          "recommends the smallest responsible change",
+          "flags legal/ethical concerns"
+        ],
+        "actual": [
+          "distinguishes facts from assumptions",
+          "asks research/tooling to verify external claims when needed",
+          "chooses cheap experiments before large commitments",
+          "does not invent market size / conversion / CAC data",
+          "checks delivery and economics before scaling",
+          "uses downstream quality when judging acquisition",
+          "diagnoses the current constraint",
+          "preserves validated decisions",
+          "recommends the smallest responsible change",
+          "flags legal/ethical concerns"
+        ]
+      }
+    },
+    {
+      "check": "behaviour unique IDs",
+      "result": "PASS",
+      "evidence": [
+        "BH01",
+        "BH02",
+        "BH03",
+        "BH04",
+        "BH05",
+        "BH06",
+        "BH07",
+        "BH08",
+        "BH09",
+        "BH10"
+      ]
+    },
+    {
+      "check": "BH01 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "distinguishes facts from assumptions"
+    },
+    {
+      "check": "BH02 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "asks research/tooling to verify external claims when needed"
+    },
+    {
+      "check": "BH03 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "chooses cheap experiments before large commitments"
+    },
+    {
+      "check": "BH04 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "does not invent market size / conversion / CAC data"
+    },
+    {
+      "check": "BH05 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "checks delivery and economics before scaling"
+    },
+    {
+      "check": "BH06 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "uses downstream quality when judging acquisition"
+    },
+    {
+      "check": "BH07 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "diagnoses the current constraint"
+    },
+    {
+      "check": "BH08 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "preserves validated decisions"
+    },
+    {
+      "check": "BH09 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "recommends the smallest responsible change"
+    },
+    {
+      "check": "BH10 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "flags legal/ethical concerns"
+    },
+    {
+      "check": "adversaries complete original literal list",
+      "result": "PASS",
+      "evidence": {
+        "required": [
+          "false scarcity",
+          "fake urgency",
+          "invented testimonials",
+          "unsupported guarantee",
+          "unsupported earnings / ROI claim",
+          "hidden renewal",
+          "spam outreach",
+          "vanity metrics",
+          "CAC without downstream quality",
+          "LTV without retention evidence",
+          "growth despite negative contribution margin",
+          "experiment with no falsifiable decision rule",
+          "scaling before delivery capacity",
+          "pricing test that changes several variables at once"
+        ],
+        "actual": [
+          "false scarcity",
+          "fake urgency",
+          "invented testimonials",
+          "unsupported guarantee",
+          "unsupported earnings / ROI claim",
+          "hidden renewal",
+          "spam outreach",
+          "vanity metrics",
+          "CAC without downstream quality",
+          "LTV without retention evidence",
+          "growth despite negative contribution margin",
+          "experiment with no falsifiable decision rule",
+          "scaling before delivery capacity",
+          "pricing test that changes several variables at once"
+        ]
+      }
+    },
+    {
+      "check": "adversaries unique IDs",
+      "result": "PASS",
+      "evidence": [
+        "AD01",
+        "AD02",
+        "AD03",
+        "AD04",
+        "AD05",
+        "AD06",
+        "AD07",
+        "AD08",
+        "AD09",
+        "AD10",
+        "AD11",
+        "AD12",
+        "AD13",
+        "AD14"
+      ]
+    },
+    {
+      "check": "pack_dimensions complete original literal list",
+      "result": "PASS",
+      "evidence": {
+        "required": [
+          "activation",
+          "non-activation",
+          "precedence",
+          "changed business behaviour",
+          "pack-specific metrics",
+          "negative / incompatible cases",
+          "core vs core+pack difference"
+        ],
+        "actual": [
+          "activation",
+          "non-activation",
+          "precedence",
+          "changed business behaviour",
+          "pack-specific metrics",
+          "negative / incompatible cases",
+          "core vs core+pack difference"
+        ]
+      }
+    },
+    {
+      "check": "pack_dimensions unique IDs",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "P01 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "activation"
+    },
+    {
+      "check": "P02 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "non-activation"
+    },
+    {
+      "check": "P03 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "precedence"
+    },
+    {
+      "check": "P04 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "changed business behaviour"
+    },
+    {
+      "check": "P05 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "pack-specific metrics"
+    },
+    {
+      "check": "P06 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "negative / incompatible cases"
+    },
+    {
+      "check": "P07 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "core vs core+pack difference"
+    },
+    {
+      "check": "regression complete original literal list",
+      "result": "PASS",
+      "evidence": {
+        "required": [
+          "escaped business-reasoning defect",
+          "diagnose owning layer",
+          "create smallest reproducible case",
+          "add benchmark",
+          "prove old behaviour fails",
+          "prove repaired behaviour passes",
+          "retain permanently"
+        ],
+        "actual": [
+          "escaped business-reasoning defect",
+          "diagnose owning layer",
+          "create smallest reproducible case",
+          "add benchmark",
+          "prove old behaviour fails",
+          "prove repaired behaviour passes",
+          "retain permanently"
+        ]
+      }
+    },
+    {
+      "check": "regression unique IDs",
+      "result": "PASS",
+      "evidence": [
+        "RG01",
+        "RG02",
+        "RG03",
+        "RG04",
+        "RG05",
+        "RG06",
+        "RG07"
+      ]
+    },
+    {
+      "check": "RG01 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "escaped business-reasoning defect"
+    },
+    {
+      "check": "RG02 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "diagnose owning layer"
+    },
+    {
+      "check": "RG03 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "create smallest reproducible case"
+    },
+    {
+      "check": "RG04 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "add benchmark"
+    },
+    {
+      "check": "RG05 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "prove old behaviour fails"
+    },
+    {
+      "check": "RG06 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "prove repaired behaviour passes"
+    },
+    {
+      "check": "RG07 complete method/anchors/witnesses",
+      "result": "PASS",
+      "evidence": "retain permanently"
+    },
+    {
+      "check": "Complete inherited manifest",
+      "result": "PASS",
+      "evidence": 93
+    },
+    {
+      "check": "Preserved README.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "c2311bac2170cec37102ade6da92c1b2c7a803cd",
+        "expected": "c2311bac2170cec37102ade6da92c1b2c7a803cd",
+        "preserved_at": "README.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+        "expected": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+        "preserved_at": "docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "570081b938e618480fbcea577cd55a7cfb820a5a",
+        "expected": "570081b938e618480fbcea577cd55a7cfb820a5a",
+        "preserved_at": "docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-01-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "611728b0058d54a9b2d776373934036da5a51f41",
+        "expected": "611728b0058d54a9b2d776373934036da5a51f41",
+        "preserved_at": "docs/research-logs/2026-09-09-stage-01-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "12c8ded9b8ed852690278031689b5e0649af3d0a",
+        "expected": "12c8ded9b8ed852690278031689b5e0649af3d0a",
+        "preserved_at": "docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-02-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "b3eea49e0b92419db29ffca23940e8776108c204",
+        "expected": "b3eea49e0b92419db29ffca23940e8776108c204",
+        "preserved_at": "docs/research-logs/2026-09-09-stage-02-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341",
+        "expected": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341",
+        "preserved_at": "docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "3936ab4f89ebe8437f54f21c0581e26f6d33920a",
+        "expected": "3936ab4f89ebe8437f54f21c0581e26f6d33920a",
+        "preserved_at": "docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "db863e658a74e7657bac3072f6edea27eba33e82",
+        "expected": "db863e658a74e7657bac3072f6edea27eba33e82",
+        "preserved_at": "docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "0746b850f795eef519bd8858b55c32e9cea7a8cb",
+        "expected": "0746b850f795eef519bd8858b55c32e9cea7a8cb",
+        "preserved_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "85ed61c24af9d8903701acb1d2956067f6b52b07",
+        "expected": "85ed61c24af9d8903701acb1d2956067f6b52b07",
+        "preserved_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "e6ec298d61b8b52be3390c165de4976b984d6d71",
+        "expected": "e6ec298d61b8b52be3390c165de4976b984d6d71",
+        "preserved_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2",
+        "expected": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2",
+        "preserved_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07",
+        "expected": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07",
+        "preserved_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "174747f3897963653295b3e9433fec65b93893f7",
+        "expected": "174747f3897963653295b3e9433fec65b93893f7",
+        "preserved_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "172d81d7667e3478a05af4bca48177520460c840",
+        "expected": "172d81d7667e3478a05af4bca48177520460c840",
+        "preserved_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "8155d23ee83be07526a12062efac3a1073cc2d34",
+        "expected": "8155d23ee83be07526a12062efac3a1073cc2d34",
+        "preserved_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "8fe1f320ef28490a00d4eb66f739cf5db7e57931",
+        "expected": "8fe1f320ef28490a00d4eb66f739cf5db7e57931",
+        "preserved_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "92d903925fc2fcaf27c238816620ff7239af3acf",
+        "expected": "92d903925fc2fcaf27c238816620ff7239af3acf",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-03-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b",
+        "expected": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-03-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5",
+        "expected": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-03-professional-practice-map.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "7556e450ab5ae548881cb33d556d68d0e6f5efb4",
+        "expected": "7556e450ab5ae548881cb33d556d68d0e6f5efb4",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-03-professional-practice-map.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "bf924b1355ac808d1b4126449d02b4500197eeca",
+        "expected": "bf924b1355ac808d1b4126449d02b4500197eeca",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-04-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81",
+        "expected": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-04-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-05-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0",
+        "expected": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-05-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d",
+        "expected": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916",
+        "expected": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-05-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301",
+        "expected": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-05-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-06-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "4f33bce2c7294fd17e2f565684369626f865dc28",
+        "expected": "4f33bce2c7294fd17e2f565684369626f865dc28",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-06-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "091c8b69416c045042f4412caf348f59dad27c16",
+        "expected": "091c8b69416c045042f4412caf348f59dad27c16",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-06-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "225dbfcc90632287deff207be152132376257ac4",
+        "expected": "225dbfcc90632287deff207be152132376257ac4",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-06-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-07-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "7af32ad9b55130a7fe7f59c9e365325df1489040",
+        "expected": "7af32ad9b55130a7fe7f59c9e365325df1489040",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-07-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df",
+        "expected": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-07-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876",
+        "expected": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-07-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "154cdcae565b9c1708cde7650680cf64226ebd71",
+        "expected": "154cdcae565b9c1708cde7650680cf64226ebd71",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "a939843b6a262753ce64b5faef171d920beb925c",
+        "expected": "a939843b6a262753ce64b5faef171d920beb925c",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-08-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "b008eeed22083dbf4d90dc695a3137127703a836",
+        "expected": "b008eeed22083dbf4d90dc695a3137127703a836",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-08-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "c626781cd0dbcaac139ab99d54b69beaadafdd29",
+        "expected": "c626781cd0dbcaac139ab99d54b69beaadafdd29",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-08-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "6a3ef07398a94ff1f736f6f882280e450db7d2bb",
+        "expected": "6a3ef07398a94ff1f736f6f882280e450db7d2bb",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-08-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "6a777ddf779c75dda854794770fe0e21c421dbf1",
+        "expected": "6a777ddf779c75dda854794770fe0e21c421dbf1",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-09-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "005f6213dd06dce5ad86687514b4112e694b4067",
+        "expected": "005f6213dd06dce5ad86687514b4112e694b4067",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-09-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c",
+        "expected": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-09-research-and-sources.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c",
+        "expected": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-09-research-and-sources.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-capability-landscape.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "fa0dab2aa8c6f4925309aeb125013ae8338ef886",
+        "expected": "fa0dab2aa8c6f4925309aeb125013ae8338ef886",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-10-capability-landscape.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "a4d6db234ad2084352b59d4fde129260e8375e93",
+        "expected": "a4d6db234ad2084352b59d4fde129260e8375e93",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-10-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "fd6b74e5f3ff7512fe2d978b662484131635fdc2",
+        "expected": "fd6b74e5f3ff7512fe2d978b662484131635fdc2",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "849b0ae2d806344027c099668bf48fc5423edc62",
+        "expected": "849b0ae2d806344027c099668bf48fc5423edc62",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-verification-receipt.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "38b506a07394ca43078f8fc62226d448b3c9aac3",
+        "expected": "38b506a07394ca43078f8fc62226d448b3c9aac3",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-10-verification-receipt.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-11-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3",
+        "expected": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-11-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-11-execution-layer.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "58f7cd494d7361fc3beac569f1932174a76496a4",
+        "expected": "58f7cd494d7361fc3beac569f1932174a76496a4",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-11-execution-layer.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-11-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7",
+        "expected": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-11-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-11-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "actual": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464",
+        "expected": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-11-verifier.py"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-12-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "764a552a4d364a21ffc71509ce599b695c0c5d64",
+        "expected": "764a552a4d364a21ffc71509ce599b695c0c5d64",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-12-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-12-gap-analysis.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7",
+        "expected": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-12-gap-analysis.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-12-guardrails.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f",
+        "expected": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-12-guardrails.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-12-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "actual": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5",
+        "expected": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-12-verifier.py"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-build-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "7b303e39d7dd210c3a78b3f3f45f767338f1d936",
+        "expected": "7b303e39d7dd210c3a78b3f3f45f767338f1d936",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-13-build-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "a4b08bf60a2034ce499e138473135b48aefd8760",
+        "expected": "a4b08bf60a2034ce499e138473135b48aefd8760",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-13-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c",
+        "expected": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "45b7a15eabc8009742846879f2668449ab2c2da6",
+        "expected": "45b7a15eabc8009742846879f2668449ab2c2da6",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "e6de03d32950a6f20ca6773f715adc1a75503731",
+        "expected": "e6de03d32950a6f20ca6773f715adc1a75503731",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-selection-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9",
+        "expected": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-13-selection-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-skill-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "a622f8edc429d2510f7673e9fd0981fe978495eb",
+        "expected": "a622f8edc429d2510f7673e9fd0981fe978495eb",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-13-skill-architecture.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "actual": "b564e634ed2cdff275d271c65d58fc179d9fd3d9",
+        "expected": "b564e634ed2cdff275d271c65d58fc179d9fd3d9",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-13-verifier.py"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "60f29a0e74be247cbb0bb416d97725409daa8ff8",
+        "expected": "60f29a0e74be247cbb0bb416d97725409daa8ff8",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3",
+        "expected": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-14-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-design-probes.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406",
+        "expected": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-14-design-probes.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "actual": "63cd99a496c230287f34780136b24ce7f5912134",
+        "expected": "63cd99a496c230287f34780136b24ce7f5912134",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-14-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-pack-authoring.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62",
+        "expected": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-14-pack-authoring.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-pack-model.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "8c5c0ee64f42410c33842405817f62c5250cc9da",
+        "expected": "8c5c0ee64f42410c33842405817f62c5250cc9da",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-14-pack-model.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-research-and-sources.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "181eccc3d68296edee67858831225eebbe0e3d64",
+        "expected": "181eccc3d68296edee67858831225eebbe0e3d64",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-14-research-and-sources.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "actual": "9d828b230d49258c40df0c5b7293c28b750011f0",
+        "expected": "9d828b230d49258c40df0c5b7293c28b750011f0",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-14-verifier.py"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-candidate-pool.json",
+      "result": "PASS",
+      "evidence": {
+        "actual": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13",
+        "expected": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-candidate-pool.json"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "003154d3b8203c6b12f946af209fdc0b37f25f2b",
+        "expected": "003154d3b8203c6b12f946af209fdc0b37f25f2b",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-conformance.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "actual": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c",
+        "expected": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-01.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+        "expected": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-level-01.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-02.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "58240671642aceacb1ce95fdd12f26303d26e750",
+        "expected": "58240671642aceacb1ce95fdd12f26303d26e750",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-level-02.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-03.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+        "expected": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-level-03.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-04.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+        "expected": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-level-04.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+        "expected": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-level-05.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "d632cdee381483d6151a02b1eb10200a7bdf22f1",
+        "expected": "d632cdee381483d6151a02b1eb10200a7bdf22f1",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "actual": "b881846db73a520f4cb5580d6fd1d36b4ade1710",
+        "expected": "b881846db73a520f4cb5580d6fd1d36b4ade1710",
+        "preserved_at": "docs/research-logs/2026-09-10-stage-15-verifier.py"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "023af49f61ea3e9fb5475cafcb4885068f770f14",
+        "expected": "023af49f61ea3e9fb5475cafcb4885068f770f14",
+        "preserved_at": "docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-12-stage-16-cases.json",
+      "result": "PASS",
+      "evidence": {
+        "actual": "9dd91fd385401c2ebf03c2c473fc42d70fdf69ab",
+        "expected": "9dd91fd385401c2ebf03c2c473fc42d70fdf69ab",
+        "preserved_at": "docs/research-logs/2026-09-12-stage-16-cases.json"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-12-stage-16-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "actual": "3da33ce2c0871640a004e7ab594d7eb6ebeba9f4",
+        "expected": "3da33ce2c0871640a004e7ab594d7eb6ebeba9f4",
+        "preserved_at": "docs/research-logs/2026-09-12-stage-16-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-12-stage-16-fde-consultancy.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "6355a11cec15ac77ff9ccc3c4d5edf280862c42b",
+        "expected": "6355a11cec15ac77ff9ccc3c4d5edf280862c42b",
+        "preserved_at": "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-12-stage-16-kakeibo.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "cd1d7b2e4d84ae19660a59de7ee0b5e6263d0f86",
+        "expected": "cd1d7b2e4d84ae19660a59de7ee0b5e6263d0f86",
+        "preserved_at": "docs/research-logs/2026-09-12-stage-16-kakeibo.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "01f91e41d8cd49c5849453715c67e833c0f6d8bf",
+        "expected": "01f91e41d8cd49c5849453715c67e833c0f6d8bf",
+        "preserved_at": "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-12-stage-16-stress-test-design.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "e8e9de03faac6458645b07af75ca09c8ce56240d",
+        "expected": "e8e9de03faac6458645b07af75ca09c8ce56240d",
+        "preserved_at": "docs/research-logs/2026-09-12-stage-16-stress-test-design.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-12-stage-16-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "actual": "ceed0bfbfb84d0374f50dca2ac5ed2e9bd079bd1",
+        "expected": "ceed0bfbfb84d0374f50dca2ac5ed2e9bd079bd1",
+        "preserved_at": "docs/research-logs/2026-09-12-stage-16-verifier.py"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/README.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "55d53c7b137970fb727b1458ca4b70498c3a12de",
+        "expected": "55d53c7b137970fb727b1458ca4b70498c3a12de",
+        "preserved_at": "docs/research-logs/README.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/bootstrap-2-progress.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7",
+        "expected": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7",
+        "preserved_at": "docs/research-logs/bootstrap-2-progress.md"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/bootstrap-3-progress.md",
+      "result": "PASS",
+      "evidence": {
+        "actual": "ad8ef4df33941999316b1776ba6386234516c98e",
+        "expected": "ad8ef4df33941999316b1776ba6386234516c98e",
+        "preserved_at": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-16.md"
+      }
+    },
+    {
+      "check": "E01 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "68fdcdb02adb0fdceccd2a8c7c4cdec6d4a34b416287a6746a02e694076b554b"
+    },
+    {
+      "check": "E01 source identity",
+      "result": "PASS",
+      "evidence": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+    },
+    {
+      "check": "E01 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E01 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E01 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E01 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E01 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R04",
+        "R06",
+        "R13",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E02 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "5356010c63c91a4dc1c80bd70687666e7952152db9ceb879e39c53f87e653413"
+    },
+    {
+      "check": "E02 source identity",
+      "result": "PASS",
+      "evidence": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+    },
+    {
+      "check": "E02 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E02 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E02 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E02 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E02 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R08",
+        "R09",
+        "R10",
+        "R12",
+        "R13",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E03 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "fcc53613dccc7d929dd4b8dc4937ddd3b3d9ff6a551487c3ca37649d8d4d440e"
+    },
+    {
+      "check": "E03 source identity",
+      "result": "PASS",
+      "evidence": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+    },
+    {
+      "check": "E03 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E03 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E03 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E03 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E03 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R04",
+        "R07",
+        "R11",
+        "R13",
+        "R16"
+      ]
+    },
+    {
+      "check": "E04 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "7a0f8cf4d72ad1feb1f2672658d549befed50e48f20e904b5abe8d6d6524b6a3"
+    },
+    {
+      "check": "E04 source identity",
+      "result": "PASS",
+      "evidence": "58240671642aceacb1ce95fdd12f26303d26e750"
+    },
+    {
+      "check": "E04 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E04 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E04 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E04 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E04 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R03",
+        "R04",
+        "R06",
+        "R10",
+        "R11",
+        "R13",
+        "R14",
+        "R15"
+      ]
+    },
+    {
+      "check": "E05 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "c80c75fe62e5a412ee8398289d17aa49399b00130ae104f54d25c64b9ead0285"
+    },
+    {
+      "check": "E05 source identity",
+      "result": "PASS",
+      "evidence": "58240671642aceacb1ce95fdd12f26303d26e750"
+    },
+    {
+      "check": "E05 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E05 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E05 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E05 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E05 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R03",
+        "R05",
+        "R08",
+        "R09",
+        "R10",
+        "R13",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E06 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "ce6abce9af2a381fd0e35fe0bf2692f3c9649c29f6e8b25e282e49cc8110111d"
+    },
+    {
+      "check": "E06 source identity",
+      "result": "PASS",
+      "evidence": "58240671642aceacb1ce95fdd12f26303d26e750"
+    },
+    {
+      "check": "E06 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E06 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E06 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E06 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E06 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R03",
+        "R05",
+        "R06",
+        "R11",
+        "R12",
+        "R13",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E07 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "8c62913d6aa602ea2ae6eaf8438b0a0b423221830fa1010ffe99e4395b9ed56d"
+    },
+    {
+      "check": "E07 source identity",
+      "result": "PASS",
+      "evidence": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+    },
+    {
+      "check": "E07 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E07 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E07 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E07 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E07 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E08 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "3324b5f106b89c44f080827c39d8a8123c9185a76903d52c3e37718648cfcfb0"
+    },
+    {
+      "check": "E08 source identity",
+      "result": "PASS",
+      "evidence": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+    },
+    {
+      "check": "E08 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E08 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E08 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E08 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E08 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E09 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "888856a7e2bd0fce2cc4679b7ed804031e90d722db981d65acc5b342796665f1"
+    },
+    {
+      "check": "E09 source identity",
+      "result": "PASS",
+      "evidence": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+    },
+    {
+      "check": "E09 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E09 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E09 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E09 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E09 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E10 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "dfbd605da79152d72499abdc5bedd706635bd1337b4810c97dda03725661197d"
+    },
+    {
+      "check": "E10 source identity",
+      "result": "PASS",
+      "evidence": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+    },
+    {
+      "check": "E10 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E10 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E10 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E10 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E10 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R08",
+        "R09",
+        "R10",
+        "R13",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E11 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "b4cd89e48b4c447b93866f82868970d5f6638a46c1fd7d9a05868be981a88da0"
+    },
+    {
+      "check": "E11 source identity",
+      "result": "PASS",
+      "evidence": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+    },
+    {
+      "check": "E11 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E11 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E11 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E11 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E11 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R04",
+        "R11",
+        "R13",
+        "R14",
+        "R16"
+      ]
+    },
+    {
+      "check": "E12 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "5c5ef0e4afc7701de2ba94ed7940d2872966883eb46b4bbdb918e55e06859f9f"
+    },
+    {
+      "check": "E12 source identity",
+      "result": "PASS",
+      "evidence": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+    },
+    {
+      "check": "E12 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E12 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E12 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E12 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E12 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R04",
+        "R07",
+        "R13",
+        "R14",
+        "R16"
+      ]
+    },
+    {
+      "check": "E13 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "988cb949e098c51d79654ad31838a99352f534cbc98548170a1c1039e177a9b5"
+    },
+    {
+      "check": "E13 source identity",
+      "result": "PASS",
+      "evidence": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+    },
+    {
+      "check": "E13 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E13 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E13 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E13 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E13 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E14 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "7d3dd65131591330982febd6e760d177985b6d7a5769f7f326523bb138e36311"
+    },
+    {
+      "check": "E14 source identity",
+      "result": "PASS",
+      "evidence": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+    },
+    {
+      "check": "E14 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E14 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E14 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E14 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E14 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "E15 exact accepted prompt",
+      "result": "PASS",
+      "evidence": "14278036bf91852821ed3ca6ff1322af705e813d691d278b734eb5574291fcfc"
+    },
+    {
+      "check": "E15 source identity",
+      "result": "PASS",
+      "evidence": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+    },
+    {
+      "check": "E15 complete expected_artifacts",
+      "result": "PASS",
+      "evidence": "Expected artefacts"
+    },
+    {
+      "check": "E15 complete reference_findings",
+      "result": "PASS",
+      "evidence": "Discriminating acceptance"
+    },
+    {
+      "check": "E15 complete negative_control",
+      "result": "PASS",
+      "evidence": "Negative control"
+    },
+    {
+      "check": "E15 complete preservation",
+      "result": "PASS",
+      "evidence": "Preservation and smallest responsible repair"
+    },
+    {
+      "check": "E15 scoped reasoning contract",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "Exact complete primary set",
+      "result": "PASS",
+      "evidence": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15"
+      ]
+    },
+    {
+      "check": "Exact primary distribution",
+      "result": "PASS",
+      "evidence": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "check": "A inherited stress identity",
+      "result": "PASS",
+      "evidence": "ST16-A-v1"
+    },
+    {
+      "check": "A complete inherited stress coverage",
+      "result": "PASS",
+      "evidence": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05"
+      ]
+    },
+    {
+      "check": "B inherited stress identity",
+      "result": "PASS",
+      "evidence": "ST16-B-v1"
+    },
+    {
+      "check": "B complete inherited stress coverage",
+      "result": "PASS",
+      "evidence": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05"
+      ]
+    },
+    {
+      "check": "C inherited stress identity",
+      "result": "PASS",
+      "evidence": "ST16-C-v1"
+    },
+    {
+      "check": "C complete inherited stress coverage",
+      "result": "PASS",
+      "evidence": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05"
+      ]
+    },
+    {
+      "check": "All three stress structures",
+      "result": "PASS",
+      "evidence": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "check": "All retained pack candidates and advisory mode",
+      "result": "PASS",
+      "evidence": [
+        "PK01",
+        "PK02",
+        "PK03",
+        "PK04",
+        "PK05",
+        "PK06",
+        "PK07",
+        "PK08",
+        "PK09"
+      ]
+    },
+    {
+      "check": "PK01 exact accepted probe",
+      "result": "PASS",
+      "evidence": "S01"
+    },
+    {
+      "check": "PK01 retained effect identities",
+      "result": "PASS",
+      "evidence": [
+        "PK01-E1",
+        "PK01-E2",
+        "PK01-E3"
+      ]
+    },
+    {
+      "check": "PK01 full seven-part evaluation contract",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "PK01 honest implementation state",
+      "result": "PASS",
+      "evidence": "NOT IMPLEMENTED; inherited design candidate"
+    },
+    {
+      "check": "PK02 exact accepted probe",
+      "result": "PASS",
+      "evidence": "S02"
+    },
+    {
+      "check": "PK02 retained effect identities",
+      "result": "PASS",
+      "evidence": [
+        "PK02-E1",
+        "PK02-E2",
+        "PK02-E3"
+      ]
+    },
+    {
+      "check": "PK02 full seven-part evaluation contract",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "PK02 honest implementation state",
+      "result": "PASS",
+      "evidence": "NOT IMPLEMENTED; inherited design candidate"
+    },
+    {
+      "check": "PK03 exact accepted probe",
+      "result": "PASS",
+      "evidence": "S03"
+    },
+    {
+      "check": "PK03 retained effect identities",
+      "result": "PASS",
+      "evidence": [
+        "PK03-E1",
+        "PK03-E2",
+        "PK03-E3"
+      ]
+    },
+    {
+      "check": "PK03 full seven-part evaluation contract",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "PK03 honest implementation state",
+      "result": "PASS",
+      "evidence": "NOT IMPLEMENTED; inherited design candidate"
+    },
+    {
+      "check": "PK04 exact accepted probe",
+      "result": "PASS",
+      "evidence": "S04"
+    },
+    {
+      "check": "PK04 retained effect identities",
+      "result": "PASS",
+      "evidence": [
+        "PK04-E1",
+        "PK04-E2",
+        "PK04-E3"
+      ]
+    },
+    {
+      "check": "PK04 full seven-part evaluation contract",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "PK04 honest implementation state",
+      "result": "PASS",
+      "evidence": "NOT IMPLEMENTED; inherited design candidate"
+    },
+    {
+      "check": "PK05 exact accepted probe",
+      "result": "PASS",
+      "evidence": "S05"
+    },
+    {
+      "check": "PK05 retained effect identities",
+      "result": "PASS",
+      "evidence": [
+        "PK05-E1",
+        "PK05-E2",
+        "PK05-E3"
+      ]
+    },
+    {
+      "check": "PK05 full seven-part evaluation contract",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "PK05 honest implementation state",
+      "result": "PASS",
+      "evidence": "NOT IMPLEMENTED; inherited design candidate"
+    },
+    {
+      "check": "PK06 exact accepted probe",
+      "result": "PASS",
+      "evidence": "S06"
+    },
+    {
+      "check": "PK06 retained effect identities",
+      "result": "PASS",
+      "evidence": [
+        "PK06-E1",
+        "PK06-E2",
+        "PK06-E3"
+      ]
+    },
+    {
+      "check": "PK06 full seven-part evaluation contract",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "PK06 honest implementation state",
+      "result": "PASS",
+      "evidence": "NOT IMPLEMENTED; inherited design candidate"
+    },
+    {
+      "check": "PK07 exact accepted probe",
+      "result": "PASS",
+      "evidence": "S07"
+    },
+    {
+      "check": "PK07 retained effect identities",
+      "result": "PASS",
+      "evidence": [
+        "PK07-E1",
+        "PK07-E2",
+        "PK07-E3"
+      ]
+    },
+    {
+      "check": "PK07 full seven-part evaluation contract",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "PK07 honest implementation state",
+      "result": "PASS",
+      "evidence": "NOT IMPLEMENTED; inherited design candidate"
+    },
+    {
+      "check": "PK08 exact accepted probe",
+      "result": "PASS",
+      "evidence": "S08"
+    },
+    {
+      "check": "PK08 retained effect identities",
+      "result": "PASS",
+      "evidence": [
+        "PK08-E1",
+        "PK08-E2",
+        "PK08-E3"
+      ]
+    },
+    {
+      "check": "PK08 full seven-part evaluation contract",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "PK08 honest implementation state",
+      "result": "PASS",
+      "evidence": "NOT IMPLEMENTED; inherited design candidate"
+    },
+    {
+      "check": "PK09 exact accepted probe",
+      "result": "PASS",
+      "evidence": "S09"
+    },
+    {
+      "check": "PK09 retained effect identities",
+      "result": "PASS",
+      "evidence": [
+        "PK09-E1",
+        "PK09-E2",
+        "PK09-E3"
+      ]
+    },
+    {
+      "check": "PK09 full seven-part evaluation contract",
+      "result": "PASS",
+      "evidence": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "check": "PK09 honest implementation state",
+      "result": "PASS",
+      "evidence": "NOT IMPLEMENTED; inherited design candidate"
+    },
+    {
+      "check": "Advisory mode remains inside professional-services",
+      "result": "PASS",
+      "evidence": "PK04 is not a ninth independent pack"
+    },
+    {
+      "check": "Complete case and evidence record contract",
+      "result": "PASS",
+      "evidence": [
+        "identity",
+        "subject_input",
+        "execution_condition",
+        "authority",
+        "expected_artifacts",
+        "deterministic_oracle",
+        "reasoning_oracle",
+        "behaviour_oracle",
+        "adversarial_controls",
+        "business_result",
+        "run_evidence",
+        "assessment",
+        "repair_and_regression",
+        "claim_scope"
+      ]
+    },
+    {
+      "check": "AD01 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "false scarcity"
+    },
+    {
+      "check": "AD01 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R05",
+        "R04"
+      ]
+    },
+    {
+      "check": "AD01 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "Unlimited-copy inputs contradict the asserted stock count.",
+        "Conversion expectation supplies no truth evidence."
+      ]
+    },
+    {
+      "check": "AD01 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R05",
+        "R04"
+      ]
+    },
+    {
+      "check": "AD02 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "fake urgency"
+    },
+    {
+      "check": "AD02 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R05"
+      ]
+    },
+    {
+      "check": "AD02 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "No real expiry is supplied.",
+        "The proposed timer contradicts the asserted final deadline."
+      ]
+    },
+    {
+      "check": "AD02 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R05"
+      ]
+    },
+    {
+      "check": "AD03 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "invented testimonials"
+    },
+    {
+      "check": "AD03 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R05"
+      ]
+    },
+    {
+      "check": "AD03 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "There is no genuine customer/source/permission.",
+        "A generated illustration cannot substantiate an outcome claim."
+      ]
+    },
+    {
+      "check": "AD03 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R05"
+      ]
+    },
+    {
+      "check": "AD04 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "unsupported guarantee"
+    },
+    {
+      "check": "AD04 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R04",
+        "R05",
+        "R11"
+      ]
+    },
+    {
+      "check": "AD04 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "Written policy does not prove fulfilment.",
+        "Eight supplied refusals contradict the stated remedy; rewriting it cannot erase prior rights."
+      ]
+    },
+    {
+      "check": "AD04 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R04",
+        "R05",
+        "R11"
+      ]
+    },
+    {
+      "check": "AD05 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "unsupported earnings / ROI claim"
+    },
+    {
+      "check": "AD05 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R03",
+        "R05"
+      ]
+    },
+    {
+      "check": "AD05 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "Discussion supplies no measured cost effect.",
+        "Expected technical capability does not establish a guaranteed business outcome."
+      ]
+    },
+    {
+      "check": "AD05 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R03",
+        "R05"
+      ]
+    },
+    {
+      "check": "AD06 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "hidden renewal"
+    },
+    {
+      "check": "AD06 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R05",
+        "R06",
+        "R10"
+      ]
+    },
+    {
+      "check": "AD06 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "The decision copy omits recurrence.",
+        "A later receipt does not make the earlier representation complete."
+      ]
+    },
+    {
+      "check": "AD06 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R05",
+        "R06",
+        "R10"
+      ]
+    },
+    {
+      "check": "AD07 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "spam outreach"
+    },
+    {
+      "check": "AD07 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R05",
+        "R08",
+        "R10"
+      ]
+    },
+    {
+      "check": "AD07 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "Public availability is not permission evidence.",
+        "The task supplies no sending authority and preserves explicit opt-outs."
+      ]
+    },
+    {
+      "check": "AD07 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R05",
+        "R08",
+        "R10"
+      ]
+    },
+    {
+      "check": "AD08 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "vanity metrics"
+    },
+    {
+      "check": "AD08 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R07",
+        "R12"
+      ]
+    },
+    {
+      "check": "AD08 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "Zero paid subscribers gives zero observed support revenue.",
+        "Attention and intention are not payment or repeat value."
+      ]
+    },
+    {
+      "check": "AD08 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R07",
+        "R12"
+      ]
+    },
+    {
+      "check": "AD09 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "CAC without downstream quality"
+    },
+    {
+      "check": "AD09 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R08",
+        "R09",
+        "R13"
+      ]
+    },
+    {
+      "check": "AD09 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "Lead cost ranks differently from paying-customer economics.",
+        "Full-window residuals are -80 and 50; they do not prove marginal scalability."
+      ]
+    },
+    {
+      "check": "AD09 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R08",
+        "R09",
+        "R13"
+      ]
+    },
+    {
+      "check": "AD10 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "LTV without retention evidence"
+    },
+    {
+      "check": "AD10 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R12",
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "check": "AD10 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "No twelve-month survival or repeat evidence exists.",
+        "A forecast horizon is not an observed lifetime or cash-funding source."
+      ]
+    },
+    {
+      "check": "AD10 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R12",
+        "R13",
+        "R14"
+      ]
+    },
+    {
+      "check": "AD11 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "growth despite negative contribution margin"
+    },
+    {
+      "check": "AD11 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R13",
+        "R14",
+        "R16"
+      ]
+    },
+    {
+      "check": "AD11 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "Revenue 5000 is not contribution.",
+        "Known negative marginal contribution cannot be offset by persuasive growth prose."
+      ]
+    },
+    {
+      "check": "AD11 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R13",
+        "R14",
+        "R16"
+      ]
+    },
+    {
+      "check": "AD12 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "experiment with no falsifiable decision rule"
+    },
+    {
+      "check": "AD12 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R15"
+      ]
+    },
+    {
+      "check": "AD12 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "The observed proxy addresses a different claim.",
+        "No supplied outcome can challenge the commitment; missing data are not success."
+      ]
+    },
+    {
+      "check": "AD12 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R01",
+        "R15"
+      ]
+    },
+    {
+      "check": "AD13 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "scaling before delivery capacity"
+    },
+    {
+      "check": "AD13 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R11",
+        "R16"
+      ]
+    },
+    {
+      "check": "AD13 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "Sales work consumes the same finite owner resource.",
+        "The twelve-hour overload exists before any new project is delivered."
+      ]
+    },
+    {
+      "check": "AD13 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R11",
+        "R16"
+      ]
+    },
+    {
+      "check": "AD14 fixed synthetic prompt and facts",
+      "result": "PASS",
+      "evidence": "pricing test that changes several variables at once"
+    },
+    {
+      "check": "AD14 concrete separate controls",
+      "result": "PASS",
+      "evidence": [
+        "R06",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "AD14 findings and bounded repair",
+      "result": "PASS",
+      "evidence": [
+        "The numbers do not identify a price-only effect.",
+        "A coherent bundle can be tested as a bundle; it cannot attribute the effect to each component."
+      ]
+    },
+    {
+      "check": "AD14 separate attributed calibration dimensions",
+      "result": "PASS",
+      "evidence": [
+        "R06",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "check": "All 36 attributed dimension comparisons",
+      "result": "PASS",
+      "evidence": 36
+    },
+    {
+      "check": "No calibration substituted for installed performance",
+      "result": "PASS",
+      "evidence": "Explicit evidence boundaries inspected"
+    },
+    {
+      "check": "AD04 honoured proportion",
+      "result": "PASS",
+      "evidence": {
+        "actual": "0.2",
+        "expected": "0.2"
+      }
+    },
+    {
+      "check": "AD04 eligible dispositions reconcile",
+      "result": "PASS",
+      "evidence": {
+        "actual": "10",
+        "expected": "10"
+      }
+    },
+    {
+      "check": "AD07 unknown-eligibility remainder",
+      "result": "PASS",
+      "evidence": {
+        "actual": "42",
+        "expected": "42"
+      }
+    },
+    {
+      "check": "AD08 actual support revenue",
+      "result": "PASS",
+      "evidence": {
+        "actual": "0",
+        "expected": "0"
+      }
+    },
+    {
+      "check": "AD09 A CPL",
+      "result": "PASS",
+      "evidence": {
+        "actual": "1",
+        "expected": "1"
+      }
+    },
+    {
+      "check": "AD09 A CAC",
+      "result": "PASS",
+      "evidence": {
+        "actual": "100",
+        "expected": "100"
+      }
+    },
+    {
+      "check": "AD09 A residual",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-80",
+        "expected": "-80"
+      }
+    },
+    {
+      "check": "AD09 B CPL",
+      "result": "PASS",
+      "evidence": {
+        "actual": "10",
+        "expected": "10"
+      }
+    },
+    {
+      "check": "AD09 B CAC",
+      "result": "PASS",
+      "evidence": {
+        "actual": "20",
+        "expected": "20"
+      }
+    },
+    {
+      "check": "AD09 B residual",
+      "result": "PASS",
+      "evidence": {
+        "actual": "50",
+        "expected": "50"
+      }
+    },
+    {
+      "check": "AD10 observed finite contribution",
+      "result": "PASS",
+      "evidence": {
+        "actual": "10",
+        "expected": "10"
+      }
+    },
+    {
+      "check": "AD10 unvalidated twelve-month scenario",
+      "result": "PASS",
+      "evidence": {
+        "actual": "120",
+        "expected": "120"
+      }
+    },
+    {
+      "check": "AD11 marginal contribution",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-10",
+        "expected": "-10"
+      }
+    },
+    {
+      "check": "AD11 total marginal contribution",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-1000",
+        "expected": "-1000"
+      }
+    },
+    {
+      "check": "AD11 gross sales",
+      "result": "PASS",
+      "evidence": {
+        "actual": "5000",
+        "expected": "5000"
+      }
+    },
+    {
+      "check": "AD13 added hours",
+      "result": "PASS",
+      "evidence": {
+        "actual": "18.0",
+        "expected": "18"
+      }
+    },
+    {
+      "check": "AD13 all-in hours",
+      "result": "PASS",
+      "evidence": {
+        "actual": "132.0",
+        "expected": "132"
+      }
+    },
+    {
+      "check": "AD14 descriptive percentage-point difference",
+      "result": "PASS",
+      "evidence": {
+        "actual": "5.00",
+        "expected": "5"
+      }
+    },
+    {
+      "check": "Calculator rejects True",
+      "result": "PASS",
+      "evidence": "True"
+    },
+    {
+      "check": "Calculator rejects 1.2",
+      "result": "PASS",
+      "evidence": "1.2"
+    },
+    {
+      "check": "Calculator rejects 'NaN'",
+      "result": "PASS",
+      "evidence": "'NaN'"
+    },
+    {
+      "check": "Calculator rejects 'Infinity'",
+      "result": "PASS",
+      "evidence": "'Infinity'"
+    },
+    {
+      "check": "Calculator rejects ''",
+      "result": "PASS",
+      "evidence": "''"
+    },
+    {
+      "check": "All new documentation targets resolve",
+      "result": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "No premature production directories",
+      "result": "PASS",
+      "evidence": "Research workspace only"
+    }
+  ]
+}

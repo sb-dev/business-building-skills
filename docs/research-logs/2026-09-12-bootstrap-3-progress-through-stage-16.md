@@ -14,8 +14,7 @@ Continuation started at `5d973121ecf87d40f6d9f97e0794be2723b0985b`, one commit a
 |---|---|---|
 | 0–15 | COMPLETE; Stage 0 is the existing research workspace | [Accepted historical progress](bootstrap-2-progress.md) and linked receipts |
 | 16 | COMPLETE | [Canonical stress-test design and conformance](2026-09-12-stage-16-stress-test-design.md), [actual design checks](2026-09-12-stage-16-executed-checks.json) |
-| 17 | Content requirements PASS; stage-scoped remote commit and receipt pending | [Benchmark design and conformance](2026-09-12-stage-17-benchmark-design.md), [actual design checks](2026-09-12-stage-17-executed-checks.json) |
-| 18–26 | NOT STARTED | No outputs belong to this Stage 17 work |
+| 17–26 | NOT STARTED | No outputs belong to this Stage 16 work |
 
 This remains a bootstrap design workspace. It is not an installed, working, benchmarked or mature Agent Skills product. Synthetic business fixtures are not live commercial validation. No PR, merge, release, registry promotion or live business action is included.
 
