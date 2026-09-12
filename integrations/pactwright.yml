@@ -1,0 +1,14 @@
+schema_version: 1
+project: business-building-skills
+status: planned-unverified
+repository: https://github.com/sb-dev/business-building-skills
+capabilities:
+  - business-build
+  - business-grow
+  - business-evaluate
+  - business-pack-author
+extension_pack_discovery: extension-packs/
+notes: >-
+  Optional compatibility manifest only. Pactwright owns lifecycle/Contract topology;
+  this repository owns business-building domain semantics. No Pactwright integration
+  execution has been validated during bootstrap.
