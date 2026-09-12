@@ -1,0 +1,1494 @@
+{
+  "stage": 16,
+  "version": 1,
+  "evidence_kind": "synthetic stress-test design; no installed-agent or commercial execution",
+  "specification": "docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+  "specification_blob": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+  "accepted_stage_15_boundary": "fbaed771716f30994eb30cf6678fad7d4d22e2c1",
+  "starting_head": "5d973121ecf87d40f6d9f97e0794be2723b0985b",
+  "inherited_files": [
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md",
+      "sha": "e6ec298d61b8b52be3390c165de4976b984d6d71"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md",
+      "sha": "0746b850f795eef519bd8858b55c32e9cea7a8cb"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md",
+      "sha": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341"
+    },
+    {
+      "path": "README.md",
+      "sha": "c2311bac2170cec37102ade6da92c1b2c7a803cd"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md",
+      "sha": "570081b938e618480fbcea577cd55a7cfb820a5a"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-conformance.md",
+      "sha": "b3eea49e0b92419db29ffca23940e8776108c204"
+    },
+    {
+      "path": "docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+      "sha": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md",
+      "sha": "12c8ded9b8ed852690278031689b5e0649af3d0a"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+      "sha": "3936ab4f89ebe8437f54f21c0581e26f6d33920a"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-01-conformance.md",
+      "sha": "611728b0058d54a9b2d776373934036da5a51f41"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md",
+      "sha": "db863e658a74e7657bac3072f6edea27eba33e82"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md",
+      "sha": "85ed61c24af9d8903701acb1d2956067f6b52b07"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md",
+      "sha": "172d81d7667e3478a05af4bca48177520460c840"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md",
+      "sha": "174747f3897963653295b3e9433fec65b93893f7"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md",
+      "sha": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-03-conformance.md",
+      "sha": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md",
+      "sha": "8fe1f320ef28490a00d4eb66f739cf5db7e57931"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-03-professional-practice-map.md",
+      "sha": "7556e450ab5ae548881cb33d556d68d0e6f5efb4"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md",
+      "sha": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md",
+      "sha": "bf924b1355ac808d1b4126449d02b4500197eeca"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md",
+      "sha": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md",
+      "sha": "8155d23ee83be07526a12062efac3a1073cc2d34"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-04-conformance.md",
+      "sha": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md",
+      "sha": "92d903925fc2fcaf27c238816620ff7239af3acf"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-conformance.md",
+      "sha": "7af32ad9b55130a7fe7f59c9e365325df1489040"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-06-conformance.md",
+      "sha": "4f33bce2c7294fd17e2f565684369626f865dc28"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-research-and-checks.md",
+      "sha": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+      "sha": "154cdcae565b9c1708cde7650680cf64226ebd71"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-research-and-checks.md",
+      "sha": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+      "sha": "a939843b6a262753ce64b5faef171d920beb925c"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md",
+      "sha": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md",
+      "sha": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+      "sha": "091c8b69416c045042f4412caf348f59dad27c16"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md",
+      "sha": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-conformance.md",
+      "sha": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-06-research-and-checks.md",
+      "sha": "225dbfcc90632287deff207be152132376257ac4"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-verification-receipt.md",
+      "sha": "38b506a07394ca43078f8fc62226d448b3c9aac3"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-capability-landscape.md",
+      "sha": "fa0dab2aa8c6f4925309aeb125013ae8338ef886"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-09-conformance.md",
+      "sha": "005f6213dd06dce5ad86687514b4112e694b4067"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md",
+      "sha": "6a777ddf779c75dda854794770fe0e21c421dbf1"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md",
+      "sha": "849b0ae2d806344027c099668bf48fc5423edc62"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-research-and-checks.md",
+      "sha": "6a3ef07398a94ff1f736f6f882280e450db7d2bb"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-09-research-and-sources.md",
+      "sha": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+      "sha": "c626781cd0dbcaac139ab99d54b69beaadafdd29"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+      "sha": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-conformance.md",
+      "sha": "a4d6db234ad2084352b59d4fde129260e8375e93"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md",
+      "sha": "fd6b74e5f3ff7512fe2d978b662484131635fdc2"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-conformance.md",
+      "sha": "b008eeed22083dbf4d90dc695a3137127703a836"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-11-research-and-checks.md",
+      "sha": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-guardrails.md",
+      "sha": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-gap-analysis.md",
+      "sha": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-11-execution-layer.md",
+      "sha": "58f7cd494d7361fc3beac569f1932174a76496a4"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-11-conformance.md",
+      "sha": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-11-verifier.py",
+      "sha": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md",
+      "sha": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-verifier.py",
+      "sha": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-conformance.md",
+      "sha": "a4b08bf60a2034ce499e138473135b48aefd8760"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-build-command-contracts.md",
+      "sha": "7b303e39d7dd210c3a78b3f3f45f767338f1d936"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md",
+      "sha": "45b7a15eabc8009742846879f2668449ab2c2da6"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-conformance.md",
+      "sha": "764a552a4d364a21ffc71509ce599b695c0c5d64"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-skill-architecture.md",
+      "sha": "a622f8edc429d2510f7673e9fd0981fe978495eb"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-pack-model.md",
+      "sha": "8c5c0ee64f42410c33842405817f62c5250cc9da"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-pack-authoring.md",
+      "sha": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md",
+      "sha": "60f29a0e74be247cbb0bb416d97725409daa8ff8"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-conformance.md",
+      "sha": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-verifier.py",
+      "sha": "9d828b230d49258c40df0c5b7293c28b750011f0"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-design-probes.md",
+      "sha": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-research-and-sources.md",
+      "sha": "181eccc3d68296edee67858831225eebbe0e3d64"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md",
+      "sha": "e6de03d32950a6f20ca6773f715adc1a75503731"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-executed-checks.json",
+      "sha": "63cd99a496c230287f34780136b24ce7f5912134"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-selection-and-checks.md",
+      "sha": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-verifier.py",
+      "sha": "b564e634ed2cdff275d271c65d58fc179d9fd3d9"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "sha": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md",
+      "sha": "d632cdee381483d6151a02b1eb10200a7bdf22f1"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+      "sha": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-03.md",
+      "sha": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md",
+      "sha": "023af49f61ea3e9fb5475cafcb4885068f770f14"
+    },
+    {
+      "path": "docs/research-logs/README.md",
+      "sha": "55d53c7b137970fb727b1458ca4b70498c3a12de"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-executed-checks.json",
+      "sha": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-verifier.py",
+      "sha": "b881846db73a520f4cb5580d6fd1d36b4ade1710"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-conformance.md",
+      "sha": "003154d3b8203c6b12f946af209fdc0b37f25f2b"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+      "sha": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-candidate-pool.json",
+      "sha": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-02.md",
+      "sha": "58240671642aceacb1ce95fdd12f26303d26e750"
+    },
+    {
+      "path": "docs/research-logs/bootstrap-2-progress.md",
+      "sha": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7"
+    }
+  ],
+  "common_protocol": "Execute each design as an independent local review when an appropriate installed product is available. Stage 16 does not claim such an execution. The exact accepted base prompt is copied below without alteration. For a base run, use that prompt followed by the canonical stress instruction and coverage requirements. For an adversarial run, append exactly one numbered overlay and its review request. An overlay is a new synthetic review subject, never a change to the accepted source; reset to the base before the next overlay. Additional observations, proposals, and counterfactuals retain their stated scope. In particular, separate incident windows must not be merged into the baseline financial totals without identity evidence.\n\nThe failing and adequate candidates are human-authored design controls. They are not captured agent outputs, executed benchmark scores, customer research or professional findings. Keep them outside the future agent's input. The adequate candidate resolves the stated defect only; it does not imply every growth gate passes. A correct answer may reject a proposal or leave an affected commitment blocked. Do not demand an optimistic commercial decision as a condition of passing the reasoning review.\n\nUse the existing selectors with explicit modes: evaluate-component takes one of opportunity, offer, pricing, money-model, channel, funnel or retention for its identified subject; evaluate-unit-economics uses scope=both when the review covers economics and cash; design-acquisition declares its outreach or content-loop mode. Separate assessments when subjects differ. scale-channel means an assessment/proposal under the existing growth gates, not permission to execute.\n\nExpected output is one coherent dossier with the fifteen accepted business-map concerns, evidence/assumption/metric/interpretation/decision separation, a comparison of alternatives, reproducible economics and dated cash, scoped claims/handoffs, a diagnosis, an RR01–RR08 repair proposal where implicated, and an EX01–EX09 evidence programme with LR01–LR08 learning record. These can be sections, not compulsory separate files. Every future reviewed output must identify actual input/prompt/core/pack versions, calculations performed, limits and protected versions. Never relabel the supplied synthetic observations as live commercial evidence.\n\nApply GG01 evidence/definitions, GG02 value/quality, GG03 capacity, GG04 economics, GG05 retained/downstream value, GG06 dated usable cash and GG07 rights/professional constraints/authority separately. A failure or missing relevant input cannot be averaged away. Report PASS, FAIL, BLOCKED or justified NOT APPLICABLE for each bounded gate. This is the inherited business decision model; an expected FAIL on a deliberately bad proposal is successful defect detection, not a failed Stage 16 design.\n\nEach proposed specialist handoff is a draft packet using Stage 9 HF01–HF07: exact issue/action, preserved facts and versions, business intention, assumptions, bounded question/owner, required returned constraint, and affected process review. No message is sent. Current external legal, platform, market or cost facts must be verified before a real commitment; no such new claim is supplied by this synthetic design.\n\nUse core without any pack as the baseline. An explicitly selected fitting pack may apply only the accepted named effects. It must retain all project facts, approved decisions and mandatory invariants; identical correct outcomes are valid. An unselected or incompatible pack does not activate. The architecture comparison here is a design trace, not a measured core-versus-pack performance result.",
+  "cases": [
+    {
+      "id": "A",
+      "title": "Kakeibo",
+      "slug": "kakeibo",
+      "base_example": "E13",
+      "business_structure": "Consumer subscription with trust-sensitive financial information and finite support",
+      "optional_pack": "consumer-mobile-subscription",
+      "pack_effects": [
+        "PK02-E1",
+        "PK02-E2",
+        "PK02-E3"
+      ],
+      "stress_instruction": "Review the immutable E13-v1 thesis using all nine coverage rows and the five isolated adversarial overlays below. Explain free access, free trial and a paid purchase with a refund guarantee as different propositions. The accepted choice is paid monthly access with no free trial and a 30-day money-back guarantee. Free/trial and annual alternatives are comparisons only, never changes to that baseline. Trace acquisition origin separately from payment owner, entitlement and settlement; require current channel-specific terms before any real implementation. Separate assistant usefulness, review behaviour, claimed money savings and regulated advice. Return the shared artefacts, seven independent growth findings and a bounded evidence programme. Do not infer actual Kakeibo facts from this synthetic name.",
+      "coverage": [
+        {
+          "requirement": "consumer subscription",
+          "selectors": [
+            "business-build/design-money-model",
+            "business-grow/design-retention"
+          ],
+          "expected_evidence": "A recurring-access map with due cohort, paid renewal, entitlement, refund and meaningful use; 140/200 paid renewal is distinct from 150/200 entitlement.",
+          "failure_condition": "Treat new sales or access as retained paid value.",
+          "adversarial_ids": [
+            "A01"
+          ]
+        },
+        {
+          "requirement": "trust-sensitive financial product",
+          "selectors": [
+            "business-build/define-customer-value",
+            "business-evaluate/audit-claims"
+          ],
+          "expected_evidence": "Adult user/payer roles, review-assistance value hypothesis, sensitive-data boundary and substantiation inventory; twelve fictional interviews support only attributed review-habit accounts.",
+          "failure_condition": "Invent savings, financial outcomes, investment authority or safe data use.",
+          "adversarial_ids": [
+            "A04"
+          ]
+        },
+        {
+          "requirement": "free/trial/guarantee choices",
+          "selectors": [
+            "business-build/design-offer",
+            "business-build/design-pricing"
+          ],
+          "expected_evidence": "Compare free ongoing access, free trial and paid access with remedy by value, funding, obligation and evidence needed. Preserve no-free-trial-v1 and 30-day-money-back-v1; unknown free-tier/trial economics stay unknown.",
+          "failure_condition": "Add a trial, remove the promise or claim a guarantee is equivalent to free access.",
+          "adversarial_ids": [
+            "A02"
+          ]
+        },
+        {
+          "requirement": "pricing",
+          "selectors": [
+            "business-build/design-pricing",
+            "business-evaluate/evaluate-component"
+          ],
+          "expected_evidence": "Monthly 6 versus candidate annual 60; twelve monthly charges total 72. Show total obligation, billing period, renewal and cancellation; annual demand and future-service funding remain unresolved.",
+          "failure_condition": "Promote a 12 difference into proven willingness to prepay or hide renewal.",
+          "adversarial_ids": [
+            "A03"
+          ]
+        },
+        {
+          "requirement": "retention",
+          "selectors": [
+            "business-grow/design-retention",
+            "business-evaluate/evaluate-component"
+          ],
+          "expected_evidence": "Separate 70% paid renewal, 75% entitlement and 50% old-cohort weekly review; identify unmeasured cause, assistant effect and longer horizon.",
+          "failure_condition": "Treat billing or a larger closing account count as causal retention improvement.",
+          "adversarial_ids": [
+            "A01",
+            "A05"
+          ]
+        },
+        {
+          "requirement": "app-store / direct acquisition",
+          "selectors": [
+            "business-grow/select-channel",
+            "business-grow/design-sales-path"
+          ],
+          "expected_evidence": "Keep 70 store-origin and 30 direct-origin new accounts distinct, with unknown channel costs, payment route, refund owner and settlement. Define install/purchase/access/renewal handoffs and a request for verified applicable rules.",
+          "failure_condition": "Invent commissions, apply a platform rule to every origin, or rank channels from volume alone.",
+          "adversarial_ids": [
+            "A05"
+          ]
+        },
+        {
+          "requirement": "AI assistant value",
+          "selectors": [
+            "business-build/define-customer-value",
+            "business-build/design-experiment"
+          ],
+          "expected_evidence": "Separate useful budget-review assistance from money-saving claims; propose a disclosed, bounded review-task study and later retained-value test with no fabricated observation.",
+          "failure_condition": "Claim that AI presence or 100 completed reviews establishes financial benefit.",
+          "adversarial_ids": [
+            "A04"
+          ]
+        },
+        {
+          "requirement": "support/delivery economics",
+          "selectors": [
+            "business-build/model-delivery",
+            "business-build/model-unit-economics"
+          ],
+          "expected_evidence": "250 cost-bearing entitlements, 250 service cost, 180 support, 50 payment fees; net consideration 1380, direct cost 480, contribution 900, residual -400; cash trough -730. Unknown marginal capacity is a separate gate.",
+          "failure_condition": "Drop grace/support costs, double-count refunds, extrapolate constant marginal costs or approve acquisition from ending cash 600.",
+          "adversarial_ids": [
+            "A05"
+          ]
+        },
+        {
+          "requirement": "consumer terms / privacy constraints",
+          "selectors": [
+            "business-evaluate/audit-claims",
+            "business-evaluate/recommend-smallest-change"
+          ],
+          "expected_evidence": "Exact terms and observed remedy behaviour, minimal-data workflow, applicable-date/channel/jurisdiction questions and LH03/LH07/LH08/LH09/LH10/LH11/LH12/LH14/LH15 routing where implicated. Business truthfulness can fail without inventing a legal opinion.",
+          "failure_condition": "Call an owner-approved draft legal clearance, hide renewal, assume consent or erase existing rights.",
+          "adversarial_ids": [
+            "A02",
+            "A03",
+            "A04"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "A01",
+          "requirement": "growth recommendation ignores churn",
+          "fixture_extension": {
+            "candidate_memo": "Closing paid accounts rose from 200 to 240, so retention is healthy and acquisition should scale."
+          },
+          "review_request": "Audit the memo against the unchanged due cohort. State which observations are valid and which inference fails.",
+          "failing_candidate": "Twenty per cent account growth proves strong retention; continue acquisition without further review.",
+          "required_findings": [
+            "140 of 200 old accounts paid: 70%; 60 did not renew in paid status. Ten grace accounts are a subset of the unpaid 60, not an additional ten losses.",
+            "Closing paid count 240 combines 140 old and 100 new; it cannot identify old-cohort retention or causal improvement.",
+            "Review use is 100/200=50%; the cause of non-renewal remains unknown. Cash and economic gates also remain adverse."
+          ],
+          "adequate_candidate": "The closing paid count increased, while the old paid-renewal rate is 70%. Keep cause uncertain, audit cohort definitions and propose a bounded retained-value investigation; do not clear scale.",
+          "smallest_repair": "Repair the retention interpretation and affected scale recommendation. Preserve price, offer, refund promise, customer hypothesis and source observations; do not force an app or brand redesign.",
+          "handoffs": [
+            "Research/operator: due-cohort event definitions, cancellation reasons and lawful source access; no new collection authorised."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG05",
+            "GG06"
+          ]
+        },
+        {
+          "id": "A02",
+          "requirement": "guarantee contradicts actual refund behaviour",
+          "fixture_extension": {
+            "separate_incident_window": "Refund audit outside the E13 financial cohort; do not post it into the baseline totals.",
+            "eligible_requests": 10,
+            "processed_requests": 2,
+            "processed_requests_status": "Refund paid",
+            "remaining_requests_status": "Refund explicitly refused despite stipulated eligibility; this is not an ordinary processing delay.",
+            "purchase_amount": "6",
+            "candidate_memo": "All requests were handled under the published 30-day money-back guarantee."
+          },
+          "review_request": "Compare the exact promise with the separate incident set. Identify fulfilment inconsistency without inventing a legal conclusion or silently amending the policy.",
+          "failing_candidate": "The refund policy exists, so the guarantee is supported; change its wording to discretionary refunds if necessary.",
+          "required_findings": [
+            "Two of ten stipulated eligible requests were processed: 20%; eight remain unprocessed, representing 48 of exposure in this separate incident window.",
+            "The all-requests-handled statement contradicts supplied behaviour. Preserve existing eligibility and rights; do not repair by deleting the promise.",
+            "The new incident set has no demonstrated accounting overlap with E13 refunds_paid=60; reconcile identity before any aggregation."
+          ],
+          "adequate_candidate": "Fail the all-requests-handled claim and proposed continued promotion of an unfulfilled guarantee. Draft an owner/operator reconciliation and remedy plan; retain the accepted promise and route actual rights/timing questions.",
+          "smallest_repair": "Repair refund operations and affected claims at their owners; verify all ten dispositions, completion times and linked settlements. Any unresolved case remains explicit. Do not execute refunds in the design.",
+          "handoffs": [
+            "LH03 guarantees; LH11 refunds; operator: request/eligibility/disposition reconciliation; accounting: identity and timing bridge."
+          ],
+          "growth_gates": [
+            "GG02",
+            "GG07"
+          ]
+        },
+        {
+          "id": "A03",
+          "requirement": "pricing hides renewal",
+          "fixture_extension": {
+            "candidate_checkout": "Pay £6 today. Start your review.",
+            "hidden_metadata": "Monthly recurring charge; renewal terms appear only after purchase.",
+            "comparison_checkout": "£6 per month, renewing monthly until cancelled. No free trial. 30-day money-back guarantee. Review the applicable cancellation and refund steps before purchase."
+          },
+          "review_request": "Review both supplied text variants. A wording-only comparison does not establish functioning billing or cancellation.",
+          "failing_candidate": "The first checkout is cleaner and should convert better, so hidden renewal can remain after payment.",
+          "required_findings": [
+            "The first wording omits a material recurring obligation at the decision point and fails project truthfulness regardless of conversion.",
+            "The comparison makes the specified monthly obligation explicit while preserving price, no-trial and guarantee decisions.",
+            "Actual display, affirmative choice, channel-specific steps and remedy behaviour still require implementation evidence and applicable review."
+          ],
+          "adequate_candidate": "Reject the hidden-renewal design. The comparison is a suitable draft for comprehension and implementation review, not proof of a compliant live flow or conversion uplift.",
+          "smallest_repair": "Propose a pre-purchase terms/presentation repair only, retain monthly-6-v1 and existing rights, and route the affected purchase flow to its production owner.",
+          "handoffs": [
+            "LH08 subscription terms; LH09 renewal; LH10 cancellation; LH12 pricing; product owner: actual screen and billing evidence."
+          ],
+          "growth_gates": [
+            "GG02",
+            "GG07"
+          ]
+        },
+        {
+          "id": "A04",
+          "requirement": "financial benefit claims lack evidence",
+          "fixture_extension": {
+            "candidate_claim": "Kei guarantees you will save £500 every month.",
+            "candidate_proof": "Twelve fictional interviews discuss review habits; no measured money-saving or investment-return study."
+          },
+          "review_request": "Audit the exact quantified claim and propose the smallest honest next step; do not infer causality from review participation.",
+          "failing_candidate": "The guarantee is credible because the assistant uses AI and the interviews were positive.",
+          "required_findings": [
+            "No supplied measurement substantiates guaranteed 500-per-month savings; qualitative review habits are a different claim and evidence type.",
+            "Financial benefit and investment-return/advice boundaries require precise intended use and specialist routing where implicated.",
+            "Budget-review assistance can remain a labelled value hypothesis; removing the unsupported benefit does not require abandoning the whole product."
+          ],
+          "adequate_candidate": "Reject the guaranteed-savings claim. Keep budget-review assistance as the stated scope, with any usefulness statement limited to actual evidence; design an adequate evidence request before quantified benefit claims.",
+          "smallest_repair": "Repair the unsupported representation, retain the assistance-not-investment-advice boundary and source records; do not invent testimonials, savings studies or legal clearance.",
+          "handoffs": [
+            "LH01 substantiation; LH14 financial promotions applicability; LH15 earnings/investment claims; research: exact benefit, population and measurement."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG02",
+            "GG07"
+          ]
+        },
+        {
+          "id": "A05",
+          "requirement": "paid acquisition scales before retention/economics work",
+          "fixture_extension": {
+            "counterfactual_only": true,
+            "acquisition_cash": "2400",
+            "new_paid_accounts": 100,
+            "all_other_e13_inputs": "unchanged; no incremental demand evidence",
+            "candidate_memo": "Double acquisition expenditure; future LTV will cover it."
+          },
+          "review_request": "Calculate the no-extra-demand downside of doubling day-01 expenditure, then distinguish this scenario from a forecast or a funded experiment.",
+          "failing_candidate": "Direct contribution is positive and future subscribers will fund the higher acquisition budget, so scale now.",
+          "required_findings": [
+            "Baseline residual is -400 and trough -730. With acquisition 2400 and unchanged receipts, residual becomes -1600, cash trough -1930, closing cash -600 and gap to the 200 floor 2130.",
+            "The overlay is a sensitivity scenario, not a measured marginal CAC or demand prediction. Lifetime contribution cannot be inferred from one renewal observation.",
+            "Retained value, support capacity, marginal economics, dated funding and action authority must each be satisfied for the proposed scope."
+          ],
+          "adequate_candidate": "Reject the unsupported increase. Preserve the synthetic baseline and propose calculation/retention evidence first; a later explicitly funded bounded test would need its own valid design and approval.",
+          "smallest_repair": "Repair the scale decision and implicated acquisition/cash assumption, not the accepted price or refund promise. Recompute dependent cash and cost views before reconsidering.",
+          "handoffs": [
+            "Calculation operator: downside receipt; research: marginal retained acquisition; owner/accounting: usable funding and outstanding obligations."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG03",
+            "GG04",
+            "GG05",
+            "GG06",
+            "GG07"
+          ]
+        }
+      ],
+      "expected_base_metrics": {
+        "paid_renewal_percent": "70",
+        "entitlement_percent": "75",
+        "review_percent": "50",
+        "gross": "1440",
+        "net": "1380",
+        "direct_cost": "480",
+        "contribution": "900",
+        "residual": "-400",
+        "cash_min": "-730",
+        "cash_close": "600",
+        "floor_gap": "930",
+        "annual_candidate": "60",
+        "twelve_monthly": "72"
+      },
+      "design_walkthrough": [
+        "B01/B02 preserve the fifteen-concern E13 business map and separate adult customer/problem hypotheses from the twelve fictional interviews; no real product, market or user fact is introduced.",
+        "B03/B04/B05 expose paid monthly access, accepted remedy and separate free/trial/annual choices. G01/G04 trace acquisition origin to purchase/access with missing platform details explicit.",
+        "B06/B07 and G06 reconcile paid, grace, use, cost and dated cash; E03 and E06 find known funding/economic limits alongside unresolved retention cause, without an LTV or universal churn threshold.",
+        "E05 rejects contradictory claims/behaviour, E07 proposes bounded repairs with RR01–RR08, and B09/B10 preserve test design versus observed evidence. No new core command, mandatory pack or execution service is needed."
+      ],
+      "evidence_test": {
+        "assumption": "Users can understand the accepted monthly price, renewal and refund promise before purchase; this is a prerequisite to an informed exchange, not a test of financial savings.",
+        "hypothesis": "The exact pre-purchase presentation enables each observed participant to correctly explain the price, recurrence, no-trial state and remedy without correction.",
+        "cheapest_valid_test": "First inspect the text/flow and reconcile known defects; then propose a disclosed task walkthrough. An opinion poll cannot test task comprehension, and a paid acquisition campaign is unnecessary for this question.",
+        "target_population": "Future authorised adult prospective users/payers matching the declared customer hypothesis; no contacts or private records are supplied or authorised by this design.",
+        "success_failure_signal": "Record each material misunderstanding and exact task. A recurring-term or remedy misunderstanding challenges readiness; observed understanding supports only the tested presentation/population, never population prevalence or conversion.",
+        "guardrails": "Design only here. Before real exposure obtain owner authority, applicable privacy/consumer findings, a finite recruitment/work cap and usable funding. No charge, real financial-data upload, unsupported benefit claim or change to existing rights.",
+        "duration_sample": "Complete the full purchase-decision task before interpreting it. The future operator must justify recruitment and information needs against a bounded comprehension decision; this qualitative diagnostic plan cannot support a statistical success-rate claim.",
+        "confounders": "Familiar participants, prompted answers, moderator coaching, changed wording, channel differences and missing cancellation/refund behaviour; retain unsuccessful observations.",
+        "decision_rule": "Known contradiction: propose local repair first. Material misunderstanding: revise implicated presentation and retest. Adequate observed understanding: request only the next bounded purchase/value test. Missing/invalid records: no readiness conclusion. Inconclusive: retain baseline and review the information need. Guardrail breach: stop affected exposure through its authorised owner."
+      },
+      "version": "ST16-A-v1",
+      "synthetic": true,
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+      "base_prompt": "All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.\n\nThis is a wholly synthetic Kakeibo rehearsal, not the real product, price, user base or financial results. Store/direct describe acquisition origin, not actual fee schedules. The cohort numbers are fictional historical observations; the separate cash calendar is a forward replay of that volume at the stated opening cash and settlement dates, NOT recorded payments through a negative balance or guaranteed repeat demand. The ten grace accounts are unpaid old accounts; 140 renewed plus 100 new plus ten grace gives 250 entitled accounts. The 60 refund amount is an economic adjustment and one corresponding scenario cash outflow, not two expenses.\n\nUse these logical selectors as needed: business-build/frame-opportunity, business-build/define-customer-value, business-build/design-offer, business-build/design-pricing, business-build/design-money-model, business-build/model-delivery, business-build/model-unit-economics, business-grow/select-channel, business-grow/design-sales-path, business-grow/design-retention, business-grow/design-expansion, business-evaluate/audit-claims, business-evaluate/diagnose-business-constraint, business-build/design-experiment, business-build/record-learning.\n\nFacts (JSON):\n{\n  \"synthetic\": true,\n  \"case_version\": \"E13-v1\",\n  \"currency\": \"GBP\",\n  \"accepted_versions\": {\n    \"price\": \"monthly-6-v1\",\n    \"trial\": \"no-free-trial-v1\",\n    \"refund\": \"30-day-money-back-v1\",\n    \"value\": \"budget-review-assistance-not-investment-advice\"\n  },\n  \"observations\": {\n    \"old_accounts_due\": 200,\n    \"old_paid_renewals\": 140,\n    \"grace_entitlements\": 10,\n    \"old_accounts_completing_weekly_review\": 100,\n    \"new_paid_accounts\": 100,\n    \"new_store_origin_accounts\": 70,\n    \"new_direct_origin_accounts\": 30,\n    \"monthly_price\": \"6\",\n    \"refunds_paid\": \"60\",\n    \"entitled_accounts_charged_service_cost\": 250,\n    \"service_cost_per_entitled_account\": \"1\",\n    \"support_cash\": \"180\",\n    \"payment_fees\": \"50\",\n    \"fixed_hosting_cash\": \"100\",\n    \"acquisition_cash\": \"1200\",\n    \"opening_usable_cash\": \"1000\",\n    \"cash_floor\": \"200\",\n    \"claim_evidence\": \"Twelve fictional interviews discuss review habits; there is no measured money-saving or investment-return study.\"\n  },\n  \"scenarios\": {\n    \"candidate_annual_price\": \"60\",\n    \"cash_events\": [\n      [\n        \"day-01\",\n        \"acquisition\",\n        \"-1200\"\n      ],\n      [\n        \"day-07\",\n        \"service\",\n        \"-250\"\n      ],\n      [\n        \"day-07\",\n        \"support\",\n        \"-180\"\n      ],\n      [\n        \"day-07\",\n        \"hosting\",\n        \"-100\"\n      ],\n      [\n        \"day-30\",\n        \"gross_collections\",\n        \"1440\"\n      ],\n      [\n        \"day-30\",\n        \"payment_fees\",\n        \"-50\"\n      ],\n      [\n        \"day-31\",\n        \"refunds\",\n        \"-60\"\n      ]\n    ]\n  },\n  \"unknowns\": [\n    \"Longer-term retained value and renewal\",\n    \"Causal value of assistant features\",\n    \"Current rules and entitlements of real purchase channels\",\n    \"Willingness to prepay annually\",\n    \"Capacity and costs at greater use\"\n  ]\n}\n\nTask:\nProduce a complete consumer-subscription business thesis, not a marketing plan alone. Connect adult customer/problem/alternative evidence, trustworthy assistant value, intelligible terms, pricing/payment choices, store-origin and direct acquisition, conversion/access, ongoing delivery, support and voluntary retention. Preserve no-free-trial and refund decisions; compare annual prepayment only as a separately approved alternative with future-service/refund exposure. Reconcile old-cohort renewal and use, new acquisition, entitlement, contribution and dated cash. Audit a proposed claim that the assistant guarantees financial savings; no supporting measurement is supplied. Assess expansion only through genuine additional value and capacity. Select the current binding constraints and a sequenced programme of cheap adequate tests, with dependencies, frozen rules, uncertainty, rights and commitment limits. Record what the supplied fictional observations do and do not establish. Do not publish claims, change prices, charge, contact users, provide investment advice or implement the app.\n\nCover all fifteen business-map concerns: target customer; problem/desired progress; alternative/status quo; value proposition; offer; acquisition channel; sales/conversion path; price/revenue mechanism; delivery mechanism; cost structure; retention/repeat/expansion; referral/advocacy; operational constraints; cash timing; key assumptions. For each, identify supplied evidence or explicit hypotheses/unknowns and relevant dependencies. Keep uncertainty, observed evidence, metric, interpretation and decision separate. Include human/research/legal/accounting/production handoffs where relevant; identify missing professional inputs rather than invent conclusions. Append a learning record naming the assumption, test or explicit absence of a controlled test, supplied evidence, result, interpretation, decision, remaining unknowns and next commitment. A scenario with no observations remains an untested hypothesis, not a completed customer experiment.\n\nAdd a coherent thesis, rejected strategic alternatives and a staged evidence programme whose test results can change the next commitment. State the objective, dependencies, decision owner, resource/cash limits, success/failure/invalid/inconclusive outcomes, preservation rules and stop/review triggers. Do not treat the thesis as authorisation to implement the business or as a one-number score.",
+      "base_prompt_sha256": "988cb949e098c51d79654ad31838a99352f534cbc98548170a1c1039e177a9b5",
+      "base_inputs": {
+        "synthetic": true,
+        "case_version": "E13-v1",
+        "currency": "GBP",
+        "accepted_versions": {
+          "price": "monthly-6-v1",
+          "trial": "no-free-trial-v1",
+          "refund": "30-day-money-back-v1",
+          "value": "budget-review-assistance-not-investment-advice"
+        },
+        "observations": {
+          "old_accounts_due": 200,
+          "old_paid_renewals": 140,
+          "grace_entitlements": 10,
+          "old_accounts_completing_weekly_review": 100,
+          "new_paid_accounts": 100,
+          "new_store_origin_accounts": 70,
+          "new_direct_origin_accounts": 30,
+          "monthly_price": "6",
+          "refunds_paid": "60",
+          "entitled_accounts_charged_service_cost": 250,
+          "service_cost_per_entitled_account": "1",
+          "support_cash": "180",
+          "payment_fees": "50",
+          "fixed_hosting_cash": "100",
+          "acquisition_cash": "1200",
+          "opening_usable_cash": "1000",
+          "cash_floor": "200",
+          "claim_evidence": "Twelve fictional interviews discuss review habits; there is no measured money-saving or investment-return study."
+        },
+        "scenarios": {
+          "candidate_annual_price": "60",
+          "cash_events": [
+            [
+              "day-01",
+              "acquisition",
+              "-1200"
+            ],
+            [
+              "day-07",
+              "service",
+              "-250"
+            ],
+            [
+              "day-07",
+              "support",
+              "-180"
+            ],
+            [
+              "day-07",
+              "hosting",
+              "-100"
+            ],
+            [
+              "day-30",
+              "gross_collections",
+              "1440"
+            ],
+            [
+              "day-30",
+              "payment_fees",
+              "-50"
+            ],
+            [
+              "day-31",
+              "refunds",
+              "-60"
+            ]
+          ]
+        },
+        "unknowns": [
+          "Longer-term retained value and renewal",
+          "Causal value of assistant features",
+          "Current rules and entitlements of real purchase channels",
+          "Willingness to prepay annually",
+          "Capacity and costs at greater use"
+        ]
+      },
+      "protected_versions": {
+        "price": "monthly-6-v1",
+        "trial": "no-free-trial-v1",
+        "refund": "30-day-money-back-v1",
+        "value": "budget-review-assistance-not-investment-advice"
+      },
+      "output_path": "docs/research-logs/2026-09-12-stage-16-kakeibo.md"
+    },
+    {
+      "id": "B",
+      "title": "One-person FDE consultancy",
+      "slug": "fde-consultancy",
+      "base_example": "E14",
+      "business_structure": "High-ticket B2B professional services constrained by one person, client dependencies and long collections",
+      "optional_pack": "professional-services",
+      "pack_effects": [
+        "PK03-E1",
+        "PK03-E2",
+        "PK03-E3"
+      ],
+      "stress_instruction": "Review the immutable E14-v1 thesis using all eleven coverage rows and five isolated adversarial overlays. Retain one-person-only-v1, bounded-reporting-integration-v1 and no-invented-client-logos-or-ROI. Expert positioning is a proof-bounded hypothesis, not a claim that the user has new clients or credentials. Compare network, content and outbound against qualification and full seller effort; distinguish the observed 60-day qualified-to-signature interval from the separate day-60 balance collection after signing. Compare projects and bounded retainers with shared time counted once. Return the shared artefacts, seven independent growth findings and the smallest responsible evidence/repair programme without contacting prospects, negotiating or implementing client systems.",
+      "coverage": [
+        {
+          "requirement": "professional services",
+          "selectors": [
+            "business-build/frame-opportunity",
+            "business-build/model-delivery"
+          ],
+          "expected_evidence": "Buyer/sponsor/user/acceptance roles, finite expert work, client inputs, acceptance and transfer; compare work sold, delivered, accepted and paid.",
+          "failure_condition": "Treat sale as successful delivery or assume missing client approvals.",
+          "adversarial_ids": []
+        },
+        {
+          "requirement": "high-ticket B2B",
+          "selectors": [
+            "business-build/define-customer-value",
+            "business-grow/design-sales-path"
+          ],
+          "expected_evidence": "9000 project hypothesis/observation with actual buyer authority and procurement/security dependencies; one signed project does not establish segment-wide willingness to pay.",
+          "failure_condition": "Infer buying authority from a contact title or project-market fit from one contract.",
+          "adversarial_ids": [
+            "B02"
+          ]
+        },
+        {
+          "requirement": "expert positioning",
+          "selectors": [
+            "business-build/define-customer-value",
+            "business-evaluate/audit-claims"
+          ],
+          "expected_evidence": "A bounded integration/advisory value proposition with genuine experience/permission requirements, exclusions and no invented client logo, certification or ROI.",
+          "failure_condition": "Manufacture proof or guarantee client financial outcomes.",
+          "adversarial_ids": [
+            "B03"
+          ]
+        },
+        {
+          "requirement": "outbound / network / content acquisition",
+          "selectors": [
+            "business-grow/select-channel",
+            "business-grow/design-acquisition"
+          ],
+          "expected_evidence": "Compare ten network introductions with a 50-record unpermissioned outbound list and content hypothesis; retain 12 pipeline and 12 content hours, eligibility and downstream conversion uncertainty.",
+          "failure_condition": "Count all contacts as qualified demand, ignore sales time or send because details are public.",
+          "adversarial_ids": [
+            "B01",
+            "B05"
+          ]
+        },
+        {
+          "requirement": "qualification",
+          "selectors": [
+            "business-grow/design-sales-path",
+            "business-evaluate/evaluate-component"
+          ],
+          "expected_evidence": "10 introductions, 6 qualified, 3 proposals and 1 signature with distinct event/role definitions; qualification checks problem, buyer, scope, access, budget, timing and capacity.",
+          "failure_condition": "Treat every proposal as a sale or force irrelevant prospects through persuasion.",
+          "adversarial_ids": [
+            "B01",
+            "B02"
+          ]
+        },
+        {
+          "requirement": "sales calls",
+          "selectors": [
+            "business-grow/design-sales-path",
+            "business-build/model-delivery"
+          ],
+          "expected_evidence": "A bounded discovery/fit call and honest next step with owner time, client decision roles, evidence, refusal and no-pressure exit; proposed extra calls consume capacity.",
+          "failure_condition": "Treat seller activity as buyer progress or calls as free time.",
+          "adversarial_ids": [
+            "B01"
+          ]
+        },
+        {
+          "requirement": "scope / packaging",
+          "selectors": [
+            "business-build/design-offer",
+            "business-build/model-delivery"
+          ],
+          "expected_evidence": "Deliverables, exclusions, 60 delivery plus 10 follow-up hours, client dependencies, acceptance and change control for the accepted reporting integration.",
+          "failure_condition": "Promise unlimited revisions, universal transformation or dates without dependency evidence.",
+          "adversarial_ids": [
+            "B03"
+          ]
+        },
+        {
+          "requirement": "retainer vs project pricing",
+          "selectors": [
+            "business-build/design-pricing",
+            "business-build/design-money-model"
+          ],
+          "expected_evidence": "9000 project versus proposed 5000 retainer reserving 40+8 hours; full valued residuals 1960 and -720 respectively at the stated shared-cost basis, with no claim of retainer demand.",
+          "failure_condition": "Confuse a retainer with unlimited work or monthly recurring revenue with profitability.",
+          "adversarial_ids": [
+            "B04"
+          ]
+        },
+        {
+          "requirement": "utilisation / delivery capacity",
+          "selectors": [
+            "business-build/model-delivery",
+            "business-evaluate/evaluate-unit-economics"
+          ],
+          "expected_evidence": "One/two projects require 114/184 hours; one/two retainers 92/140, against 120. Define delivery-only, engagement and total workload ratios separately; headroom is not guaranteed schedulability.",
+          "failure_condition": "Omit shared time or add an invented team to pass the constraint.",
+          "adversarial_ids": [
+            "B01",
+            "B02",
+            "B03"
+          ]
+        },
+        {
+          "requirement": "cash timing",
+          "selectors": [
+            "business-build/model-unit-economics",
+            "business-evaluate/evaluate-unit-economics"
+          ],
+          "expected_evidence": "Opening 1000, deposit 3000, tools 200, two draws of 2500 and contingent day-60 6000 collection; trough -1200, floor gap 1700, close 4800. Owner draws are cash, not a second labour cost.",
+          "failure_condition": "Call invoice/signature cash, double-charge draws or ignore the pre-collection shortfall.",
+          "adversarial_ids": [
+            "B02"
+          ]
+        },
+        {
+          "requirement": "referrals / expansion",
+          "selectors": [
+            "business-grow/design-referral-loop",
+            "business-grow/design-expansion"
+          ],
+          "expected_evidence": "A permission-respecting client outcome/acceptance trigger, genuine proof and a separately scoped referral or expansion proposal with cost, fit and spare capacity.",
+          "failure_condition": "Presume referral demand, access to client contacts or unlimited retained work.",
+          "adversarial_ids": [
+            "B01",
+            "B03",
+            "B05"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "B01",
+          "requirement": "lead volume exceeds capacity",
+          "fixture_extension": {
+            "proposed_additional_discovery_calls": 12,
+            "assumed_hours_each": "1.5",
+            "timing": "same 120-hour month as accepted one-project workload; additional to the existing 12 pipeline hours",
+            "candidate_memo": "Accept all calls; more leads are always better."
+          },
+          "review_request": "Assess incremental call work before any additional delivery; keep the per-call time assumption distinct from observed times.",
+          "failing_candidate": "Book all twelve calls because no second project has been signed yet.",
+          "required_findings": [
+            "The baseline one-project workload is 114 hours, leaving six nominal hours. Twelve additional calls at 1.5 hours add 18, reaching 132, twelve over capacity before any new sale.",
+            "A time-only ceiling is four additional calls using the six hours, not an automatic scheduling or quality guarantee.",
+            "Lead fit, permission, existing work and actual time distribution remain relevant; extra volume cannot displace accepted delivery without approval."
+          ],
+          "adequate_candidate": "Reject the all-calls commitment. Propose triage and a bounded schedule within verified spare time; keep surplus prospects uncommitted and do not contact them from this exercise.",
+          "smallest_repair": "Repair intake/qualification and calendar assumptions; preserve the one-person operator, accepted client scope, price and genuine proof. Re-evaluate dates before offering a slot.",
+          "handoffs": [
+            "Owner/operator: actual dated capacity and existing commitments; research/sales owner: fit and permissible contact."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG02",
+            "GG03",
+            "GG07"
+          ]
+        },
+        {
+          "id": "B02",
+          "requirement": "revenue forecast ignores utilisation",
+          "fixture_extension": {
+            "candidate_forecast": "Two projects at £9000 produce £18000 this month; assume both are delivered and paid now.",
+            "proposed_projects": 2
+          },
+          "review_request": "Reconcile sales, delivery capacity, full valued economics and collection dates independently; do not convert forecast demand into signed work.",
+          "failing_candidate": "A 120-hour month allows two 60-hour projects, so £18000 is feasible and can pay current obligations.",
+          "required_findings": [
+            "Two projects need 2*(60+10)+44=184 hours, not 120. Shared admin/content/pipeline work is 44 hours once; overload is 64.",
+            "9000*2 is a hypothetical gross amount, not observed or feasible earned revenue. One project has only a 3000 deposit and a later balance.",
+            "The one-project cash scenario falls to -1200 before collection; a speculative second sale cannot be counted as available funding."
+          ],
+          "adequate_candidate": "Reject the two-project same-month delivery/collection forecast. Model only bounded, evidenced intake and actual cash dates; leave unsigned sales uncertain.",
+          "smallest_repair": "Repair forecast workload, event status and collections assumptions. Consider sequencing or a separately approved payment proposal; do not alter the existing contract or invent contractors.",
+          "handoffs": [
+            "Calculation operator: capacity/economic/cash views; owner: dated intake and funding; accountant: treatment if required."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG03",
+            "GG04",
+            "GG06"
+          ]
+        },
+        {
+          "id": "B03",
+          "requirement": "offer overpromises delivery",
+          "fixture_extension": {
+            "candidate_offer": "Transform every client system in fourteen days, with unlimited revisions and guaranteed 25% cost savings.",
+            "available_proof": "Only the bounded reporting-integration scope is supplied; access/security approval and outcome measurement are unknown."
+          },
+          "review_request": "Compare the proposed promise with capability, client dependencies and the protected scope. Separate a contradicted scope expansion from unknown feasibility evidence.",
+          "failing_candidate": "Use the larger promise to win the sale and work out scope afterwards.",
+          "required_findings": [
+            "Unlimited/all-system scope contradicts the bounded offer and finite 120-hour resource; fourteen-day schedulability is not established by a monthly-hour total.",
+            "No measurement supports 25% savings. Client access, security review and acceptance authority remain missing dependencies.",
+            "A bounded offer can specify reporting integration, deliverables, exclusions, client inputs and change control without claiming universal business outcomes."
+          ],
+          "adequate_candidate": "Reject the unsupported expanded promise and draft a scope/dependency correction for review. Keep the accepted integration scope and no-invented-ROI boundary.",
+          "smallest_repair": "Repair the offer representation and proposed delivery commitment. Route actual technical feasibility/security work to the production owner; do not implement the integration or alter existing obligations.",
+          "handoffs": [
+            "LH01 claims; LH15 earnings/ROI applicability; client/production owner: access, feasibility and acceptance; legal reviewer: contractual promise if pursued."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG02",
+            "GG03",
+            "GG07"
+          ]
+        },
+        {
+          "id": "B04",
+          "requirement": "discounting destroys effective rate",
+          "fixture_extension": {
+            "counterfactual_only": true,
+            "discount_percent": "40",
+            "discounted_project_price": "5400",
+            "work_and_cash_tool_cost": "unchanged from E14 one-project case"
+          },
+          "review_request": "Compare unchanged price with the discount at engagement-only and full-workload cost bases; do not silently revise the existing price.",
+          "failing_candidate": "£5400 over 60 delivery hours is £90 per hour, above the £60 owner rate, so discounting remains profitable.",
+          "required_findings": [
+            "Full work is 114 hours, not 60; net of 200 tool cost, hypothetical yield is 5200/114=45.614035... per total owner hour.",
+            "Valued labour is 6840; 5400-200-6840=-1640 full valued residual. Even 5200/70=74.285714... per engagement hour excludes shared acquisition/admin/content work.",
+            "Baseline full valued residual remains 1960 at 9000. Price arithmetic proves no conversion or demand improvement and does not settle cash dates."
+          ],
+          "adequate_candidate": "Reject the full-profit claim and retain the accepted price. Show both declared cost scopes and propose only an independently approved, economically and causally justified pricing test if needed.",
+          "smallest_repair": "Repair the discount analysis and effective-rate denominator. Do not remove promised work or quality to manufacture a pass; separate any future scoped offer from the current one.",
+          "handoffs": [
+            "Calculation operator: full time/cost basis; owner: pricing and resource decision; research: actual buyer response."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG02",
+            "GG04",
+            "GG06"
+          ]
+        },
+        {
+          "id": "B05",
+          "requirement": "outbound becomes spammy / non-compliant",
+          "fixture_extension": {
+            "source": "50 public contact records in a hypothetical list",
+            "stipulated_suppressed_records": 8,
+            "permission_for_remaining_records": "unknown",
+            "candidate_action": "Send repeated promotional emails to all 50, including the eight who opted out."
+          },
+          "review_request": "Assess the proposal under the supplied suppression facts and missing permission; distinguish a business judgement from jurisdiction-specific legal advice.",
+          "failing_candidate": "Public B2B addresses imply consent; send to all fifty and remove opt-outs only after another complaint.",
+          "required_findings": [
+            "Eight stipulated opt-outs are a known exclusion, not leads to re-contact. The remaining 42 have unknown eligibility/permission, not automatic clearance.",
+            "The task authorises drafts only; even an eligible audience would not authorise sending. No recipient lookup or contact-system mutation is required for this synthetic audit.",
+            "Exact purpose, recipient type, jurisdiction, source, suppression and proposed cadence belong in the LH06/LH07 issue packet before applicable legal findings can be consumed."
+          ],
+          "adequate_candidate": "Reject repeat contact to suppressed records and block the remaining send pending evidence and authority. Draft a qualified, truthful acquisition brief only; keep network/content alternatives as hypotheses with real effort costs.",
+          "smallest_repair": "Repair the proposed audience/purpose and suppression control at the authorised operator, preserving opted-out status and source facts; do not replace missing permission with a generic legal exemption.",
+          "handoffs": [
+            "LH06 email/SMS outreach; LH07 privacy/tracking; operator: purpose/eligibility/suppression evidence; owner: exact sending authority."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG02",
+            "GG03",
+            "GG07"
+          ]
+        }
+      ],
+      "expected_base_metrics": {
+        "one_project_hours": "114",
+        "two_projects_hours": "184",
+        "two_projects_overload": "64",
+        "one_retainer_hours": "92",
+        "two_retainers_hours": "140",
+        "two_retainers_overload": "20",
+        "project_residual": "1960",
+        "retainer_residual": "-720",
+        "cash_min": "-1200",
+        "cash_close": "4800",
+        "floor_gap": "1700"
+      },
+      "design_walkthrough": [
+        "B01/B02 and G01/G02/G03/G04 distinguish expert evidence, purchaser/acceptance roles and network/content/outbound/referral hypotheses; no contact permission or buyer role is inferred from a title.",
+        "B03/B04/B05 preserve a bounded integration and compare project versus reserved retainer scope. B06/B07 include all owner work, client dependencies, cost bases and dated collection exposure.",
+        "E02/E03/E05 separate insufficient proof, overloaded intake, unsupported pricing claims and unpermissioned outreach. E06 can identify simultaneous capacity and cash limits without turning a long sales cycle into a new business failure.",
+        "E07 proposes the implicated intake/scope/payment analysis only, with protected versions and RR01–RR08. B09/B10 plan a feasible bounded investigation and preserve observations versus future hypotheses. The same core commands suffice without an FDE-specific skill or mandatory consulting pack."
+      ],
+      "evidence_test": {
+        "assumption": "The accepted bounded project can be delivered within its full allowed work envelope without delaying existing obligations; nominal monthly hours alone do not prove this.",
+        "hypothesis": "A task/dependency replay of the stipulated one-project engagement fits the real available calendar, includes follow-up and non-delivery work, and exposes any missing client access/acceptance prerequisites.",
+        "cheapest_valid_test": "First audit the existing task, calendar and collection records. This is cheaper and more relevant than buying leads or promising a second project. If a missing delivery estimate remains, propose a separately authorised bounded diagnostic, not a full transformation.",
+        "target_population": "The single defined engagement, owner resource and client dependencies. Generalisation to another buyer or system is explicitly untested.",
+        "success_failure_signal": "Reconciled workload at or below 120 hours is necessary but insufficient; due-date fit, quality and client inputs also need evidence. Missing time or known overlap challenges readiness. Cash below 500 independently blocks the proposed commitment.",
+        "guardrails": "No contact, client-data access, implementation, contract change, hiring or new promise here. Any later replay using private records requires access authority; actual delivery needs approvals and funding. Preserve bounded scope and one-person capacity.",
+        "duration_sample": "Inspect all tasks and commitments in the delivery month and collections through day 60, extending the calendar if payment slips. This is a complete scoped reconciliation, not a statistical sample or evidence of repeatable market demand.",
+        "confounders": "Unrecorded rework, omitted selling/admin time, deferred work, client delays, overlapping resource assignments and conflating contract signature with collection.",
+        "decision_rule": "Known overload or cash gap: propose containment at intake/funding layer, not new sales. Adequate dated fit: consider only one bounded next commitment subject to remaining gates and owner approval. Missing records: block feasibility conclusion. Inconclusive estimates: request a bounded measurement. Guardrail breach: stop affected work through its owner and retain evidence."
+      },
+      "version": "ST16-B-v1",
+      "synthetic": true,
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+      "base_prompt": "All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.\n\nThis is a synthetic one-person Forward Deployment Engineer consultancy, not a statement of the user’s workload or client commitments. The signed project is delivered in month one but collection extends to day 60. Owner time is valued for economics, while the two owner draws are separate cash-plan inputs, not extra labour expense. The outbound list contains public contact details but no supplied contact permission. The retainer reserves capacity and is a proposal, not an unlimited service. The recorded qualified-to-signature interval is 60 days; this is a sales-cycle observation separate from the later day-60 balance collection.\n\nUse these logical selectors as needed: business-build/frame-opportunity, business-build/define-customer-value, business-build/design-offer, business-build/design-pricing, business-build/design-money-model, business-build/model-delivery, business-build/model-unit-economics, business-grow/select-channel, business-grow/design-acquisition [outreach], business-grow/design-acquisition [content-loop], business-grow/design-referral-loop, business-grow/design-sales-path, business-grow/design-expansion, business-evaluate/diagnose-business-constraint, business-build/design-experiment, business-build/record-learning.\n\nFacts (JSON):\n{\n  \"synthetic\": true,\n  \"case_version\": \"E14-v1\",\n  \"currency\": \"GBP\",\n  \"accepted_versions\": {\n    \"operator\": \"one-person-only-v1\",\n    \"scope\": \"bounded-reporting-integration-v1\",\n    \"proof\": \"no-invented-client-logos-or-ROI\"\n  },\n  \"observations\": {\n    \"network_introductions\": 10,\n    \"qualified_prospects\": 6,\n    \"proposals\": 3,\n    \"signed_projects\": 1,\n    \"project_price\": \"9000\",\n    \"project_delivery_hours\": \"60\",\n    \"project_follow_up_hours\": \"10\",\n    \"monthly_admin_learning_hours\": \"20\",\n    \"monthly_content_hours\": \"12\",\n    \"monthly_pipeline_hours\": \"12\",\n    \"available_month_hours\": \"120\",\n    \"owner_hour_value\": \"60\",\n    \"cash_tool_cost_per_engagement\": \"200\",\n    \"deposit_collected_day_0\": \"3000\",\n    \"balance_due_day_60\": \"6000\",\n    \"opening_usable_cash\": \"1000\",\n    \"cash_floor\": \"500\",\n    \"qualified_to_signature_days\": 60\n  },\n  \"scenarios\": {\n    \"retainer_price_per_month\": \"5000\",\n    \"retainer_reserved_delivery_hours\": \"40\",\n    \"retainer_support_hours\": \"8\",\n    \"owner_draw_day_15\": \"2500\",\n    \"owner_draw_day_45\": \"2500\",\n    \"outbound_list_size\": 50\n  },\n  \"unknowns\": [\n    \"Permission to contact the outbound list\",\n    \"Buyer acceptance of the retainer\",\n    \"Client data/security access and implementation approval\",\n    \"Actual collection on day 60\",\n    \"Further referral or renewal demand\"\n  ]\n}\n\nTask:\nDevelop the full services thesis: relevant expert positioning with real-proof requirements, buyer/problem and acceptance roles, a bounded integration/advisory offer, project versus retainer pricing, network/content/outbound/referral acquisition, qualification and the long sales/collection path. Define client dependencies, scope control, knowledge transfer and limits on promises of client benefit. Reconcile complete owner workload and economics for one project, two projects and one/two retainers; separate cash from valued labour and track the two-month collection exposure. Keep the operator one person rather than inventing a team. Select a feasible next sales/delivery test and a sequenced evidence programme with independent quality, capacity, cash, rights and authority checks. Draft outreach/content requirements only; do not send, negotiate contracts, hire, change live systems, promise ROI or advise on regulated matters.\n\nCover all fifteen business-map concerns: target customer; problem/desired progress; alternative/status quo; value proposition; offer; acquisition channel; sales/conversion path; price/revenue mechanism; delivery mechanism; cost structure; retention/repeat/expansion; referral/advocacy; operational constraints; cash timing; key assumptions. For each, identify supplied evidence or explicit hypotheses/unknowns and relevant dependencies. Keep uncertainty, observed evidence, metric, interpretation and decision separate. Include human/research/legal/accounting/production handoffs where relevant; identify missing professional inputs rather than invent conclusions. Append a learning record naming the assumption, test or explicit absence of a controlled test, supplied evidence, result, interpretation, decision, remaining unknowns and next commitment. A scenario with no observations remains an untested hypothesis, not a completed customer experiment.\n\nAdd a coherent thesis, rejected strategic alternatives and a staged evidence programme whose test results can change the next commitment. State the objective, dependencies, decision owner, resource/cash limits, success/failure/invalid/inconclusive outcomes, preservation rules and stop/review triggers. Do not treat the thesis as authorisation to implement the business or as a one-number score.",
+      "base_prompt_sha256": "7d3dd65131591330982febd6e760d177985b6d7a5769f7f326523bb138e36311",
+      "base_inputs": {
+        "synthetic": true,
+        "case_version": "E14-v1",
+        "currency": "GBP",
+        "accepted_versions": {
+          "operator": "one-person-only-v1",
+          "scope": "bounded-reporting-integration-v1",
+          "proof": "no-invented-client-logos-or-ROI"
+        },
+        "observations": {
+          "network_introductions": 10,
+          "qualified_prospects": 6,
+          "proposals": 3,
+          "signed_projects": 1,
+          "project_price": "9000",
+          "project_delivery_hours": "60",
+          "project_follow_up_hours": "10",
+          "monthly_admin_learning_hours": "20",
+          "monthly_content_hours": "12",
+          "monthly_pipeline_hours": "12",
+          "available_month_hours": "120",
+          "owner_hour_value": "60",
+          "cash_tool_cost_per_engagement": "200",
+          "deposit_collected_day_0": "3000",
+          "balance_due_day_60": "6000",
+          "opening_usable_cash": "1000",
+          "cash_floor": "500",
+          "qualified_to_signature_days": 60
+        },
+        "scenarios": {
+          "retainer_price_per_month": "5000",
+          "retainer_reserved_delivery_hours": "40",
+          "retainer_support_hours": "8",
+          "owner_draw_day_15": "2500",
+          "owner_draw_day_45": "2500",
+          "outbound_list_size": 50
+        },
+        "unknowns": [
+          "Permission to contact the outbound list",
+          "Buyer acceptance of the retainer",
+          "Client data/security access and implementation approval",
+          "Actual collection on day 60",
+          "Further referral or renewal demand"
+        ]
+      },
+      "protected_versions": {
+        "operator": "one-person-only-v1",
+        "scope": "bounded-reporting-integration-v1",
+        "proof": "no-invented-client-logos-or-ROI"
+      },
+      "output_path": "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md"
+    },
+    {
+      "id": "C",
+      "title": "Production Skills commercial ecosystem",
+      "slug": "production-skills-ecosystem",
+      "base_example": "E15",
+      "business_structure": "Open-source adoption and contributor commons alongside bounded commercial exchanges and restricted funding",
+      "optional_pack": "open-source-commercialisation",
+      "pack_effects": [
+        "PK08-E1",
+        "PK08-E2",
+        "PK08-E3"
+      ],
+      "stress_instruction": "Review the immutable E15-v1 thesis using all nine coverage rows and five isolated adversarial overlays. Distinguish adopter, developer/user, contributor, maintainer, buyer, sponsor and beneficiary; none supplies another role or commercial obligation automatically. Compare services, education, sponsorship, bounded support and a possible third-party pack marketplace with evidence and shared work stated separately. Preserve useful core access, existing code/asset rights and no unilateral contributor obligations. Keep restricted funds separate from campaign cash, and do not infer any actual licence, repository analytics, implemented pack or paid marketplace. Return the shared artefacts, seven independent growth findings and the smallest responsible evidence/repair programme.",
+      "coverage": [
+        {
+          "requirement": "open-source adoption",
+          "selectors": [
+            "business-build/define-customer-value",
+            "business-evaluate/audit-customer-evidence"
+          ],
+          "expected_evidence": "A rights/stakeholder map and separate counts for 2000 stars, 500 downloads, 60 activated and 18 weekly-active projects; missing matched cohorts/windows prevent funnel conversion claims.",
+          "failure_condition": "Treat public popularity as customer proof or force payment for previously permitted core use.",
+          "adversarial_ids": [
+            "C01",
+            "C05"
+          ]
+        },
+        {
+          "requirement": "services",
+          "selectors": [
+            "business-build/design-offer",
+            "business-build/model-delivery"
+          ],
+          "expected_evidence": "Three paid service customers at 1000 each with 12 delivery hours each; define additional paid scope, acceptance, buyer need and finite maintenance/shared obligations.",
+          "failure_condition": "Assume evidence for these engagements proves scalable or recurring demand.",
+          "adversarial_ids": [
+            "C04"
+          ]
+        },
+        {
+          "requirement": "education",
+          "selectors": [
+            "business-build/design-offer",
+            "business-build/design-experiment"
+          ],
+          "expected_evidence": "A candidate 50 education offer specifying learner outcome, prerequisites, delivery/support effort and rights; no observed course demand or validated learning outcome supplied.",
+          "failure_condition": "Treat developer attention as course sales or create a large course before an adequate bounded test.",
+          "adversarial_ids": [
+            "C04"
+          ]
+        },
+        {
+          "requirement": "sponsorship / support",
+          "selectors": [
+            "business-build/design-money-model",
+            "business-build/model-unit-economics"
+          ],
+          "expected_evidence": "Separate 600 maintenance-restricted sponsorship, 400 eligible-payment scenario, proposed 20 monthly support and ten interest responses with zero paid subscribers. Define sponsor benefit, support scope and response capacity.",
+          "failure_condition": "Spend restricted funds on acquisition or record 200 support revenue from expressions of interest.",
+          "adversarial_ids": [
+            "C03",
+            "C04",
+            "C05"
+          ]
+        },
+        {
+          "requirement": "marketplace / Extension Packs",
+          "selectors": [
+            "business-build/design-money-model",
+            "business-evaluate/evaluate-component"
+          ],
+          "expected_evidence": "A two-sided exchange hypothesis with seller/right eligibility, buyer task, compatibility, curation, fee/settlement/refund obligations and required paired transaction evidence. Stage 14 designs are not implemented packs.",
+          "failure_condition": "Launch a marketplace from a catalogue or count hypothetical supply as paid transactions.",
+          "adversarial_ids": [
+            "C02"
+          ]
+        },
+        {
+          "requirement": "developer audience",
+          "selectors": [
+            "business-build/define-customer-value",
+            "business-grow/design-sales-path"
+          ],
+          "expected_evidence": "Developer adoption tasks and voluntary paid-buyer path; distinguish users, procurement/individual buyers and contributors without assuming every developer wants the same service.",
+          "failure_condition": "Assign payer roles from downloads, contribution or GitHub profiles.",
+          "adversarial_ids": [
+            "C05"
+          ]
+        },
+        {
+          "requirement": "community-led acquisition",
+          "selectors": [
+            "business-grow/select-channel",
+            "business-grow/design-referral-loop"
+          ],
+          "expected_evidence": "A useful-core/documentation/community contribution path with voluntary recommendation, disclosed incentives and actual adoption/paid outcome evidence; preserve community permission and moderator rules.",
+          "failure_condition": "Turn community participation into automatic marketing consent or conceal monetisation incentives.",
+          "adversarial_ids": [
+            "C01",
+            "C03",
+            "C05"
+          ]
+        },
+        {
+          "requirement": "multiple monetisation paths",
+          "selectors": [
+            "business-build/design-money-model",
+            "business-evaluate/diagnose-business-constraint"
+          ],
+          "expected_evidence": "Compare all five supplied paths by payer, incremental value, economic/cash scope, evidence, rights, work and sequencing. Current 84 hours exceed 80; a zero valued residual does not fund new obligations or prove spare capacity.",
+          "failure_condition": "Launch all paths or double-count restricted funding and uncertain revenue.",
+          "adversarial_ids": [
+            "C04"
+          ]
+        },
+        {
+          "requirement": "ecosystem incentives",
+          "selectors": [
+            "business-evaluate/audit-claims",
+            "business-evaluate/recommend-smallest-change"
+          ],
+          "expected_evidence": "Contributor/maintainer/adopter/sponsor trade-offs, genuine paid additional scope, no imposed volunteer labour and rights-preserving impact review. Maintain restricted-fund and useful-core boundaries.",
+          "failure_condition": "Revoke prior rights or invent six contributors as free commercial delivery staff.",
+          "adversarial_ids": [
+            "C01",
+            "C03"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "C01",
+          "requirement": "monetisation damages open-source adoption",
+          "fixture_extension": {
+            "candidate_plan": "Disable the currently usable core unless users buy the £20 monthly support subscription; call this only a support packaging change.",
+            "actual_adoption_effect": "not measured"
+          },
+          "review_request": "Compare the plan with accepted core/rights decisions and identify what an adoption-impact claim would actually require.",
+          "failing_candidate": "The existing 2000 stars provide a captive conversion pool, so remove unpaid core access immediately.",
+          "required_findings": [
+            "The proposed restriction contradicts usable-without-paid-pack-v1 and existing-rights preservation; naming it support does not change its effect.",
+            "No measured adoption decline or conversion lift is supplied; reject the known contract conflict without fabricating an empirical effect size.",
+            "Optional additional scoped support can be considered without silently revoking core access, but demand, rights and capacity must still be evidenced."
+          ],
+          "adequate_candidate": "Reject the coerced core-paywall proposal. Preserve freely permitted use and assess only genuine incremental paid scope with a contributor/adopter impact review.",
+          "smallest_repair": "Repair the monetisation boundary and affected offer. Do not relicense, remove features or publish a new access policy; route any real rights question with exact versions.",
+          "handoffs": [
+            "Legal/rights reviewer: actual licences and entitlements; project owner and contributors: governance/remit; research: adoption and paid-value evidence."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG02",
+            "GG05",
+            "GG07"
+          ]
+        },
+        {
+          "id": "C02",
+          "requirement": "marketplace added before supply/demand exists",
+          "fixture_extension": {
+            "candidate_plan": "Build and launch a paid third-party Extension Pack marketplace now.",
+            "verified_sellers": 0,
+            "verified_buyer_seller_transactions": 0,
+            "pack_implementation": "no implemented pack supplied by E15"
+          },
+          "review_request": "Test the exchange prerequisites before any marketplace build or launch recommendation.",
+          "failing_candidate": "The Stage 14 pack catalogue and 500 downloads prove sufficient supply and demand for a marketplace.",
+          "required_findings": [
+            "A design catalogue supplies neither implemented compatible packs nor licensed/authorised sellers. Downloads are not buyer/seller matches or paid transactions.",
+            "No paired willingness to transact, rights chain, curation capacity, terms, payout or dispute flow is evidenced.",
+            "The current maintainer workload is already 84 of 80 hours; adding a platform does not repair that constraint."
+          ],
+          "adequate_candidate": "Block marketplace launch. Propose a minimal, separately authorised manual exchange-discovery task after rights and capacity review, with actual seller availability and buyer need recorded separately.",
+          "smallest_repair": "Repair the premature platform commitment. Keep core and existing services; require evidence for the exchange before considering production infrastructure or marketplace fees.",
+          "handoffs": [
+            "Research: seller/buyer mechanism and actual matching evidence; rights/legal: commercial pack permissions and terms; operator: curation/support capacity."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG02",
+            "GG03",
+            "GG04",
+            "GG07"
+          ]
+        },
+        {
+          "id": "C03",
+          "requirement": "business model conflicts with contributor incentives",
+          "fixture_extension": {
+            "candidate_plan": "Assign each of the six contributors eight monthly hours of paid-customer support at no cost, with sponsor customers always ahead of community maintenance.",
+            "recorded_contributor_commitments": 0,
+            "assumed_volunteer_hours_each": "8"
+          },
+          "review_request": "Audit capacity and governance assumptions alongside sponsor restrictions; do not invent contributor opinions or consent.",
+          "failing_candidate": "Six contributors add 48 free hours, making total capacity 128, so expand paid support and prioritise sponsors.",
+          "required_findings": [
+            "Six contributor identities provide no future labour commitments; the assumed 48 hours are unavailable evidence, not capacity. The supplied resource remains 80 versus 84 required.",
+            "Unilateral paid-service work conflicts with no-unilateral-contributor-obligations-v1; assumed free labour cannot repair economics.",
+            "A maintenance-restricted sponsorship is not a universal instruction to privilege all sponsor commercial work; use actual sponsor terms and contributor governance."
+          ],
+          "adequate_candidate": "Reject the imposed-work and capacity claims. Propose a rights-respecting contributor/maintainer review and explicitly funded, consented work options only; no additional hours are booked.",
+          "smallest_repair": "Repair labour availability and prioritisation assumptions, preserving contributor choice and existing core/paid obligations. A future documented commitment needs dates, scope and capacity verification.",
+          "handoffs": [
+            "Contributor/maintainer governance owner: actual commitments and priorities; sponsor/accounting: exact restrictions; legal reviewer: any proposed work agreement."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG02",
+            "GG03",
+            "GG04",
+            "GG07"
+          ]
+        },
+        {
+          "id": "C04",
+          "requirement": "too many revenue lines before one is validated",
+          "fixture_extension": {
+            "candidate_plan": "Launch services, paid support, education, sponsorship expansion and a marketplace together.",
+            "support_forecast_customers": 10,
+            "support_price": "20",
+            "course_forecast_seats": 20,
+            "course_price": "50",
+            "marketplace_forecast_transactions": 10,
+            "transaction_price": "100",
+            "take_rate": "0.20",
+            "additional_planning_hours": {
+              "support": 6,
+              "education": 12,
+              "marketplace": 20
+            },
+            "forecast_status": "unsupported scenario; no new paid observations or sponsor award"
+          },
+          "review_request": "Compare current evidence with the multi-line forecast and reconcile shared work once. Decide a bounded sequence without claiming current service demand is universally validated.",
+          "failing_candidate": "Forecast support 200, education 1000 and marketplace fees 200 on top of services 3000 and sponsorship 600; a £5000 total proves diversified commercial viability.",
+          "required_findings": [
+            "Only 3000 service receipts and 600 restricted sponsorship are supplied; the additional 1400 commercial receipts are unvalidated scenarios, not realised revenue. Sponsorship is separately restricted funding.",
+            "Base work 84 plus proposed 6+12+20=38 totals 122 hours, exceeding 80 by 42 before any unspecified sponsor expansion work.",
+            "Three service customers support bounded current demand only. First reconcile existing workload/obligations and then test one additional value exchange if justified; do not declare all five paths validated."
+          ],
+          "adequate_candidate": "Reject the simultaneous launch and forecast-as-fact claim. Compare all five paths, preserve actual receipts/restrictions and propose the smallest current scope/capacity repair before one bounded next hypothesis.",
+          "smallest_repair": "Repair sequencing, forecast evidence labels and shared capacity. Keep existing rights and obligations; do not drop committed maintenance or promise a new paid service automatically.",
+          "handoffs": [
+            "Owner/operator: existing obligations and capacity; research: selected payer/value hypothesis; calculation/accounting: separate funding, costs and dated usable cash."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG02",
+            "GG03",
+            "GG04",
+            "GG05",
+            "GG06",
+            "GG07"
+          ]
+        },
+        {
+          "id": "C05",
+          "requirement": "vanity GitHub metrics treated as customer evidence",
+          "fixture_extension": {
+            "candidate_claim": "2000 stars are 2000 customers and ten support-interest responses are ten subscriptions.",
+            "matching_project_customer_ids": "not supplied",
+            "common_observation_window": "not supplied"
+          },
+          "review_request": "Classify each supplied attention, adoption, contribution and paid event. Do not infer a funnel conversion rate without compatible populations/windows.",
+          "failing_candidate": "At £20 per month, the ten interested users already produce £200 MRR and the star audience validates the business.",
+          "required_findings": [
+            "Stars, downloads, activated projects, weekly-active projects and contributors are different units; no matched cohort/window is supplied for conversion or retention inference.",
+            "Three paid service customers produce 3000 for the stated service scope. Support paid_subscribers=0, so observed support subscription revenue is zero.",
+            "Interest is a useful labelled signal for a possible test, not payment, authority, recurring value or market size."
+          ],
+          "adequate_candidate": "Reject the customer and MRR substitutions. Keep separate evidence ledgers and propose a bounded paid-value investigation after capacity and rights prerequisites; retain every raw count unchanged.",
+          "smallest_repair": "Repair metric definitions, evidence status and the commercial conclusion. Do not rewrite customer/offer/core to chase stars or manufacture missing identity linkage.",
+          "handoffs": [
+            "Research/analytics operator: event units, windows and lawful linkage; owner: bounded next decision; no live repository/customer analytics mutation."
+          ],
+          "growth_gates": [
+            "GG01",
+            "GG04",
+            "GG05",
+            "GG07"
+          ]
+        }
+      ],
+      "expected_base_metrics": {
+        "service_revenue": "3000",
+        "valued_maintenance": "1200",
+        "maintenance_funding_gap": "600",
+        "work_hours": "84",
+        "overload": "4",
+        "valued_work": "3360",
+        "valued_cost_with_hosting": "3600",
+        "services_plus_restricted_sponsor": "3600",
+        "support_revenue": "0",
+        "cash_total_before_invoice": "4600",
+        "cash_restricted_before_invoice": "600",
+        "cash_usable_before_invoice": "4000",
+        "cash_total_after_invoice": "4200",
+        "cash_restricted_after_invoice": "200",
+        "cash_usable_after_invoice": "4000"
+      },
+      "design_walkthrough": [
+        "B01/B02 separate adopters, buyers, contributors, maintainers and sponsors. G01/G03/G04 distinguish community usefulness and optional paid scope; E01 refuses customer inference from unmatched attention counts.",
+        "B03/B04/B05 compare all five exchanges without a mandatory funnel, paid core or new platform. B06/B07 reconcile shared 84-hour workload, valued costs, commercial receipts and maintenance-restricted funding once.",
+        "E03/E05 identify capacity, restriction and rights problems independently of apparently balanced economics. E06/E07 localise corrections to intake, scope, definitions and sequencing; no unapproved contributor labour is created.",
+        "B09/B10 define an adequate evidence task and honest learning record. Optional PK08 effects add systematic role/right/funding prompts while the same core already enforces the underlying constraints; no new revenue engine, pack runtime or universal graph is required."
+      ],
+      "evidence_test": {
+        "assumption": "A genuine additional paid service can coexist with the usable core and maintained contributor/maintainer obligations; interest does not prove this.",
+        "hypothesis": "A bounded scope/rights/capacity review can identify one incremental value exchange whose obligations fit funded, explicitly committed work, or show why no new offer should proceed yet.",
+        "cheapest_valid_test": "Audit existing three service engagements, maintenance/sponsor terms and task allocation first. This can reveal current infeasibility without building education content or a marketplace. If coherent spare capacity emerges, propose one truthful scoped offer test with an actual authorised buyer.",
+        "target_population": "The supplied service/maintenance obligations and distinct maintainer, contributor, sponsor and buyer roles; actual interviews or transactions need separate authority and access.",
+        "success_failure_signal": "All new obligations must have permitted scope, a named willing payer where payment is claimed, funded/deduplicated work and dated capacity. An interest response remains interest; rights conflict or workload above the real limit challenges readiness.",
+        "guardrails": "No relicensing, paid-core restriction, unilateral volunteer obligations, restricted-fund diversion, publication, contact, charge or marketplace launch. Keep existing customer and contributor rights and segregated funding.",
+        "duration_sample": "Review all supplied existing obligations in the 80-hour planning window and the full proposed service/funding horizon. A later offer test must state its own sales/fulfilment window; three existing customers do not establish statistical market prevalence.",
+        "confounders": "Unmatched analytics windows, voluntary-labour assumptions, double-counted shared work, sponsor restrictions, paid-service selection bias, and changes to free-core access during a test.",
+        "decision_rule": "Known rights/capacity conflict: reject affected proposal and request a local repair. Coherent funded scope: propose only one bounded value test subject to the remaining gates. Missing role/rights/payment evidence: block relevant commitment. Inconclusive demand: retain uncertainty. Guardrail breach: stop affected action through its owner; preserve evidence and existing permissions."
+      },
+      "version": "ST16-C-v1",
+      "synthetic": true,
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+      "base_prompt": "All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.\n\nThis is a synthetic Production Skills ecosystem rehearsal, not actual repository analytics or finances. Six contributors do not imply any committed future labour. Current paid service, support and review work compete with maintenance for the same capacity. All hours are valued once for the economic view; the cash invoice is a separate settlement example, not another imputed cost. No installed pack or paid marketplace exists in the supplied fixture.\n\nUse these logical selectors as needed: business-build/frame-opportunity, business-build/define-customer-value, business-build/design-offer, business-build/design-pricing, business-build/design-money-model, business-build/model-delivery, business-build/model-unit-economics, business-grow/select-channel, business-grow/design-referral-loop, business-grow/design-sales-path, business-grow/design-retention, business-grow/design-expansion, business-evaluate/audit-claims, business-evaluate/diagnose-business-constraint, business-build/design-experiment, business-evaluate/recommend-smallest-change, business-build/record-learning.\n\nFacts (JSON):\n{\n  \"synthetic\": true,\n  \"case_version\": \"E15-v1\",\n  \"currency\": \"GBP\",\n  \"accepted_versions\": {\n    \"rights\": \"preserve-existing-code-and-asset-rights-v1\",\n    \"core\": \"usable-without-paid-pack-v1\",\n    \"governance\": \"no-unilateral-contributor-obligations-v1\"\n  },\n  \"observations\": {\n    \"stars\": 2000,\n    \"downloads\": 500,\n    \"activated_projects\": 60,\n    \"weekly_active_projects\": 18,\n    \"contributors\": 6,\n    \"paid_service_customers\": 3,\n    \"service_price\": \"1000\",\n    \"restricted_sponsorship\": \"600\",\n    \"maintenance_hours\": \"30\",\n    \"service_hours_each\": \"12\",\n    \"support_hours\": \"10\",\n    \"pack_review_hours\": \"8\",\n    \"maintainer_capacity_hours\": \"80\",\n    \"hour_value\": \"40\",\n    \"hosting_cash\": \"240\",\n    \"opening_unrestricted_cash\": \"1000\"\n  },\n  \"scenarios\": {\n    \"support_price_per_month\": \"20\",\n    \"support_interest_responses\": 10,\n    \"support_paid_subscribers\": 0,\n    \"education_price_candidate\": \"50\",\n    \"marketplace_proposal\": \"Sell third-party packs before any paired supply/demand transaction evidence\",\n    \"eligible_maintenance_invoice\": \"400\"\n  },\n  \"constraints\": [\n    \"The 600 sponsorship is restricted to maintenance and is not campaign cash.\",\n    \"The 400 invoice is a stipulated eligible maintenance payment; it releases that part of the same restriction.\",\n    \"No specific real repository licence or contributor assignment is asserted.\"\n  ],\n  \"unknowns\": [\n    \"Paid support or course demand\",\n    \"Third-party seller and buyer willingness to transact\",\n    \"Future volunteer availability\",\n    \"Recurring paid-service need\",\n    \"Rights and compatibility of actual commercial pack contents\"\n  ]\n}\n\nTask:\nCreate the full commercial ecosystem thesis while separating adopter, contributor, maintainer, sponsor, buyer and beneficiary. Compare services, bounded support, education, sponsorship and a possible pack marketplace without assuming all should launch. Preserve existing rights and a useful core; paid offers must buy genuine additional scope rather than silently revoke earlier permissions. Reconcile attention, adoption, contribution and paid-customer evidence; calculate maintenance funding and shared capacity. Distinguish restricted funds from usable cash before and after the eligible maintenance payment. Inspect whether the supplied mechanism needs the open-source grammar; do not create an industry-tag pack or claim a design catalogue proves implementation. Choose a bounded first commercial/evidence commitment, dependency-based tests and contributor-impact checks. Address retention, referral and expansion as hypotheses requiring continuing value. Do not publish, relicense, impose contributor work, launch a marketplace or promote maturity.\n\nCover all fifteen business-map concerns: target customer; problem/desired progress; alternative/status quo; value proposition; offer; acquisition channel; sales/conversion path; price/revenue mechanism; delivery mechanism; cost structure; retention/repeat/expansion; referral/advocacy; operational constraints; cash timing; key assumptions. For each, identify supplied evidence or explicit hypotheses/unknowns and relevant dependencies. Keep uncertainty, observed evidence, metric, interpretation and decision separate. Include human/research/legal/accounting/production handoffs where relevant; identify missing professional inputs rather than invent conclusions. Append a learning record naming the assumption, test or explicit absence of a controlled test, supplied evidence, result, interpretation, decision, remaining unknowns and next commitment. A scenario with no observations remains an untested hypothesis, not a completed customer experiment.\n\nAdd a coherent thesis, rejected strategic alternatives and a staged evidence programme whose test results can change the next commitment. State the objective, dependencies, decision owner, resource/cash limits, success/failure/invalid/inconclusive outcomes, preservation rules and stop/review triggers. Do not treat the thesis as authorisation to implement the business or as a one-number score.",
+      "base_prompt_sha256": "14278036bf91852821ed3ca6ff1322af705e813d691d278b734eb5574291fcfc",
+      "base_inputs": {
+        "synthetic": true,
+        "case_version": "E15-v1",
+        "currency": "GBP",
+        "accepted_versions": {
+          "rights": "preserve-existing-code-and-asset-rights-v1",
+          "core": "usable-without-paid-pack-v1",
+          "governance": "no-unilateral-contributor-obligations-v1"
+        },
+        "observations": {
+          "stars": 2000,
+          "downloads": 500,
+          "activated_projects": 60,
+          "weekly_active_projects": 18,
+          "contributors": 6,
+          "paid_service_customers": 3,
+          "service_price": "1000",
+          "restricted_sponsorship": "600",
+          "maintenance_hours": "30",
+          "service_hours_each": "12",
+          "support_hours": "10",
+          "pack_review_hours": "8",
+          "maintainer_capacity_hours": "80",
+          "hour_value": "40",
+          "hosting_cash": "240",
+          "opening_unrestricted_cash": "1000"
+        },
+        "scenarios": {
+          "support_price_per_month": "20",
+          "support_interest_responses": 10,
+          "support_paid_subscribers": 0,
+          "education_price_candidate": "50",
+          "marketplace_proposal": "Sell third-party packs before any paired supply/demand transaction evidence",
+          "eligible_maintenance_invoice": "400"
+        },
+        "constraints": [
+          "The 600 sponsorship is restricted to maintenance and is not campaign cash.",
+          "The 400 invoice is a stipulated eligible maintenance payment; it releases that part of the same restriction.",
+          "No specific real repository licence or contributor assignment is asserted."
+        ],
+        "unknowns": [
+          "Paid support or course demand",
+          "Third-party seller and buyer willingness to transact",
+          "Future volunteer availability",
+          "Recurring paid-service need",
+          "Rights and compatibility of actual commercial pack contents"
+        ]
+      },
+      "protected_versions": {
+        "rights": "preserve-existing-code-and-asset-rights-v1",
+        "core": "usable-without-paid-pack-v1",
+        "governance": "no-unilateral-contributor-obligations-v1"
+      },
+      "output_path": "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md"
+    }
+  ]
+}

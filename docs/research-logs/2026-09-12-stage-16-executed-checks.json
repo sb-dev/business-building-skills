@@ -1,0 +1,2410 @@
+{
+  "stage": 16,
+  "scope": "structural/arithmetic/preservation design verification only; semantic design review is recorded separately",
+  "python": "3.12.14",
+  "starting_head": "5d973121ecf87d40f6d9f97e0794be2723b0985b",
+  "inputs_sha256": {
+    "docs/research-logs/2026-09-12-stage-16-cases.json": "cb3e2a8c2b46b55cf0f805ef42113b9db79f3762b2f5358179618600195a72c4",
+    "docs/research-logs/2026-09-12-stage-16-verifier.py": "dc272798906dee0b9d0b88c2706f5a531d9f6bbc3e180385617582e8b9b72975",
+    "docs/research-logs/2026-09-12-stage-16-stress-test-design.md": "9d25f690708247833d3abc050d3d7bd1dd8e5b79f1d5c69b8ddf0fd7f784f6b0",
+    "docs/research-logs/2026-09-12-stage-16-kakeibo.md": "a40abacf78dd48b4aaf6337783c96f0735c1ecd51c71fa1146d42f702ac7419a",
+    "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md": "2e4cb16b34a395d9247330360917d5ad953a1cbec9d2afd61d8a9d3d67c8f5fc",
+    "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md": "be762d3b1f83ffb6241e5b93da6304e3746b2b9a5a744732cebbc3b6a24d5fe3",
+    "docs/research-logs/bootstrap-3-progress.md": "a2f740568e196b6870285b044aa3e27fb0e3c6f7631ae200097aba4c30fb0b7b"
+  },
+  "summary": {
+    "PASS": 277,
+    "FAIL": 0
+  },
+  "cash_calendars": {
+    "A": [
+      {
+        "date": "day-01",
+        "identity": "acquisition",
+        "balance": "-200"
+      },
+      {
+        "date": "day-07",
+        "identity": "service",
+        "balance": "-450"
+      },
+      {
+        "date": "day-07",
+        "identity": "support",
+        "balance": "-630"
+      },
+      {
+        "date": "day-07",
+        "identity": "hosting",
+        "balance": "-730"
+      },
+      {
+        "date": "day-30",
+        "identity": "gross_collections",
+        "balance": "710"
+      },
+      {
+        "date": "day-30",
+        "identity": "payment_fees",
+        "balance": "660"
+      },
+      {
+        "date": "day-31",
+        "identity": "refunds",
+        "balance": "600"
+      }
+    ],
+    "B": [
+      {
+        "date": "day-00",
+        "identity": "deposit",
+        "balance": "4000"
+      },
+      {
+        "date": "day-00",
+        "identity": "tools",
+        "balance": "3800"
+      },
+      {
+        "date": "day-15",
+        "identity": "draw",
+        "balance": "1300"
+      },
+      {
+        "date": "day-45",
+        "identity": "draw",
+        "balance": "-1200"
+      },
+      {
+        "date": "day-60",
+        "identity": "contingent_balance",
+        "balance": "4800"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check": "Original specification identity",
+      "result": "PASS",
+      "evidence": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d"
+    },
+    {
+      "check": "Exactly three canonical designs",
+      "result": "PASS",
+      "evidence": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "check": "Inherited file manifest complete",
+      "result": "PASS",
+      "evidence": 85
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "e6ec298d61b8b52be3390c165de4976b984d6d71",
+        "actual": "e6ec298d61b8b52be3390c165de4976b984d6d71"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "0746b850f795eef519bd8858b55c32e9cea7a8cb",
+        "actual": "0746b850f795eef519bd8858b55c32e9cea7a8cb"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341",
+        "actual": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341"
+      }
+    },
+    {
+      "check": "Preserved README.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "c2311bac2170cec37102ade6da92c1b2c7a803cd",
+        "actual": "c2311bac2170cec37102ade6da92c1b2c7a803cd"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "570081b938e618480fbcea577cd55a7cfb820a5a",
+        "actual": "570081b938e618480fbcea577cd55a7cfb820a5a"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-02-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "b3eea49e0b92419db29ffca23940e8776108c204",
+        "actual": "b3eea49e0b92419db29ffca23940e8776108c204"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+        "actual": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "12c8ded9b8ed852690278031689b5e0649af3d0a",
+        "actual": "12c8ded9b8ed852690278031689b5e0649af3d0a"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "3936ab4f89ebe8437f54f21c0581e26f6d33920a",
+        "actual": "3936ab4f89ebe8437f54f21c0581e26f6d33920a"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-01-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "611728b0058d54a9b2d776373934036da5a51f41",
+        "actual": "611728b0058d54a9b2d776373934036da5a51f41"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "db863e658a74e7657bac3072f6edea27eba33e82",
+        "actual": "db863e658a74e7657bac3072f6edea27eba33e82"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "85ed61c24af9d8903701acb1d2956067f6b52b07",
+        "actual": "85ed61c24af9d8903701acb1d2956067f6b52b07"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "172d81d7667e3478a05af4bca48177520460c840",
+        "actual": "172d81d7667e3478a05af4bca48177520460c840"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "174747f3897963653295b3e9433fec65b93893f7",
+        "actual": "174747f3897963653295b3e9433fec65b93893f7"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2",
+        "actual": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-03-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b",
+        "actual": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "8fe1f320ef28490a00d4eb66f739cf5db7e57931",
+        "actual": "8fe1f320ef28490a00d4eb66f739cf5db7e57931"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-03-professional-practice-map.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "7556e450ab5ae548881cb33d556d68d0e6f5efb4",
+        "actual": "7556e450ab5ae548881cb33d556d68d0e6f5efb4"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5",
+        "actual": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "bf924b1355ac808d1b4126449d02b4500197eeca",
+        "actual": "bf924b1355ac808d1b4126449d02b4500197eeca"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07",
+        "actual": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "8155d23ee83be07526a12062efac3a1073cc2d34",
+        "actual": "8155d23ee83be07526a12062efac3a1073cc2d34"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-04-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81",
+        "actual": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "92d903925fc2fcaf27c238816620ff7239af3acf",
+        "actual": "92d903925fc2fcaf27c238816620ff7239af3acf"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-07-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "7af32ad9b55130a7fe7f59c9e365325df1489040",
+        "actual": "7af32ad9b55130a7fe7f59c9e365325df1489040"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-06-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "4f33bce2c7294fd17e2f565684369626f865dc28",
+        "actual": "4f33bce2c7294fd17e2f565684369626f865dc28"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-05-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301",
+        "actual": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "154cdcae565b9c1708cde7650680cf64226ebd71",
+        "actual": "154cdcae565b9c1708cde7650680cf64226ebd71"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-07-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876",
+        "actual": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "a939843b6a262753ce64b5faef171d920beb925c",
+        "actual": "a939843b6a262753ce64b5faef171d920beb925c"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d",
+        "actual": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916",
+        "actual": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "091c8b69416c045042f4412caf348f59dad27c16",
+        "actual": "091c8b69416c045042f4412caf348f59dad27c16"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df",
+        "actual": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-05-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0",
+        "actual": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-06-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "225dbfcc90632287deff207be152132376257ac4",
+        "actual": "225dbfcc90632287deff207be152132376257ac4"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-verification-receipt.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "38b506a07394ca43078f8fc62226d448b3c9aac3",
+        "actual": "38b506a07394ca43078f8fc62226d448b3c9aac3"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-capability-landscape.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "fa0dab2aa8c6f4925309aeb125013ae8338ef886",
+        "actual": "fa0dab2aa8c6f4925309aeb125013ae8338ef886"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-09-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "005f6213dd06dce5ad86687514b4112e694b4067",
+        "actual": "005f6213dd06dce5ad86687514b4112e694b4067"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "6a777ddf779c75dda854794770fe0e21c421dbf1",
+        "actual": "6a777ddf779c75dda854794770fe0e21c421dbf1"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "849b0ae2d806344027c099668bf48fc5423edc62",
+        "actual": "849b0ae2d806344027c099668bf48fc5423edc62"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-08-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "6a3ef07398a94ff1f736f6f882280e450db7d2bb",
+        "actual": "6a3ef07398a94ff1f736f6f882280e450db7d2bb"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-09-research-and-sources.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c",
+        "actual": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "c626781cd0dbcaac139ab99d54b69beaadafdd29",
+        "actual": "c626781cd0dbcaac139ab99d54b69beaadafdd29"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c",
+        "actual": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "a4d6db234ad2084352b59d4fde129260e8375e93",
+        "actual": "a4d6db234ad2084352b59d4fde129260e8375e93"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "fd6b74e5f3ff7512fe2d978b662484131635fdc2",
+        "actual": "fd6b74e5f3ff7512fe2d978b662484131635fdc2"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-08-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "b008eeed22083dbf4d90dc695a3137127703a836",
+        "actual": "b008eeed22083dbf4d90dc695a3137127703a836"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-11-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7",
+        "actual": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-12-guardrails.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f",
+        "actual": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-12-gap-analysis.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7",
+        "actual": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-11-execution-layer.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "58f7cd494d7361fc3beac569f1932174a76496a4",
+        "actual": "58f7cd494d7361fc3beac569f1932174a76496a4"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-11-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3",
+        "actual": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-11-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464",
+        "actual": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c",
+        "actual": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-12-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5",
+        "actual": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "a4b08bf60a2034ce499e138473135b48aefd8760",
+        "actual": "a4b08bf60a2034ce499e138473135b48aefd8760"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-build-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "7b303e39d7dd210c3a78b3f3f45f767338f1d936",
+        "actual": "7b303e39d7dd210c3a78b3f3f45f767338f1d936"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "45b7a15eabc8009742846879f2668449ab2c2da6",
+        "actual": "45b7a15eabc8009742846879f2668449ab2c2da6"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-12-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "764a552a4d364a21ffc71509ce599b695c0c5d64",
+        "actual": "764a552a4d364a21ffc71509ce599b695c0c5d64"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-skill-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "a622f8edc429d2510f7673e9fd0981fe978495eb",
+        "actual": "a622f8edc429d2510f7673e9fd0981fe978495eb"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-pack-model.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "8c5c0ee64f42410c33842405817f62c5250cc9da",
+        "actual": "8c5c0ee64f42410c33842405817f62c5250cc9da"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-pack-authoring.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62",
+        "actual": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "60f29a0e74be247cbb0bb416d97725409daa8ff8",
+        "actual": "60f29a0e74be247cbb0bb416d97725409daa8ff8"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3",
+        "actual": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected": "9d828b230d49258c40df0c5b7293c28b750011f0",
+        "actual": "9d828b230d49258c40df0c5b7293c28b750011f0"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-design-probes.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406",
+        "actual": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-research-and-sources.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "181eccc3d68296edee67858831225eebbe0e3d64",
+        "actual": "181eccc3d68296edee67858831225eebbe0e3d64"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "e6de03d32950a6f20ca6773f715adc1a75503731",
+        "actual": "e6de03d32950a6f20ca6773f715adc1a75503731"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-14-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected": "63cd99a496c230287f34780136b24ce7f5912134",
+        "actual": "63cd99a496c230287f34780136b24ce7f5912134"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-selection-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9",
+        "actual": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-13-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected": "b564e634ed2cdff275d271c65d58fc179d9fd3d9",
+        "actual": "b564e634ed2cdff275d271c65d58fc179d9fd3d9"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+        "actual": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "d632cdee381483d6151a02b1eb10200a7bdf22f1",
+        "actual": "d632cdee381483d6151a02b1eb10200a7bdf22f1"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-04.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+        "actual": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-03.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+        "actual": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "023af49f61ea3e9fb5475cafcb4885068f770f14",
+        "actual": "023af49f61ea3e9fb5475cafcb4885068f770f14"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/README.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "55d53c7b137970fb727b1458ca4b70498c3a12de",
+        "actual": "55d53c7b137970fb727b1458ca4b70498c3a12de"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c",
+        "actual": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected": "b881846db73a520f4cb5580d6fd1d36b4ade1710",
+        "actual": "b881846db73a520f4cb5580d6fd1d36b4ade1710"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "003154d3b8203c6b12f946af209fdc0b37f25f2b",
+        "actual": "003154d3b8203c6b12f946af209fdc0b37f25f2b"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-01.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+        "actual": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-candidate-pool.json",
+      "result": "PASS",
+      "evidence": {
+        "expected": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13",
+        "actual": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/2026-09-10-stage-15-level-02.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "58240671642aceacb1ce95fdd12f26303d26e750",
+        "actual": "58240671642aceacb1ce95fdd12f26303d26e750"
+      }
+    },
+    {
+      "check": "Preserved docs/research-logs/bootstrap-2-progress.md",
+      "result": "PASS",
+      "evidence": {
+        "expected": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7",
+        "actual": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7"
+      }
+    },
+    {
+      "check": "Accepted canonical command catalogue",
+      "result": "PASS",
+      "evidence": [
+        "business-build/define-customer-value",
+        "business-build/design-experiment",
+        "business-build/design-money-model",
+        "business-build/design-offer",
+        "business-build/design-pricing",
+        "business-build/frame-opportunity",
+        "business-build/identify-assumptions",
+        "business-build/model-delivery",
+        "business-build/model-unit-economics",
+        "business-build/record-learning",
+        "business-evaluate/audit-claims",
+        "business-evaluate/audit-customer-evidence",
+        "business-evaluate/diagnose-business-constraint",
+        "business-evaluate/evaluate-component",
+        "business-evaluate/evaluate-experiment",
+        "business-evaluate/evaluate-unit-economics",
+        "business-evaluate/recommend-smallest-change",
+        "business-grow/design-acquisition",
+        "business-grow/design-expansion",
+        "business-grow/design-referral-loop",
+        "business-grow/design-retention",
+        "business-grow/design-sales-path",
+        "business-grow/improve-conversion",
+        "business-grow/scale-channel",
+        "business-grow/select-channel",
+        "business-pack-author/build-evals",
+        "business-pack-author/build-showcase",
+        "business-pack-author/compare-core-vs-pack",
+        "business-pack-author/define-specialisation",
+        "business-pack-author/inspect-catalogue",
+        "business-pack-author/research-business-model",
+        "business-pack-author/validate-pack"
+      ]
+    },
+    {
+      "check": "A exact name",
+      "result": "PASS",
+      "evidence": "Kakeibo"
+    },
+    {
+      "check": "A original exercise coverage",
+      "result": "PASS",
+      "evidence": [
+        "consumer subscription",
+        "trust-sensitive financial product",
+        "free/trial/guarantee choices",
+        "pricing",
+        "retention",
+        "app-store / direct acquisition",
+        "AI assistant value",
+        "support/delivery economics",
+        "consumer terms / privacy constraints"
+      ]
+    },
+    {
+      "check": "A original adversarial coverage",
+      "result": "PASS",
+      "evidence": [
+        "growth recommendation ignores churn",
+        "guarantee contradicts actual refund behaviour",
+        "pricing hides renewal",
+        "financial benefit claims lack evidence",
+        "paid acquisition scales before retention/economics work"
+      ]
+    },
+    {
+      "check": "A five unique adversarial IDs",
+      "result": "PASS",
+      "evidence": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05"
+      ]
+    },
+    {
+      "check": "A exact accepted prompt",
+      "result": "PASS",
+      "evidence": "E13"
+    },
+    {
+      "check": "A exact accepted facts",
+      "result": "PASS",
+      "evidence": "E13-v1"
+    },
+    {
+      "check": "A protected versions",
+      "result": "PASS",
+      "evidence": {
+        "price": "monthly-6-v1",
+        "trial": "no-free-trial-v1",
+        "refund": "30-day-money-back-v1",
+        "value": "budget-review-assistance-not-investment-advice"
+      }
+    },
+    {
+      "check": "A synthetic boundary",
+      "result": "PASS",
+      "evidence": "ST16-A-v1"
+    },
+    {
+      "check": "A prompt SHA256",
+      "result": "PASS",
+      "evidence": "988cb949e098c51d79654ad31838a99352f534cbc98548170a1c1039e177a9b5"
+    },
+    {
+      "check": "A complete base and stress prompt in document",
+      "result": "PASS",
+      "evidence": "docs/research-logs/2026-09-12-stage-16-kakeibo.md"
+    },
+    {
+      "check": "A complete shared protocol",
+      "result": "PASS",
+      "evidence": "docs/research-logs/2026-09-12-stage-16-kakeibo.md"
+    },
+    {
+      "check": "A mapping consumer subscription",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-money-model",
+        "business-grow/design-retention"
+      ]
+    },
+    {
+      "check": "A mapping trust-sensitive financial product",
+      "result": "PASS",
+      "evidence": [
+        "business-build/define-customer-value",
+        "business-evaluate/audit-claims"
+      ]
+    },
+    {
+      "check": "A mapping free/trial/guarantee choices",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-offer",
+        "business-build/design-pricing"
+      ]
+    },
+    {
+      "check": "A mapping pricing",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-pricing",
+        "business-evaluate/evaluate-component"
+      ]
+    },
+    {
+      "check": "A mapping retention",
+      "result": "PASS",
+      "evidence": [
+        "business-grow/design-retention",
+        "business-evaluate/evaluate-component"
+      ]
+    },
+    {
+      "check": "A mapping app-store / direct acquisition",
+      "result": "PASS",
+      "evidence": [
+        "business-grow/select-channel",
+        "business-grow/design-sales-path"
+      ]
+    },
+    {
+      "check": "A mapping AI assistant value",
+      "result": "PASS",
+      "evidence": [
+        "business-build/define-customer-value",
+        "business-build/design-experiment"
+      ]
+    },
+    {
+      "check": "A mapping support/delivery economics",
+      "result": "PASS",
+      "evidence": [
+        "business-build/model-delivery",
+        "business-build/model-unit-economics"
+      ]
+    },
+    {
+      "check": "A mapping consumer terms / privacy constraints",
+      "result": "PASS",
+      "evidence": [
+        "business-evaluate/audit-claims",
+        "business-evaluate/recommend-smallest-change"
+      ]
+    },
+    {
+      "check": "A01 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "growth recommendation ignores churn"
+    },
+    {
+      "check": "A01 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG05",
+        "GG06"
+      ]
+    },
+    {
+      "check": "A01 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_memo": "Closing paid accounts rose from 200 to 240, so retention is healthy and acquisition should scale."
+      }
+    },
+    {
+      "check": "A02 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "guarantee contradicts actual refund behaviour"
+    },
+    {
+      "check": "A02 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG02",
+        "GG07"
+      ]
+    },
+    {
+      "check": "A02 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "separate_incident_window": "Refund audit outside the E13 financial cohort; do not post it into the baseline totals.",
+        "eligible_requests": 10,
+        "processed_requests": 2,
+        "processed_requests_status": "Refund paid",
+        "remaining_requests_status": "Refund explicitly refused despite stipulated eligibility; this is not an ordinary processing delay.",
+        "purchase_amount": "6",
+        "candidate_memo": "All requests were handled under the published 30-day money-back guarantee."
+      }
+    },
+    {
+      "check": "A03 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "pricing hides renewal"
+    },
+    {
+      "check": "A03 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG02",
+        "GG07"
+      ]
+    },
+    {
+      "check": "A03 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_checkout": "Pay £6 today. Start your review.",
+        "hidden_metadata": "Monthly recurring charge; renewal terms appear only after purchase.",
+        "comparison_checkout": "£6 per month, renewing monthly until cancelled. No free trial. 30-day money-back guarantee. Review the applicable cancellation and refund steps before purchase."
+      }
+    },
+    {
+      "check": "A04 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "financial benefit claims lack evidence"
+    },
+    {
+      "check": "A04 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG02",
+        "GG07"
+      ]
+    },
+    {
+      "check": "A04 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_claim": "Kei guarantees you will save £500 every month.",
+        "candidate_proof": "Twelve fictional interviews discuss review habits; no measured money-saving or investment-return study."
+      }
+    },
+    {
+      "check": "A05 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "paid acquisition scales before retention/economics work"
+    },
+    {
+      "check": "A05 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG03",
+        "GG04",
+        "GG05",
+        "GG06",
+        "GG07"
+      ]
+    },
+    {
+      "check": "A05 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "counterfactual_only": true,
+        "acquisition_cash": "2400",
+        "new_paid_accounts": 100,
+        "all_other_e13_inputs": "unchanged; no incremental demand evidence",
+        "candidate_memo": "Double acquisition expenditure; future LTV will cover it."
+      }
+    },
+    {
+      "check": "A complete nine-field evidence design",
+      "result": "PASS",
+      "evidence": [
+        "assumption",
+        "hypothesis",
+        "cheapest_valid_test",
+        "target_population",
+        "success_failure_signal",
+        "guardrails",
+        "duration_sample",
+        "confounders",
+        "decision_rule"
+      ]
+    },
+    {
+      "check": "A complete architecture walkthrough",
+      "result": "PASS",
+      "evidence": [
+        "B01/B02 preserve the fifteen-concern E13 business map and separate adult customer/problem hypotheses from the twelve fictional interviews; no real product, market or user fact is introduced.",
+        "B03/B04/B05 expose paid monthly access, accepted remedy and separate free/trial/annual choices. G01/G04 trace acquisition origin to purchase/access with missing platform details explicit.",
+        "B06/B07 and G06 reconcile paid, grace, use, cost and dated cash; E03 and E06 find known funding/economic limits alongside unresolved retention cause, without an LTV or universal churn threshold.",
+        "E05 rejects contradictory claims/behaviour, E07 proposes bounded repairs with RR01–RR08, and B09/B10 preserve test design versus observed evidence. No new core command, mandatory pack or execution service is needed."
+      ]
+    },
+    {
+      "check": "A optional pack design trace",
+      "result": "PASS",
+      "evidence": [
+        "PK02-E1",
+        "PK02-E2",
+        "PK02-E3"
+      ]
+    },
+    {
+      "check": "B exact name",
+      "result": "PASS",
+      "evidence": "One-person FDE consultancy"
+    },
+    {
+      "check": "B original exercise coverage",
+      "result": "PASS",
+      "evidence": [
+        "professional services",
+        "high-ticket B2B",
+        "expert positioning",
+        "outbound / network / content acquisition",
+        "qualification",
+        "sales calls",
+        "scope / packaging",
+        "retainer vs project pricing",
+        "utilisation / delivery capacity",
+        "cash timing",
+        "referrals / expansion"
+      ]
+    },
+    {
+      "check": "B original adversarial coverage",
+      "result": "PASS",
+      "evidence": [
+        "lead volume exceeds capacity",
+        "revenue forecast ignores utilisation",
+        "offer overpromises delivery",
+        "discounting destroys effective rate",
+        "outbound becomes spammy / non-compliant"
+      ]
+    },
+    {
+      "check": "B five unique adversarial IDs",
+      "result": "PASS",
+      "evidence": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05"
+      ]
+    },
+    {
+      "check": "B exact accepted prompt",
+      "result": "PASS",
+      "evidence": "E14"
+    },
+    {
+      "check": "B exact accepted facts",
+      "result": "PASS",
+      "evidence": "E14-v1"
+    },
+    {
+      "check": "B protected versions",
+      "result": "PASS",
+      "evidence": {
+        "operator": "one-person-only-v1",
+        "scope": "bounded-reporting-integration-v1",
+        "proof": "no-invented-client-logos-or-ROI"
+      }
+    },
+    {
+      "check": "B synthetic boundary",
+      "result": "PASS",
+      "evidence": "ST16-B-v1"
+    },
+    {
+      "check": "B prompt SHA256",
+      "result": "PASS",
+      "evidence": "7d3dd65131591330982febd6e760d177985b6d7a5769f7f326523bb138e36311"
+    },
+    {
+      "check": "B complete base and stress prompt in document",
+      "result": "PASS",
+      "evidence": "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md"
+    },
+    {
+      "check": "B complete shared protocol",
+      "result": "PASS",
+      "evidence": "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md"
+    },
+    {
+      "check": "B mapping professional services",
+      "result": "PASS",
+      "evidence": [
+        "business-build/frame-opportunity",
+        "business-build/model-delivery"
+      ]
+    },
+    {
+      "check": "B mapping high-ticket B2B",
+      "result": "PASS",
+      "evidence": [
+        "business-build/define-customer-value",
+        "business-grow/design-sales-path"
+      ]
+    },
+    {
+      "check": "B mapping expert positioning",
+      "result": "PASS",
+      "evidence": [
+        "business-build/define-customer-value",
+        "business-evaluate/audit-claims"
+      ]
+    },
+    {
+      "check": "B mapping outbound / network / content acquisition",
+      "result": "PASS",
+      "evidence": [
+        "business-grow/select-channel",
+        "business-grow/design-acquisition"
+      ]
+    },
+    {
+      "check": "B mapping qualification",
+      "result": "PASS",
+      "evidence": [
+        "business-grow/design-sales-path",
+        "business-evaluate/evaluate-component"
+      ]
+    },
+    {
+      "check": "B mapping sales calls",
+      "result": "PASS",
+      "evidence": [
+        "business-grow/design-sales-path",
+        "business-build/model-delivery"
+      ]
+    },
+    {
+      "check": "B mapping scope / packaging",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-offer",
+        "business-build/model-delivery"
+      ]
+    },
+    {
+      "check": "B mapping retainer vs project pricing",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-pricing",
+        "business-build/design-money-model"
+      ]
+    },
+    {
+      "check": "B mapping utilisation / delivery capacity",
+      "result": "PASS",
+      "evidence": [
+        "business-build/model-delivery",
+        "business-evaluate/evaluate-unit-economics"
+      ]
+    },
+    {
+      "check": "B mapping cash timing",
+      "result": "PASS",
+      "evidence": [
+        "business-build/model-unit-economics",
+        "business-evaluate/evaluate-unit-economics"
+      ]
+    },
+    {
+      "check": "B mapping referrals / expansion",
+      "result": "PASS",
+      "evidence": [
+        "business-grow/design-referral-loop",
+        "business-grow/design-expansion"
+      ]
+    },
+    {
+      "check": "B01 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "lead volume exceeds capacity"
+    },
+    {
+      "check": "B01 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG02",
+        "GG03",
+        "GG07"
+      ]
+    },
+    {
+      "check": "B01 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "proposed_additional_discovery_calls": 12,
+        "assumed_hours_each": "1.5",
+        "timing": "same 120-hour month as accepted one-project workload; additional to the existing 12 pipeline hours",
+        "candidate_memo": "Accept all calls; more leads are always better."
+      }
+    },
+    {
+      "check": "B02 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "revenue forecast ignores utilisation"
+    },
+    {
+      "check": "B02 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG03",
+        "GG04",
+        "GG06"
+      ]
+    },
+    {
+      "check": "B02 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_forecast": "Two projects at £9000 produce £18000 this month; assume both are delivered and paid now.",
+        "proposed_projects": 2
+      }
+    },
+    {
+      "check": "B03 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "offer overpromises delivery"
+    },
+    {
+      "check": "B03 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG02",
+        "GG03",
+        "GG07"
+      ]
+    },
+    {
+      "check": "B03 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_offer": "Transform every client system in fourteen days, with unlimited revisions and guaranteed 25% cost savings.",
+        "available_proof": "Only the bounded reporting-integration scope is supplied; access/security approval and outcome measurement are unknown."
+      }
+    },
+    {
+      "check": "B04 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "discounting destroys effective rate"
+    },
+    {
+      "check": "B04 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG02",
+        "GG04",
+        "GG06"
+      ]
+    },
+    {
+      "check": "B04 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "counterfactual_only": true,
+        "discount_percent": "40",
+        "discounted_project_price": "5400",
+        "work_and_cash_tool_cost": "unchanged from E14 one-project case"
+      }
+    },
+    {
+      "check": "B05 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "outbound becomes spammy / non-compliant"
+    },
+    {
+      "check": "B05 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG02",
+        "GG03",
+        "GG07"
+      ]
+    },
+    {
+      "check": "B05 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "source": "50 public contact records in a hypothetical list",
+        "stipulated_suppressed_records": 8,
+        "permission_for_remaining_records": "unknown",
+        "candidate_action": "Send repeated promotional emails to all 50, including the eight who opted out."
+      }
+    },
+    {
+      "check": "B complete nine-field evidence design",
+      "result": "PASS",
+      "evidence": [
+        "assumption",
+        "hypothesis",
+        "cheapest_valid_test",
+        "target_population",
+        "success_failure_signal",
+        "guardrails",
+        "duration_sample",
+        "confounders",
+        "decision_rule"
+      ]
+    },
+    {
+      "check": "B complete architecture walkthrough",
+      "result": "PASS",
+      "evidence": [
+        "B01/B02 and G01/G02/G03/G04 distinguish expert evidence, purchaser/acceptance roles and network/content/outbound/referral hypotheses; no contact permission or buyer role is inferred from a title.",
+        "B03/B04/B05 preserve a bounded integration and compare project versus reserved retainer scope. B06/B07 include all owner work, client dependencies, cost bases and dated collection exposure.",
+        "E02/E03/E05 separate insufficient proof, overloaded intake, unsupported pricing claims and unpermissioned outreach. E06 can identify simultaneous capacity and cash limits without turning a long sales cycle into a new business failure.",
+        "E07 proposes the implicated intake/scope/payment analysis only, with protected versions and RR01–RR08. B09/B10 plan a feasible bounded investigation and preserve observations versus future hypotheses. The same core commands suffice without an FDE-specific skill or mandatory consulting pack."
+      ]
+    },
+    {
+      "check": "B optional pack design trace",
+      "result": "PASS",
+      "evidence": [
+        "PK03-E1",
+        "PK03-E2",
+        "PK03-E3"
+      ]
+    },
+    {
+      "check": "C exact name",
+      "result": "PASS",
+      "evidence": "Production Skills commercial ecosystem"
+    },
+    {
+      "check": "C original exercise coverage",
+      "result": "PASS",
+      "evidence": [
+        "open-source adoption",
+        "services",
+        "education",
+        "sponsorship / support",
+        "marketplace / Extension Packs",
+        "developer audience",
+        "community-led acquisition",
+        "multiple monetisation paths",
+        "ecosystem incentives"
+      ]
+    },
+    {
+      "check": "C original adversarial coverage",
+      "result": "PASS",
+      "evidence": [
+        "monetisation damages open-source adoption",
+        "marketplace added before supply/demand exists",
+        "business model conflicts with contributor incentives",
+        "too many revenue lines before one is validated",
+        "vanity GitHub metrics treated as customer evidence"
+      ]
+    },
+    {
+      "check": "C five unique adversarial IDs",
+      "result": "PASS",
+      "evidence": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05"
+      ]
+    },
+    {
+      "check": "C exact accepted prompt",
+      "result": "PASS",
+      "evidence": "E15"
+    },
+    {
+      "check": "C exact accepted facts",
+      "result": "PASS",
+      "evidence": "E15-v1"
+    },
+    {
+      "check": "C protected versions",
+      "result": "PASS",
+      "evidence": {
+        "rights": "preserve-existing-code-and-asset-rights-v1",
+        "core": "usable-without-paid-pack-v1",
+        "governance": "no-unilateral-contributor-obligations-v1"
+      }
+    },
+    {
+      "check": "C synthetic boundary",
+      "result": "PASS",
+      "evidence": "ST16-C-v1"
+    },
+    {
+      "check": "C prompt SHA256",
+      "result": "PASS",
+      "evidence": "14278036bf91852821ed3ca6ff1322af705e813d691d278b734eb5574291fcfc"
+    },
+    {
+      "check": "C complete base and stress prompt in document",
+      "result": "PASS",
+      "evidence": "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md"
+    },
+    {
+      "check": "C complete shared protocol",
+      "result": "PASS",
+      "evidence": "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md"
+    },
+    {
+      "check": "C mapping open-source adoption",
+      "result": "PASS",
+      "evidence": [
+        "business-build/define-customer-value",
+        "business-evaluate/audit-customer-evidence"
+      ]
+    },
+    {
+      "check": "C mapping services",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-offer",
+        "business-build/model-delivery"
+      ]
+    },
+    {
+      "check": "C mapping education",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-offer",
+        "business-build/design-experiment"
+      ]
+    },
+    {
+      "check": "C mapping sponsorship / support",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-money-model",
+        "business-build/model-unit-economics"
+      ]
+    },
+    {
+      "check": "C mapping marketplace / Extension Packs",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-money-model",
+        "business-evaluate/evaluate-component"
+      ]
+    },
+    {
+      "check": "C mapping developer audience",
+      "result": "PASS",
+      "evidence": [
+        "business-build/define-customer-value",
+        "business-grow/design-sales-path"
+      ]
+    },
+    {
+      "check": "C mapping community-led acquisition",
+      "result": "PASS",
+      "evidence": [
+        "business-grow/select-channel",
+        "business-grow/design-referral-loop"
+      ]
+    },
+    {
+      "check": "C mapping multiple monetisation paths",
+      "result": "PASS",
+      "evidence": [
+        "business-build/design-money-model",
+        "business-evaluate/diagnose-business-constraint"
+      ]
+    },
+    {
+      "check": "C mapping ecosystem incentives",
+      "result": "PASS",
+      "evidence": [
+        "business-evaluate/audit-claims",
+        "business-evaluate/recommend-smallest-change"
+      ]
+    },
+    {
+      "check": "C01 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "monetisation damages open-source adoption"
+    },
+    {
+      "check": "C01 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG02",
+        "GG05",
+        "GG07"
+      ]
+    },
+    {
+      "check": "C01 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_plan": "Disable the currently usable core unless users buy the £20 monthly support subscription; call this only a support packaging change.",
+        "actual_adoption_effect": "not measured"
+      }
+    },
+    {
+      "check": "C02 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "marketplace added before supply/demand exists"
+    },
+    {
+      "check": "C02 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG02",
+        "GG03",
+        "GG04",
+        "GG07"
+      ]
+    },
+    {
+      "check": "C02 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_plan": "Build and launch a paid third-party Extension Pack marketplace now.",
+        "verified_sellers": 0,
+        "verified_buyer_seller_transactions": 0,
+        "pack_implementation": "no implemented pack supplied by E15"
+      }
+    },
+    {
+      "check": "C03 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "business model conflicts with contributor incentives"
+    },
+    {
+      "check": "C03 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG02",
+        "GG03",
+        "GG04",
+        "GG07"
+      ]
+    },
+    {
+      "check": "C03 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_plan": "Assign each of the six contributors eight monthly hours of paid-customer support at no cost, with sponsor customers always ahead of community maintenance.",
+        "recorded_contributor_commitments": 0,
+        "assumed_volunteer_hours_each": "8"
+      }
+    },
+    {
+      "check": "C04 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "too many revenue lines before one is validated"
+    },
+    {
+      "check": "C04 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG02",
+        "GG03",
+        "GG04",
+        "GG05",
+        "GG06",
+        "GG07"
+      ]
+    },
+    {
+      "check": "C04 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_plan": "Launch services, paid support, education, sponsorship expansion and a marketplace together.",
+        "support_forecast_customers": 10,
+        "support_price": "20",
+        "course_forecast_seats": 20,
+        "course_price": "50",
+        "marketplace_forecast_transactions": 10,
+        "transaction_price": "100",
+        "take_rate": "0.20",
+        "additional_planning_hours": {
+          "support": 6,
+          "education": 12,
+          "marketplace": 20
+        },
+        "forecast_status": "unsupported scenario; no new paid observations or sponsor award"
+      }
+    },
+    {
+      "check": "C05 complete overlay and distinct authored controls",
+      "result": "PASS",
+      "evidence": "vanity GitHub metrics treated as customer evidence"
+    },
+    {
+      "check": "C05 discriminating findings and handoffs",
+      "result": "PASS",
+      "evidence": [
+        "GG01",
+        "GG04",
+        "GG05",
+        "GG07"
+      ]
+    },
+    {
+      "check": "C05 exact copyable overlay",
+      "result": "PASS",
+      "evidence": {
+        "candidate_claim": "2000 stars are 2000 customers and ten support-interest responses are ten subscriptions.",
+        "matching_project_customer_ids": "not supplied",
+        "common_observation_window": "not supplied"
+      }
+    },
+    {
+      "check": "C complete nine-field evidence design",
+      "result": "PASS",
+      "evidence": [
+        "assumption",
+        "hypothesis",
+        "cheapest_valid_test",
+        "target_population",
+        "success_failure_signal",
+        "guardrails",
+        "duration_sample",
+        "confounders",
+        "decision_rule"
+      ]
+    },
+    {
+      "check": "C complete architecture walkthrough",
+      "result": "PASS",
+      "evidence": [
+        "B01/B02 separate adopters, buyers, contributors, maintainers and sponsors. G01/G03/G04 distinguish community usefulness and optional paid scope; E01 refuses customer inference from unmatched attention counts.",
+        "B03/B04/B05 compare all five exchanges without a mandatory funnel, paid core or new platform. B06/B07 reconcile shared 84-hour workload, valued costs, commercial receipts and maintenance-restricted funding once.",
+        "E03/E05 identify capacity, restriction and rights problems independently of apparently balanced economics. E06/E07 localise corrections to intake, scope, definitions and sequencing; no unapproved contributor labour is created.",
+        "B09/B10 define an adequate evidence task and honest learning record. Optional PK08 effects add systematic role/right/funding prompts while the same core already enforces the underlying constraints; no new revenue engine, pack runtime or universal graph is required."
+      ]
+    },
+    {
+      "check": "C optional pack design trace",
+      "result": "PASS",
+      "evidence": [
+        "PK08-E1",
+        "PK08-E2",
+        "PK08-E3"
+      ]
+    },
+    {
+      "check": "Exact coverage distribution",
+      "result": "PASS",
+      "evidence": [
+        [
+          9,
+          5
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          9,
+          5
+        ]
+      ]
+    },
+    {
+      "check": "Fifteen distinct adversarial designs",
+      "result": "PASS",
+      "evidence": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05"
+      ]
+    },
+    {
+      "check": "Fifteen accepted primary examples preserved",
+      "result": "PASS",
+      "evidence": {
+        "ids": [
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "E05",
+          "E06",
+          "E07",
+          "E08",
+          "E09",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15"
+        ],
+        "distribution": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "check": "A full reference metric set",
+      "result": "PASS",
+      "evidence": [
+        "annual_candidate",
+        "cash_close",
+        "cash_min",
+        "contribution",
+        "direct_cost",
+        "entitlement_percent",
+        "floor_gap",
+        "gross",
+        "net",
+        "paid_renewal_percent",
+        "residual",
+        "review_percent",
+        "twelve_monthly"
+      ]
+    },
+    {
+      "check": "A paid_renewal_percent",
+      "result": "PASS",
+      "evidence": {
+        "actual": "70.0",
+        "expected": "70"
+      }
+    },
+    {
+      "check": "A entitlement_percent",
+      "result": "PASS",
+      "evidence": {
+        "actual": "75.00",
+        "expected": "75"
+      }
+    },
+    {
+      "check": "A review_percent",
+      "result": "PASS",
+      "evidence": {
+        "actual": "50.0",
+        "expected": "50"
+      }
+    },
+    {
+      "check": "A gross",
+      "result": "PASS",
+      "evidence": {
+        "actual": "1440",
+        "expected": "1440"
+      }
+    },
+    {
+      "check": "A net",
+      "result": "PASS",
+      "evidence": {
+        "actual": "1380",
+        "expected": "1380"
+      }
+    },
+    {
+      "check": "A direct_cost",
+      "result": "PASS",
+      "evidence": {
+        "actual": "480",
+        "expected": "480"
+      }
+    },
+    {
+      "check": "A contribution",
+      "result": "PASS",
+      "evidence": {
+        "actual": "900",
+        "expected": "900"
+      }
+    },
+    {
+      "check": "A residual",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-400",
+        "expected": "-400"
+      }
+    },
+    {
+      "check": "A cash_min",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-730",
+        "expected": "-730"
+      }
+    },
+    {
+      "check": "A cash_close",
+      "result": "PASS",
+      "evidence": {
+        "actual": "600",
+        "expected": "600"
+      }
+    },
+    {
+      "check": "A floor_gap",
+      "result": "PASS",
+      "evidence": {
+        "actual": "930",
+        "expected": "930"
+      }
+    },
+    {
+      "check": "A annual_candidate",
+      "result": "PASS",
+      "evidence": {
+        "actual": "60",
+        "expected": "60"
+      }
+    },
+    {
+      "check": "A twelve_monthly",
+      "result": "PASS",
+      "evidence": {
+        "actual": "72",
+        "expected": "72"
+      }
+    },
+    {
+      "check": "B full reference metric set",
+      "result": "PASS",
+      "evidence": [
+        "cash_close",
+        "cash_min",
+        "floor_gap",
+        "one_project_hours",
+        "one_retainer_hours",
+        "project_residual",
+        "retainer_residual",
+        "two_projects_hours",
+        "two_projects_overload",
+        "two_retainers_hours",
+        "two_retainers_overload"
+      ]
+    },
+    {
+      "check": "B one_project_hours",
+      "result": "PASS",
+      "evidence": {
+        "actual": "114",
+        "expected": "114"
+      }
+    },
+    {
+      "check": "B two_projects_hours",
+      "result": "PASS",
+      "evidence": {
+        "actual": "184",
+        "expected": "184"
+      }
+    },
+    {
+      "check": "B two_projects_overload",
+      "result": "PASS",
+      "evidence": {
+        "actual": "64",
+        "expected": "64"
+      }
+    },
+    {
+      "check": "B one_retainer_hours",
+      "result": "PASS",
+      "evidence": {
+        "actual": "92",
+        "expected": "92"
+      }
+    },
+    {
+      "check": "B two_retainers_hours",
+      "result": "PASS",
+      "evidence": {
+        "actual": "140",
+        "expected": "140"
+      }
+    },
+    {
+      "check": "B two_retainers_overload",
+      "result": "PASS",
+      "evidence": {
+        "actual": "20",
+        "expected": "20"
+      }
+    },
+    {
+      "check": "B project_residual",
+      "result": "PASS",
+      "evidence": {
+        "actual": "1960",
+        "expected": "1960"
+      }
+    },
+    {
+      "check": "B retainer_residual",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-720",
+        "expected": "-720"
+      }
+    },
+    {
+      "check": "B cash_min",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-1200",
+        "expected": "-1200"
+      }
+    },
+    {
+      "check": "B cash_close",
+      "result": "PASS",
+      "evidence": {
+        "actual": "4800",
+        "expected": "4800"
+      }
+    },
+    {
+      "check": "B floor_gap",
+      "result": "PASS",
+      "evidence": {
+        "actual": "1700",
+        "expected": "1700"
+      }
+    },
+    {
+      "check": "C full reference metric set",
+      "result": "PASS",
+      "evidence": [
+        "cash_restricted_after_invoice",
+        "cash_restricted_before_invoice",
+        "cash_total_after_invoice",
+        "cash_total_before_invoice",
+        "cash_usable_after_invoice",
+        "cash_usable_before_invoice",
+        "maintenance_funding_gap",
+        "overload",
+        "service_revenue",
+        "services_plus_restricted_sponsor",
+        "support_revenue",
+        "valued_cost_with_hosting",
+        "valued_maintenance",
+        "valued_work",
+        "work_hours"
+      ]
+    },
+    {
+      "check": "C service_revenue",
+      "result": "PASS",
+      "evidence": {
+        "actual": "3000",
+        "expected": "3000"
+      }
+    },
+    {
+      "check": "C valued_maintenance",
+      "result": "PASS",
+      "evidence": {
+        "actual": "1200",
+        "expected": "1200"
+      }
+    },
+    {
+      "check": "C maintenance_funding_gap",
+      "result": "PASS",
+      "evidence": {
+        "actual": "600",
+        "expected": "600"
+      }
+    },
+    {
+      "check": "C work_hours",
+      "result": "PASS",
+      "evidence": {
+        "actual": "84",
+        "expected": "84"
+      }
+    },
+    {
+      "check": "C overload",
+      "result": "PASS",
+      "evidence": {
+        "actual": "4",
+        "expected": "4"
+      }
+    },
+    {
+      "check": "C valued_work",
+      "result": "PASS",
+      "evidence": {
+        "actual": "3360",
+        "expected": "3360"
+      }
+    },
+    {
+      "check": "C valued_cost_with_hosting",
+      "result": "PASS",
+      "evidence": {
+        "actual": "3600",
+        "expected": "3600"
+      }
+    },
+    {
+      "check": "C services_plus_restricted_sponsor",
+      "result": "PASS",
+      "evidence": {
+        "actual": "3600",
+        "expected": "3600"
+      }
+    },
+    {
+      "check": "C support_revenue",
+      "result": "PASS",
+      "evidence": {
+        "actual": "0",
+        "expected": "0"
+      }
+    },
+    {
+      "check": "C cash_total_before_invoice",
+      "result": "PASS",
+      "evidence": {
+        "actual": "4600",
+        "expected": "4600"
+      }
+    },
+    {
+      "check": "C cash_restricted_before_invoice",
+      "result": "PASS",
+      "evidence": {
+        "actual": "600",
+        "expected": "600"
+      }
+    },
+    {
+      "check": "C cash_usable_before_invoice",
+      "result": "PASS",
+      "evidence": {
+        "actual": "4000",
+        "expected": "4000"
+      }
+    },
+    {
+      "check": "C cash_total_after_invoice",
+      "result": "PASS",
+      "evidence": {
+        "actual": "4200",
+        "expected": "4200"
+      }
+    },
+    {
+      "check": "C cash_restricted_after_invoice",
+      "result": "PASS",
+      "evidence": {
+        "actual": "200",
+        "expected": "200"
+      }
+    },
+    {
+      "check": "C cash_usable_after_invoice",
+      "result": "PASS",
+      "evidence": {
+        "actual": "4000",
+        "expected": "4000"
+      }
+    },
+    {
+      "check": "A02 eligible request processing percent",
+      "result": "PASS",
+      "evidence": {
+        "actual": "20.0",
+        "expected": "20"
+      }
+    },
+    {
+      "check": "A02 isolated outstanding exposure",
+      "result": "PASS",
+      "evidence": {
+        "actual": "48",
+        "expected": "48"
+      }
+    },
+    {
+      "check": "A05 residual",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-1600",
+        "expected": "-1600"
+      }
+    },
+    {
+      "check": "A05 trough",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-1930",
+        "expected": "-1930"
+      }
+    },
+    {
+      "check": "A05 close",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-600",
+        "expected": "-600"
+      }
+    },
+    {
+      "check": "A05 floor_gap",
+      "result": "PASS",
+      "evidence": {
+        "actual": "2130",
+        "expected": "2130"
+      }
+    },
+    {
+      "check": "B01 extra call workload",
+      "result": "PASS",
+      "evidence": {
+        "actual": "18.0",
+        "expected": "18"
+      }
+    },
+    {
+      "check": "B01 combined workload",
+      "result": "PASS",
+      "evidence": {
+        "actual": "132.0",
+        "expected": "132"
+      }
+    },
+    {
+      "check": "B01 nominal additional-call ceiling",
+      "result": "PASS",
+      "evidence": {
+        "actual": "4",
+        "expected": "4"
+      }
+    },
+    {
+      "check": "B02 hypothetical two-project gross",
+      "result": "PASS",
+      "evidence": {
+        "actual": "18000",
+        "expected": "18000"
+      }
+    },
+    {
+      "check": "B04 discount amount",
+      "result": "PASS",
+      "evidence": {
+        "actual": "5400.0",
+        "expected": "5400"
+      }
+    },
+    {
+      "check": "B04 full valued residual",
+      "result": "PASS",
+      "evidence": {
+        "actual": "-1640",
+        "expected": "-1640"
+      }
+    },
+    {
+      "check": "B04 effective-rate numerical bound",
+      "result": "PASS",
+      "evidence": "45.61403508771929824561403509"
+    },
+    {
+      "check": "B05 unknown-eligibility remainder",
+      "result": "PASS",
+      "evidence": {
+        "actual": "42",
+        "expected": "42"
+      }
+    },
+    {
+      "check": "C03 unsupported volunteered-hours assumption",
+      "result": "PASS",
+      "evidence": {
+        "actual": "48",
+        "expected": "48"
+      }
+    },
+    {
+      "check": "C04 additional assumed hours",
+      "result": "PASS",
+      "evidence": {
+        "actual": "38",
+        "expected": "38"
+      }
+    },
+    {
+      "check": "C04 workload lower bound",
+      "result": "PASS",
+      "evidence": {
+        "actual": "122",
+        "expected": "122"
+      }
+    },
+    {
+      "check": "C04 overload lower bound",
+      "result": "PASS",
+      "evidence": {
+        "actual": "42",
+        "expected": "42"
+      }
+    },
+    {
+      "check": "C04 unvalidated incremental commercial forecast",
+      "result": "PASS",
+      "evidence": {
+        "actual": "1400.00",
+        "expected": "1400"
+      }
+    },
+    {
+      "check": "C04 mixed commercial/funding scenario",
+      "result": "PASS",
+      "evidence": {
+        "actual": "5000.00",
+        "expected": "5000"
+      }
+    },
+    {
+      "check": "Calculator rejects invalid/non-finite True",
+      "result": "PASS",
+      "evidence": "True"
+    },
+    {
+      "check": "Calculator rejects invalid/non-finite 1.5",
+      "result": "PASS",
+      "evidence": "1.5"
+    },
+    {
+      "check": "Calculator rejects invalid/non-finite 'NaN'",
+      "result": "PASS",
+      "evidence": "'NaN'"
+    },
+    {
+      "check": "Calculator rejects invalid/non-finite 'Infinity'",
+      "result": "PASS",
+      "evidence": "'Infinity'"
+    },
+    {
+      "check": "Calculator rejects invalid/non-finite 'not-a-number'",
+      "result": "PASS",
+      "evidence": "'not-a-number'"
+    },
+    {
+      "check": "No premature production directories",
+      "result": "PASS",
+      "evidence": "Only bootstrap research workspace"
+    },
+    {
+      "check": "All new local documentation links resolve",
+      "result": "PASS",
+      "evidence": []
+    }
+  ]
+}
