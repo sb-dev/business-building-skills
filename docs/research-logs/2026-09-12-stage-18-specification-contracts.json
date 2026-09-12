@@ -1,0 +1,1399 @@
+{
+  "stage": 18,
+  "contract_version": "1.0",
+  "starting_head": "ff97f73866012b296bc4a142e0de6258a7906c94",
+  "starting_tree": "a66b4e2147ee965eea1e1f196a238d7f7c36cbd1",
+  "original_specification_blob": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+  "required_files": [
+    "docs/01-business-building-skills-system-spec.md",
+    "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+    "docs/03-business-building-skills-repository-and-contracts-spec.md",
+    "docs/04-testing-and-benchmark-spec.md",
+    "docs/05-business-building-customisation-packs-spec.md",
+    "docs/06-business-building-extension-pack-catalogue.md"
+  ],
+  "inherited_files": [
+    {
+      "path": "README.md",
+      "sha": "c2311bac2170cec37102ade6da92c1b2c7a803cd",
+      "size": 592
+    },
+    {
+      "path": "docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+      "sha": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+      "size": 50813
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md",
+      "sha": "570081b938e618480fbcea577cd55a7cfb820a5a",
+      "size": 15464
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-01-conformance.md",
+      "sha": "611728b0058d54a9b2d776373934036da5a51f41",
+      "size": 16653
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md",
+      "sha": "12c8ded9b8ed852690278031689b5e0649af3d0a",
+      "size": 37483
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-conformance.md",
+      "sha": "b3eea49e0b92419db29ffca23940e8776108c204",
+      "size": 25752
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md",
+      "sha": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341",
+      "size": 35783
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+      "sha": "3936ab4f89ebe8437f54f21c0581e26f6d33920a",
+      "size": 34009
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md",
+      "sha": "db863e658a74e7657bac3072f6edea27eba33e82",
+      "size": 32112
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md",
+      "sha": "0746b850f795eef519bd8858b55c32e9cea7a8cb",
+      "size": 18932
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md",
+      "sha": "85ed61c24af9d8903701acb1d2956067f6b52b07",
+      "size": 17149
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md",
+      "sha": "e6ec298d61b8b52be3390c165de4976b984d6d71",
+      "size": 14812
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md",
+      "sha": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2",
+      "size": 9285
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md",
+      "sha": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07",
+      "size": 6382
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md",
+      "sha": "174747f3897963653295b3e9433fec65b93893f7",
+      "size": 6821
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md",
+      "sha": "172d81d7667e3478a05af4bca48177520460c840",
+      "size": 6821
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md",
+      "sha": "8155d23ee83be07526a12062efac3a1073cc2d34",
+      "size": 8372
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md",
+      "sha": "8fe1f320ef28490a00d4eb66f739cf5db7e57931",
+      "size": 8276
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md",
+      "sha": "92d903925fc2fcaf27c238816620ff7239af3acf",
+      "size": 42338
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-03-conformance.md",
+      "sha": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b",
+      "size": 35383
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md",
+      "sha": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5",
+      "size": 49204
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-03-professional-practice-map.md",
+      "sha": "7556e450ab5ae548881cb33d556d68d0e6f5efb4",
+      "size": 67861
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md",
+      "sha": "bf924b1355ac808d1b4126449d02b4500197eeca",
+      "size": 38818
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-04-conformance.md",
+      "sha": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81",
+      "size": 26637
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-conformance.md",
+      "sha": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0",
+      "size": 23517
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md",
+      "sha": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d",
+      "size": 30400
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md",
+      "sha": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916",
+      "size": 22638
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-research-and-checks.md",
+      "sha": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301",
+      "size": 28640
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-06-conformance.md",
+      "sha": "4f33bce2c7294fd17e2f565684369626f865dc28",
+      "size": 27704
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+      "sha": "091c8b69416c045042f4412caf348f59dad27c16",
+      "size": 35703
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-06-research-and-checks.md",
+      "sha": "225dbfcc90632287deff207be152132376257ac4",
+      "size": 38536
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-conformance.md",
+      "sha": "7af32ad9b55130a7fe7f59c9e365325df1489040",
+      "size": 50451
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md",
+      "sha": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df",
+      "size": 24523
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-research-and-checks.md",
+      "sha": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876",
+      "size": 39391
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+      "sha": "154cdcae565b9c1708cde7650680cf64226ebd71",
+      "size": 33621
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+      "sha": "a939843b6a262753ce64b5faef171d920beb925c",
+      "size": 28131
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-conformance.md",
+      "sha": "b008eeed22083dbf4d90dc695a3137127703a836",
+      "size": 40988
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+      "sha": "c626781cd0dbcaac139ab99d54b69beaadafdd29",
+      "size": 16415
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-research-and-checks.md",
+      "sha": "6a3ef07398a94ff1f736f6f882280e450db7d2bb",
+      "size": 21622
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md",
+      "sha": "6a777ddf779c75dda854794770fe0e21c421dbf1",
+      "size": 31121
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-09-conformance.md",
+      "sha": "005f6213dd06dce5ad86687514b4112e694b4067",
+      "size": 33857
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+      "sha": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c",
+      "size": 31526
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-09-research-and-sources.md",
+      "sha": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c",
+      "size": 22940
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-capability-landscape.md",
+      "sha": "fa0dab2aa8c6f4925309aeb125013ae8338ef886",
+      "size": 43915
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-conformance.md",
+      "sha": "a4d6db234ad2084352b59d4fde129260e8375e93",
+      "size": 33506
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md",
+      "sha": "fd6b74e5f3ff7512fe2d978b662484131635fdc2",
+      "size": 37229
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md",
+      "sha": "849b0ae2d806344027c099668bf48fc5423edc62",
+      "size": 25853
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-10-verification-receipt.md",
+      "sha": "38b506a07394ca43078f8fc62226d448b3c9aac3",
+      "size": 3056
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-11-conformance.md",
+      "sha": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3",
+      "size": 16343
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-11-execution-layer.md",
+      "sha": "58f7cd494d7361fc3beac569f1932174a76496a4",
+      "size": 18991
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-11-research-and-checks.md",
+      "sha": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7",
+      "size": 9920
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-11-verifier.py",
+      "sha": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464",
+      "size": 11488
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-conformance.md",
+      "sha": "764a552a4d364a21ffc71509ce599b695c0c5d64",
+      "size": 19294
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-gap-analysis.md",
+      "sha": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7",
+      "size": 18734
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-guardrails.md",
+      "sha": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f",
+      "size": 10308
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-verifier.py",
+      "sha": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5",
+      "size": 7130
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-build-command-contracts.md",
+      "sha": "7b303e39d7dd210c3a78b3f3f45f767338f1d936",
+      "size": 24881
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-conformance.md",
+      "sha": "a4b08bf60a2034ce499e138473135b48aefd8760",
+      "size": 27585
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md",
+      "sha": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c",
+      "size": 22329
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md",
+      "sha": "45b7a15eabc8009742846879f2668449ab2c2da6",
+      "size": 20885
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md",
+      "sha": "e6de03d32950a6f20ca6773f715adc1a75503731",
+      "size": 18296
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-selection-and-checks.md",
+      "sha": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9",
+      "size": 25983
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-skill-architecture.md",
+      "sha": "a622f8edc429d2510f7673e9fd0981fe978495eb",
+      "size": 19173
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-verifier.py",
+      "sha": "b564e634ed2cdff275d271c65d58fc179d9fd3d9",
+      "size": 18779
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md",
+      "sha": "60f29a0e74be247cbb0bb416d97725409daa8ff8",
+      "size": 38061
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-conformance.md",
+      "sha": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3",
+      "size": 17318
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-design-probes.md",
+      "sha": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406",
+      "size": 24609
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-executed-checks.json",
+      "sha": "63cd99a496c230287f34780136b24ce7f5912134",
+      "size": 26991
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-pack-authoring.md",
+      "sha": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62",
+      "size": 15348
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-pack-model.md",
+      "sha": "8c5c0ee64f42410c33842405817f62c5250cc9da",
+      "size": 14624
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-research-and-sources.md",
+      "sha": "181eccc3d68296edee67858831225eebbe0e3d64",
+      "size": 17351
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-verifier.py",
+      "sha": "9d828b230d49258c40df0c5b7293c28b750011f0",
+      "size": 26424
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-candidate-pool.json",
+      "sha": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13",
+      "size": 37431
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-conformance.md",
+      "sha": "003154d3b8203c6b12f946af209fdc0b37f25f2b",
+      "size": 20264
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-executed-checks.json",
+      "sha": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c",
+      "size": 15915
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+      "sha": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+      "size": 13930
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-02.md",
+      "sha": "58240671642aceacb1ce95fdd12f26303d26e750",
+      "size": 15547
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-03.md",
+      "sha": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+      "size": 21087
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+      "sha": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+      "size": 16055
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "sha": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+      "size": 26455
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md",
+      "sha": "d632cdee381483d6151a02b1eb10200a7bdf22f1",
+      "size": 19191
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-15-verifier.py",
+      "sha": "b881846db73a520f4cb5580d6fd1d36b4ade1710",
+      "size": 32061
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md",
+      "sha": "023af49f61ea3e9fb5475cafcb4885068f770f14",
+      "size": 18481
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-16.md",
+      "sha": "ad8ef4df33941999316b1776ba6386234516c98e",
+      "size": 6299
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-16-cases.json",
+      "sha": "9dd91fd385401c2ebf03c2c473fc42d70fdf69ab",
+      "size": 106433
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-16-executed-checks.json",
+      "sha": "3da33ce2c0871640a004e7ab594d7eb6ebeba9f4",
+      "size": 69297
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md",
+      "sha": "6355a11cec15ac77ff9ccc3c4d5edf280862c42b",
+      "size": 31862
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-16-kakeibo.md",
+      "sha": "cd1d7b2e4d84ae19660a59de7ee0b5e6263d0f86",
+      "size": 32201
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md",
+      "sha": "01f91e41d8cd49c5849453715c67e833c0f6d8bf",
+      "size": 32788
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-16-stress-test-design.md",
+      "sha": "e8e9de03faac6458645b07af75ca09c8ce56240d",
+      "size": 25213
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-16-verifier.py",
+      "sha": "ceed0bfbfb84d0374f50dca2ac5ed2e9bd079bd1",
+      "size": 16487
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-adversarial-fixtures.md",
+      "sha": "5f2174ea442f86db79ee20ba8f222729999a3aca",
+      "size": 21937
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-benchmark-design.md",
+      "sha": "e57729b80aacc11e3279be346cc4bad5f4b6be20",
+      "size": 28642
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-calibration.md",
+      "sha": "90ee5a9491513c787466b1e2ac81cf270aa639f5",
+      "size": 10442
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-case-contracts.json",
+      "sha": "926a5cf7c0989b6f685cd7c2331bcc66b8d39a05",
+      "size": 186926
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-executed-checks.json",
+      "sha": "80dae3cfe70a9b4eb767ce96b212a883f4c33a03",
+      "size": 89223
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-rubrics-and-regression.md",
+      "sha": "cadb5780a79ad2808da2df4fdb8baffdf7c482c1",
+      "size": 30981
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-verifier.py",
+      "sha": "0bd2e8e9e785065d2b1f56a5feceeb42c8ac8898",
+      "size": 12917
+    },
+    {
+      "path": "docs/research-logs/README.md",
+      "sha": "55d53c7b137970fb727b1458ca4b70498c3a12de",
+      "size": 1023
+    },
+    {
+      "path": "docs/research-logs/bootstrap-2-progress.md",
+      "sha": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7",
+      "size": 8927
+    },
+    {
+      "path": "docs/research-logs/bootstrap-3-progress.md",
+      "sha": "eb84c93b9f6ef697ad9fc840863ffc324857b7bf",
+      "size": 11143
+    }
+  ],
+  "sources": [
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md",
+      "sha": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md",
+      "sha": "db863e658a74e7657bac3072f6edea27eba33e82"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+      "sha": "3936ab4f89ebe8437f54f21c0581e26f6d33920a"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md",
+      "sha": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5"
+    },
+    {
+      "path": "docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+      "sha": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-skill-architecture.md",
+      "sha": "a622f8edc429d2510f7673e9fd0981fe978495eb"
+    },
+    {
+      "path": "docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md",
+      "sha": "12c8ded9b8ed852690278031689b5e0649af3d0a"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-11-execution-layer.md",
+      "sha": "58f7cd494d7361fc3beac569f1932174a76496a4"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-gap-analysis.md",
+      "sha": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-12-guardrails.md",
+      "sha": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md",
+      "sha": "bf924b1355ac808d1b4126449d02b4500197eeca"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md",
+      "sha": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md",
+      "sha": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+      "sha": "091c8b69416c045042f4412caf348f59dad27c16"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md",
+      "sha": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+      "sha": "154cdcae565b9c1708cde7650680cf64226ebd71"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+      "sha": "a939843b6a262753ce64b5faef171d920beb925c"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+      "sha": "c626781cd0dbcaac139ab99d54b69beaadafdd29"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+      "sha": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-build-command-contracts.md",
+      "sha": "7b303e39d7dd210c3a78b3f3f45f767338f1d936"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md",
+      "sha": "45b7a15eabc8009742846879f2668449ab2c2da6"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md",
+      "sha": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md",
+      "sha": "e6de03d32950a6f20ca6773f715adc1a75503731"
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-case-contracts.json",
+      "sha": "926a5cf7c0989b6f685cd7c2331bcc66b8d39a05"
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-16-cases.json",
+      "sha": "9dd91fd385401c2ebf03c2c473fc42d70fdf69ab"
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-rubrics-and-regression.md",
+      "sha": "cadb5780a79ad2808da2df4fdb8baffdf7c482c1"
+    },
+    {
+      "path": "docs/research-logs/2026-09-12-stage-17-benchmark-design.md",
+      "sha": "e57729b80aacc11e3279be346cc4bad5f4b6be20"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-pack-model.md",
+      "sha": "8c5c0ee64f42410c33842405817f62c5250cc9da"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-pack-authoring.md",
+      "sha": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-research-and-sources.md",
+      "sha": "181eccc3d68296edee67858831225eebbe0e3d64"
+    },
+    {
+      "path": "docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md",
+      "sha": "60f29a0e74be247cbb0bb416d97725409daa8ff8"
+    }
+  ],
+  "adoptions": [
+    {
+      "source": "2026-09-09-stage-02-five-book-capability-corpus.md",
+      "selector": "### Source register",
+      "kind": "table",
+      "sha256": "7adbe14da86aafcd168f129c2efb5aa2d899cca74007624ff79e731b33b1ec17"
+    },
+    {
+      "source": "2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+      "selector": "## 2. Capability discovery",
+      "kind": "table",
+      "sha256": "cbd19ceda8f61b7fe7e9e07b1e7fe4d5b021b0774029e5e2f570d7f2256111cc"
+    },
+    {
+      "source": "2026-09-10-stage-13-skill-architecture.md",
+      "selector": "## 3. Selected skills",
+      "kind": "table",
+      "sha256": "432d9acbdc96f6e96409d5afa756c177aa2af0f9d7f98c9ef77385d101725ad3"
+    },
+    {
+      "source": "2026-09-10-stage-04-business-customer-and-value-model.md",
+      "selector": "## 2. Representation and limits",
+      "end": "## 9. Executed synthetic design probes",
+      "kind": "section",
+      "sha256": "9dbf475ae9885cd239ae45be19ea0edf896aaf342f46ef26867d7eea663e7e1c"
+    },
+    {
+      "source": "2026-09-10-stage-05-offer-and-pricing-architecture.md",
+      "selector": "## 2. Offer model: fourteen components",
+      "end": "## 6. Handoff and completion boundary",
+      "kind": "section",
+      "sha256": "bd6e92f4af62c34b2ad145077b8f03a42ed2ad8ad0b640bc26bf89c0d0716d21"
+    },
+    {
+      "source": "2026-09-10-stage-05-money-model-taxonomy.md",
+      "selector": "## Use and accounting boundary",
+      "end": null,
+      "kind": "section",
+      "sha256": "ff62e78e176571367577e8966b169b7f335315f7cf4b55ff1ca8ab1979411bf4"
+    },
+    {
+      "source": "2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+      "selector": "## 2. Acquisition lifecycle",
+      "end": "## 9. Handoffs and exit boundary",
+      "kind": "section",
+      "sha256": "4e24ffd80e635cfc1f564293c498ba79469316df6324ed7bbf1cff6fd8b52ea3"
+    },
+    {
+      "source": "2026-09-10-stage-07-delivery-and-retention-model.md",
+      "selector": "## 2. All fourteen delivery",
+      "end": "## 5. Applicability and smallest responsible repair",
+      "kind": "section",
+      "sha256": "d280bd840503a0d1340861f84e9287452893caa74eae610272d2345f5c5ced30"
+    },
+    {
+      "source": "2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+      "selector": "## 1. Ownership, evidence and compatibility",
+      "end": null,
+      "kind": "section",
+      "sha256": "420fe06c404f43c15abfb964542e649b4c36a6e8785217cae6059a33a7bee686"
+    },
+    {
+      "source": "2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+      "selector": "## 2. Assumption register",
+      "end": "## 5. Operational loop and boundary",
+      "kind": "section",
+      "sha256": "c185b1ed7498ffc2ab4efb7243b9ea2d0609a0f399c076f36d2208cb42646299"
+    },
+    {
+      "source": "2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+      "selector": "## 1. What a constraint finding means",
+      "end": "## 5. Evaluation dimensions and handoffs",
+      "kind": "section",
+      "sha256": "9665e9ff071549553e7cef9e4f22d552c16ebf69ac16992135472911251d5ae3"
+    },
+    {
+      "source": "2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+      "selector": "## 2. Seven-step handoff loop",
+      "end": "## 5. Currentness, source status and preservation",
+      "kind": "section",
+      "sha256": "c38e04470f0c75b6fb6730681425db9f8a15f6788d13b81666bece265513f743"
+    },
+    {
+      "source": "2026-09-10-stage-13-build-command-contracts.md",
+      "selector": "## 2. Commands",
+      "end": "## 3. Verification and handoff",
+      "kind": "commands",
+      "sha256": "7aeb5a0750a6fea50f85dce57d6b501d7d0f68c41cf5504d3004513d79c1d793"
+    },
+    {
+      "source": "2026-09-10-stage-13-grow-command-contracts.md",
+      "selector": "## 2. Commands",
+      "end": "## 3. Verification and handoff",
+      "kind": "commands",
+      "sha256": "646c4e19cfda0796dd4fdcc90172ed7e1e85a7982bdb794ab1cb798c15dd1b3c"
+    },
+    {
+      "source": "2026-09-10-stage-13-evaluate-command-contracts.md",
+      "selector": "## 2. Commands",
+      "end": "## 3. Verification and handoff",
+      "kind": "commands",
+      "sha256": "d8d0c9f34069329353c055005111f48ddda1d09b892f2952149e00ac62531949"
+    },
+    {
+      "source": "2026-09-10-stage-13-pack-command-contracts.md",
+      "selector": "## 2. Commands",
+      "end": "## 3. Verification and handoff",
+      "kind": "commands",
+      "sha256": "5af33bf9d52bfd53874aea07803d2d5866857e3cf831fcca4b11cfe36f97ff2f"
+    },
+    {
+      "source": "2026-09-10-stage-11-execution-layer.md",
+      "selector": "## 4. Minimal handoff and evidence return",
+      "end": "## 6. Scope and next-stage input",
+      "kind": "section",
+      "sha256": "f84a5d1974b325cfc1a313894f7a297392f794d9570a89bd80445a17563a8508"
+    },
+    {
+      "source": "2026-09-12-stage-17-rubrics-and-regression.md",
+      "selector": "## Interpretation and grading boundary",
+      "end": "## 1. Deterministic validation",
+      "kind": "section",
+      "sha256": "ceef87fa7a2fa9fa11ff3d1dd7513016cc8ec0e29630461e55627585d9ebee6a"
+    },
+    {
+      "source": "2026-09-12-stage-17-rubrics-and-regression.md",
+      "selector": "## 1. Deterministic validation",
+      "kind": "table",
+      "sha256": "c2829e439c86bac3bbb91c904f4a9a05d1b1b487feb677af2ad5d310a9bc2f51"
+    },
+    {
+      "source": "2026-09-12-stage-17-rubrics-and-regression.md",
+      "selector": "## 2. Business reasoning",
+      "kind": "table",
+      "sha256": "cb716f6af980a372d8cafb5ca3e666dcfa443fc7c93f40d7b2f30ecd771f3c71"
+    },
+    {
+      "source": "2026-09-12-stage-17-rubrics-and-regression.md",
+      "selector": "## 3. Behavioural evaluation",
+      "kind": "table",
+      "sha256": "aeca566c3943fda666bd3c62f5b9181496ce3d7d439d0e040f19c977197336c7"
+    },
+    {
+      "source": "2026-09-12-stage-17-rubrics-and-regression.md",
+      "selector": "## 4. Extension Pack evaluation",
+      "end": "## 5. Complete regression loop",
+      "kind": "section",
+      "sha256": "f933bf10834dae76680acf711914230e809517569598836c1374645669285e0f"
+    },
+    {
+      "source": "2026-09-12-stage-17-rubrics-and-regression.md",
+      "selector": "## 5. Complete regression loop",
+      "end": null,
+      "kind": "section",
+      "sha256": "53ff6383fbd61ae1c41709544102fa7db77e98142704430a6fca5a510e3114ba"
+    },
+    {
+      "source": "2026-09-12-stage-17-benchmark-design.md",
+      "selector": "## 5. Acceptance gates and measurements",
+      "kind": "table",
+      "sha256": "027869c0e3f1084f7a66ef0eae2a1fe2b53d4f0f6bb43e933be4363a1d2ad524"
+    },
+    {
+      "source": "2026-09-10-stage-14-pack-model.md",
+      "selector": "## 2. Minimum useful pack record",
+      "kind": "table",
+      "sha256": "a75f73a6badfc9b436f5523467230fa07ec22cc2f4e3eb5567929c807c8ca905"
+    },
+    {
+      "source": "2026-09-10-stage-14-pack-model.md",
+      "selector": "## 3. All fourteen specialisation dimensions",
+      "kind": "table",
+      "sha256": "6f2f6b5f2ff8f4d08ab743ea92d31e16c3c2ba1e208ef37ea84607dc8270aabc"
+    },
+    {
+      "source": "2026-09-10-stage-14-pack-model.md",
+      "selector": "## 4. Qualification and rejection rules",
+      "end": "## 7. Acceptance boundary",
+      "kind": "section",
+      "sha256": "14a4e3a7a992297f36e5332fcc2338989039c9dd3e2f4abcfafa7da815cf467e"
+    },
+    {
+      "source": "2026-09-10-stage-14-pack-authoring.md",
+      "selector": "## 1. Authoring unit and authority",
+      "end": "## 5. Packaging, maintenance and next inputs",
+      "kind": "section",
+      "sha256": "2861705eb510608261b187610b9a1e767e293361f4ed1e6460624174fe1d2535"
+    },
+    {
+      "source": "2026-09-10-stage-14-candidate-catalogue.md",
+      "selector": "## 2. Complete candidate records",
+      "end": "## 3. Composition and review decisions",
+      "kind": "section",
+      "sha256": "28cc7d42d17c296469ec0be4974c3885b17fed111a1c5b655ea3e09bd6c5b67a"
+    }
+  ],
+  "ownership_requirements": [
+    {
+      "id": "S18-01-01",
+      "requirement": "mission",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 1. Mission and scope",
+      "substantive_review": "Bounded decision and artefact mission; no promised revenue or market-fit outcome.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-01-02",
+      "requirement": "scope",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 1. Mission and scope",
+      "substantive_review": "Greenfield/existing, B2B/consumer, user/owner/operator distinctions and actual owner objective.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-01-03",
+      "requirement": "book-evidence relationship",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 3. Book-evidence relationship",
+      "substantive_review": "Five exact source editions and identities, independent synthesis, conflict resolution and reading limits.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-01-04",
+      "requirement": "principles",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 5. Governing principles",
+      "substantive_review": "All fifteen original governing principles retained, including multidimensional quality and smallest correction.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-01-05",
+      "requirement": "business-system architecture",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 4. Capability architecture",
+      "substantive_review": "All C01–C22 capabilities, connected dossier, evidence trace and no universal graph.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-01-06",
+      "requirement": "core skills",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 6. Four core skills",
+      "substantive_review": "Four selected independent entry points, 10/8/7/7 commands, focused use and own safeguards.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-01-07",
+      "requirement": "execution boundary",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 7. Execution boundary",
+      "substantive_review": "Document-led judgement, incumbent execution and actual deterministic results; no required platform.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-01-08",
+      "requirement": "legal/ethical boundary",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 8. Legal and ethical boundary",
+      "substantive_review": "Truthfulness, applicable professional finding and authority assessed independently; no silent send or legal opinion.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-01-09",
+      "requirement": "build order",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 9. Build order and maturity",
+      "substantive_review": "Stages 18–26 and final audit have separate exit obligations; production waits for Stage 21.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-01-10",
+      "requirement": "acceptance",
+      "specification_reference": "Original §25, 01 — System",
+      "path": "docs/01-business-building-skills-system-spec.md",
+      "section": "## 10. System acceptance",
+      "substantive_review": "Every original global acceptance family retained with separate response versus commercial findings.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-01",
+      "requirement": "customer/value model",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 2. Customer, problem, alternatives and value",
+      "substantive_review": "Fifteen map concerns, six role distinctions, nine evidence classes, eight value dimensions and bounded decisions.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-02",
+      "requirement": "offer/pricing",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 3. Offer and pricing",
+      "substantive_review": "Fourteen offer components and fourteen pricing approaches, full terms, comparisons, failure and repair.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-03",
+      "requirement": "money model",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 4. Money-model taxonomy and sequencing",
+      "substantive_review": "All thirteen money models retain all ten fields, transaction uniqueness and coherent sequencing.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-04",
+      "requirement": "acquisition",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 5. Acquisition, lead quality and sales",
+      "substantive_review": "Seven event stages, thirteen channel classes, nine lead-quality dimensions and evidence-based selection.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-05",
+      "requirement": "sales",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 5. Acquisition, lead quality and sales",
+      "substantive_review": "Eight path forms, actual buyer actions, complete measurement and message/offer/execution separation.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-06",
+      "requirement": "delivery",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 6. Delivery, capacity, retention and expansion",
+      "substantive_review": "Fourteen concerns, process/quality records, resource equations, backlog, due dates and shared work.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-07",
+      "requirement": "retention/expansion",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 6. Delivery, capacity, retention and expansion",
+      "substantive_review": "Point/survival/renewal/repeat distinctions, gross/net retention, continuing value, rights and incremental expansion.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-08",
+      "requirement": "unit economics",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 7. Economics, cash and independent growth gates",
+      "substantive_review": "G/D/F/N/K/C, reconciled cost views, twelve metric concerns, finite LTV and matched acquisition/payback.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-09",
+      "requirement": "cash",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 7. Economics, cash and independent growth gates",
+      "substantive_review": "Eleven cash concerns, ordered usable cash, restrictions settled once, trough/floor and downside horizon.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-10",
+      "requirement": "assumptions",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 8. Assumptions, experiments and learning",
+      "substantive_review": "Ten assumption classes with uncertainty and consequence separate, decision-linked priorities and no invented confidence.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-11",
+      "requirement": "experiments",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 8. Assumptions, experiments and learning",
+      "substantive_review": "All nine frozen experiment fields, adequate-method comparison, invalid/inconclusive/guardrail outcomes and actual execution boundary.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-12",
+      "requirement": "learning",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 8. Assumptions, experiments and learning",
+      "substantive_review": "All eight learning fields, actual evidence and deviations, preserved plan/history, unknowns and next commitment.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-13",
+      "requirement": "constraint diagnosis",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 9. Constraint diagnosis, preservation and repair",
+      "substantive_review": "Fifteen constraint routes, evidence integrity, rivals, possible coupled constraints and decision relevance.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-14",
+      "requirement": "preservation / repair",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 9. Constraint diagnosis, preservation and repair",
+      "substantive_review": "All eight repair fields, no-change/local/coupled alternatives, protected versions, impacts, owners and regression.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-02-15",
+      "requirement": "handoffs",
+      "specification_reference": "Original §25, 02 — Workflows and Artifacts",
+      "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "section": "## 10. Specialist issue and legal-constraint handoffs",
+      "substantive_review": "Seven-step specialist handoff, complete packet and twenty routes; module 11 validates actual returned evidence.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-01",
+      "requirement": "repository layout",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 1. Repository layout and ownership",
+      "substantive_review": "Every production path has a justified purpose and creation gate; exact six document names and no premature scaffold.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-02",
+      "requirement": "SKILL.md contracts",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 2. SKILL.md contracts",
+      "substantive_review": "Required metadata and selected descriptions, focused body, activation menu, modes and limits; current upstream format checked.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-03",
+      "requirement": "command contracts",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 5. Common command interface and routing",
+      "substantive_review": "All 32 complete nine-field command contracts retained exactly; explicit 3/7/3 mode sets and mutation boundaries.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-04",
+      "requirement": "references",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 3. Skill-local references and self-containment",
+      "substantive_review": "Skill-local command, common-rule, business-record and pack references with direct menu and optional provenance.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-05",
+      "requirement": "scripts",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 4. Script and calculation contract",
+      "substantive_review": "Explicit paths, validated decimal inputs/errors, deterministic no-effect scripts only when a repeated need exists.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-06",
+      "requirement": "tool integration",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 10. Tool integration and returned evidence",
+      "substantive_review": "All eight execution annotations, actual return state, semantic substitution and reconcile-before-duplicate retry.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-07",
+      "requirement": "self-containment",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 3. Skill-local references and self-containment",
+      "substantive_review": "Complete local dependency closure, identical common copies, manifests and no required sibling/source checkout.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-08",
+      "requirement": "installation",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 11. Installation contract",
+      "substantive_review": "Immutable selected units, actual host discovery, each skill alone and clean unrelated consumer with source unavailable.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-09",
+      "requirement": "CI",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 12. CI and technical acceptance",
+      "substantive_review": "Actual scoped deterministic CI with no commercial credentials; local and remote CI evidence distinguished.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-03-10",
+      "requirement": "technical acceptance",
+      "specification_reference": "Original §25, 03 — Repository and Contracts",
+      "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "section": "## 12. CI and technical acceptance",
+      "substantive_review": "Source, formulas, full case registry, preservation, source/clean installs, behaviour and release evidence kept separate.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-04-01",
+      "requirement": "deterministic checks",
+      "specification_reference": "Original §25, 04 — Testing and Benchmark",
+      "path": "docs/04-testing-and-benchmark-spec.md",
+      "section": "## 2. Deterministic checks",
+      "substantive_review": "All ten deterministic methods, adequate/failing anchors and concrete witnesses retained.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-04-02",
+      "requirement": "business reasoning rubrics",
+      "specification_reference": "Original §25, 04 — Testing and Benchmark",
+      "path": "docs/04-testing-and-benchmark-spec.md",
+      "section": "## 3. Separate reasoning dimensions",
+      "substantive_review": "All sixteen separate reasoning dimensions with substance-based anchors; no aggregate business score.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-04-03",
+      "requirement": "adversarial cases",
+      "specification_reference": "Original §25, 04 — Testing and Benchmark",
+      "path": "docs/04-testing-and-benchmark-spec.md",
+      "section": "## 7. Additional adversarial cases",
+      "substantive_review": "All fourteen named patterns and complete pinned exact fixtures/controls; all stress overlays retained separately.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-04-04",
+      "requirement": "progressive examples",
+      "specification_reference": "Original §25, 04 — Testing and Benchmark",
+      "path": "docs/04-testing-and-benchmark-spec.md",
+      "section": "## 5. Progressive primary examples",
+      "substantive_review": "All fifteen complete exact prompts, artefacts, findings, negative controls and preservation at 3/3/3/3/3.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-04-05",
+      "requirement": "stress tests",
+      "specification_reference": "Original §25, 04 — Testing and Benchmark",
+      "path": "docs/04-testing-and-benchmark-spec.md",
+      "section": "## 6. Canonical stress tests",
+      "substantive_review": "Three structures, 29 exercise concerns and fifteen overlays with immutable complete corpus and reset/oracle protocol.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-04-06",
+      "requirement": "pack evaluation",
+      "specification_reference": "Original §25, 04 — Testing and Benchmark",
+      "path": "docs/04-testing-and-benchmark-spec.md",
+      "section": "## 8. Pack evaluation",
+      "substantive_review": "All seven obligations for every implemented candidate/mode, controlled actual pairs, correct ties and authoring checks.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-04-07",
+      "requirement": "regressions",
+      "specification_reference": "Original §25, 04 — Testing and Benchmark",
+      "path": "docs/04-testing-and-benchmark-spec.md",
+      "section": "## 9. Regression policy",
+      "substantive_review": "All seven permanent regression steps; captured old/repaired evidence, parent retention and no invented escape.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-04-08",
+      "requirement": "installation",
+      "specification_reference": "Original §25, 04 — Testing and Benchmark",
+      "path": "docs/04-testing-and-benchmark-spec.md",
+      "section": "## 10. Installation and release gates",
+      "substantive_review": "Source, selective and distinct clean consumer runs with actual resource access and host evidence.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-04-09",
+      "requirement": "release gates",
+      "specification_reference": "Original §25, 04 — Testing and Benchmark",
+      "path": "docs/04-testing-and-benchmark-spec.md",
+      "section": "## 10. Installation and release gates",
+      "substantive_review": "Matching revisions, full mandatory coverage, actual semantic/pack/regression/installation evidence and publication authority.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-05-01",
+      "requirement": "pack model",
+      "specification_reference": "Original §25, 05 — Customisation / Extension Packs",
+      "path": "docs/05-business-building-customisation-packs-spec.md",
+      "section": "## 1. Pack contract and qualification",
+      "substantive_review": "Eight required record concerns define a self-contained optional grammar without facts, permissions or replacement core.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-05-02",
+      "requirement": "business-model dimensions",
+      "specification_reference": "Original §25, 05 — Customisation / Extension Packs",
+      "path": "docs/05-business-building-customisation-packs-spec.md",
+      "section": "## 2. Permitted business-model dimensions",
+      "substantive_review": "All fourteen permitted dimensions with specific behavioural consequences and inherited safeguards.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-05-03",
+      "requirement": "activation",
+      "specification_reference": "Original §25, 05 — Customisation / Extension Packs",
+      "path": "docs/05-business-building-customisation-packs-spec.md",
+      "section": "## 4. Activation and precedence",
+      "substantive_review": "Both mechanism fit and explicit selection/policy; incompatible or unknown fit cannot invent activation.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-05-04",
+      "requirement": "precedence",
+      "specification_reference": "Original §25, 05 — Customisation / Extension Packs",
+      "path": "docs/05-business-building-customisation-packs-spec.md",
+      "section": "## 4. Activation and precedence",
+      "substantive_review": "Applicable constraints/facts, approved decisions, selected defaults, core defaults; mandatory invariants cannot be overridden.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-05-05",
+      "requirement": "core effects",
+      "specification_reference": "Original §25, 05 — Customisation / Extension Packs",
+      "path": "docs/05-business-building-customisation-packs-spec.md",
+      "section": "## 6. Concrete core-effect and metric records",
+      "substantive_review": "Full effect schema preserves 27 accepted IDs, including PK04 advisory effects within professional-services.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-05-06",
+      "requirement": "metrics",
+      "specification_reference": "Original §25, 05 — Customisation / Extension Packs",
+      "path": "docs/05-business-building-customisation-packs-spec.md",
+      "section": "## 6. Concrete core-effect and metric records",
+      "substantive_review": "Formula, population, period, units, economic basis, actual/scenario, source and unknown/error meaning.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-05-07",
+      "requirement": "pack-aware evaluation",
+      "specification_reference": "Original §25, 05 — Customisation / Extension Packs",
+      "path": "docs/05-business-building-customisation-packs-spec.md",
+      "section": "## 8. Authoring workflow",
+      "substantive_review": "Complete authoring evaluation dimensions and actual paired evidence, supplemented by specification 04 run contract.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-05-08",
+      "requirement": "packaging",
+      "specification_reference": "Original §25, 05 — Customisation / Extension Packs",
+      "path": "docs/05-business-building-customisation-packs-spec.md",
+      "section": "## 7. Packaging",
+      "substantive_review": "Explicit PACK.md, effects, sources, showcase, criteria, actual evidence and manifest; no automatic host protocol.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-05-09",
+      "requirement": "pack authoring",
+      "specification_reference": "Original §25, 05 — Customisation / Extension Packs",
+      "path": "docs/05-business-building-customisation-packs-spec.md",
+      "section": "## 8. Authoring workflow",
+      "substantive_review": "All eleven steps and seven authoring commands, exact templates, create/revise, rejection, validation and honest catalogue.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-06-01",
+      "requirement": "curated initial packs",
+      "specification_reference": "Original §25, 06 — Extension Pack Catalogue",
+      "path": "docs/06-business-building-extension-pack-catalogue.md",
+      "section": "## 1. Selection and use",
+      "substantive_review": "All original nine candidates accounted for as eight independent designs and one complete advisory mode.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-06-02",
+      "requirement": "business-model profiles",
+      "specification_reference": "Original §25, 06 — Extension Pack Catalogue",
+      "path": "docs/06-business-building-extension-pack-catalogue.md",
+      "section": "## 2. Complete profiles",
+      "substantive_review": "Nine full fit/non-fit/core-overlap profiles, 27 command effects and all 126 dimension treatments.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-06-03",
+      "requirement": "selection rationale",
+      "specification_reference": "Original §25, 06 — Extension Pack Catalogue",
+      "path": "docs/06-business-building-extension-pack-catalogue.md",
+      "section": "## 1. Selection and use",
+      "substantive_review": "Mechanism-based comparison and advisory merge rationale retained; industry/location labels do not qualify.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-06-04",
+      "requirement": "showcases",
+      "specification_reference": "Original §25, 06 — Extension Pack Catalogue",
+      "path": "docs/06-business-building-extension-pack-catalogue.md",
+      "section": "## 3. Exact showcases and fixed inputs",
+      "substantive_review": "All nine complete synthetic fixtures with fixed versions, expected measures and controlled comparison procedure.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-06-05",
+      "requirement": "exact prompts",
+      "specification_reference": "Original §25, 06 — Extension Pack Catalogue",
+      "path": "docs/06-business-building-extension-pack-catalogue.md",
+      "section": "## 3. Exact showcases and fixed inputs",
+      "substantive_review": "Nine exact literal tasks and full matching JSON inputs retained without hidden conversation or unresolved values.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-06-06",
+      "requirement": "pack-specific evals",
+      "specification_reference": "Original §25, 06 — Extension Pack Catalogue",
+      "path": "docs/06-business-building-extension-pack-catalogue.md",
+      "section": "## 3. Exact showcases and fixed inputs",
+      "substantive_review": "Effect-specific positive/negative witnesses plus all seven obligations, precedence, unknown and missing-resource cases.",
+      "result": "PASS"
+    },
+    {
+      "id": "S18-06-07",
+      "requirement": "maturity",
+      "specification_reference": "Original §25, 06 — Extension Pack Catalogue",
+      "path": "docs/06-business-building-extension-pack-catalogue.md",
+      "section": "## 4. Maturity, maintenance and catalogue changes",
+      "substantive_review": "Every candidate remains NOT IMPLEMENTED; actual versioned host, pair, authoring and install evidence required for promotion.",
+      "result": "PASS"
+    }
+  ],
+  "review_method": "Direct author review of source contracts and canonical substance; deterministic checks verify fidelity, coverage, references and preservation, not semantic installed performance.",
+  "new_implementation_decisions": [
+    "Canonical responsibility allocation with full adopted domain/command contracts and fixed case annexes.",
+    "Skill-local copies and checked common-rule identity; no new shared runtime or required sibling.",
+    "Explicit PACK.md directory convention with complete local resources and explicit selection; no automatic host discovery claim.",
+    "Host-neutral install procedure with actual discovery and clean-source separation as evidence requirements.",
+    "Scoped CI and immutable input/output/run records; no commercial credentials or automatic release."
+  ],
+  "external_source": {
+    "url": "https://agentskills.io/specification",
+    "access_date": "2026-09-12",
+    "scope": "Directory, frontmatter, body, resource, disclosure and validation sections actually read; only format findings used, no host execution inferred."
+  }
+}

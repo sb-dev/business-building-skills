@@ -15,8 +15,7 @@ Continuation started at `5d973121ecf87d40f6d9f97e0794be2723b0985b`, one commit a
 | 0–15 | COMPLETE; Stage 0 is the existing research workspace | [Accepted historical progress](bootstrap-2-progress.md) and linked receipts |
 | 16 | COMPLETE | [Canonical stress-test design and conformance](2026-09-12-stage-16-stress-test-design.md), [actual design checks](2026-09-12-stage-16-executed-checks.json) |
 | 17 | COMPLETE | [Benchmark design and conformance](2026-09-12-stage-17-benchmark-design.md), [actual design checks](2026-09-12-stage-17-executed-checks.json) |
-| 18 | CONTENT VERIFIED; remote receipt required | [Six canonical specifications and conformance](2026-09-12-stage-18-canonical-specifications.md), [actual checks](2026-09-12-stage-18-executed-checks.json) |
-| 19–26 | NOT STARTED | No later-stage outputs are included |
+| 18–26 | NOT STARTED | No outputs belong to this Stage 17 work |
 
 This remains a bootstrap design workspace. It is not an installed, working, benchmarked or mature Agent Skills product. Synthetic business fixtures are not live commercial validation. No PR, merge, release, registry promotion or live business action is included.
 
@@ -100,12 +99,4 @@ This receipt follows those actual checks and changes only the live continuation 
 
 ## Continuation rule
 
-Complete, verify, commit and remotely verify the current stage before beginning the next. Reconstruct every new stage from the original specification and accepted branch evidence. Preserve Stages 1–15; a genuine contradiction requiring their modification needs the user's decision under execution-contract §2. Stage 18 content is verified. Complete its scoped commit and remote receipt before beginning Stage 19, Design Public README.
-
-## Stage 18 content verification
-
-All six exact canonical specification files are complete, with all 60 original ownership concerns. Their contracts retain four skills, all 32 commands and 288 required fields, fifteen exact primary prompts at 3/3/3/3/3, all three stress structures, fourteen additional adversarial cases and eight independent pack candidates plus the professional-services advisory mode. All nine fixed pack prompts/inputs, 27 effects and 126 dimension treatments are retained.
-
-Actual final-input documentation verification records 842 PASS, 0 FAIL, exit 0 on Python 3.12.14. Direct substantive review checks each owner, cross-document meaning and four complete implementation paths. The 101 inherited files remain unchanged except this live index, whose previous bytes are preserved in the [Stage 17 progress snapshot](2026-09-12-bootstrap-3-progress-through-stage-17.md). No installed agent, real core/pack pair, clean installation or commercial result is claimed.
-
-The stage is not remotely complete until the content commit, branch, parent/tree, exact changed paths and immutable file contents are verified and the completion receipt is written.
+Complete, verify, commit and remotely verify the current stage before beginning the next. Reconstruct every new stage from the original specification and accepted branch evidence. Preserve Stages 1–15; a genuine contradiction requiring their modification needs the user's decision under execution-contract §2. After Stage 17 has its verified receipt, the next authorised stage is 18, Generate Six Canonical Specifications.
