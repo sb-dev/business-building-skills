@@ -16,7 +16,7 @@ Continuation started at `5d973121ecf87d40f6d9f97e0794be2723b0985b`, one commit a
 | 16 | COMPLETE | [Canonical stress-test design and conformance](2026-09-12-stage-16-stress-test-design.md), [actual design checks](2026-09-12-stage-16-executed-checks.json) |
 | 17 | COMPLETE | [Benchmark design and conformance](2026-09-12-stage-17-benchmark-design.md), [actual design checks](2026-09-12-stage-17-executed-checks.json) |
 | 18 | COMPLETE | [Six canonical specifications and conformance](2026-09-12-stage-18-canonical-specifications.md), [actual checks](2026-09-12-stage-18-executed-checks.json) |
-| 19 | Content PASS; remote commit and receipt verification pending | [Public README design and conformance](2026-09-13-stage-19-readme-design.md), [actual checks](2026-09-13-stage-19-executed-checks.json) |
+| 19 | COMPLETE | [Public README design and conformance](2026-09-13-stage-19-readme-design.md), [actual checks](2026-09-13-stage-19-executed-checks.json) |
 | 20–26 | NOT STARTED | No later-stage outputs are included |
 
 This remains a bootstrap design workspace. It is not an installed, working, benchmarked or mature Agent Skills product. Synthetic business fixtures are not live commercial validation. No PR, merge, release, registry promotion or live business action is included.
@@ -101,7 +101,7 @@ This receipt follows those actual checks and changes only the live continuation 
 
 ## Continuation rule
 
-Complete, verify, commit and remotely verify the current stage before beginning the next. Reconstruct every new stage from the original specification and accepted branch evidence. Preserve Stages 1–15; a genuine contradiction requiring their modification needs the user's decision under execution-contract §2. Stage 18 content and completion receipt are verified. Stage 19 is the sole current task; do not begin Stage 20 before its complete content and remote receipt are verified.
+Complete, verify, commit and remotely verify the current stage before beginning the next. Reconstruct every new stage from the original specification and accepted branch evidence. Preserve Stages 1–15; a genuine contradiction requiring their modification needs the user's decision under execution-contract §2. Stage 18 content and completion receipt are verified. Stage 19 content and its remote commit are verified. Verify the completion receipt commit/ref before beginning Stage 20, Cross-Project Review.
 
 ## Stage 18 content verification at the content commit
 
@@ -161,4 +161,48 @@ This receipt is written after the checks above and changes only the live continu
 
 The complete public README design covers all 18 original topics, an exact self-contained E01 quick start, all 15 accepted examples at 3/3/3/3/3, four core skills, eight independent pack candidates plus advisory mode, three stress structures, five source books and all six canonical documents. Installation, implementation, benchmark and licence limits remain explicit. The root bootstrap README is unchanged; publication into the production scaffold belongs to Stage 21.
 
-The author compared three positioning candidates and inspected six reader paths. The verifier executes the quick-start arithmetic from its embedded facts, verifies every primary prompt and link, and checks all 112 inherited identities with the previous live index preserved in the Stage 18 snapshot. These are documentation and deterministic results, not an installed benchmark or customer study. Final local verification returned 244 PASS, 0 FAIL, exit 0 on Python 3.12.14, including 50 local links and all required prompt/distribution checks. The subsequent remote completion receipt records commit verification. Stage 20 has not started.
+The author compared three positioning candidates and inspected six reader paths. The verifier executes the quick-start arithmetic from its embedded facts, verifies every primary prompt and link, and checks all 112 inherited identities with the previous live index preserved in the Stage 18 snapshot. These are documentation and deterministic results, not an installed benchmark or customer study. Final local verification returned 244 PASS, 0 FAIL, exit 0 on Python 3.12.14, including 50 local links and all required prompt/distribution checks. The content commit, branch, parent/tree, exact changed paths and all immutable file contents were subsequently verified as recorded below. The executed verifier pins the pre-receipt progress content at that commit. Stage 20 has not started.
+
+
+## Stage 19 completion receipt
+
+**Stage:** 19, Design Public README  
+**Status:** COMPLETE  
+**Content commit:** `7527bfbd53c5cf07e7d23e14e48c621d83bfd610`  
+**Parent:** `8dea24cd8772d4e0ce711829d5c46b040fbce6b5`  
+**Root tree:** `c23aacbdbe8efcdfa8bc5a12f3e6ee51c2b17951`  
+**Commit message:** `docs: complete stage 19 public README design`  
+**Remaining Stage 19 blockers:** none
+
+The complete [public README design](2026-09-13-stage-19-public-readme.md) covers all 18 original topics in order. It includes an unchanged, self-contained E01 quick-start prompt and checked result table, all fifteen accepted example links at 3/3/3/3/3, four core skills and their logical request/mode boundaries, eight independent pack candidates plus professional-services advisory mode, three canonical stress structures, five attributed source books and all six canonical documentation links. Installation, pack, benchmark, contribution-guide/CI and licence availability are accurately bounded by the actual revision. The root bootstrap README remains unchanged; Stage 21 owns publication into the production scaffold.
+
+Three positioning candidates were compared against new and existing business work. The author performed a complete pricing/test/assessment walkthrough and inspected six reader paths. Python 3.12.14 actually executed the quick-start arithmetic from its embedded facts: fixed-fee contribution 50/20/−40, hourly consideration 80/120/200 and contribution 10/20/40, with exact fixed-fee zero-contribution boundary 11/3 hours. No willingness-to-pay result, live customer test, independent reader study, installed-agent performance, core/pack superiority or clean installation is claimed.
+
+Final publication-input verification returned **244 PASS, 0 FAIL, exit 0**, including 50 local documentation links, all fifteen complete prompt identities and the required distribution. Direct substantive conformance reviewed every original topic and the reader exit. All 112 predecessor file identities are preserved, with the previous live progress bytes retained exactly in the Stage 18 snapshot. The documented initial report-link failure was resolved by producing and checking the actual report; no acceptance requirement was weakened.
+
+A non-force update advanced only `feat/bootstrap-3`. Fresh connector reads verified the exact content SHA, its single intended parent/root tree and the remote branch ref. Comparison is one commit ahead, zero behind, with precisely six additions and the live continuation-index modification. All seven intended files were fetched at the immutable content commit and matched both their expected Git blob identities and complete local UTF-8 text.
+
+| Requirement | Specification reference | Deliverable / evidence | Verification performed | Result |
+|---|---|---|---|---|
+| Complete public README design | Original §26; continuation §§3–6 | Full draft, comparisons and substantive conformance | All 18 topics, exact title/order and source-derived/non-reproduction boundary inspected | PASS |
+| Understand and try without bootstrap | Original §26 exit | Exact E01, checked results and reader walkthrough | Complete supplied input, actual arithmetic and bounded authored analysis; six reader paths inspected | PASS |
+| Complete accepted learning surface | Original §§22,26,34 | E01–E15 canonical links and prompt identities | Exactly fifteen, 3/3/3/3/3; every full prompt unchanged; all links/anchors resolve | PASS |
+| Actual current-stage verification | Continuation §5 | Verifier and executed JSON | Final 244 PASS / 0 FAIL, exit 0 on Python 3.12.14; final input hashes recorded | PASS |
+| Prior work and stage boundaries preserved | Original §§7,28; continuation §§2–5 | 112-file baseline and Stage 18 snapshot | 111 inherited files unchanged; previous live index retained exactly; no earlier deliverable or production path changed | PASS |
+| Scoped commit and correct branch | Continuation §7 | Fresh branch, Git commit and comparison reads | Exact SHA/parent/tree; one commit ahead with six additions and one index modification | PASS |
+| Immutable remote contents | Continuation §7 | Seven complete file fetches at the content SHA | Every full UTF-8 text and Git blob identity matched | PASS |
+| Honest implementation, evidence and authority | Original §§26–35; continuation §11 | Draft, design record and current tree | Design/execution distinctions, synthetic scope and current installation/licence state preserved; no release or maturity promotion | PASS |
+
+| Path under `docs/research-logs/` | Verified content blob |
+|---|---|
+| `2026-09-13-bootstrap-3-progress-through-stage-18.md` | `42727efd8c461ca25f49100e2c37c319e45ba0c5` |
+| `2026-09-13-stage-19-executed-checks.json` | `69eae061a804dc8018a23e97aa8122e2f51b12a7` |
+| `2026-09-13-stage-19-public-readme.md` | `863e8db3d1546badaa3ffa589e720ea457c65a3f` |
+| `2026-09-13-stage-19-readme-design.md` | `4f5d821155fb289951a097ed2ef650047aa4ea7d` |
+| `2026-09-13-stage-19-verification-inputs.json` | `008a92bc4f4b91907a1db761094052350ca0d150` |
+| `2026-09-13-stage-19-verifier.py` | `c6b7108cf694fd60849b947953f6da35f6f5b3f3` |
+| `bootstrap-3-progress.md before receipt` | `a20affeb67b3d3cbe509370d5657c256fcd87b7a` |
+
+This receipt follows those actual checks and changes only the live continuation index. Its pre-receipt form remains at the content commit; all six other Stage 19 files remain unchanged. Verify the receipt's actual commit, parent, resulting blob and branch ref before the next stage. Remote identity checks do not imply signing, independent professional endorsement or commercial validation.
+
+**Continuation boundary:** Stage 19 is complete; Stages 20–26 have not started. This session stops at the verified stage boundary under execution-contract §9 after reconstructing the extensive accepted specification and documentation contracts. The next task is Stage 20, Cross-Project Review, beginning with the original specification and these immutable outputs. There is no unresolved Stage 19 blocker and no permission request.
