@@ -1,0 +1,45 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+The five continuing grace entitlements are among the ten failed payments, not extra paid renewals. The 60 meaningful users are measured against the same starting 100-account cohort. All 85 continuing entitled accounts incur the stated current-window service cost. The 20 new buyers are outside the renewal denominator.
+
+Use these logical selectors as needed: business-grow/design-retention, business-evaluate/evaluate-component [retention], business-build/design-experiment.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E06-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "price": "monthly-12-v1",
+    "exit": "simple-cancellation-v1"
+  },
+  "observations": {
+    "renewals_due": 100,
+    "paid_renewals": 80,
+    "grace_entitlements": 5,
+    "meaningful_users_in_starting_cohort": 60,
+    "voluntary_exits": 10,
+    "failed_payments": 10,
+    "new_paid_customers_outside_cohort": 20,
+    "price": "12",
+    "cohort_refunds": "24",
+    "service_cost_per_entitled_account": "2",
+    "cohort_support_cost": "80",
+    "cohort_payment_fees": "40"
+  },
+  "scenarios": {
+    "proposal": "Improve renewal and payment recovery without changing price"
+  },
+  "constraints": [
+    "Do not obstruct the accepted cancellation path.",
+    "No platform rule, fee or jurisdiction is inferred from the mobile label."
+  ],
+  "unknowns": [
+    "Reasons for low meaningful use",
+    "Responsiveness to a retention intervention",
+    "Outcomes after the current renewal window"
+  ]
+}
+
+Task:
+Design a coherent renewal component that separates delivered value, voluntary exit and failed-payment recovery. Reconcile paid renewal, entitlement and meaningful use; calculate the cohort economic bridge without counting new customers as retained. Keep voluntary cancellation accessible and honour suppression. Explain what additional user/value evidence could discriminate onboarding failure, weak continuing value and payment problems. Propose a bounded intervention and frozen evaluation rule with a comparable horizon, explicit guardrails and inconclusive outcomes. Do not assume a discount works, force a price change, send recovery messages or alter billing. A renewal report is evidence to interpret, not permission to execute.

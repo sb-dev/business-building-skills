@@ -1,0 +1,33 @@
+{
+  "id": "E09",
+  "title": "Small notebook ecommerce business",
+  "level": 3,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-03.md",
+  "source_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+  "prompt_sha256": "888856a7e2bd0fce2cc4679b7ed804031e90d722db981d65acc5b342796665f1",
+  "expected_artifacts": "A complete owned-stock business dossier, stock/profit/cash reconciliations, a serviceable sales/fulfilment path and a bounded test/commitment decision. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "Gross consideration 2000, net 1900, consumed stock 800, total direct cost 1080 and contribution 820; after acquisition 620. Twenty untouched units retain a cost basis of 400. Cash closes at 920 but reaches -900; meeting the stated 100 floor needs 1000 more timely funding or an actually agreed change. Ending stock reconciles the difference between economic and cash views. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail treating incoming settlement as cash on purchase day, reporting all stock purchases as both COGS and another cost, calling the webshop a marketplace, or withdrawing refund rights to fund stock.",
+  "preservation": "Keep physical-notebook-v1 and accepted-return-rights-v1. A reduced-order or payment-timing option is a proposal, not a supplier agreement or a live purchase.",
+  "reasoning_dimensions": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

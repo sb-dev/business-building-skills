@@ -1,0 +1,41 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+The new commercial component is a bounded reporting diagnostic, not a full transformation or a guarantee of client revenue. The buyer supplies authorised sample data and names an acceptance owner. For THIS synthetic case all 32 hours are paid supplier labour, so valued labour and the specified cash delivery payment refer to the same cost once, not two costs.
+
+Use these logical selectors as needed: business-build/design-offer, business-build/design-pricing, business-build/model-delivery, business-build/model-unit-economics.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E04-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "small-agencies-v1",
+    "problem": "manual-reporting-diagnostic-v1"
+  },
+  "observations": {
+    "available_month_hours": "48",
+    "existing_work_hours": "16",
+    "labour_value_per_hour": "40",
+    "opening_usable_cash": "500",
+    "cash_floor": "200"
+  },
+  "scenarios": {
+    "fee": "1800",
+    "discounted_fee": "1200",
+    "delivery_hours": "24",
+    "discovery_admin_support_hours": "8",
+    "tool_cash": "80",
+    "deposit_day_0": "900",
+    "delivery_cash_day_14": "1360",
+    "balance_day_30": "900"
+  },
+  "unknowns": [
+    "Buyer acceptance of the proposed price and payment terms",
+    "Confirmed client data access",
+    "Schedule feasibility within the available dates"
+  ]
+}
+
+Task:
+Build a complete offer and price component: intended outcome, deliverables, mechanism, scope/exclusions, client dependencies, acceptance, time-to-value, price/unit, payments, proof gaps and proportionate remedy options. Evaluate the standard and discounted fees. Check shared effort and the dated cash floor before proposing the terms. An unlimited retainer or unsupported ROI guarantee is not acceptable. Compare a smaller scope or different milestone timing only as a new proposal; do not alter a buyer agreement or assume acceptance. Define a bounded discovery/delivery test and the evidence required to commit. Keep the work local and do not send a proposal, reserve staff or change financial records.

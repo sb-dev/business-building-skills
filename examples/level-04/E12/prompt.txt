@@ -1,0 +1,44 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+Two fictional orders acquired through a previously approved B2B outbound campaign are contracted but not collected. Each requires stock now and payroll before day-45 payment. Tax is a separate fixed cash obligation even under reduced order volume. The current task is diagnosis and repair, not investment, borrowing or tax advice.
+
+Use these logical selectors as needed: business-evaluate/evaluate-unit-economics [cash], business-evaluate/diagnose-business-constraint, business-evaluate/recommend-smallest-change.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E12-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "wholesale-buyers-v1",
+    "offer": "goods-order-v1",
+    "price": "4000-per-order-v1"
+  },
+  "observations": {
+    "accepted_orders": 2,
+    "price_per_order": "4000",
+    "stock_cash_per_order_day_0": "2200",
+    "payroll_cash_per_order_day_14": "400",
+    "advertising_cash_per_order_day_0": "200",
+    "tax_cash_day_30": "600",
+    "opening_usable_cash": "3000",
+    "cash_floor": "500",
+    "collection_day": 45
+  },
+  "scenarios": {
+    "deposit_each_if_agreed_day_0": "1850",
+    "reduced_orders": 1
+  },
+  "constraints": [
+    "Tax amount/date is a supplied fictional specialist input, not a calculated tax rule.",
+    "Deposits are proposed timing changes, not additional revenue."
+  ],
+  "unknowns": [
+    "Buyer agreement to deposits",
+    "Collection reliability on day 45",
+    "Permissions and feasibility of reducing existing commitments"
+  ]
+}
+
+Task:
+Replay the full dated cash calendar for the two accepted orders, keeping contracted consideration, contribution and cash separate. Identify the first breach, minimum balance and funding needed to maintain the floor. Compare two explicitly conditional repairs: agreed deposits of the supplied amount per order, with only the remaining balances collected later; and reducing the model to one order while retaining the fixed tax obligation. Check both rather than assuming a smaller plan solves the crisis. Preserve customer/price/offer decisions; route any terms or commitment change to its owner and counterparty. Record any required additional evidence, containment and verification. Do not borrow, charge deposits, cancel orders or change a tax treatment.

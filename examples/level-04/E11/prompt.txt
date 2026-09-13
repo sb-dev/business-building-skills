@@ -1,0 +1,40 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+Four fictional engagements arose through referrals and are already accepted. All delivery, support, sales and administration use the same person. Labour is an economic value, not an extra asserted cash payment. Acquisition sales effort is A; direct delivery/support plus the other per-engagement cost is K; fixed administration is H. Do not count a cost identity in two buckets.
+
+Use these logical selectors as needed: business-evaluate/evaluate-unit-economics [both], business-evaluate/diagnose-business-constraint, business-evaluate/recommend-smallest-change.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E11-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "referral-clients-v1",
+    "offer": "bounded-engagement-v1",
+    "price": "3000-v1"
+  },
+  "observations": {
+    "current_accepted_engagements": 4,
+    "price": "3000",
+    "delivery_hours_each": "24",
+    "support_hours_each": "6",
+    "sales_hours_each": "2",
+    "fixed_admin_hours": "20",
+    "available_hours": "140",
+    "labour_value_per_hour": "40",
+    "other_direct_cost_each": "100",
+    "quality_signal": "One handover was late; client deadlines and obligations remain in force."
+  },
+  "scenarios": {
+    "proposed_total_engagements": 5
+  },
+  "unknowns": [
+    "Calendar-feasible sequence for existing due dates",
+    "Permission for changed deadlines or extra resources",
+    "Dated collection and full cash obligations"
+  ]
+}
+
+Task:
+Diagnose current and proposed workload independently of the profitable commercial terms. Calculate per-resource hours and the explicit N/K/C/A/H bridge for four and five engagements. Preserve existing rights and contain the already evidenced delivery risk through the responsible owner; rejecting only the fifth engagement is not enough to solve current overload. Compare intake pause, verified scheduling/process improvements, agreed timing changes and approved external help without assuming consent, available staff or cash. Identify what remains blocked and how the smallest sufficient repair would be verified. Do not cancel customer work, hire, alter commitments or relabel valued time as spendable funds.

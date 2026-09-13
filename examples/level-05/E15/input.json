@@ -1,0 +1,48 @@
+{
+  "synthetic": true,
+  "case_version": "E15-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "rights": "preserve-existing-code-and-asset-rights-v1",
+    "core": "usable-without-paid-pack-v1",
+    "governance": "no-unilateral-contributor-obligations-v1"
+  },
+  "observations": {
+    "stars": 2000,
+    "downloads": 500,
+    "activated_projects": 60,
+    "weekly_active_projects": 18,
+    "contributors": 6,
+    "paid_service_customers": 3,
+    "service_price": "1000",
+    "restricted_sponsorship": "600",
+    "maintenance_hours": "30",
+    "service_hours_each": "12",
+    "support_hours": "10",
+    "pack_review_hours": "8",
+    "maintainer_capacity_hours": "80",
+    "hour_value": "40",
+    "hosting_cash": "240",
+    "opening_unrestricted_cash": "1000"
+  },
+  "scenarios": {
+    "support_price_per_month": "20",
+    "support_interest_responses": 10,
+    "support_paid_subscribers": 0,
+    "education_price_candidate": "50",
+    "marketplace_proposal": "Sell third-party packs before any paired supply/demand transaction evidence",
+    "eligible_maintenance_invoice": "400"
+  },
+  "constraints": [
+    "The 600 sponsorship is restricted to maintenance and is not campaign cash.",
+    "The 400 invoice is a stipulated eligible maintenance payment; it releases that part of the same restriction.",
+    "No specific real repository licence or contributor assignment is asserted."
+  ],
+  "unknowns": [
+    "Paid support or course demand",
+    "Third-party seller and buyer willingness to transact",
+    "Future volunteer availability",
+    "Recurring paid-service need",
+    "Rights and compatibility of actual commercial pack contents"
+  ]
+}

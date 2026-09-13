@@ -1,0 +1,36 @@
+{
+  "synthetic": true,
+  "case_version": "E02-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "agency-v1",
+    "offer": "report-service-v1"
+  },
+  "observations": {
+    "window_days": 30,
+    "follow_up_days": 60,
+    "contribution_per_customer_before_acquisition": "180",
+    "paid": {
+      "responses": 100,
+      "qualified": 10,
+      "paid_customers": 2,
+      "media_cash": "200",
+      "sales_cost": "100"
+    },
+    "referral": {
+      "responses": 20,
+      "qualified": 12,
+      "paid_customers": 4,
+      "reward_cash": "80",
+      "sales_cost": "120"
+    }
+  },
+  "scenarios": {
+    "proposal": "Increase the paid-channel budget"
+  },
+  "unknowns": [
+    "Marginal response at larger spend",
+    "Customer outcomes after the stated 60-day horizon",
+    "Causal effect of either channel"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "synthetic": true,
+  "case_version": "E06-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "price": "monthly-12-v1",
+    "exit": "simple-cancellation-v1"
+  },
+  "observations": {
+    "renewals_due": 100,
+    "paid_renewals": 80,
+    "grace_entitlements": 5,
+    "meaningful_users_in_starting_cohort": 60,
+    "voluntary_exits": 10,
+    "failed_payments": 10,
+    "new_paid_customers_outside_cohort": 20,
+    "price": "12",
+    "cohort_refunds": "24",
+    "service_cost_per_entitled_account": "2",
+    "cohort_support_cost": "80",
+    "cohort_payment_fees": "40"
+  },
+  "scenarios": {
+    "proposal": "Improve renewal and payment recovery without changing price"
+  },
+  "constraints": [
+    "Do not obstruct the accepted cancellation path.",
+    "No platform rule, fee or jurisdiction is inferred from the mobile label."
+  ],
+  "unknowns": [
+    "Reasons for low meaningful use",
+    "Responsiveness to a retention intervention",
+    "Outcomes after the current renewal window"
+  ]
+}

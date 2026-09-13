@@ -1,0 +1,24 @@
+{
+  "id": "E10",
+  "title": "Lead growth without qualified growth",
+  "level": 4,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+  "source_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+  "prompt_sha256": "dfbd605da79152d72499abdc5bedd706635bd1337b4810c97dda03725661197d",
+  "expected_artifacts": "A source-linked funnel diagnosis, rival-explanation review, separate economics findings and a smallest-change repair proposal with protected versions. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "Qualification falls from 20% to 10% of leads while qualified-to-paid remains 20%. All-in CAC rises from 125 to 256.25; after-acquisition cohort contribution changes from 600 to -450. The evidence points toward acquisition mix/qualification cost, not automatic proof that offer, price or delivery needs redesign. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail a customer/price/brand rewrite without additional evidence, media-only CAC, unmatched denominators, or calling a proposed reversal an observed causal improvement.",
+  "preservation": "Preserve all four accepted versions. Propose source/filter/test changes only; new evidence can later implicate another layer, but it must be retained explicitly.",
+  "reasoning_dimensions": [
+    "R01",
+    "R08",
+    "R09",
+    "R10",
+    "R13",
+    "R15",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

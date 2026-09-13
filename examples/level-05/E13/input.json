@@ -1,0 +1,78 @@
+{
+  "synthetic": true,
+  "case_version": "E13-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "price": "monthly-6-v1",
+    "trial": "no-free-trial-v1",
+    "refund": "30-day-money-back-v1",
+    "value": "budget-review-assistance-not-investment-advice"
+  },
+  "observations": {
+    "old_accounts_due": 200,
+    "old_paid_renewals": 140,
+    "grace_entitlements": 10,
+    "old_accounts_completing_weekly_review": 100,
+    "new_paid_accounts": 100,
+    "new_store_origin_accounts": 70,
+    "new_direct_origin_accounts": 30,
+    "monthly_price": "6",
+    "refunds_paid": "60",
+    "entitled_accounts_charged_service_cost": 250,
+    "service_cost_per_entitled_account": "1",
+    "support_cash": "180",
+    "payment_fees": "50",
+    "fixed_hosting_cash": "100",
+    "acquisition_cash": "1200",
+    "opening_usable_cash": "1000",
+    "cash_floor": "200",
+    "claim_evidence": "Twelve fictional interviews discuss review habits; there is no measured money-saving or investment-return study."
+  },
+  "scenarios": {
+    "candidate_annual_price": "60",
+    "cash_events": [
+      [
+        "day-01",
+        "acquisition",
+        "-1200"
+      ],
+      [
+        "day-07",
+        "service",
+        "-250"
+      ],
+      [
+        "day-07",
+        "support",
+        "-180"
+      ],
+      [
+        "day-07",
+        "hosting",
+        "-100"
+      ],
+      [
+        "day-30",
+        "gross_collections",
+        "1440"
+      ],
+      [
+        "day-30",
+        "payment_fees",
+        "-50"
+      ],
+      [
+        "day-31",
+        "refunds",
+        "-60"
+      ]
+    ]
+  },
+  "unknowns": [
+    "Longer-term retained value and renewal",
+    "Causal value of assistant features",
+    "Current rules and entitlements of real purchase channels",
+    "Willingness to prepay annually",
+    "Capacity and costs at greater use"
+  ]
+}

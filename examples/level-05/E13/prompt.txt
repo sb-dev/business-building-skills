@@ -1,0 +1,92 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+This is a wholly synthetic Kakeibo rehearsal, not the real product, price, user base or financial results. Store/direct describe acquisition origin, not actual fee schedules. The cohort numbers are fictional historical observations; the separate cash calendar is a forward replay of that volume at the stated opening cash and settlement dates, NOT recorded payments through a negative balance or guaranteed repeat demand. The ten grace accounts are unpaid old accounts; 140 renewed plus 100 new plus ten grace gives 250 entitled accounts. The 60 refund amount is an economic adjustment and one corresponding scenario cash outflow, not two expenses.
+
+Use these logical selectors as needed: business-build/frame-opportunity, business-build/define-customer-value, business-build/design-offer, business-build/design-pricing, business-build/design-money-model, business-build/model-delivery, business-build/model-unit-economics, business-grow/select-channel, business-grow/design-sales-path, business-grow/design-retention, business-grow/design-expansion, business-evaluate/audit-claims, business-evaluate/diagnose-business-constraint, business-build/design-experiment, business-build/record-learning.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E13-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "price": "monthly-6-v1",
+    "trial": "no-free-trial-v1",
+    "refund": "30-day-money-back-v1",
+    "value": "budget-review-assistance-not-investment-advice"
+  },
+  "observations": {
+    "old_accounts_due": 200,
+    "old_paid_renewals": 140,
+    "grace_entitlements": 10,
+    "old_accounts_completing_weekly_review": 100,
+    "new_paid_accounts": 100,
+    "new_store_origin_accounts": 70,
+    "new_direct_origin_accounts": 30,
+    "monthly_price": "6",
+    "refunds_paid": "60",
+    "entitled_accounts_charged_service_cost": 250,
+    "service_cost_per_entitled_account": "1",
+    "support_cash": "180",
+    "payment_fees": "50",
+    "fixed_hosting_cash": "100",
+    "acquisition_cash": "1200",
+    "opening_usable_cash": "1000",
+    "cash_floor": "200",
+    "claim_evidence": "Twelve fictional interviews discuss review habits; there is no measured money-saving or investment-return study."
+  },
+  "scenarios": {
+    "candidate_annual_price": "60",
+    "cash_events": [
+      [
+        "day-01",
+        "acquisition",
+        "-1200"
+      ],
+      [
+        "day-07",
+        "service",
+        "-250"
+      ],
+      [
+        "day-07",
+        "support",
+        "-180"
+      ],
+      [
+        "day-07",
+        "hosting",
+        "-100"
+      ],
+      [
+        "day-30",
+        "gross_collections",
+        "1440"
+      ],
+      [
+        "day-30",
+        "payment_fees",
+        "-50"
+      ],
+      [
+        "day-31",
+        "refunds",
+        "-60"
+      ]
+    ]
+  },
+  "unknowns": [
+    "Longer-term retained value and renewal",
+    "Causal value of assistant features",
+    "Current rules and entitlements of real purchase channels",
+    "Willingness to prepay annually",
+    "Capacity and costs at greater use"
+  ]
+}
+
+Task:
+Produce a complete consumer-subscription business thesis, not a marketing plan alone. Connect adult customer/problem/alternative evidence, trustworthy assistant value, intelligible terms, pricing/payment choices, store-origin and direct acquisition, conversion/access, ongoing delivery, support and voluntary retention. Preserve no-free-trial and refund decisions; compare annual prepayment only as a separately approved alternative with future-service/refund exposure. Reconcile old-cohort renewal and use, new acquisition, entitlement, contribution and dated cash. Audit a proposed claim that the assistant guarantees financial savings; no supporting measurement is supplied. Assess expansion only through genuine additional value and capacity. Select the current binding constraints and a sequenced programme of cheap adequate tests, with dependencies, frozen rules, uncertainty, rights and commitment limits. Record what the supplied fictional observations do and do not establish. Do not publish claims, change prices, charge, contact users, provide investment advice or implement the app.
+
+Cover all fifteen business-map concerns: target customer; problem/desired progress; alternative/status quo; value proposition; offer; acquisition channel; sales/conversion path; price/revenue mechanism; delivery mechanism; cost structure; retention/repeat/expansion; referral/advocacy; operational constraints; cash timing; key assumptions. For each, identify supplied evidence or explicit hypotheses/unknowns and relevant dependencies. Keep uncertainty, observed evidence, metric, interpretation and decision separate. Include human/research/legal/accounting/production handoffs where relevant; identify missing professional inputs rather than invent conclusions. Append a learning record naming the assumption, test or explicit absence of a controlled test, supplied evidence, result, interpretation, decision, remaining unknowns and next commitment. A scenario with no observations remains an untested hypothesis, not a completed customer experiment.
+
+Add a coherent thesis, rejected strategic alternatives and a staged evidence programme whose test results can change the next commitment. State the objective, dependencies, decision owner, resource/cash limits, success/failure/invalid/inconclusive outcomes, preservation rules and stop/review triggers. Do not treat the thesis as authorisation to implement the business or as a one-number score.

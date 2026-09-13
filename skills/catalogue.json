@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "purpose": "Source contract inventory; not host discovery or an installer",
+  "skills": [
+    {
+      "name": "business-build",
+      "contract": "business-build/contract.json",
+      "command_count": 10,
+      "implementation_state": "NOT_IMPLEMENTED"
+    },
+    {
+      "name": "business-grow",
+      "contract": "business-grow/contract.json",
+      "command_count": 8,
+      "implementation_state": "NOT_IMPLEMENTED"
+    },
+    {
+      "name": "business-evaluate",
+      "contract": "business-evaluate/contract.json",
+      "command_count": 7,
+      "implementation_state": "NOT_IMPLEMENTED"
+    },
+    {
+      "name": "business-pack-author",
+      "contract": "business-pack-author/contract.json",
+      "command_count": 7,
+      "implementation_state": "NOT_IMPLEMENTED"
+    }
+  ]
+}

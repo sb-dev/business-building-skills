@@ -1,0 +1,27 @@
+{
+  "synthetic": true,
+  "case_version": "E03-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "offer": "template-edition-v1",
+    "rights": "keep-purchased-edition-access"
+  },
+  "observations": {
+    "orders": 80,
+    "price": "30",
+    "discounts": "0",
+    "refund_amount": "90",
+    "payment_fees": "120",
+    "support_cost": "300",
+    "distribution_cost": "80",
+    "creation_cost": "2000"
+  },
+  "scenarios": {
+    "question": "Did this finite launch cohort fund the stated offer scope?"
+  },
+  "unknowns": [
+    "Future sales",
+    "Additional update/support costs after this horizon",
+    "Cause of the refunds"
+  ]
+}

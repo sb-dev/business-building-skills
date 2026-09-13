@@ -1,0 +1,80 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+The fictional seller is designing an owned-stock physical-notebook business. The finite-cycle quantities are explicit assumptions, including forty orders, two damaged non-saleable returns and twenty untouched units remaining; they are NOT observed demand or executed payments. Opening cash and the proposed floor are stipulated case inputs. This is ecommerce, not intermediary matching. The dated cash calendar is a scenario that can be rejected as unfundable, not evidence that payments actually continued through a negative balance.
+
+Use these logical selectors as needed: business-build/frame-opportunity, business-build/define-customer-value, business-build/design-offer, business-build/design-pricing, business-build/design-money-model, business-build/model-delivery, business-build/model-unit-economics, business-grow/select-channel, business-grow/design-sales-path, business-grow/design-retention, business-build/design-experiment, business-build/record-learning.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E09-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "offer": "physical-notebook-v1",
+    "returns": "accepted-return-rights-v1"
+  },
+  "scenarios": {
+    "cash_events": [
+      [
+        "day-00",
+        "stock",
+        "-1200"
+      ],
+      [
+        "day-00",
+        "advertising",
+        "-200"
+      ],
+      [
+        "day-07",
+        "shipping",
+        "-200"
+      ],
+      [
+        "day-14",
+        "gross_settlement",
+        "2000"
+      ],
+      [
+        "day-14",
+        "payment_fees",
+        "-60"
+      ],
+      [
+        "day-20",
+        "refunds",
+        "-100"
+      ],
+      [
+        "day-20",
+        "return_handling",
+        "-20"
+      ]
+    ]
+  },
+  "unknowns": [
+    "Demand for remaining stock",
+    "Renewal or repeat demand",
+    "Improved supplier or settlement terms",
+    "Current legal/product-safety requirements for a real launch"
+  ],
+  "scenario_inputs": {
+    "orders": 40,
+    "price": "50",
+    "units_bought": 60,
+    "unit_stock_cost": "20",
+    "refunded_orders": 2,
+    "refund_amount": "100",
+    "shipping_per_order": "5",
+    "payment_fees": "60",
+    "return_handling_per_refund": "10",
+    "ad_acquisition_cash": "200",
+    "opening_usable_cash": "700",
+    "cash_floor": "100"
+  }
+}
+
+Task:
+Design the complete small goods business with customer/alternative/value evidence gaps, an explicit price and fulfilment/return promise, paid/organic acquisition options, and an order-to-delivery sales path. Reconcile gross and net consideration, goods consumed, logistics, fees, reverse flow, contribution and remaining stock. Separately evaluate the stated cash dates and identify any funding shortfall, even when final cash and contribution are positive. Do not expense the unsold stock twice or count refunds as both lost sales and another identical cost. Propose the smallest adequately funded assortment/fulfilment or demand test; changes in supplier/customer terms remain conditional on agreement. Do not place orders, run ads or change accepted returns.
+
+Cover all fifteen business-map concerns: target customer; problem/desired progress; alternative/status quo; value proposition; offer; acquisition channel; sales/conversion path; price/revenue mechanism; delivery mechanism; cost structure; retention/repeat/expansion; referral/advocacy; operational constraints; cash timing; key assumptions. For each, identify supplied evidence or explicit hypotheses/unknowns and relevant dependencies. Keep uncertainty, observed evidence, metric, interpretation and decision separate. Include human/research/legal/accounting/production handoffs where relevant; identify missing professional inputs rather than invent conclusions. Append a learning record naming the assumption, test or explicit absence of a controlled test, supplied evidence, result, interpretation, decision, remaining unknowns and next commitment. A scenario with no observations remains an untested hypothesis, not a completed customer experiment.

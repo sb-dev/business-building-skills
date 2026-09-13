@@ -1,0 +1,68 @@
+{
+  "synthetic": true,
+  "case_version": "E09-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "offer": "physical-notebook-v1",
+    "returns": "accepted-return-rights-v1"
+  },
+  "scenarios": {
+    "cash_events": [
+      [
+        "day-00",
+        "stock",
+        "-1200"
+      ],
+      [
+        "day-00",
+        "advertising",
+        "-200"
+      ],
+      [
+        "day-07",
+        "shipping",
+        "-200"
+      ],
+      [
+        "day-14",
+        "gross_settlement",
+        "2000"
+      ],
+      [
+        "day-14",
+        "payment_fees",
+        "-60"
+      ],
+      [
+        "day-20",
+        "refunds",
+        "-100"
+      ],
+      [
+        "day-20",
+        "return_handling",
+        "-20"
+      ]
+    ]
+  },
+  "unknowns": [
+    "Demand for remaining stock",
+    "Renewal or repeat demand",
+    "Improved supplier or settlement terms",
+    "Current legal/product-safety requirements for a real launch"
+  ],
+  "scenario_inputs": {
+    "orders": 40,
+    "price": "50",
+    "units_bought": 60,
+    "unit_stock_cost": "20",
+    "refunded_orders": 2,
+    "refund_amount": "100",
+    "shipping_per_order": "5",
+    "payment_fees": "60",
+    "return_handling_per_refund": "10",
+    "ad_acquisition_cash": "200",
+    "opening_usable_cash": "700",
+    "cash_floor": "100"
+  }
+}

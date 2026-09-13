@@ -1,0 +1,59 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+This is a synthetic one-person Forward Deployment Engineer consultancy, not a statement of the user’s workload or client commitments. The signed project is delivered in month one but collection extends to day 60. Owner time is valued for economics, while the two owner draws are separate cash-plan inputs, not extra labour expense. The outbound list contains public contact details but no supplied contact permission. The retainer reserves capacity and is a proposal, not an unlimited service. The recorded qualified-to-signature interval is 60 days; this is a sales-cycle observation separate from the later day-60 balance collection.
+
+Use these logical selectors as needed: business-build/frame-opportunity, business-build/define-customer-value, business-build/design-offer, business-build/design-pricing, business-build/design-money-model, business-build/model-delivery, business-build/model-unit-economics, business-grow/select-channel, business-grow/design-acquisition [outreach], business-grow/design-acquisition [content-loop], business-grow/design-referral-loop, business-grow/design-sales-path, business-grow/design-expansion, business-evaluate/diagnose-business-constraint, business-build/design-experiment, business-build/record-learning.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E14-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "operator": "one-person-only-v1",
+    "scope": "bounded-reporting-integration-v1",
+    "proof": "no-invented-client-logos-or-ROI"
+  },
+  "observations": {
+    "network_introductions": 10,
+    "qualified_prospects": 6,
+    "proposals": 3,
+    "signed_projects": 1,
+    "project_price": "9000",
+    "project_delivery_hours": "60",
+    "project_follow_up_hours": "10",
+    "monthly_admin_learning_hours": "20",
+    "monthly_content_hours": "12",
+    "monthly_pipeline_hours": "12",
+    "available_month_hours": "120",
+    "owner_hour_value": "60",
+    "cash_tool_cost_per_engagement": "200",
+    "deposit_collected_day_0": "3000",
+    "balance_due_day_60": "6000",
+    "opening_usable_cash": "1000",
+    "cash_floor": "500",
+    "qualified_to_signature_days": 60
+  },
+  "scenarios": {
+    "retainer_price_per_month": "5000",
+    "retainer_reserved_delivery_hours": "40",
+    "retainer_support_hours": "8",
+    "owner_draw_day_15": "2500",
+    "owner_draw_day_45": "2500",
+    "outbound_list_size": 50
+  },
+  "unknowns": [
+    "Permission to contact the outbound list",
+    "Buyer acceptance of the retainer",
+    "Client data/security access and implementation approval",
+    "Actual collection on day 60",
+    "Further referral or renewal demand"
+  ]
+}
+
+Task:
+Develop the full services thesis: relevant expert positioning with real-proof requirements, buyer/problem and acceptance roles, a bounded integration/advisory offer, project versus retainer pricing, network/content/outbound/referral acquisition, qualification and the long sales/collection path. Define client dependencies, scope control, knowledge transfer and limits on promises of client benefit. Reconcile complete owner workload and economics for one project, two projects and one/two retainers; separate cash from valued labour and track the two-month collection exposure. Keep the operator one person rather than inventing a team. Select a feasible next sales/delivery test and a sequenced evidence programme with independent quality, capacity, cash, rights and authority checks. Draft outreach/content requirements only; do not send, negotiate contracts, hire, change live systems, promise ROI or advise on regulated matters.
+
+Cover all fifteen business-map concerns: target customer; problem/desired progress; alternative/status quo; value proposition; offer; acquisition channel; sales/conversion path; price/revenue mechanism; delivery mechanism; cost structure; retention/repeat/expansion; referral/advocacy; operational constraints; cash timing; key assumptions. For each, identify supplied evidence or explicit hypotheses/unknowns and relevant dependencies. Keep uncertainty, observed evidence, metric, interpretation and decision separate. Include human/research/legal/accounting/production handoffs where relevant; identify missing professional inputs rather than invent conclusions. Append a learning record naming the assumption, test or explicit absence of a controlled test, supplied evidence, result, interpretation, decision, remaining unknowns and next commitment. A scenario with no observations remains an untested hypothesis, not a completed customer experiment.
+
+Add a coherent thesis, rejected strategic alternatives and a staged evidence programme whose test results can change the next commitment. State the objective, dependencies, decision owner, resource/cash limits, success/failure/invalid/inconclusive outcomes, preservation rules and stop/review triggers. Do not treat the thesis as authorisation to implement the business or as a one-number score.

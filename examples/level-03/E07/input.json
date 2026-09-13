@@ -1,0 +1,36 @@
+{
+  "synthetic": true,
+  "case_version": "E07-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "scope": "basic-bicycle-service-v1",
+    "service_area": "one-neighbourhood-v1",
+    "price": "90-per-visit-v1"
+  },
+  "observations": {
+    "enquiries": 12,
+    "serviceable_enquiries": 8,
+    "completed_paid_visits": 6,
+    "price": "90",
+    "service_hours_per_visit": "1",
+    "travel_setup_hours_per_visit": "0.5",
+    "materials_cash_per_visit": "20",
+    "travel_cash_per_visit": "5"
+  },
+  "scenarios": {
+    "working_days_per_month": 8,
+    "available_hours_per_day": "6",
+    "non_visit_hours_per_month": "8",
+    "monthly_visits": 24,
+    "monthly_overhead_cash": "160",
+    "owner_time_value_per_hour": "20",
+    "desired_owner_cash_before_tax": "1800"
+  },
+  "unknowns": [
+    "Demand for 24 or more visits each month",
+    "Willingness to accept another price",
+    "Actual route/window feasibility",
+    "Repeat-purchase frequency",
+    "Applicable professional and tax constraints"
+  ]
+}

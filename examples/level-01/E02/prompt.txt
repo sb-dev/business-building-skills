@@ -1,0 +1,46 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+Two fictional channel cohorts have the same acquisition-window length and follow-up horizon, but different recruitment and no random assignment. The supplied customer contribution already includes delivery, refunds and support over 60 days, but excludes acquisition. Reward and sales costs are distinct identities.
+
+Use these logical selectors as needed: business-grow/select-channel, business-evaluate/evaluate-component [channel].
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E02-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "agency-v1",
+    "offer": "report-service-v1"
+  },
+  "observations": {
+    "window_days": 30,
+    "follow_up_days": 60,
+    "contribution_per_customer_before_acquisition": "180",
+    "paid": {
+      "responses": 100,
+      "qualified": 10,
+      "paid_customers": 2,
+      "media_cash": "200",
+      "sales_cost": "100"
+    },
+    "referral": {
+      "responses": 20,
+      "qualified": 12,
+      "paid_customers": 4,
+      "reward_cash": "80",
+      "sales_cost": "120"
+    }
+  },
+  "scenarios": {
+    "proposal": "Increase the paid-channel budget"
+  },
+  "unknowns": [
+    "Marginal response at larger spend",
+    "Customer outcomes after the stated 60-day horizon",
+    "Causal effect of either channel"
+  ]
+}
+
+Task:
+Assess the paid-channel expansion hypothesis against the referral baseline. Calculate qualification and paid conversion rates, all-in CAC, and cohort contribution after acquisition; show counts and denominators. Do not deduct acquisition twice or call all responses leads with permission to contact. Explain what this comparison supports and what selection bias leaves unresolved. Preserve the offer and customer. State the smallest further evidence needed for a paid-channel decision, including marginal economics, delivery/cash limits and downstream quality; draft a bounded test instead of approving a spend increase. No contact or reward payment is authorised.

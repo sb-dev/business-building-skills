@@ -1,0 +1,25 @@
+{
+  "id": "E02",
+  "title": "Paid-channel hypothesis against a referral baseline",
+  "level": 1,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+  "source_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+  "prompt_sha256": "5356010c63c91a4dc1c80bd70687666e7952152db9ceb879e39c53f87e653413",
+  "expected_artifacts": "A channel hypothesis assessment, reconciled cohort comparison and next-evidence/test brief. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "Paid CAC is 150 and after-acquisition contribution 60; referral CAC is 50 and contribution 520. Qualification rates are 10% and 60%; paid-customer/response rates are 2% and 20%. Neither observed comparison proves referral causally dominates or that either channel scales safely. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail media-only CAC, a response-count winner, an infinite LTV extrapolation, or an automatic budget increase.",
+  "preservation": "Keep agency-v1 and report-service-v1. Review the channel hypothesis only; do not redesign the accepted offer because recruitment differs.",
+  "reasoning_dimensions": [
+    "R01",
+    "R08",
+    "R09",
+    "R10",
+    "R12",
+    "R13",
+    "R15",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

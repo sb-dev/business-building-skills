@@ -1,0 +1,48 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+A fictional solo operator supplies competent basic bicycle maintenance in one small area. The six visits are completed trial records; the monthly plan is a scenario, not observed recurring demand. The 160 overhead is a distinct cash cost. Owner time is valued for economic analysis but is not paid out again as supplier wages. The 1800 objective is business cash available to the owner before tax, not a personal financial plan.
+
+Use these logical selectors as needed: business-build/frame-opportunity, business-build/define-customer-value, business-build/design-offer, business-build/design-pricing, business-build/design-money-model, business-build/model-delivery, business-build/model-unit-economics, business-grow/select-channel, business-grow/design-referral-loop, business-build/identify-assumptions, business-build/design-experiment, business-build/record-learning.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E07-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "scope": "basic-bicycle-service-v1",
+    "service_area": "one-neighbourhood-v1",
+    "price": "90-per-visit-v1"
+  },
+  "observations": {
+    "enquiries": 12,
+    "serviceable_enquiries": 8,
+    "completed_paid_visits": 6,
+    "price": "90",
+    "service_hours_per_visit": "1",
+    "travel_setup_hours_per_visit": "0.5",
+    "materials_cash_per_visit": "20",
+    "travel_cash_per_visit": "5"
+  },
+  "scenarios": {
+    "working_days_per_month": 8,
+    "available_hours_per_day": "6",
+    "non_visit_hours_per_month": "8",
+    "monthly_visits": 24,
+    "monthly_overhead_cash": "160",
+    "owner_time_value_per_hour": "20",
+    "desired_owner_cash_before_tax": "1800"
+  },
+  "unknowns": [
+    "Demand for 24 or more visits each month",
+    "Willingness to accept another price",
+    "Actual route/window feasibility",
+    "Repeat-purchase frequency",
+    "Applicable professional and tax constraints"
+  ]
+}
+
+Task:
+Design the complete small business, including a bounded offer, serviceability/booking path and organic/referral acquisition hypothesis. Check the full visit cycle rather than only hands-on work. Reconcile direct contribution, all owner time, cash overhead and whether the monthly owner objective is attainable at the stated price and capacity. Assess repeat visits, referrals or extra scope only where there is an actual customer need; do not invent a subscription. Propose a small service-area/demand or price-comprehension test with clear possible outcomes, customer protections and a local evidence record. Preserve the accepted area and scope while making any change an explicit proposal. Do not book appointments, repair bicycles, buy stock or contact customers.
+
+Cover all fifteen business-map concerns: target customer; problem/desired progress; alternative/status quo; value proposition; offer; acquisition channel; sales/conversion path; price/revenue mechanism; delivery mechanism; cost structure; retention/repeat/expansion; referral/advocacy; operational constraints; cash timing; key assumptions. For each, identify supplied evidence or explicit hypotheses/unknowns and relevant dependencies. Keep uncertainty, observed evidence, metric, interpretation and decision separate. Include human/research/legal/accounting/production handoffs where relevant; identify missing professional inputs rather than invent conclusions. Append a learning record naming the assumption, test or explicit absence of a controlled test, supplied evidence, result, interpretation, decision, remaining unknowns and next commitment. A scenario with no observations remains an untested hypothesis, not a completed customer experiment.

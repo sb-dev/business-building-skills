@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "name": "business-pack-author",
+  "implementation_state": "NOT_IMPLEMENTED",
+  "description": "Research and author reusable business-model specialisations, prove the existing core or catalogue is insufficient, define changed behaviour, create showcases and evaluations, compare core with core-plus-pack, and validate a proposed catalogue entry. Use for pack production, not industry tags or ordinary business planning.",
+  "source": {
+    "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+    "blob": "f6d6832490485daf5592465b865d5cbff3c5d7be",
+    "section": 9
+  },
+  "commands": [
+    {
+      "id": "P01",
+      "selector": "inspect-catalogue",
+      "modes": [],
+      "contract": {
+        "inputs": "The requested business-model specialisation and intended use, current accessible catalogue, candidate pack manifests/references, known core version and explicit project facts and constraints.",
+        "evidence required": "Actual catalogue entries, pack content and scope, maturity and compatibility evidence at identified versions. Distinguish an advertised or proposed pack from a built, tested or installed specialisation.",
+        "assumptions allowed": "The user’s proposed specialisation may be a hypothesis; unavailable pack details remain unknown. Do not assume a familiar industry label implies changed business behaviour or that an entry proves its tests passed.",
+        "output": "A catalogue assessment recommending an adequate existing pack, a bounded revision, further evidence or a justified new-pack investigation, with overlap, incompatibility and duplication findings.",
+        "allowed mutations": "Write the inspection report and proposed selection only. Do not install, activate, edit, delete, publish or promote packs or alter the catalogue as a side effect of reading it.",
+        "forbidden behaviour": "Jump directly to a new pack without comparison, count industry/location tags as production grammar, rely on missing content as proof of insufficiency or invent successful activation and benchmark evidence.",
+        "metrics/evidence": "Coverage of requested changed behaviour, compatibility with explicit facts/core version, quality and source scope, overlap and evidence of actual maturity. A larger catalogue is not itself better coverage.",
+        "failure states": "BLOCKED when required catalogue or candidate contents are unavailable; FAIL for claims contradicted by inspected content. A correctly empty catalogue is evidence of no listed candidates, not of a globally absent capability.",
+        "legal/ethical boundaries": "Respect pack and source licence/access limits; do not copy restricted material. Catalogue inspection grants no business or external-tool authority, and legal constraints outrank pack defaults."
+      }
+    },
+    {
+      "id": "P02",
+      "selector": "research-business-model",
+      "modes": [],
+      "contract": {
+        "inputs": "A bounded specialisation question, catalogue-insufficiency finding or revision need, core behavioural baseline, business structures to compare and the decisions the proposed pack should improve.",
+        "evidence required": "Appropriate original professional/empirical sources and authorised context, with publication/access scope, contradictions and business-model dependencies. Retain reading limits and distinguish a creator’s workflow from demonstrated causal efficacy.",
+        "assumptions allowed": "Candidate changes may remain labelled hypotheses awaiting evidence and demonstration. Do not infer universal optimal prices, channels, retention thresholds or profitability from a source example, industry tag or familiar playbook.",
+        "output": "A sourced research record connecting business-model differences to proposed core behaviours, economics, capacity/cash, metrics, experiments and evaluation consequences, plus rejected alternatives and unresolved questions.",
+        "allowed mutations": "Create or revise the pack research record with source history. Do not change core rules, author legal conclusions, copy proprietary examples, publish claims or fabricate real business observations.",
+        "forbidden behaviour": "Replicate one book’s chapter structure, elevate branded heuristics to mandatory doctrine, create a specialisation without behavioural differences or conceal source uncertainty to make the pack seem validated.",
+        "metrics/evidence": "Decision relevance, source quality and scope, independence, conflicting findings, explicit behavioural differences and consequences for economic/operational constraints. Research volume does not prove pack quality or customer demand.",
+        "failure states": "BLOCKED for mandatory unavailable sources or unresolved decision-critical facts; FAIL for unsupported universals or copied protected content. A finding that no sufficient specialisation is justified is an acceptable research outcome.",
+        "legal/ethical boundaries": "Identify consumer, privacy, employment, tax or regulated-activity questions and route them under Stage 9. Legal research and conclusions remain specialist-owned; a business-model label never supplies an exemption."
+      }
+    },
+    {
+      "id": "P03",
+      "selector": "define-specialisation",
+      "modes": [],
+      "contract": {
+        "inputs": "The evidenced need and catalogue comparison, source research, core version/contracts, intended business-model profile, explicit project facts and applicable legal/professional constraints.",
+        "evidence required": "Evidence that an existing pack is inadequate and that the proposed distinctions materially change reusable business-building behaviour. Name affected core responsibilities, unchanged controls and the economic or workflow reason for each difference.",
+        "assumptions allowed": "A proposed production grammar and expected benefit may remain hypotheses to be demonstrated. Do not assert that authoring a profile proves improved outcomes, or that an industry/location tag alone justifies a pack.",
+        "output": "A candidate specialisation definition with explicit core effects, activation/non-activation conditions, unchanged invariants, precedence, expected economics/metric/experiment differences, evidence limits and required showcase/evaluation obligations.",
+        "allowed mutations": "Write the candidate pack definition and core-effect proposal only. Do not alter accepted core contracts, apply defaults to a live business, replace project facts, publish a pack or promote maturity without subsequent actual validation and approval.",
+        "forbidden behaviour": "Treat provider-specific implementation as business grammar, override explicit facts/accepted decisions with defaults, weaken rights/cash/quality gates, create a replacement core or declare a no-effect label a valid specialisation.",
+        "metrics/evidence": "Traceable changed responsibilities versus unchanged core, coherence across customer/payer, offer, channel, delivery and economics, meaningful activation boundaries and testable differences that later comparison can observe.",
+        "failure states": "FAIL for no meaningful core effect, incoherent changes or precedence violations; BLOCKED for material missing research, core compatibility or specialist constraints. A candidate remains unvalidated until its showcase and evaluation actually exist and pass.",
+        "legal/ethical boundaries": "Verified legal/regulatory constraints and explicit project facts/instructions, then approved decisions, outrank pack defaults and core defaults. Conflicts cannot be resolved by the commercially convenient choice; qualified findings and action authority remain separate."
+      }
+    },
+    {
+      "id": "P04",
+      "selector": "build-showcase",
+      "modes": [],
+      "contract": {
+        "inputs": "A specific candidate pack and core version, intended behavioural difference, scenario/inputs, permitted data and artefact scope, chosen execution method and the exact task the showcase should demonstrate.",
+        "evidence required": "Source-grounded pack rules, an explicit baseline and actual execution evidence when claiming an executed showcase. Synthetic fixtures remain labelled; real customer materials require appropriate authorisation and permitted publication/redaction.",
+        "assumptions allowed": "Fictional business facts may be stipulated in a synthetic demonstration and expected outputs may be labelled as expectations. Neither an authored sample nor an intended result may be described as a measured installed-agent outcome.",
+        "output": "A complete showcase package containing the exact copyable prompt, fixed inputs and versions, baseline and pack configuration, expected behavioural distinctions, actual artefacts/results where executed, source limits and reproducibility steps.",
+        "allowed mutations": "Create showcase files and run only authorised local or separately approved execution within the defined scope. Do not publish content, change customer systems, rewrite a pack’s core effects or assert unperformed execution.",
+        "forbidden behaviour": "Omit the exact prompt, substitute attractive prose for the required behaviour, present synthetic records as actual customer evidence, select only convenient outputs or relabel expected results as observed performance.",
+        "metrics/evidence": "Prompt/input completeness, reproduction of the named task, visibility of the intended core effect, preservation of constraints, actual artifact/operation identities and honest distinction between design demonstration and installed execution.",
+        "failure states": "FAIL for missing required showcase elements or false execution claims; BLOCKED for mandatory unavailable runtime, data or permissions when an executed showcase is required. A failed run remains recorded rather than replaced with a success narrative.",
+        "legal/ethical boundaries": "Respect copyright and personal-data restrictions, keep fictional claims visibly synthetic and preserve applicable professional boundaries. A showcase cannot authorise sales, contact, spend, publication or regulated activity outside its declared approvals."
+      }
+    },
+    {
+      "id": "P05",
+      "selector": "build-evals",
+      "modes": [],
+      "contract": {
+        "inputs": "The candidate pack/core contracts, intended changed behaviour, unchanged core invariants, actual or proposed showcase and the failure modes the evaluation must distinguish.",
+        "evidence required": "Source/core-effect traceability and reviewable case facts. Include positive, negative, non-activation, incompatible and precedence cases, preservation/repair expectations and separate deterministic versus judgement criteria.",
+        "assumptions allowed": "Synthetic case facts and expected dispositions may be explicitly authored for a test design. Do not invent benchmark runs, evaluator agreement, real causal effects or statistical confidence from an unexecuted fixture set.",
+        "output": "A complete evaluation case set with exact inputs/prompts, expected acceptable/unacceptable behaviour, dimension-specific checks, execution/assessment method, evidence requirements and conditions for passing, failing or remaining blocked.",
+        "allowed mutations": "Create or revise evaluation assets within the authorised workspace. Execute only the permitted checks and record their actual results; do not weaken accepted criteria to fit a desired outcome or edit the subject pack as a hidden evaluation step.",
+        "forbidden behaviour": "Test only positive examples, omit incompatible/precedence cases, hide failures behind an average score, count a generated checker as a passing run or call self-assessment independent external validation.",
+        "metrics/evidence": "Activation/non-activation, precedence, meaningful changed behaviour, pack-specific metrics, negative cases, core-versus-pack contrast and preservation/regression coverage. Arithmetic/structure correctness remains separate from business judgement.",
+        "failure states": "FAIL for missing mandatory dimensions, non-discriminating tests or false measurement claims; BLOCKED for required unavailable execution or source evidence. A useful negative result is retained and routed to its owning layer.",
+        "legal/ethical boundaries": "Include truthfulness, consent/data, rights and professional-boundary failures where relevant. No benchmark pass grants external business authority or legal clearance; sensitive inputs remain in their authorised custody."
+      }
+    },
+    {
+      "id": "P06",
+      "selector": "compare-core-vs-pack",
+      "modes": [],
+      "contract": {
+        "inputs": "Identical bounded task and fixed inputs, exact core and core-plus-pack versions, execution environment/method, relevant evaluation criteria and approved resource/data scope.",
+        "evidence required": "Actual paired outputs and run receipts when reporting an executed comparison, together with settings, deviations, failures and source locations. Written expectations alone are insufficient for a measured core-versus-pack claim.",
+        "assumptions allowed": "Synthetic business data are permitted when labelled and shared consistently across both conditions. Uncontrolled differences, stochastic uncertainty and incomplete runs remain visible; do not fabricate improvement or generalise beyond the tested setting.",
+        "output": "A paired comparison record showing actual shared and changed behaviour by separate criteria, compatible invariants, pack-specific effects, failures, uncertainty, costs where measured and a justified accept/revise/reject or blocked decision.",
+        "allowed mutations": "Run the explicitly authorised local comparison and create its records; request approval/access for any additional external execution. Do not alter the core, pack, prompts or criteria mid-comparison and silently call the runs comparable.",
+        "forbidden behaviour": "Describe what the difference should be instead of executing a required comparison, run only the pack condition, cherry-pick successes, change the task between arms or convert one favourable example into universal pack efficacy.",
+        "metrics/evidence": "The relevant behavioural and deterministic dimensions for both conditions, actual input/configuration/run identity, observed deltas and invariant preservation. Report token/time/cost only when actually measured on compatible bases.",
+        "failure states": "BLOCKED when required paired execution/evidence is missing; FAIL when the pack breaks required invariants or lacks its claimed effect. A valid inconclusive comparison does not demonstrate superiority; its decision remains bounded.",
+        "legal/ethical boundaries": "Use authorised data and runtime access without secret or customer-data leakage. Preserve rights, truthfulness and core precedence; comparison execution cannot contact people, spend money or mutate live accounts without specific authority."
+      }
+    },
+    {
+      "id": "P07",
+      "selector": "validate-pack",
+      "modes": [],
+      "contract": {
+        "inputs": "Candidate pack and core versions, catalogue comparison, research/core-effect definition, complete showcase with exact prompt, evaluation assets and actual required comparison/verification evidence.",
+        "evidence required": "All required evidence at consistent versions, including activation/non-activation, precedence, intended changed behaviour, negative/incompatible cases and actual core-versus-pack results. Compatibility and licence checks must address the actual selected components.",
+        "assumptions allowed": "No missing required result may be assumed passed. An explicitly provisional hypothesis may remain in research, but cannot justify validated pack status when its required demonstration or quality gate is unresolved.",
+        "output": "A validation report with separate PASS/FAIL/BLOCKED findings, exact tested versions, unmet obligations, repair owner and permitted catalogue/maturity description. A passing candidate includes a ready-for-authorised-catalogue proposal, not automatic publication.",
+        "allowed mutations": "Write the validation and catalogue-entry proposal. Only after all applicable criteria pass and an explicit instruction permits it, add or revise the local catalogue entry for that exact validated version; no external registry promotion, release or installation follows automatically.",
+        "forbidden behaviour": "Treat catalogue presence or an exact filename as evidence of quality, waive failed precedence, promote an unexecuted comparison, hide unsupported facts in a pack default or silently revise the pack while reporting the original version passed.",
+        "metrics/evidence": "Complete contract, showcase and evaluation coverage; reproducibility, actual paired results, invariant preservation, meaningful specialisation, compatibility, source rights and accuracy of catalogue/maturity claims.",
+        "failure states": "FAIL for a violated criterion or unsupported completion claim; BLOCKED for missing mandatory evidence/authority. Record every failure and rerun affected checks after repair; no validated label or publication until all applicable requirements are satisfied.",
+        "legal/ethical boundaries": "Applicable verified constraints and explicit facts/approved decisions outrank specialisation defaults. Legal, licensing, data and professional matters retain their actual reviewer scope; owner approval is separate and cannot waive unlawful or deceptive behaviour."
+      }
+    }
+  ]
+}

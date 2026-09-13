@@ -1,0 +1,23 @@
+{
+  "id": "E01",
+  "title": "Fixed fee or hourly price",
+  "level": 1,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+  "source_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+  "prompt_sha256": "68fdcdb02adb0fdceccd2a8c7c4cdec6d4a34b416287a6746a02e694076b554b",
+  "expected_artifacts": "A price-options record, executed calculation record with units/inputs, and one bounded test/decision note. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "Fixed-fee contribution at 2/3/5 hours is 50/20/-40; hourly consideration is 80/120/200 and contribution 10/20/40. The fixed-fee zero-contribution boundary is 11/3 hours under these assumptions. There is no demonstrated willingness-to-pay winner. A valid answer may prefer hourly or an explicitly bounded fixed scope pending buyer evidence. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail a recommendation that uses the three-hour case alone, silently caps the accepted scope, guarantees profitability, or presents a hypothetical buyer preference as measured.",
+  "preservation": "Keep small-agency-v1 and one-report-v1. Record any price/scope revision as a proposal requiring approval; no quote is sent.",
+  "reasoning_dimensions": [
+    "R01",
+    "R04",
+    "R06",
+    "R13",
+    "R15",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

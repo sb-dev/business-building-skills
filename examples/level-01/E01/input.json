@@ -1,0 +1,26 @@
+{
+  "synthetic": true,
+  "case_version": "E01-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "small-agency-v1",
+    "offer": "one-report-v1"
+  },
+  "observations": {
+    "past_job_hours": [
+      "2",
+      "3",
+      "5"
+    ],
+    "labour_value_per_hour": "30",
+    "other_direct_cost_per_job": "10"
+  },
+  "scenarios": {
+    "fixed_fee": "120",
+    "hourly_price": "40"
+  },
+  "unknowns": [
+    "Willingness to pay under either new structure",
+    "Frequency of each workload at future volume"
+  ]
+}

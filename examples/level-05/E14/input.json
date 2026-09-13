@@ -1,0 +1,45 @@
+{
+  "synthetic": true,
+  "case_version": "E14-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "operator": "one-person-only-v1",
+    "scope": "bounded-reporting-integration-v1",
+    "proof": "no-invented-client-logos-or-ROI"
+  },
+  "observations": {
+    "network_introductions": 10,
+    "qualified_prospects": 6,
+    "proposals": 3,
+    "signed_projects": 1,
+    "project_price": "9000",
+    "project_delivery_hours": "60",
+    "project_follow_up_hours": "10",
+    "monthly_admin_learning_hours": "20",
+    "monthly_content_hours": "12",
+    "monthly_pipeline_hours": "12",
+    "available_month_hours": "120",
+    "owner_hour_value": "60",
+    "cash_tool_cost_per_engagement": "200",
+    "deposit_collected_day_0": "3000",
+    "balance_due_day_60": "6000",
+    "opening_usable_cash": "1000",
+    "cash_floor": "500",
+    "qualified_to_signature_days": 60
+  },
+  "scenarios": {
+    "retainer_price_per_month": "5000",
+    "retainer_reserved_delivery_hours": "40",
+    "retainer_support_hours": "8",
+    "owner_draw_day_15": "2500",
+    "owner_draw_day_45": "2500",
+    "outbound_list_size": 50
+  },
+  "unknowns": [
+    "Permission to contact the outbound list",
+    "Buyer acceptance of the retainer",
+    "Client data/security access and implementation approval",
+    "Actual collection on day 60",
+    "Further referral or renewal demand"
+  ]
+}

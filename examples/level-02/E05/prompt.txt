@@ -1,0 +1,45 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+The counts form one fictional sequence: the 15 permitted follow-ups are a subset of 40 fitting downloaders; calls and proposals come from that subset. A proposal is qualified for this fixture only where need, fit and buying authority have been recorded. Content and sales costs are acquisition costs; the 500 delivery cost excludes them.
+
+Use these logical selectors as needed: business-grow/design-acquisition [lead-magnet], business-grow/design-acquisition [outreach], business-grow/design-sales-path, business-build/design-experiment.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E05-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "small-agency-v1",
+    "offer": "reporting-diagnostic-v1"
+  },
+  "observations": {
+    "downloads": 200,
+    "fit_downloaders": 40,
+    "follow_up_permitted": 15,
+    "call_requests": 8,
+    "calls_attended": 6,
+    "qualified_proposals": 3,
+    "paid_customers": 1,
+    "price": "900",
+    "direct_delivery_cost": "500",
+    "content_acquisition_cost": "120",
+    "sales_hours": "10",
+    "sales_hourly_cost": "30"
+  },
+  "scenarios": {
+    "component": "Readiness checklist, qualification and diagnostic sales path"
+  },
+  "constraints": [
+    "In this fictional case only the identified 15 permit the specific follow-up purpose; a download is not additional consent.",
+    "No external contact is authorised in this exercise."
+  ],
+  "unknowns": [
+    "Why suitable non-buyers declined",
+    "Incremental effect of another message",
+    "Capacity and cash for additional delivery"
+  ]
+}
+
+Task:
+Design the complete lead-magnet/qualification/sales-path component, not just persuasive copy. State the checklist value and honest limits, minimal fields to establish fit and buying role, permission/suppression handoff, appropriate next action and acceptance evidence at each transition. Draft one follow-up only for the permitted purpose, without sending it. Calculate the current cost bridge and distinguish download, fit, permission, conversation, proposal and paid customer. Identify one testable change, retain alternative explanations for non-conversion and freeze its success/failure/invalid/inconclusive rule before future execution. Do not expand the audience, invent testimonials or assume every download has purchase intent.

@@ -1,0 +1,62 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+This is a synthetic Production Skills ecosystem rehearsal, not actual repository analytics or finances. Six contributors do not imply any committed future labour. Current paid service, support and review work compete with maintenance for the same capacity. All hours are valued once for the economic view; the cash invoice is a separate settlement example, not another imputed cost. No installed pack or paid marketplace exists in the supplied fixture.
+
+Use these logical selectors as needed: business-build/frame-opportunity, business-build/define-customer-value, business-build/design-offer, business-build/design-pricing, business-build/design-money-model, business-build/model-delivery, business-build/model-unit-economics, business-grow/select-channel, business-grow/design-referral-loop, business-grow/design-sales-path, business-grow/design-retention, business-grow/design-expansion, business-evaluate/audit-claims, business-evaluate/diagnose-business-constraint, business-build/design-experiment, business-evaluate/recommend-smallest-change, business-build/record-learning.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E15-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "rights": "preserve-existing-code-and-asset-rights-v1",
+    "core": "usable-without-paid-pack-v1",
+    "governance": "no-unilateral-contributor-obligations-v1"
+  },
+  "observations": {
+    "stars": 2000,
+    "downloads": 500,
+    "activated_projects": 60,
+    "weekly_active_projects": 18,
+    "contributors": 6,
+    "paid_service_customers": 3,
+    "service_price": "1000",
+    "restricted_sponsorship": "600",
+    "maintenance_hours": "30",
+    "service_hours_each": "12",
+    "support_hours": "10",
+    "pack_review_hours": "8",
+    "maintainer_capacity_hours": "80",
+    "hour_value": "40",
+    "hosting_cash": "240",
+    "opening_unrestricted_cash": "1000"
+  },
+  "scenarios": {
+    "support_price_per_month": "20",
+    "support_interest_responses": 10,
+    "support_paid_subscribers": 0,
+    "education_price_candidate": "50",
+    "marketplace_proposal": "Sell third-party packs before any paired supply/demand transaction evidence",
+    "eligible_maintenance_invoice": "400"
+  },
+  "constraints": [
+    "The 600 sponsorship is restricted to maintenance and is not campaign cash.",
+    "The 400 invoice is a stipulated eligible maintenance payment; it releases that part of the same restriction.",
+    "No specific real repository licence or contributor assignment is asserted."
+  ],
+  "unknowns": [
+    "Paid support or course demand",
+    "Third-party seller and buyer willingness to transact",
+    "Future volunteer availability",
+    "Recurring paid-service need",
+    "Rights and compatibility of actual commercial pack contents"
+  ]
+}
+
+Task:
+Create the full commercial ecosystem thesis while separating adopter, contributor, maintainer, sponsor, buyer and beneficiary. Compare services, bounded support, education, sponsorship and a possible pack marketplace without assuming all should launch. Preserve existing rights and a useful core; paid offers must buy genuine additional scope rather than silently revoke earlier permissions. Reconcile attention, adoption, contribution and paid-customer evidence; calculate maintenance funding and shared capacity. Distinguish restricted funds from usable cash before and after the eligible maintenance payment. Inspect whether the supplied mechanism needs the open-source grammar; do not create an industry-tag pack or claim a design catalogue proves implementation. Choose a bounded first commercial/evidence commitment, dependency-based tests and contributor-impact checks. Address retention, referral and expansion as hypotheses requiring continuing value. Do not publish, relicense, impose contributor work, launch a marketplace or promote maturity.
+
+Cover all fifteen business-map concerns: target customer; problem/desired progress; alternative/status quo; value proposition; offer; acquisition channel; sales/conversion path; price/revenue mechanism; delivery mechanism; cost structure; retention/repeat/expansion; referral/advocacy; operational constraints; cash timing; key assumptions. For each, identify supplied evidence or explicit hypotheses/unknowns and relevant dependencies. Keep uncertainty, observed evidence, metric, interpretation and decision separate. Include human/research/legal/accounting/production handoffs where relevant; identify missing professional inputs rather than invent conclusions. Append a learning record naming the assumption, test or explicit absence of a controlled test, supplied evidence, result, interpretation, decision, remaining unknowns and next commitment. A scenario with no observations remains an untested hypothesis, not a completed customer experiment.
+
+Add a coherent thesis, rejected strategic alternatives and a staged evidence programme whose test results can change the next commitment. State the objective, dependencies, decision owner, resource/cash limits, success/failure/invalid/inconclusive outcomes, preservation rules and stop/review triggers. Do not treat the thesis as authorisation to implement the business or as a one-number score.

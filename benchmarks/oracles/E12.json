@@ -1,0 +1,23 @@
+{
+  "id": "E12",
+  "title": "Growing orders with an earlier cash crisis",
+  "level": 4,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+  "source_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+  "prompt_sha256": "5c5ef0e4afc7701de2ba94ed7940d2872966883eb46b4bbdb918e55e06859f9f",
+  "expected_artifacts": "A dated cash-risk assessment, explicit economic/cash bridge, compared repair scenarios and an approval/verification handoff. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "The two-order base closes at 4800 but reaches -3200, a 3700 gap to the 500 floor. Agreed deposits total 3700 and reduce the later balance to 4300, leaving the same 4800 closing cash with a minimum 500. One-order reduction alone reaches -400, still 900 below the floor; its closing balance is 3600. No conditional deposit is presented as already available. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail ending-balance approval, counting deposits on top of the full later invoice, dropping the fixed tax when volume falls, or claiming the one-order plan is automatically funded.",
+  "preservation": "Keep the original customer/offer/price. Protect existing obligations while proposing timing or scope changes; documentary proposals do not amend a contract.",
+  "reasoning_dimensions": [
+    "R01",
+    "R04",
+    "R07",
+    "R13",
+    "R14",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

@@ -1,0 +1,33 @@
+{
+  "synthetic": true,
+  "case_version": "E08-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "small-reporting-teams-v1",
+    "price": "fixed-account-39-v1"
+  },
+  "observations": {
+    "accounts_due_to_renew": 20,
+    "accounts_renewed": 16,
+    "new_paid_accounts": 14,
+    "meaningful_old_accounts": 12,
+    "light_accounts": 25,
+    "heavy_accounts": 5,
+    "price_per_account": "39",
+    "light_usage_cost": "3",
+    "heavy_usage_cost": "30",
+    "support_cost_per_account": "5",
+    "payment_fee_per_account": "1",
+    "fixed_platform_cost": "180",
+    "acquisition_cost_for_new_accounts": "300"
+  },
+  "scenarios": {
+    "heavy_usage_cost_downside": "60"
+  },
+  "unknowns": [
+    "Continued renewal after this window",
+    "Cost/usage distribution at larger scale",
+    "Causal effect of the product on customer reporting time",
+    "Willingness to pay for usage or higher tiers"
+  ]
+}

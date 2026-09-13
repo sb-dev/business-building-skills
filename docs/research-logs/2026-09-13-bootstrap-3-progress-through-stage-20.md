@@ -18,10 +18,9 @@ Continuation started at `5d973121ecf87d40f6d9f97e0794be2723b0985b`, one commit a
 | 18 | COMPLETE | [Six canonical specifications and conformance](2026-09-12-stage-18-canonical-specifications.md), [actual checks](2026-09-12-stage-18-executed-checks.json) |
 | 19 | COMPLETE | [Public README design and conformance](2026-09-13-stage-19-readme-design.md), [actual checks](2026-09-13-stage-19-executed-checks.json) |
 | 20 | COMPLETE | [Cross-project review](2026-09-13-stage-20-cross-project-review.md), [actual checks](2026-09-13-stage-20-executed-checks.json) |
-| 21 | LOCAL PASS; remote receipt follows | [Production scaffold and conformance](2026-09-13-stage-21-production-scaffold.md) |
-| 22–26 | NOT STARTED | No later-stage work has begun |
+| 21–26 | NOT STARTED | No later-stage outputs are included |
 
-The committed boundary remains Stage 20; the Stage 21 scaffold now includes the user-authorised MIT licence and passes final local verification. It is not an installed, working, benchmarked or mature Agent Skills product. Synthetic business fixtures are not live commercial validation. No PR, merge, release, registry promotion or live business action is included.
+This remains a bootstrap design workspace. It is not an installed, working, benchmarked or mature Agent Skills product. Synthetic business fixtures are not live commercial validation. No PR, merge, release, registry promotion or live business action is included.
 
 ## Stage 16 completion receipt
 
@@ -255,10 +254,3 @@ A non-force branch update was followed by fresh branch, Git commit and compariso
 This receipt changes only the live continuation index after actual content verification. Its pre-receipt bytes remain at the content commit; all five other Stage 20 files remain unchanged. Verify the receipt commit/parent/ref and complete progress contents, then continue to Stage 21. No discretionary stage-boundary stop is required.
 
 **Current continuation:** Stage 20 complete; Stage 21, Scaffold Production Repository, is next and will begin after receipt verification. Stages 21–26 remain separately authorised in strict order.
-
-
-## Stage 21 content verification
-
-The user selected MIT on 13 September 2026, resolving the initial licence block. The scaffold contains the complete public entry, MIT LICENSE, contribution/change documents, all four command inventories, all fifteen exact example inputs with separate oracles, executable checks and scoped CI. Final local results and subsequent remote completion are recorded below. No Stage 22 work has begun.
-
-Final local evidence: 223 passing repository checks, eight passing tests and 131 passing preservation/review checks, all exit 0; no mandatory local failures or blocks. All fifteen accepted examples, complete command contracts and prior accepted research are preserved. The Stage 21 content commit and remote verification follow; progression remains conditional on their completion.

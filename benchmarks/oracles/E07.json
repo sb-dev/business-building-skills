@@ -1,0 +1,33 @@
+{
+  "id": "E07",
+  "title": "Solo local bicycle service",
+  "level": 3,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-03.md",
+  "source_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+  "prompt_sha256": "8c62913d6aa602ea2ae6eaf8438b0a0b423221830fa1010ffe99e4395b9ed56d",
+  "expected_artifacts": "A complete linked business dossier, transparent workload/economics scenarios, a minimal acquisition/sales brief and one decision-changing experiment. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "Each visit uses 1.5 hours and 25 cash cost. The 24-visit plan uses 44 total owner hours, has 2160 receipts, 600 variable cash cost, 1400 after overhead available before tax/owner draws, and 520 after valuing all 44 owner hours at 20. Forty visit-hours allow at most 26 whole visits, not 32; at 26 visits cash after overhead is 1530, below the 1800 objective. This bound does not prove a route or sufficient demand. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail a 32-visit capacity claim based on service minutes alone, counting the same owner labour as both imputed and extra cash expense, or claiming six trials establish monthly repeat demand.",
+  "preservation": "Keep basic-bicycle-service-v1 and one-neighbourhood-v1. Show any proposed new price separately from the accepted 90; do not mutate bookings or safety/competence boundaries.",
+  "reasoning_dimensions": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

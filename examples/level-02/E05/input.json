@@ -1,0 +1,35 @@
+{
+  "synthetic": true,
+  "case_version": "E05-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "small-agency-v1",
+    "offer": "reporting-diagnostic-v1"
+  },
+  "observations": {
+    "downloads": 200,
+    "fit_downloaders": 40,
+    "follow_up_permitted": 15,
+    "call_requests": 8,
+    "calls_attended": 6,
+    "qualified_proposals": 3,
+    "paid_customers": 1,
+    "price": "900",
+    "direct_delivery_cost": "500",
+    "content_acquisition_cost": "120",
+    "sales_hours": "10",
+    "sales_hourly_cost": "30"
+  },
+  "scenarios": {
+    "component": "Readiness checklist, qualification and diagnostic sales path"
+  },
+  "constraints": [
+    "In this fictional case only the identified 15 permit the specific follow-up purpose; a download is not additional consent.",
+    "No external contact is authorised in this exercise."
+  ],
+  "unknowns": [
+    "Why suitable non-buyers declined",
+    "Incremental effect of another message",
+    "Capacity and cash for additional delivery"
+  ]
+}

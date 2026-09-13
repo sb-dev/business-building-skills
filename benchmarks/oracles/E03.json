@@ -1,0 +1,23 @@
+{
+  "id": "E03",
+  "title": "Digital offer covers copying but not creation",
+  "level": 1,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+  "source_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+  "prompt_sha256": "fcc53613dccc7d929dd4b8dc4937ddd3b3d9ff6a551487c3ca37649d8d4d440e",
+  "expected_artifacts": "A finite-cohort economics record, obligation-gap note and bounded retain/revise/test recommendation. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "Gross consideration 2400, net consideration 2310, direct costs 500, direct contribution 1810 and creation-inclusive residual -190. The negative residual is for this finite cohort; it is not proof that every future sale is loss-making or that the whole venture must close. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail a profitability claim based solely on copying cost, fabricated future volume, double-counted creation, or removal of purchased rights to fund the next edition.",
+  "preservation": "Keep template-edition-v1 and its access rights. A future offer can be proposed separately; no existing customer entitlement is changed.",
+  "reasoning_dimensions": [
+    "R01",
+    "R04",
+    "R07",
+    "R11",
+    "R13",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

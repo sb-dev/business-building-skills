@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "name": "business-build",
+  "implementation_state": "NOT_IMPLEMENTED",
+  "description": "Frame or revise an opportunity, customer/problem/value model, offer, pricing, money model, delivery and unit economics. Identify assumptions, design a bounded business experiment, or record learning from actual supplied evidence. Use for construction and explicit revisions, not assessment-only work or live commercial execution.",
+  "source": {
+    "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+    "blob": "f6d6832490485daf5592465b865d5cbff3c5d7be",
+    "section": 6
+  },
+  "commands": [
+    {
+      "id": "B01",
+      "selector": "frame-opportunity",
+      "modes": [],
+      "contract": {
+        "inputs": "The proposed initiative, accountable objective, decision horizon, operating constraints and any accepted direction. Start from supplied context; ask for a missing decision objective rather than inventing the owner’s ambition.",
+        "evidence required": "Source-located facts about the present situation, intended actors and alternatives where available. Material current external claims require verification; absent local demand remains a question, not a fabricated opportunity.",
+        "assumptions allowed": "Clearly labelled opportunity, segment and mechanism hypotheses may frame exploration. Uncertainty and consequence remain separate; assumptions cannot replace commitments, permissions or an asserted market-size fact.",
+        "output": "A bounded opportunity record naming the decision, plausible alternatives including no change, relevant customer/value questions, material dependencies, evidence limits and the smallest useful next enquiry.",
+        "allowed mutations": "Create or revise the named opportunity draft and its linked questions. Do not replace accepted business direction without explicit scope/version approval, or change unrelated customer, pricing or operating records.",
+        "forbidden behaviour": "Treat a fashionable market, book example, generated persona or owner enthusiasm as validated demand; automatically pivot an existing business; or create an executive team to pursue the idea.",
+        "metrics/evidence": "Traceability of each material fact and assumption to its source, actual customer/problem signals where supplied, the consequences of error and the evidence that could change the bounded decision.",
+        "failure states": "BLOCKED when objective or a necessary authority/fact cannot be resolved; FAIL for a proposal relying on known deception or impossible obligations. An untested opportunity may remain an honest draft.",
+        "legal/ethical boundaries": "Identify regulated, financial, data or vulnerable-customer concerns and route them under Stage 9. Framing an opportunity neither establishes legality nor authorises research participation, outreach, expenditure or public claims."
+      }
+    },
+    {
+      "id": "B02",
+      "selector": "define-customer-value",
+      "modes": [],
+      "contract": {
+        "inputs": "Opportunity or existing business version, intended and observed populations, material buyer/user/payer roles, desired progress, current alternatives and the exact customer, problem or value question being addressed.",
+        "evidence required": "Relevant interviews, actual behaviour, support, sales, usage, competitive alternatives or payment evidence with source, date, population, limitations and contrary observations. An owner-declared target is not an observed customer.",
+        "assumptions allowed": "Unresolved segment, problem-importance, mechanism and value-dimension hypotheses may be recorded separately. Do not infer purchasing authority, representativeness, economic savings or causal benefit from an unrelated proxy.",
+        "output": "A connected customer/problem/value record preserving declared versus observed roles, alternatives, selected relevant value dimensions, supporting/challenging evidence, unknowns and downstream review triggers for a material target change.",
+        "allowed mutations": "Write only the requested customer/problem/value draft and linked claim rows. A material accepted-target change requires explicit approval and affected-decision review; it does not automatically regenerate the offer or channel.",
+        "forbidden behaviour": "Require every value dimension, manufacture testimonials or interview findings, count users as budget owners, or transfer old-segment evidence into a newly named population without an applicable bridge.",
+        "metrics/evidence": "Specific observed events and attributed accounts, population/cohort definition, problem consequences, relevant baseline/outcome indicators and the evidence relationship of each benefit claim; no universal customer-fit score.",
+        "failure states": "BLOCKED for material missing source access or role information needed by the decision; inconsistent populations invalidate the affected inference. Contradictory evidence challenges the precise claim, not automatically the entire business.",
+        "legal/ethical boundaries": "Minimise personal data and preserve permitted-use limits. Do not infer sensitive traits or exploit vulnerability. Route material privacy, claims and professional questions without publishing private customer material or issuing legal conclusions."
+      }
+    },
+    {
+      "id": "B03",
+      "selector": "design-offer",
+      "modes": [],
+      "contract": {
+        "inputs": "Customer/value and alternative records, requested outcome/scope, accepted offer version if any, delivery constraints, available proof, proposed price/payment structure and relevant current obligations or specialist findings.",
+        "evidence required": "Actual capability, capacity, cost and proof sources supporting the promise; customer evidence for relevance; approved or unresolved remedy and term information. A compelling description cannot supply missing fulfilment evidence.",
+        "assumptions allowed": "Explicitly hypothetical benefits or components may support a bounded draft or proposed test. Unsupported outcomes, invented bonus values and assumed refund capability must not appear as established customer-facing claims.",
+        "output": "A complete bounded offer with all relevant Stage 5 components, clear inclusions/exclusions, proof limits, time-to-value, total obligation, remedy feasibility and separate relevance, economics, capacity and rights findings.",
+        "allowed mutations": "Create or revise the named proposed offer. Replace an accepted version only under explicit scoped approval and preserve its history; publishing terms, charging customers or changing other artefacts is not included.",
+        "forbidden behaviour": "Add obligatory bonuses or scarcity merely to complete a sales formula; conceal essential exclusions; weaken promised quality; or treat stronger conversion as permission to make an unsupported guarantee.",
+        "metrics/evidence": "Evidence for customer progress, actual proof coverage, declared N/K/C economics, resource and dated-cash consequences, and consistency between headline, full terms and deliverable scope; no single offer score.",
+        "failure states": "FAIL when the offer contradicts known capability, rights or truthfulness; BLOCKED for a missing material feasibility or professional finding. A labelled test hypothesis is not a passed production offer.",
+        "legal/ethical boundaries": "Route substantiation, comparison, guarantee, refund, price and renewal issues through Stage 9. Existing rights survive revision; approval to draft an offer does not authorise public legal terms or commercial execution."
+      }
+    },
+    {
+      "id": "B04",
+      "selector": "design-pricing",
+      "modes": [],
+      "contract": {
+        "inputs": "Current offer, payer and pricing unit, owner objective, existing accepted price/terms, relevant alternatives, full declared costs, cash/capacity constraints and the exact level, packaging or payment question.",
+        "evidence required": "Actual price/terms, appropriate willingness-to-pay events, dated competitor/reference evidence where material and reproducible cost/cash inputs. Distinguish a quote, deposit, completed payment, refund and hypothetical survey response.",
+        "assumptions allowed": "Clearly labelled price, demand, usage or retention scenarios with explicit units and ranges are allowed for comparison. They cannot imply observed demand, a universal conversion threshold or automatic permission to reprice.",
+        "output": "A bounded comparison of adequate price/unit/package/payment alternatives, including the unchanged option, with customer evidence, calculation receipts, economic/cash consequences, proof gaps and a justified proposed decision.",
+        "allowed mutations": "Write the pricing proposal and scenario assumptions; any accepted-price revision requires exact approval and version history. Do not modify billing plans, existing subscriptions, published prices or other commercial scope.",
+        "forbidden behaviour": "Use fabricated anchors, hidden mandatory charges or renewal terms; impose a universal premium/discount rule; invent willingness to pay; or omit labour and refund exposure to make the result attractive.",
+        "metrics/evidence": "Actual payer choices, complete payable amounts, explicit price units, contribution and cash by declared scenario, relevant retained-customer consequences and limitations of any price-response inference.",
+        "failure states": "BLOCKED when material cost, rights or payer/term inputs are missing; FAIL for a known misleading or infeasible structure. An undefined denominator or unexecuted formula cannot support an economic pass.",
+        "legal/ethical boundaries": "Keep price presentation, credit/instalment, renewal, competition and tax-treatment questions with the appropriate specialist. An economic comparison is not legal approval, investment advice or authorisation to change customer obligations."
+      }
+    },
+    {
+      "id": "B05",
+      "selector": "design-money-model",
+      "modes": [],
+      "contract": {
+        "inputs": "Customer/value and offer versions, payer/counterparty roles, current transaction structure, retained-value assumptions, delivery mechanism, relevant cost/capacity/cash constraints and the proposed revenue-model change.",
+        "evidence required": "Source-located transactions, collection/settlement facts, usage or repeat evidence, contractual rights and relevant operating inputs. Platform volume, third-party funds and a pending commission must not be labelled own revenue.",
+        "assumptions allowed": "Explicit hypotheses about a new value exchange, payer, sequence or repeat behaviour may be compared. Do not assume every business needs an upsell, subscription, marketplace or multiple simultaneous revenue lines.",
+        "output": "A coherent selected money-model account stating value exchange, payer, pricing unit, own consideration, direct cost/margin, cash timing, retention/capacity dependencies, risks and justified sequencing or rejection of extras.",
+        "allowed mutations": "Draft or revise the named model and its scenarios. Accepted changes need scoped approval and impact review; no payment, licence grant, marketplace launch, renewal or affiliate relationship is executed.",
+        "forbidden behaviour": "Double-count transactions across revenue labels, call pass-through funds profit, remove promised core value to manufacture an upsell, or add monetisation paths without customer-value and economic justification.",
+        "metrics/evidence": "Canonical transaction and adjustment identities; declared gross/net consideration, direct contribution and collection timing; evidence for incremental value and repeat dependency; consistent cost and currency bases.",
+        "failure states": "FAIL for contradicted rights or structurally incoherent obligations; BLOCKED for material unknown payer, recognition/tax treatment or cash facts. Unvalidated revenue extensions remain hypotheses, not a profitable growth forecast.",
+        "legal/ethical boundaries": "Route licensing, principal/agent, consumer terms, financial promotions, affiliate disclosures and regulated activity as appropriate. Business modelling cannot determine accounting treatment, grant rights or commit another party."
+      }
+    },
+    {
+      "id": "B06",
+      "selector": "model-delivery",
+      "modes": [],
+      "contract": {
+        "inputs": "Accepted or clearly hypothetical offer, quality/acceptance criteria, actual process and dependencies, available shared resources, backlog, due dates, onboarding/support requirements and existing customer obligations.",
+        "evidence required": "Traceable work, waiting, rework, completion, defect and customer-outcome observations; operator-confirmed resource availability and constraints. A process diagram, sale or demonstration is not repeatable fulfilment evidence.",
+        "assumptions allowed": "Declared work-time, variation or demand scenarios can test feasibility when their uncertainty is explicit. Do not invent staff, supplier availability, customer cooperation or a universal utilisation/service-level target.",
+        "output": "Delivery-capacity model covering flow, onboarding, time-to-value, quality, support, repeat obligations and failure demand, with per-resource headroom, due-date limits, evidence gaps and bounded intake/repair options.",
+        "allowed mutations": "Write the delivery model and proposed adjustments only. Do not reschedule live commitments, procure resources, change customer service levels or lower accepted quality; an approved model revision retains prior obligations.",
+        "forbidden behaviour": "Treat nominal hours as guaranteed schedulability, classify all support as waste, hide backlog/rework, infer value from completion alone, or scale sales into an unexamined resource bottleneck.",
+        "metrics/evidence": "Actual throughput, work and waiting times, backlog conservation, per-resource load/headroom, defects and recovery, customer time-to-value and supported service-level observations; calculation receipts must state units and horizon.",
+        "failure states": "FAIL for evidenced overload, infeasible deadlines or broken quality obligations; BLOCKED for material unavailable resource/delivery facts. A numerical upper bound is not a scheduling guarantee or successful delivery result.",
+        "legal/ethical boundaries": "Honour existing promises and route safety, employment/contractor, data-access and sector issues. Operational owners perform delivery and containment; the skill neither hires people nor issues professional clearance."
+      }
+    },
+    {
+      "id": "B07",
+      "selector": "model-unit-economics",
+      "modes": [],
+      "contract": {
+        "inputs": "Offer and revenue-unit versions, canonical transactions/adjustments, acquisition/direct/shared cost scope, retention horizon, delivery capacity, dated obligations, usable cash and the managerial decision to be modelled.",
+        "evidence required": "Source-located quantities, prices, costs, cohorts, collections, refund exposure and professionally supplied treatment inputs. Calculation must execute through an adequate deterministic tool and return inspectable results under Stage 7 HC01–HC08.",
+        "assumptions allowed": "Labelled base/downside scenarios and finite retention or cost assumptions are allowed. Unknown taxes, funding, costs or collections cannot silently become zero, and a projection cannot become observed lifetime value.",
+        "output": "Reproducible unit-economics and dated-cash model with explicit definitions, formula/input identities, contribution, acquisition/payback and retention assumptions, resource consequences, cash troughs, excluded costs and decision-limiting uncertainty.",
+        "allowed mutations": "Create the named analytical model and scenario inputs in the authorised workspace. Do not post ledger entries, move funds, choose tax treatment or overwrite source evidence; accepted model revisions require scoped approval.",
+        "forbidden behaviour": "Call revenue profit, compare incompatible CAC/LTV bases, count costs twice, treat stale spreadsheet caches as calculation, or label growth safe because ending cash is positive despite an earlier funding gap.",
+        "metrics/evidence": "N, K and C on declared bases; distinct accounting bridges where supplied; CAC denominator/window, finite lifetime assumptions, payback and reversals, minimum dated usable cash/headroom and per-resource capacity checks.",
+        "failure states": "Calculation, reconciliation or identity errors invalidate the affected result; missing critical inputs yield BLOCKED. Negative contribution or inadequate cash defeats a safe-scale claim, while a deliberately funded test remains separately labelled and authorised.",
+        "legal/ethical boundaries": "Accounting, payroll, tax and legal findings remain attributed specialist inputs. No personal financial planning, investment recommendation, borrowing suitability judgement or autonomous commitment follows from a successful calculation."
+      }
+    },
+    {
+      "id": "B08",
+      "selector": "identify-assumptions",
+      "modes": [],
+      "contract": {
+        "inputs": "Pending decision, accepted business versions, customer/value/offer/channel/delivery/economic dependencies, existing evidence and the consequences and reversibility of the proposed commitment.",
+        "evidence required": "Supporting and challenging records for each material dependency, with source scope and uncertainty. Evidence already sufficient for the bounded decision may remove a test need; do not fabricate a mandatory research backlog.",
+        "assumptions allowed": "Explicit bounded assertions are allowed as assumptions, with uncertainty and consequence rated separately and reasoned prioritisation. Numeric confidence requires a justified model/data, not an invented probability or multiplied ordinal risk score.",
+        "output": "A minimal assumption register linked to existing claims, covering applicable Stage 8 classes, owner, evidence state, consequence if wrong, priority rationale and the next discriminating evidence or review trigger.",
+        "allowed mutations": "Create or update the requested register and links without deleting contrary evidence or changing accepted business choices. A corrected assumption retains its prior version and reason; no experiment is launched.",
+        "forbidden behaviour": "Treat source agreement, model confidence or plan completeness as observation; prioritise trivial uncertainty above binding harm or cash; or require ten tests simply because the taxonomy has ten classes.",
+        "metrics/evidence": "Decision relevance, scope and provenance of each assertion; independent uncertainty and consequence descriptions; explicit evidence that would change the next commitment rather than activity or document counts.",
+        "failure states": "BLOCKED when the pending decision or material consequence is unknown and cannot be resolved from inputs. Conflicting evidence remains mixed; a consequential untestable assumption can block commitment without proving it false.",
+        "legal/ethical boundaries": "Identify rights, consent, substantiation, professional or regulated dependencies before commercial optimisation. Missing authority cannot be treated as an assumption to test by exposing customers without approval."
+      }
+    },
+    {
+      "id": "B09",
+      "selector": "design-experiment",
+      "modes": [],
+      "contract": {
+        "inputs": "Exact assumption/decision versions, target role/population, accepted baseline, known evidence and rivals, feasible resources, outcome horizon and existing ethical/professional constraints.",
+        "evidence required": "Relevant prior observations, instrumentation capability and access, actual cost/exposure limits and the information needed to change the decision. Statistical claims need an appropriate verified design, not a copied universal sample formula.",
+        "assumptions allowed": "A bounded hypothesis and explicitly uncertain effect or mechanism may be tested. Exploratory questions must remain exploratory; provisional design assumptions cannot be presented as customer findings or unprovided launch approval.",
+        "output": "A frozen nine-field Stage 8 experiment contract with adequate-method comparison, actual signals, guardrails, duration/sample rationale, confounders, stopping/analysis plan and distinct success, failure, invalid and inconclusive decision outcomes.",
+        "allowed mutations": "Write or version the experiment plan with amendment history. Do not assign users, send recruitment, spend, fabricate results or silently change a frozen criterion after seeing outcomes; external execution needs separate authorisation.",
+        "forbidden behaviour": "Choose a cheaper invalid proxy, design every outcome as success, conceal nonexistent functionality, peek with an unsupported stopping rule, or confuse a combined treatment effect with each component’s causal effect.",
+        "metrics/evidence": "Named events and denominators, required observation maturity, practical thresholds, appropriate precision/error assumptions, validity checks and independent resource/rights guardrails; no test count is a learning metric.",
+        "failure states": "BLOCKED for missing mandatory permissions, safeguards or an adequate feasible design; FAIL for deceptive or non-discriminating plans. No affordable adequate test permits a bounded stop, not weakened evidence requirements.",
+        "legal/ethical boundaries": "Preserve participant truthfulness, permitted data use and existing customer rights. Qualified review owns specialist design/legal questions. Safety monitoring may stop exposure without establishing a clean completed-run effect."
+      }
+    },
+    {
+      "id": "B10",
+      "selector": "record-learning",
+      "modes": [],
+      "contract": {
+        "inputs": "Original assumption and frozen test versions, actual execution/evidence receipts, deviations and stop events, validated measures or findings, relevant review and the owner’s stated or still-pending next decision.",
+        "evidence required": "Actual source records and returned tool/operator results, including negative, missing and adverse observations. Keep synthetic fixtures labelled; a plan, attempted operation or draft narrative cannot count as an executed test.",
+        "assumptions allowed": "Interpretive hypotheses about causes and transfer may remain explicitly uncertain. Do not retrofit the original prediction, infer unobserved outcomes or turn a reasonable operational decision into evidence that the hypothesis is true.",
+        "output": "An eight-field Stage 8 learning record linking assumption, test, observed evidence, result, interpretation, decision, remaining unknowns and next experiment/commitment, with preserved history and affected-decision review.",
+        "allowed mutations": "Append the named learning entry and correction links only. Do not rewrite raw evidence or the frozen plan, erase failed tests, mark unapproved decisions accepted, or execute the proposed next commitment.",
+        "forbidden behaviour": "Report activity as learning, suppress inconclusive results, reuse discovery data as independent confirmation, change thresholds after results or claim an installed-agent/customer outcome from a synthetic design check.",
+        "metrics/evidence": "Observed counts, units, cohort/window, missingness, calculation identity and guardrail events, plus the precise change in decision-relevant knowledge and scope; no universal learning-velocity score.",
+        "failure states": "Incomplete or uninterpretable evidence produces a qualified record, not invented success. BLOCKED applies to a commitment requiring absent evidence/authority; an observed guardrail breach is retained even when other results are invalid.",
+        "legal/ethical boundaries": "Keep evidence in authorised custody and disclose only permitted extracts. Carry forward applicable rights, recovery obligations and specialist constraints; recording a result does not grant new contact, data or spending authority."
+      }
+    }
+  ]
+}

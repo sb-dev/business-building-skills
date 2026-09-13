@@ -1,0 +1,33 @@
+{
+  "id": "E13",
+  "title": "Kakeibo consumer subscription thesis",
+  "level": 5,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+  "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+  "prompt_sha256": "988cb949e098c51d79654ad31838a99352f534cbc98548170a1c1039e177a9b5",
+  "expected_artifacts": "A full business thesis and alternative comparison, linked business dossier, cohort/economics/cash records, claims/specialist handoffs, a sequenced evidence programme and preservation-aware next-commitment review. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "Old paid renewal is 70%; grace-inclusive old entitlement 75%; old weekly-review completion 50%. New sales cannot erase 60 unpaid/non-renewed old accounts. Gross receipts 1440, net consideration 1380, direct cost 480, direct contribution 900 and residual after hosting/acquisition -400. Cash closes 600 but reaches -730, 930 below the 200 floor. Annual 60 versus twelve monthly payments totals 60 versus 72, but this arithmetic proves neither willingness to prepay nor funding of future obligations. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail a growth thesis based on 240 closing paid accounts alone, assumed store commissions, manufactured money-saving evidence, a forced trial, or profitable-scale approval despite negative residual and cash breach.",
+  "preservation": "Preserve monthly-6-v1, no-free-trial-v1, 30-day-money-back-v1 and the advice boundary. Change only an implicated hypothesis or explicitly proposed commercial option; do not overwrite the fictional baseline or real project files.",
+  "reasoning_dimensions": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

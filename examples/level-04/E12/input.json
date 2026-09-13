@@ -1,0 +1,34 @@
+{
+  "synthetic": true,
+  "case_version": "E12-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "wholesale-buyers-v1",
+    "offer": "goods-order-v1",
+    "price": "4000-per-order-v1"
+  },
+  "observations": {
+    "accepted_orders": 2,
+    "price_per_order": "4000",
+    "stock_cash_per_order_day_0": "2200",
+    "payroll_cash_per_order_day_14": "400",
+    "advertising_cash_per_order_day_0": "200",
+    "tax_cash_day_30": "600",
+    "opening_usable_cash": "3000",
+    "cash_floor": "500",
+    "collection_day": 45
+  },
+  "scenarios": {
+    "deposit_each_if_agreed_day_0": "1850",
+    "reduced_orders": 1
+  },
+  "constraints": [
+    "Tax amount/date is a supplied fictional specialist input, not a calculated tax rule.",
+    "Deposits are proposed timing changes, not additional revenue."
+  ],
+  "unknowns": [
+    "Buyer agreement to deposits",
+    "Collection reliability on day 45",
+    "Permissions and feasibility of reducing existing commitments"
+  ]
+}

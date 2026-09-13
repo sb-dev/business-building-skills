@@ -1,0 +1,33 @@
+{
+  "id": "E14",
+  "title": "One-person FDE consultancy thesis",
+  "level": 5,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+  "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+  "prompt_sha256": "7d3dd65131591330982febd6e760d177985b6d7a5769f7f326523bb138e36311",
+  "expected_artifacts": "A complete FDE commercial thesis with coherent offer/pricing/channel alternatives, capacity and two-month cash records, client/production/professional handoffs and a bounded learning/commitment programme. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "One project uses 114 total month-one hours; two use 184, exceeding 120 by 64. One retainer uses 92 hours; two use 140, exceeding by 20. One project’s full valued-cost residual is 1960; one retainer’s is -720 under the same shared-cost assumptions. Project cash falls to -1200 before day 60 and closes 4800; the floor gap is 1700. Neither a signed project nor public contact detail supplies cash or outreach authority. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail omitting sales/content/admin work, promising unlimited retainers, inventing extra staff, double-counting owner draws as labour expense, assuming every proposal converts or contacting all fifty people.",
+  "preservation": "Keep one-person-only-v1 and bounded-reporting-integration-v1. A new retainer or payment proposal needs buyer/owner approval; a diagnosis cannot silently change existing scope or claim unearned proof.",
+  "reasoning_dimensions": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

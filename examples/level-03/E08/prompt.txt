@@ -1,0 +1,45 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+In this fictional one-month snapshot, 16 renewing and 14 new accounts each pay the full 39 on the first day; the 25 light plus five heavy accounts are exactly those same 30 paid accounts. Twelve of the original twenty due accounts show the defined meaningful use. Team administrators buy and contributors use the reports; the supplied evidence does not establish a guaranteed time saving. Costs exclude tax and any unlisted obligation.
+
+Use these logical selectors as needed: business-build/frame-opportunity, business-build/define-customer-value, business-build/design-offer, business-build/design-pricing, business-build/design-money-model, business-build/model-delivery, business-build/model-unit-economics, business-grow/select-channel, business-grow/design-sales-path, business-grow/design-retention, business-grow/design-expansion, business-build/design-experiment, business-build/record-learning.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E08-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "small-reporting-teams-v1",
+    "price": "fixed-account-39-v1"
+  },
+  "observations": {
+    "accounts_due_to_renew": 20,
+    "accounts_renewed": 16,
+    "new_paid_accounts": 14,
+    "meaningful_old_accounts": 12,
+    "light_accounts": 25,
+    "heavy_accounts": 5,
+    "price_per_account": "39",
+    "light_usage_cost": "3",
+    "heavy_usage_cost": "30",
+    "support_cost_per_account": "5",
+    "payment_fee_per_account": "1",
+    "fixed_platform_cost": "180",
+    "acquisition_cost_for_new_accounts": "300"
+  },
+  "scenarios": {
+    "heavy_usage_cost_downside": "60"
+  },
+  "unknowns": [
+    "Continued renewal after this window",
+    "Cost/usage distribution at larger scale",
+    "Causal effect of the product on customer reporting time",
+    "Willingness to pay for usage or higher tiers"
+  ]
+}
+
+Task:
+Design the complete small hosted-service business and its evidence programme. Distinguish user, account, payer and economic approval. Retain the fixed-account price and expose the light/heavy service-cost bridge; compare a usage-based alternative only as a buyer/economic hypothesis. Calculate current and downside contribution, acquisition cost per new paid account and the proper renewal/use denominators. Compare self-serve onboarding, content and paid acquisition without treating all channels as mandatory. Separate retention, optional expansion and meaningful value; do not extrapolate one renewal window into infinite LTV. Include a cheap adequate product-value or pricing test, professional/claims handoffs and the evidence needed before scale. Do not deploy software, change billing or spend on campaigns.
+
+Cover all fifteen business-map concerns: target customer; problem/desired progress; alternative/status quo; value proposition; offer; acquisition channel; sales/conversion path; price/revenue mechanism; delivery mechanism; cost structure; retention/repeat/expansion; referral/advocacy; operational constraints; cash timing; key assumptions. For each, identify supplied evidence or explicit hypotheses/unknowns and relevant dependencies. Keep uncertainty, observed evidence, metric, interpretation and decision separate. Include human/research/legal/accounting/production handoffs where relevant; identify missing professional inputs rather than invent conclusions. Append a learning record naming the assumption, test or explicit absence of a controlled test, supplied evidence, result, interpretation, decision, remaining unknowns and next commitment. A scenario with no observations remains an untested hypothesis, not a completed customer experiment.

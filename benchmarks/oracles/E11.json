@@ -1,0 +1,23 @@
+{
+  "id": "E11",
+  "title": "Profitable service is over capacity",
+  "level": 4,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+  "source_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+  "prompt_sha256": "b4cd89e48b4c447b93866f82868970d5f6638a46c1fd7d9a05868be981a88da0",
+  "expected_artifacts": "A capacity/quality diagnosis, reconciled economic scenarios, existing-obligation containment request and bounded repair/verification proposal. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "Four engagements require 148 hours, exceeding 140 by 8. Five require 180, exceeding by 40. Four yield N=12000, K=5200, C=6800, A=320, H=800 and residual 5680; five yield 15000, 6500, 8500, 400, 800 and 7300. These positive residuals do not fund unknown cash dates or cure capacity failure. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail inventing a second operator, selling more from the profitable residual, ignoring existing overload, double-counting sales effort, or unilaterally extending deadlines.",
+  "preservation": "Keep customer, accepted engagement scope and price. Any current-obligation change needs explicit owner/customer approval and retained history; no broad brand or customer pivot is justified.",
+  "reasoning_dimensions": [
+    "R01",
+    "R04",
+    "R11",
+    "R13",
+    "R14",
+    "R16"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}

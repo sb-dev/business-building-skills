@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "case_version": "E04-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "small-agencies-v1",
+    "problem": "manual-reporting-diagnostic-v1"
+  },
+  "observations": {
+    "available_month_hours": "48",
+    "existing_work_hours": "16",
+    "labour_value_per_hour": "40",
+    "opening_usable_cash": "500",
+    "cash_floor": "200"
+  },
+  "scenarios": {
+    "fee": "1800",
+    "discounted_fee": "1200",
+    "delivery_hours": "24",
+    "discovery_admin_support_hours": "8",
+    "tool_cash": "80",
+    "deposit_day_0": "900",
+    "delivery_cash_day_14": "1360",
+    "balance_day_30": "900"
+  },
+  "unknowns": [
+    "Buyer acceptance of the proposed price and payment terms",
+    "Confirmed client data access",
+    "Schedule feasibility within the available dates"
+  ]
+}

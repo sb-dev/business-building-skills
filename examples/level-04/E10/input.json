@@ -1,0 +1,43 @@
+{
+  "synthetic": true,
+  "case_version": "E10-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "agency-v1",
+    "offer": "reporting-v2",
+    "price": "price-v2",
+    "delivery": "delivery-v1"
+  },
+  "observations": {
+    "acquisition_window_days": 30,
+    "follow_up_days": 60,
+    "contribution_per_customer_before_acquisition": "200",
+    "sales_hourly_cost": "30",
+    "A": {
+      "visitors": 1000,
+      "leads": 200,
+      "qualified": 40,
+      "meetings": 20,
+      "proposals": 10,
+      "paid_customers": 8,
+      "ad_cash": "400",
+      "sales_hours": "20"
+    },
+    "B": {
+      "visitors": 2000,
+      "leads": 400,
+      "qualified": 40,
+      "meetings": 20,
+      "proposals": 10,
+      "paid_customers": 8,
+      "ad_cash": "1000",
+      "sales_hours": "35"
+    },
+    "measurement_definitions_unchanged": true,
+    "source_change": "B added a broad audience; screening records attribute additional non-fit leads to that source."
+  },
+  "unknowns": [
+    "Causal incremental effect of reverting the new audience",
+    "Future cohort economics at different volume"
+  ]
+}

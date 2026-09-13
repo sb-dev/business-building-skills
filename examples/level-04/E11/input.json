@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "case_version": "E11-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "referral-clients-v1",
+    "offer": "bounded-engagement-v1",
+    "price": "3000-v1"
+  },
+  "observations": {
+    "current_accepted_engagements": 4,
+    "price": "3000",
+    "delivery_hours_each": "24",
+    "support_hours_each": "6",
+    "sales_hours_each": "2",
+    "fixed_admin_hours": "20",
+    "available_hours": "140",
+    "labour_value_per_hour": "40",
+    "other_direct_cost_each": "100",
+    "quality_signal": "One handover was late; client deadlines and obligations remain in force."
+  },
+  "scenarios": {
+    "proposed_total_engagements": 5
+  },
+  "unknowns": [
+    "Calendar-feasible sequence for existing due dates",
+    "Permission for changed deadlines or extra resources",
+    "Dated collection and full cash obligations"
+  ]
+}

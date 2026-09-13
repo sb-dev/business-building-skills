@@ -1,0 +1,53 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+Two fictional completed 30-day acquisition cohorts each have full 60-day outcome follow-up. The outcome cost basis and measurement definitions match. The current complaint is doubled leads with weak lead-to-paid conversion. The supplied source-change and qualification records are evidence, but not a randomised causal experiment. Customer, offer, price and delivery versions remain accepted.
+
+Use these logical selectors as needed: business-evaluate/evaluate-component [funnel], business-evaluate/diagnose-business-constraint, business-evaluate/recommend-smallest-change, business-grow/select-channel.
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E10-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "agency-v1",
+    "offer": "reporting-v2",
+    "price": "price-v2",
+    "delivery": "delivery-v1"
+  },
+  "observations": {
+    "acquisition_window_days": 30,
+    "follow_up_days": 60,
+    "contribution_per_customer_before_acquisition": "200",
+    "sales_hourly_cost": "30",
+    "A": {
+      "visitors": 1000,
+      "leads": 200,
+      "qualified": 40,
+      "meetings": 20,
+      "proposals": 10,
+      "paid_customers": 8,
+      "ad_cash": "400",
+      "sales_hours": "20"
+    },
+    "B": {
+      "visitors": 2000,
+      "leads": 400,
+      "qualified": 40,
+      "meetings": 20,
+      "proposals": 10,
+      "paid_customers": 8,
+      "ad_cash": "1000",
+      "sales_hours": "35"
+    },
+    "measurement_definitions_unchanged": true,
+    "source_change": "B added a broad audience; screening records attribute additional non-fit leads to that source."
+  },
+  "unknowns": [
+    "Causal incremental effect of reverting the new audience",
+    "Future cohort economics at different volume"
+  ]
+}
+
+Task:
+Diagnose the actual binding problem rather than optimise all funnel stages at once. Reconcile each transition, qualified-to-paid conversion and all-in acquisition cost including sales time; compare cohort contribution after acquisition. Consider changed instrumentation, customer mix and sales execution as rivals, explaining which the given records challenge or leave open. Recommend a bounded acquisition/qualification repair and a frozen verification/test rule. Compare no change and an offer/price rewrite; justify why each changed layer is implicated. Keep the assessment read-only and route any campaign adjustment to the authorised operator. Do not count a larger top-of-funnel as learning or infer causality solely from the before/after comparison.

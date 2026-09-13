@@ -1,0 +1,36 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+A small reporting service is considering a fixed fee or time-based price for the SAME single-report scope. The three completed-job times are fictional records, not a forecast distribution. Scope and intended customer are accepted only within this fixture; both prices are proposals.
+
+Use these logical selectors as needed: business-build/design-pricing, business-evaluate/evaluate-component [pricing].
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E01-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "customer": "small-agency-v1",
+    "offer": "one-report-v1"
+  },
+  "observations": {
+    "past_job_hours": [
+      "2",
+      "3",
+      "5"
+    ],
+    "labour_value_per_hour": "30",
+    "other_direct_cost_per_job": "10"
+  },
+  "scenarios": {
+    "fixed_fee": "120",
+    "hourly_price": "40"
+  },
+  "unknowns": [
+    "Willingness to pay under either new structure",
+    "Frequency of each workload at future volume"
+  ]
+}
+
+Task:
+Compare the two structures at every observed workload using actual deterministic arithmetic. State the price unit, included work, acceptance, variation and payment disclosures. Separate valued owner labour from a cash payment. Identify the fixed-fee labour boundary without converting it into a promised service limit or an observed price preference. Recommend a bounded option or test, not an offer or customer rewrite. Specify a cheap price/scope-comprehension or quote test with a decision-changing signal, adverse and inconclusive outcomes, and permission still needed before contacting anyone. Review the proposal in pricing mode without editing its source.

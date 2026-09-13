@@ -1,0 +1,37 @@
+All facts, identities, prices, permissions and results below are synthetic. Named projects are rehearsal labels, not statements about their actual state. Use core behaviour without requiring an Extension Pack. Work only in a new local case-output directory: analysis, deterministic calculations and the requested draft artefacts are authorised. Do not contact people, send messages, spend money, charge, publish, mutate customer systems, change accepted source records or give professional legal/tax/investment conclusions. Keep missing evidence unknown and supplied accepted versions intact. Record the actual calculation method/results; never invent an executed experiment or installed-agent result.
+
+The fictional product is a one-time digital template edition, not a membership. Fees, support and distribution are distinct direct cohort costs. Creation is separately identified whole-offer investment, not an additional per-order variable charge. Existing buyers retain their purchased-edition access. No live product or revenue is represented.
+
+Use these logical selectors as needed: business-build/model-unit-economics, business-evaluate/evaluate-unit-economics [both].
+
+Facts (JSON):
+{
+  "synthetic": true,
+  "case_version": "E03-v1",
+  "currency": "GBP",
+  "accepted_versions": {
+    "offer": "template-edition-v1",
+    "rights": "keep-purchased-edition-access"
+  },
+  "observations": {
+    "orders": 80,
+    "price": "30",
+    "discounts": "0",
+    "refund_amount": "90",
+    "payment_fees": "120",
+    "support_cost": "300",
+    "distribution_cost": "80",
+    "creation_cost": "2000"
+  },
+  "scenarios": {
+    "question": "Did this finite launch cohort fund the stated offer scope?"
+  },
+  "unknowns": [
+    "Future sales",
+    "Additional update/support costs after this horizon",
+    "Cause of the refunds"
+  ]
+}
+
+Task:
+Calculate gross consideration, net consideration after refunds, direct cohort contribution and the residual after creation. Explain why cheap copying and positive per-order contribution are not sufficient evidence that the complete offer is funded. Keep acquisition and future updates unknown rather than setting them to zero for a scale claim. Do not deduct creation twice or relabel this managerial residual statutory profit. Specify which source and obligation checks would be needed before another release, price change or ongoing support promise. Return an assessment, not a new membership plan or revoked access.

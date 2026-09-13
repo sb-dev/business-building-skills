@@ -1,0 +1,26 @@
+{
+  "id": "E04",
+  "title": "Bounded reporting diagnostic offer",
+  "level": 2,
+  "source_path": "docs/research-logs/2026-09-10-stage-15-level-02.md",
+  "source_blob": "58240671642aceacb1ce95fdd12f26303d26e750",
+  "prompt_sha256": "7a0f8cf4d72ad1feb1f2672658d549befed50e48f20e904b5abe8d6d6524b6a3",
+  "expected_artifacts": "A coherent draft offer/price/acceptance record, capacity and cash calculation, risk/proof handoff and bounded test. Do not create unrelated outputs or replace source evidence with the assessment. A blocked commitment can still have a complete, useful design or review record.",
+  "reference_findings": "Total work is 32 hours and direct cost 1360. Contributions are 440 at 1800 and -160 at 1200. Exactly one proposed engagement uses all 32 nominal available hours; calendar feasibility is still unproved. Opening 500 plus deposit 900 less delivery 1360 leaves 40 before final collection, breaching the 200 floor by 160. The verifier checks the fixed arithmetic; direct review must also examine evidence scope, causal limits and the requested business reasoning. A favourable calculation alone does not pass all growth gates.",
+  "negative_control": "Fail a low-price win that conceals negative contribution, unlimited capacity, a certain client benefit, or treating the day-30 balance as day-14 funding.",
+  "preservation": "Preserve the customer/problem baseline. Revise only proposed commercial scope or timing with its owner; do not create a new business model to avoid the cash calculation.",
+  "reasoning_dimensions": [
+    "R01",
+    "R03",
+    "R04",
+    "R06",
+    "R10",
+    "R11",
+    "R13",
+    "R14",
+    "R15"
+  ],
+  "applicability_rule": "Listed dimensions are minimum case obligations, not permission to ignore a triggered truthfulness, rights, evidence, capacity or cash requirement. Other dimensions may be NOT APPLICABLE only with a case-scope reason; missing relevant evidence is BLOCKED for the business decision, not inapplicable.",
+  "material_kind": "AUTHORED_EVALUATION_CONTRACT_NOT_AGENT_OUTPUT",
+  "installed_run_state": "NOT_RUN"
+}
