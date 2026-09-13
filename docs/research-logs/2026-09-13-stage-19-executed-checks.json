@@ -1,0 +1,1866 @@
+{
+  "stage": 19,
+  "kind": "Executed documentation integrity checks and deterministic synthetic E01 arithmetic",
+  "executed_at": "2026-09-13T08:28:53.340438+00:00",
+  "python": "3.12.14",
+  "baseline_head": "8dea24cd8772d4e0ce711829d5c46b040fbce6b5",
+  "results": {
+    "PASS": 244
+  },
+  "exit_code": 0,
+  "local_links_checked": 50,
+  "primary_distribution": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "calculation": {
+    "source": "E01 exact prompt copied in the public README design",
+    "method": "Python decimal.Decimal and fractions.Fraction",
+    "currency": "GBP",
+    "rows": [
+      {
+        "hours": "2",
+        "valued_labour": "60",
+        "other_direct_cost": "10",
+        "fixed_consideration": "120",
+        "fixed_contribution": "50",
+        "hourly_consideration": "80",
+        "hourly_contribution": "10"
+      },
+      {
+        "hours": "3",
+        "valued_labour": "90",
+        "other_direct_cost": "10",
+        "fixed_consideration": "120",
+        "fixed_contribution": "20",
+        "hourly_consideration": "120",
+        "hourly_contribution": "20"
+      },
+      {
+        "hours": "5",
+        "valued_labour": "150",
+        "other_direct_cost": "10",
+        "fixed_consideration": "120",
+        "fixed_contribution": "-40",
+        "hourly_consideration": "200",
+        "hourly_contribution": "40"
+      }
+    ],
+    "fixed_zero_contribution_hours": "11/3",
+    "limits": "Synthetic consideration and contribution after valued labour/direct costs; not a cash forecast, net profit or willingness-to-pay evidence."
+  },
+  "publication_inputs": {
+    "docs/research-logs/2026-09-13-stage-19-public-readme.md": {
+      "blob": "863e8db3d1546badaa3ffa589e720ea457c65a3f",
+      "sha256": "039ef26e76caa6b3f9057fdf113cf20179adb404693a38d7b643fb9f5d5167c5"
+    },
+    "docs/research-logs/2026-09-13-stage-19-readme-design.md": {
+      "blob": "4f5d821155fb289951a097ed2ef650047aa4ea7d",
+      "sha256": "46bb7c072c1012f80ef994a1ad1b6ae11c978b0ef0ffddef6b9ba661f8b8cf2b"
+    },
+    "docs/research-logs/2026-09-13-stage-19-verification-inputs.json": {
+      "blob": "008a92bc4f4b91907a1db761094052350ca0d150",
+      "sha256": "adf9c55d0e2d6bb483b7f1c2bad7685caa3590dc51fdb8ea82f9001f0fa93be1"
+    },
+    "docs/research-logs/2026-09-13-stage-19-verifier.py": {
+      "blob": "c6b7108cf694fd60849b947953f6da35f6f5b3f3",
+      "sha256": "7ebbf7ebbebd18ee588db5e3f034a3ae1d460c432f55bf8cef43bb63304bc10c"
+    },
+    "docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-18.md": {
+      "blob": "42727efd8c461ca25f49100e2c37c319e45ba0c5",
+      "sha256": "eb272365ed6941334d7718a337a87af0f21ac4edfc34d4c872877f08062c688b"
+    },
+    "docs/research-logs/bootstrap-3-progress.md": {
+      "blob": "a20affeb67b3d3cbe509370d5657c256fcd87b7a",
+      "sha256": "939447b66eb59b177d9d813fbcc928fce42c8a40b33d683e557d4062ba00aa30"
+    }
+  },
+  "checks": [
+    {
+      "check": "Original bootstrap identity",
+      "result": "PASS",
+      "evidence": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d"
+    },
+    {
+      "check": "Original Stage 19 literal target",
+      "result": "PASS",
+      "evidence": "Full original §26 read; design cannot replace later installed execution."
+    },
+    {
+      "check": "Exact H1",
+      "result": "PASS",
+      "evidence": "# Business Building Skills"
+    },
+    {
+      "check": "All requested topics in original order",
+      "result": "PASS",
+      "evidence": {
+        "actual_h2": [
+          "What business work it can perform",
+          "Evidence, experiments and commitments",
+          "Truthful growth",
+          "Installation",
+          "Quick start",
+          "Learn by Building — 5 levels × 3 examples",
+          "Project structure grows with the business work",
+          "Core skills",
+          "Extension Packs",
+          "Execution tools",
+          "Evaluation and benchmark",
+          "Canonical stress tests",
+          "Source-book lineage",
+          "Documentation",
+          "Boundary",
+          "Contributing",
+          "Licence"
+        ],
+        "count": 17,
+        "opening_positioning": true
+      }
+    },
+    {
+      "check": "Positioning tested, with current state immediately visible",
+      "result": "PASS",
+      "evidence": "Opening wording plus design limitations; substantive choice reviewed in log §3."
+    },
+    {
+      "check": "Exactly fifteen primary example links",
+      "result": "PASS",
+      "evidence": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15"
+      ]
+    },
+    {
+      "check": "Exact level distribution",
+      "result": "PASS",
+      "evidence": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "check": "E01 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "68fdcdb02adb0fdceccd2a8c7c4cdec6d4a34b416287a6746a02e694076b554b",
+        "source_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+      }
+    },
+    {
+      "check": "E01 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e01--fixed-fee-or-hourly-price",
+        "level": 1
+      }
+    },
+    {
+      "check": "E02 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "5356010c63c91a4dc1c80bd70687666e7952152db9ceb879e39c53f87e653413",
+        "source_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+      }
+    },
+    {
+      "check": "E02 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e02--paid-channel-hypothesis-against-a-referral-baseline",
+        "level": 1
+      }
+    },
+    {
+      "check": "E03 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "fcc53613dccc7d929dd4b8dc4937ddd3b3d9ff6a551487c3ca37649d8d4d440e",
+        "source_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+      }
+    },
+    {
+      "check": "E03 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e03--digital-offer-covers-copying-but-not-creation",
+        "level": 1
+      }
+    },
+    {
+      "check": "E04 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "7a0f8cf4d72ad1feb1f2672658d549befed50e48f20e904b5abe8d6d6524b6a3",
+        "source_blob": "58240671642aceacb1ce95fdd12f26303d26e750"
+      }
+    },
+    {
+      "check": "E04 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e04--bounded-reporting-diagnostic-offer",
+        "level": 2
+      }
+    },
+    {
+      "check": "E05 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "c80c75fe62e5a412ee8398289d17aa49399b00130ae104f54d25c64b9ead0285",
+        "source_blob": "58240671642aceacb1ce95fdd12f26303d26e750"
+      }
+    },
+    {
+      "check": "E05 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e05--readiness-checklist-to-qualified-sale",
+        "level": 2
+      }
+    },
+    {
+      "check": "E06 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "ce6abce9af2a381fd0e35fe0bf2692f3c9649c29f6e8b25e282e49cc8110111d",
+        "source_blob": "58240671642aceacb1ce95fdd12f26303d26e750"
+      }
+    },
+    {
+      "check": "E06 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e06--subscription-renewal-and-recovery-component",
+        "level": 2
+      }
+    },
+    {
+      "check": "E07 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "8c62913d6aa602ea2ae6eaf8438b0a0b423221830fa1010ffe99e4395b9ed56d",
+        "source_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+      }
+    },
+    {
+      "check": "E07 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e07--solo-local-bicycle-service",
+        "level": 3
+      }
+    },
+    {
+      "check": "E08 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "3324b5f106b89c44f080827c39d8a8123c9185a76903d52c3e37718648cfcfb0",
+        "source_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+      }
+    },
+    {
+      "check": "E08 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e08--small-team-reporting-saas",
+        "level": 3
+      }
+    },
+    {
+      "check": "E09 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "888856a7e2bd0fce2cc4679b7ed804031e90d722db981d65acc5b342796665f1",
+        "source_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+      }
+    },
+    {
+      "check": "E09 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e09--small-notebook-ecommerce-business",
+        "level": 3
+      }
+    },
+    {
+      "check": "E10 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "dfbd605da79152d72499abdc5bedd706635bd1337b4810c97dda03725661197d",
+        "source_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+      }
+    },
+    {
+      "check": "E10 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e10--lead-growth-without-qualified-growth",
+        "level": 4
+      }
+    },
+    {
+      "check": "E11 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "b4cd89e48b4c447b93866f82868970d5f6638a46c1fd7d9a05868be981a88da0",
+        "source_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+      }
+    },
+    {
+      "check": "E11 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e11--profitable-service-is-over-capacity",
+        "level": 4
+      }
+    },
+    {
+      "check": "E12 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "5c5ef0e4afc7701de2ba94ed7940d2872966883eb46b4bbdb918e55e06859f9f",
+        "source_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+      }
+    },
+    {
+      "check": "E12 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e12--growing-orders-with-an-earlier-cash-crisis",
+        "level": 4
+      }
+    },
+    {
+      "check": "E13 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "988cb949e098c51d79654ad31838a99352f534cbc98548170a1c1039e177a9b5",
+        "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+      }
+    },
+    {
+      "check": "E13 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e13--kakeibo-consumer-subscription-thesis",
+        "level": 5
+      }
+    },
+    {
+      "check": "E14 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "7d3dd65131591330982febd6e760d177985b6d7a5769f7f326523bb138e36311",
+        "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+      }
+    },
+    {
+      "check": "E14 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e14--one-person-fde-consultancy-thesis",
+        "level": 5
+      }
+    },
+    {
+      "check": "E15 exact prompt and preserved case",
+      "result": "PASS",
+      "evidence": {
+        "prompt_sha256": "14278036bf91852821ed3ca6ff1322af705e813d691d278b734eb5574291fcfc",
+        "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+      }
+    },
+    {
+      "check": "E15 correct title and direct canonical link",
+      "result": "PASS",
+      "evidence": {
+        "link": "../04-testing-and-benchmark-spec.md#e15--production-skills-commercial-ecosystem-thesis",
+        "level": 5
+      }
+    },
+    {
+      "check": "Self-contained quick-start prompt byte fidelity",
+      "result": "PASS",
+      "evidence": {
+        "sha256": "68fdcdb02adb0fdceccd2a8c7c4cdec6d4a34b416287a6746a02e694076b554b",
+        "expected": "68fdcdb02adb0fdceccd2a8c7c4cdec6d4a34b416287a6746a02e694076b554b"
+      }
+    },
+    {
+      "check": "Quick-start inputs are synthetic and protected",
+      "result": "PASS",
+      "evidence": {
+        "customer": "small-agency-v1",
+        "offer": "one-report-v1"
+      }
+    },
+    {
+      "check": "Quick-start displayed arithmetic at 2 hours",
+      "result": "PASS",
+      "evidence": {
+        "hours": "2",
+        "valued_labour": "60",
+        "other_direct_cost": "10",
+        "fixed_consideration": "120",
+        "fixed_contribution": "50",
+        "hourly_consideration": "80",
+        "hourly_contribution": "10"
+      }
+    },
+    {
+      "check": "Quick-start displayed arithmetic at 3 hours",
+      "result": "PASS",
+      "evidence": {
+        "hours": "3",
+        "valued_labour": "90",
+        "other_direct_cost": "10",
+        "fixed_consideration": "120",
+        "fixed_contribution": "20",
+        "hourly_consideration": "120",
+        "hourly_contribution": "20"
+      }
+    },
+    {
+      "check": "Quick-start displayed arithmetic at 5 hours",
+      "result": "PASS",
+      "evidence": {
+        "hours": "5",
+        "valued_labour": "150",
+        "other_direct_cost": "10",
+        "fixed_consideration": "120",
+        "fixed_contribution": "-40",
+        "hourly_consideration": "200",
+        "hourly_contribution": "40"
+      }
+    },
+    {
+      "check": "Fixed-fee boundary exact arithmetic",
+      "result": "PASS",
+      "evidence": {
+        "hours_fraction": "11/3",
+        "formula": "(fixed_fee-other_direct_cost)/labour_value_per_hour"
+      }
+    },
+    {
+      "check": "Four independent skills",
+      "result": "PASS",
+      "evidence": [
+        "business-build",
+        "business-grow",
+        "business-evaluate",
+        "business-pack-author"
+      ]
+    },
+    {
+      "check": "Named command count matches canonical contracts",
+      "result": "PASS",
+      "evidence": {
+        "canonical_count": 32
+      }
+    },
+    {
+      "check": "Every advertised example selector exists",
+      "result": "PASS",
+      "evidence": [
+        "design-offer",
+        "design-pricing",
+        "design-experiment",
+        "select-channel",
+        "design-acquisition",
+        "design-retention",
+        "evaluate-component",
+        "evaluate-unit-economics",
+        "recommend-smallest-change",
+        "define-specialisation",
+        "build-showcase",
+        "compare-core-vs-pack"
+      ]
+    },
+    {
+      "check": "Eight independent pack candidates and advisory mode",
+      "result": "PASS",
+      "evidence": [
+        "saas-business",
+        "consumer-mobile-subscription",
+        "professional-services",
+        "ecommerce-business",
+        "marketplace-business",
+        "creator-digital-product",
+        "open-source-commercialisation",
+        "local-service-business"
+      ]
+    },
+    {
+      "check": "Pack implementation status explicit",
+      "result": "PASS",
+      "evidence": "Catalogue designs are not installable packs."
+    },
+    {
+      "check": "Three canonical stress structures",
+      "result": "PASS",
+      "evidence": "Exactly three direct links to the accepted stress designs."
+    },
+    {
+      "check": "Five attributed book sources",
+      "result": "PASS",
+      "evidence": [
+        "| Alex Hormozi, *$100M Offers* (2021) | Offers, pricing, packaging and deliverable value |",
+        "| Alex Hormozi, *$100M Leads* (2023) | Demand, channels, qualification and acquisition |",
+        "| Alex Hormozi, *$100M Money Models* (2025) | Revenue mechanisms, sequencing and economic consequences |",
+        "| Josh Kaufman, *The Personal MBA* (revised tenth-anniversary edition, 2020) | Value creation, sales, finance, operations and systems |",
+        "| Eric Ries, *The Lean Startup* (2011) | Assumptions, experiments and evidence-driven commitment |"
+      ]
+    },
+    {
+      "check": "Six canonical documentation links",
+      "result": "PASS",
+      "evidence": "01–06; exact local target paths checked below."
+    },
+    {
+      "check": "No missing installer or licence advertised",
+      "result": "PASS",
+      "evidence": "Current tree agrees; actual host installation and licence authorisation belong to their later owning work."
+    },
+    {
+      "check": "Production root README preserved",
+      "result": "PASS",
+      "evidence": "Original §28 production scaffold is not begun."
+    },
+    {
+      "check": "Balanced Markdown fences 2026-09-13-stage-19-public-readme.md",
+      "result": "PASS",
+      "evidence": "Fence pairing; content meaning reviewed separately."
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / installation contract",
+      "result": "PASS",
+      "evidence": "../03-business-building-skills-repository-and-contracts-spec.md#11-installation-contract"
+    },
+    {
+      "check": "Local anchor installation contract",
+      "result": "PASS",
+      "evidence": "../03-business-building-skills-repository-and-contracts-spec.md#11-installation-contract"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E01 · Fixed fee or hourly price",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e01--fixed-fee-or-hourly-price"
+    },
+    {
+      "check": "Local anchor E01 · Fixed fee or hourly price",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e01--fixed-fee-or-hourly-price"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E02 · Paid-channel hypothesis against a referral baseline",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e02--paid-channel-hypothesis-against-a-referral-baseline"
+    },
+    {
+      "check": "Local anchor E02 · Paid-channel hypothesis against a referral baseline",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e02--paid-channel-hypothesis-against-a-referral-baseline"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E03 · Digital offer covers copying but not creation",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e03--digital-offer-covers-copying-but-not-creation"
+    },
+    {
+      "check": "Local anchor E03 · Digital offer covers copying but not creation",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e03--digital-offer-covers-copying-but-not-creation"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E04 · Bounded reporting diagnostic offer",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e04--bounded-reporting-diagnostic-offer"
+    },
+    {
+      "check": "Local anchor E04 · Bounded reporting diagnostic offer",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e04--bounded-reporting-diagnostic-offer"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E05 · Readiness checklist to qualified sale",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e05--readiness-checklist-to-qualified-sale"
+    },
+    {
+      "check": "Local anchor E05 · Readiness checklist to qualified sale",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e05--readiness-checklist-to-qualified-sale"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E06 · Subscription renewal and recovery component",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e06--subscription-renewal-and-recovery-component"
+    },
+    {
+      "check": "Local anchor E06 · Subscription renewal and recovery component",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e06--subscription-renewal-and-recovery-component"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E07 · Solo local bicycle service",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e07--solo-local-bicycle-service"
+    },
+    {
+      "check": "Local anchor E07 · Solo local bicycle service",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e07--solo-local-bicycle-service"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E08 · Small team-reporting SaaS",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e08--small-team-reporting-saas"
+    },
+    {
+      "check": "Local anchor E08 · Small team-reporting SaaS",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e08--small-team-reporting-saas"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E09 · Small notebook ecommerce business",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e09--small-notebook-ecommerce-business"
+    },
+    {
+      "check": "Local anchor E09 · Small notebook ecommerce business",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e09--small-notebook-ecommerce-business"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E10 · Lead growth without qualified growth",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e10--lead-growth-without-qualified-growth"
+    },
+    {
+      "check": "Local anchor E10 · Lead growth without qualified growth",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e10--lead-growth-without-qualified-growth"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E11 · Profitable service is over capacity",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e11--profitable-service-is-over-capacity"
+    },
+    {
+      "check": "Local anchor E11 · Profitable service is over capacity",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e11--profitable-service-is-over-capacity"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E12 · Growing orders with an earlier cash crisis",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e12--growing-orders-with-an-earlier-cash-crisis"
+    },
+    {
+      "check": "Local anchor E12 · Growing orders with an earlier cash crisis",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e12--growing-orders-with-an-earlier-cash-crisis"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E13 · Kakeibo consumer subscription thesis",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e13--kakeibo-consumer-subscription-thesis"
+    },
+    {
+      "check": "Local anchor E13 · Kakeibo consumer subscription thesis",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e13--kakeibo-consumer-subscription-thesis"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E14 · One-person FDE consultancy thesis",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e14--one-person-fde-consultancy-thesis"
+    },
+    {
+      "check": "Local anchor E14 · One-person FDE consultancy thesis",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e14--one-person-fde-consultancy-thesis"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / E15 · Production Skills commercial ecosystem thesis",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e15--production-skills-commercial-ecosystem-thesis"
+    },
+    {
+      "check": "Local anchor E15 · Production Skills commercial ecosystem thesis",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#e15--production-skills-commercial-ecosystem-thesis"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / workflow specification",
+      "result": "PASS",
+      "evidence": "../02-business-building-skills-workflows-and-artifacts-spec.md#1-operating-procedure-and-minimal-records"
+    },
+    {
+      "check": "Local anchor workflow specification",
+      "result": "PASS",
+      "evidence": "../02-business-building-skills-workflows-and-artifacts-spec.md#1-operating-procedure-and-minimal-records"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / command contracts",
+      "result": "PASS",
+      "evidence": "../03-business-building-skills-repository-and-contracts-spec.md#5-common-command-interface-and-routing"
+    },
+    {
+      "check": "Local anchor command contracts",
+      "result": "PASS",
+      "evidence": "../03-business-building-skills-repository-and-contracts-spec.md#5-common-command-interface-and-routing"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / catalogue",
+      "result": "PASS",
+      "evidence": "../06-business-building-extension-pack-catalogue.md#1-selection-and-use"
+    },
+    {
+      "check": "Local anchor catalogue",
+      "result": "PASS",
+      "evidence": "../06-business-building-extension-pack-catalogue.md#1-selection-and-use"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / pack contract",
+      "result": "PASS",
+      "evidence": "../05-business-building-customisation-packs-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / benchmark specification",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / Kakeibo consumer subscription",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#stress-a--kakeibo"
+    },
+    {
+      "check": "Local anchor Kakeibo consumer subscription",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#stress-a--kakeibo"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / One-person FDE consultancy",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#stress-b--one-person-fde-consultancy"
+    },
+    {
+      "check": "Local anchor One-person FDE consultancy",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#stress-b--one-person-fde-consultancy"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / Production Skills commercial ecosystem",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#stress-c--production-skills-commercial-ecosystem"
+    },
+    {
+      "check": "Local anchor Production Skills commercial ecosystem",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md#stress-c--production-skills-commercial-ecosystem"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / source relationship and edition record",
+      "result": "PASS",
+      "evidence": "../01-business-building-skills-system-spec.md#3-book-evidence-relationship"
+    },
+    {
+      "check": "Local anchor source relationship and edition record",
+      "result": "PASS",
+      "evidence": "../01-business-building-skills-system-spec.md#3-book-evidence-relationship"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / 01 · System",
+      "result": "PASS",
+      "evidence": "../01-business-building-skills-system-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / 02 · Workflows and artefacts",
+      "result": "PASS",
+      "evidence": "../02-business-building-skills-workflows-and-artifacts-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / 03 · Repository and contracts",
+      "result": "PASS",
+      "evidence": "../03-business-building-skills-repository-and-contracts-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / 04 · Testing and benchmark",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / 05 · Customisation and Extension Packs",
+      "result": "PASS",
+      "evidence": "../05-business-building-customisation-packs-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-public-readme.md / 06 · Extension Pack catalogue",
+      "result": "PASS",
+      "evidence": "../06-business-building-extension-pack-catalogue.md"
+    },
+    {
+      "check": "Balanced Markdown fences 2026-09-13-stage-19-readme-design.md",
+      "result": "PASS",
+      "evidence": "Fence pairing; content meaning reviewed separately."
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / Original bootstrap §26",
+      "result": "PASS",
+      "evidence": "2026-09-08-business-building-skills-new-project-bootstrap-process.md#26-stage-19--design-public-readme"
+    },
+    {
+      "check": "Local anchor Original bootstrap §26",
+      "result": "PASS",
+      "evidence": "2026-09-08-business-building-skills-new-project-bootstrap-process.md#26-stage-19--design-public-readme"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / execution contract",
+      "result": "PASS",
+      "evidence": "2026-09-12-bootstrap-3-execution-contract.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / Complete public README design",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-19-public-readme.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / verification inputs",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-19-verification-inputs.json"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 01 System",
+      "result": "PASS",
+      "evidence": "../01-business-building-skills-system-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 02 Workflows and artefacts",
+      "result": "PASS",
+      "evidence": "../02-business-building-skills-workflows-and-artifacts-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 03 Repository and contracts",
+      "result": "PASS",
+      "evidence": "../03-business-building-skills-repository-and-contracts-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 04 Testing and benchmark",
+      "result": "PASS",
+      "evidence": "../04-testing-and-benchmark-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 05 Pack contract",
+      "result": "PASS",
+      "evidence": "../05-business-building-customisation-packs-spec.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 06 Catalogue",
+      "result": "PASS",
+      "evidence": "../06-business-building-extension-pack-catalogue.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / Stage 18 conformance",
+      "result": "PASS",
+      "evidence": "2026-09-12-stage-18-canonical-specifications.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / Stage 17 corpus",
+      "result": "PASS",
+      "evidence": "2026-09-12-stage-17-case-contracts.json"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 2026-09-13-stage-19-public-readme.md",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-19-public-readme.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 2026-09-13-stage-19-readme-design.md",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-19-readme-design.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 2026-09-13-stage-19-verification-inputs.json",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-19-verification-inputs.json"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 2026-09-13-stage-19-verifier.py",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-19-verifier.py"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 2026-09-13-stage-19-executed-checks.json",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-19-executed-checks.json"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / 2026-09-13-bootstrap-3-progress-through-stage-18.md",
+      "result": "PASS",
+      "evidence": "2026-09-13-bootstrap-3-progress-through-stage-18.md"
+    },
+    {
+      "check": "Local link 2026-09-13-stage-19-readme-design.md / bootstrap-3-progress.md",
+      "result": "PASS",
+      "evidence": "bootstrap-3-progress.md"
+    },
+    {
+      "check": "README does not require an internal bootstrap link",
+      "result": "PASS",
+      "evidence": "README links directly to canonical documentation; quick start has no external input dependency."
+    },
+    {
+      "check": "Preserve README.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c2311bac2170cec37102ade6da92c1b2c7a803cd",
+        "verified_at": "README.md"
+      }
+    },
+    {
+      "check": "Preserve docs/01-business-building-skills-system-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c7a6647d5c772fd7b629e5c2529e4f83e6a40f60",
+        "verified_at": "docs/01-business-building-skills-system-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "26bffd61baa32c419927594e57ddf5b76260b249",
+        "verified_at": "docs/02-business-building-skills-workflows-and-artifacts-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "f6d6832490485daf5592465b865d5cbff3c5d7be",
+        "verified_at": "docs/03-business-building-skills-repository-and-contracts-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/04-testing-and-benchmark-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "799f7c24ad0c0cb1f5d4e453b84bd7fb1ae56359",
+        "verified_at": "docs/04-testing-and-benchmark-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/05-business-building-customisation-packs-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "20b485dc9c9c224cf68a07a54efb1b634000b3fc",
+        "verified_at": "docs/05-business-building-customisation-packs-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/06-business-building-extension-pack-catalogue.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "cca6a3dab8c192518df9cd7deadbba33ed616f59",
+        "verified_at": "docs/06-business-building-extension-pack-catalogue.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+        "verified_at": "docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "570081b938e618480fbcea577cd55a7cfb820a5a",
+        "verified_at": "docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-01-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "611728b0058d54a9b2d776373934036da5a51f41",
+        "verified_at": "docs/research-logs/2026-09-09-stage-01-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "12c8ded9b8ed852690278031689b5e0649af3d0a",
+        "verified_at": "docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-02-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b3eea49e0b92419db29ffca23940e8776108c204",
+        "verified_at": "docs/research-logs/2026-09-09-stage-02-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341",
+        "verified_at": "docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "3936ab4f89ebe8437f54f21c0581e26f6d33920a",
+        "verified_at": "docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "db863e658a74e7657bac3072f6edea27eba33e82",
+        "verified_at": "docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "0746b850f795eef519bd8858b55c32e9cea7a8cb",
+        "verified_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "85ed61c24af9d8903701acb1d2956067f6b52b07",
+        "verified_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e6ec298d61b8b52be3390c165de4976b984d6d71",
+        "verified_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2",
+        "verified_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07",
+        "verified_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "174747f3897963653295b3e9433fec65b93893f7",
+        "verified_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "172d81d7667e3478a05af4bca48177520460c840",
+        "verified_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8155d23ee83be07526a12062efac3a1073cc2d34",
+        "verified_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8fe1f320ef28490a00d4eb66f739cf5db7e57931",
+        "verified_at": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "92d903925fc2fcaf27c238816620ff7239af3acf",
+        "verified_at": "docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-03-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b",
+        "verified_at": "docs/research-logs/2026-09-10-stage-03-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5",
+        "verified_at": "docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-03-professional-practice-map.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "7556e450ab5ae548881cb33d556d68d0e6f5efb4",
+        "verified_at": "docs/research-logs/2026-09-10-stage-03-professional-practice-map.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "bf924b1355ac808d1b4126449d02b4500197eeca",
+        "verified_at": "docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-04-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81",
+        "verified_at": "docs/research-logs/2026-09-10-stage-04-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-05-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0",
+        "verified_at": "docs/research-logs/2026-09-10-stage-05-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d",
+        "verified_at": "docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916",
+        "verified_at": "docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-05-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301",
+        "verified_at": "docs/research-logs/2026-09-10-stage-05-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-06-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "4f33bce2c7294fd17e2f565684369626f865dc28",
+        "verified_at": "docs/research-logs/2026-09-10-stage-06-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "091c8b69416c045042f4412caf348f59dad27c16",
+        "verified_at": "docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-06-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "225dbfcc90632287deff207be152132376257ac4",
+        "verified_at": "docs/research-logs/2026-09-10-stage-06-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-07-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "7af32ad9b55130a7fe7f59c9e365325df1489040",
+        "verified_at": "docs/research-logs/2026-09-10-stage-07-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df",
+        "verified_at": "docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-07-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876",
+        "verified_at": "docs/research-logs/2026-09-10-stage-07-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "154cdcae565b9c1708cde7650680cf64226ebd71",
+        "verified_at": "docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a939843b6a262753ce64b5faef171d920beb925c",
+        "verified_at": "docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-08-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b008eeed22083dbf4d90dc695a3137127703a836",
+        "verified_at": "docs/research-logs/2026-09-10-stage-08-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c626781cd0dbcaac139ab99d54b69beaadafdd29",
+        "verified_at": "docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-08-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "6a3ef07398a94ff1f736f6f882280e450db7d2bb",
+        "verified_at": "docs/research-logs/2026-09-10-stage-08-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "6a777ddf779c75dda854794770fe0e21c421dbf1",
+        "verified_at": "docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-09-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "005f6213dd06dce5ad86687514b4112e694b4067",
+        "verified_at": "docs/research-logs/2026-09-10-stage-09-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c",
+        "verified_at": "docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-09-research-and-sources.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c",
+        "verified_at": "docs/research-logs/2026-09-10-stage-09-research-and-sources.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-capability-landscape.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "fa0dab2aa8c6f4925309aeb125013ae8338ef886",
+        "verified_at": "docs/research-logs/2026-09-10-stage-10-capability-landscape.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a4d6db234ad2084352b59d4fde129260e8375e93",
+        "verified_at": "docs/research-logs/2026-09-10-stage-10-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "fd6b74e5f3ff7512fe2d978b662484131635fdc2",
+        "verified_at": "docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "849b0ae2d806344027c099668bf48fc5423edc62",
+        "verified_at": "docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-verification-receipt.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "38b506a07394ca43078f8fc62226d448b3c9aac3",
+        "verified_at": "docs/research-logs/2026-09-10-stage-10-verification-receipt.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-11-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3",
+        "verified_at": "docs/research-logs/2026-09-10-stage-11-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-11-execution-layer.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "58f7cd494d7361fc3beac569f1932174a76496a4",
+        "verified_at": "docs/research-logs/2026-09-10-stage-11-execution-layer.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-11-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7",
+        "verified_at": "docs/research-logs/2026-09-10-stage-11-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-11-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464",
+        "verified_at": "docs/research-logs/2026-09-10-stage-11-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-12-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "764a552a4d364a21ffc71509ce599b695c0c5d64",
+        "verified_at": "docs/research-logs/2026-09-10-stage-12-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-12-gap-analysis.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7",
+        "verified_at": "docs/research-logs/2026-09-10-stage-12-gap-analysis.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-12-guardrails.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f",
+        "verified_at": "docs/research-logs/2026-09-10-stage-12-guardrails.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-12-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5",
+        "verified_at": "docs/research-logs/2026-09-10-stage-12-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-build-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "7b303e39d7dd210c3a78b3f3f45f767338f1d936",
+        "verified_at": "docs/research-logs/2026-09-10-stage-13-build-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a4b08bf60a2034ce499e138473135b48aefd8760",
+        "verified_at": "docs/research-logs/2026-09-10-stage-13-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c",
+        "verified_at": "docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "45b7a15eabc8009742846879f2668449ab2c2da6",
+        "verified_at": "docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e6de03d32950a6f20ca6773f715adc1a75503731",
+        "verified_at": "docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-selection-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9",
+        "verified_at": "docs/research-logs/2026-09-10-stage-13-selection-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-skill-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a622f8edc429d2510f7673e9fd0981fe978495eb",
+        "verified_at": "docs/research-logs/2026-09-10-stage-13-skill-architecture.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b564e634ed2cdff275d271c65d58fc179d9fd3d9",
+        "verified_at": "docs/research-logs/2026-09-10-stage-13-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "60f29a0e74be247cbb0bb416d97725409daa8ff8",
+        "verified_at": "docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3",
+        "verified_at": "docs/research-logs/2026-09-10-stage-14-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-design-probes.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406",
+        "verified_at": "docs/research-logs/2026-09-10-stage-14-design-probes.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "63cd99a496c230287f34780136b24ce7f5912134",
+        "verified_at": "docs/research-logs/2026-09-10-stage-14-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-pack-authoring.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62",
+        "verified_at": "docs/research-logs/2026-09-10-stage-14-pack-authoring.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-pack-model.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8c5c0ee64f42410c33842405817f62c5250cc9da",
+        "verified_at": "docs/research-logs/2026-09-10-stage-14-pack-model.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-research-and-sources.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "181eccc3d68296edee67858831225eebbe0e3d64",
+        "verified_at": "docs/research-logs/2026-09-10-stage-14-research-and-sources.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "9d828b230d49258c40df0c5b7293c28b750011f0",
+        "verified_at": "docs/research-logs/2026-09-10-stage-14-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-candidate-pool.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-candidate-pool.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "003154d3b8203c6b12f946af209fdc0b37f25f2b",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-01.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-level-01.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-02.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "58240671642aceacb1ce95fdd12f26303d26e750",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-level-02.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-03.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-level-03.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-04.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-level-04.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-level-05.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "d632cdee381483d6151a02b1eb10200a7bdf22f1",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b881846db73a520f4cb5580d6fd1d36b4ade1710",
+        "verified_at": "docs/research-logs/2026-09-10-stage-15-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "023af49f61ea3e9fb5475cafcb4885068f770f14",
+        "verified_at": "docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-16.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "ad8ef4df33941999316b1776ba6386234516c98e",
+        "verified_at": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-16.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-17.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "eb84c93b9f6ef697ad9fc840863ffc324857b7bf",
+        "verified_at": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-17.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-cases.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "9dd91fd385401c2ebf03c2c473fc42d70fdf69ab",
+        "verified_at": "docs/research-logs/2026-09-12-stage-16-cases.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "3da33ce2c0871640a004e7ab594d7eb6ebeba9f4",
+        "verified_at": "docs/research-logs/2026-09-12-stage-16-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-fde-consultancy.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "6355a11cec15ac77ff9ccc3c4d5edf280862c42b",
+        "verified_at": "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-kakeibo.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "cd1d7b2e4d84ae19660a59de7ee0b5e6263d0f86",
+        "verified_at": "docs/research-logs/2026-09-12-stage-16-kakeibo.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "01f91e41d8cd49c5849453715c67e833c0f6d8bf",
+        "verified_at": "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-stress-test-design.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e8e9de03faac6458645b07af75ca09c8ce56240d",
+        "verified_at": "docs/research-logs/2026-09-12-stage-16-stress-test-design.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "ceed0bfbfb84d0374f50dca2ac5ed2e9bd079bd1",
+        "verified_at": "docs/research-logs/2026-09-12-stage-16-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-adversarial-fixtures.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "5f2174ea442f86db79ee20ba8f222729999a3aca",
+        "verified_at": "docs/research-logs/2026-09-12-stage-17-adversarial-fixtures.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-benchmark-design.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e57729b80aacc11e3279be346cc4bad5f4b6be20",
+        "verified_at": "docs/research-logs/2026-09-12-stage-17-benchmark-design.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-calibration.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "90ee5a9491513c787466b1e2ac81cf270aa639f5",
+        "verified_at": "docs/research-logs/2026-09-12-stage-17-calibration.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-case-contracts.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "926a5cf7c0989b6f685cd7c2331bcc66b8d39a05",
+        "verified_at": "docs/research-logs/2026-09-12-stage-17-case-contracts.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "80dae3cfe70a9b4eb767ce96b212a883f4c33a03",
+        "verified_at": "docs/research-logs/2026-09-12-stage-17-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-rubrics-and-regression.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "cadb5780a79ad2808da2df4fdb8baffdf7c482c1",
+        "verified_at": "docs/research-logs/2026-09-12-stage-17-rubrics-and-regression.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "0bd2e8e9e785065d2b1f56a5feceeb42c8ac8898",
+        "verified_at": "docs/research-logs/2026-09-12-stage-17-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-18-canonical-specifications.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "12a01cb14f756d7937423f03504d4e62cd3becac",
+        "verified_at": "docs/research-logs/2026-09-12-stage-18-canonical-specifications.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-18-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "dd5aa073af89ef7e17b474c9735d42b26a9fd176",
+        "verified_at": "docs/research-logs/2026-09-12-stage-18-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-18-specification-contracts.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "9bc3b6124287ddd76e847bafccabf92304bc7d77",
+        "verified_at": "docs/research-logs/2026-09-12-stage-18-specification-contracts.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-18-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "448fb1df48687030e39275b437a32a6974a33021",
+        "verified_at": "docs/research-logs/2026-09-12-stage-18-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/README.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "55d53c7b137970fb727b1458ca4b70498c3a12de",
+        "verified_at": "docs/research-logs/README.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/bootstrap-2-progress.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7",
+        "verified_at": "docs/research-logs/bootstrap-2-progress.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/bootstrap-3-progress.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "42727efd8c461ca25f49100e2c37c319e45ba0c5",
+        "verified_at": "docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-18.md"
+      }
+    },
+    {
+      "check": "Only current-stage additions",
+      "result": "PASS",
+      "evidence": {
+        "additions": [
+          "docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-18.md",
+          "docs/research-logs/2026-09-13-stage-19-executed-checks.json",
+          "docs/research-logs/2026-09-13-stage-19-public-readme.md",
+          "docs/research-logs/2026-09-13-stage-19-readme-design.md",
+          "docs/research-logs/2026-09-13-stage-19-verification-inputs.json",
+          "docs/research-logs/2026-09-13-stage-19-verifier.py"
+        ],
+        "allowed": [
+          "docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-18.md",
+          "docs/research-logs/2026-09-13-stage-19-executed-checks.json",
+          "docs/research-logs/2026-09-13-stage-19-public-readme.md",
+          "docs/research-logs/2026-09-13-stage-19-readme-design.md",
+          "docs/research-logs/2026-09-13-stage-19-verification-inputs.json",
+          "docs/research-logs/2026-09-13-stage-19-verifier.py"
+        ]
+      }
+    },
+    {
+      "check": "Research-log conformance has no unresolved failure",
+      "result": "PASS",
+      "evidence": "Direct substantive review and outcome limits are recorded in the research log, not inferred from keywords."
+    }
+  ],
+  "limits": [
+    "No installed Agent Skills execution",
+    "No independent reader study",
+    "No live customer experiment",
+    "No measured core/pack performance",
+    "No clean external installation",
+    "Remote commit checks are recorded separately after publication"
+  ]
+}

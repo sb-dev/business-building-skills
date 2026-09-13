@@ -1,0 +1,722 @@
+{
+  "stage": 19,
+  "purpose": "Design Public README",
+  "baseline": {
+    "head": "8dea24cd8772d4e0ce711829d5c46b040fbce6b5",
+    "tree": "8588e830963fca26eb8a3f68a71f420272dc8491",
+    "files": [
+      {
+        "path": "README.md",
+        "sha": "c2311bac2170cec37102ade6da92c1b2c7a803cd",
+        "size": 592
+      },
+      {
+        "path": "docs/01-business-building-skills-system-spec.md",
+        "sha": "c7a6647d5c772fd7b629e5c2529e4f83e6a40f60",
+        "size": 30271
+      },
+      {
+        "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+        "sha": "26bffd61baa32c419927594e57ddf5b76260b249",
+        "size": 232932
+      },
+      {
+        "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+        "sha": "f6d6832490485daf5592465b865d5cbff3c5d7be",
+        "size": 106101
+      },
+      {
+        "path": "docs/04-testing-and-benchmark-spec.md",
+        "sha": "799f7c24ad0c0cb1f5d4e453b84bd7fb1ae56359",
+        "size": 139531
+      },
+      {
+        "path": "docs/05-business-building-customisation-packs-spec.md",
+        "sha": "20b485dc9c9c224cf68a07a54efb1b634000b3fc",
+        "size": 31763
+      },
+      {
+        "path": "docs/06-business-building-extension-pack-catalogue.md",
+        "sha": "cca6a3dab8c192518df9cd7deadbba33ed616f59",
+        "size": 74710
+      },
+      {
+        "path": "docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+        "sha": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+        "size": 50813
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md",
+        "sha": "570081b938e618480fbcea577cd55a7cfb820a5a",
+        "size": 15464
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-01-conformance.md",
+        "sha": "611728b0058d54a9b2d776373934036da5a51f41",
+        "size": 16653
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md",
+        "sha": "12c8ded9b8ed852690278031689b5e0649af3d0a",
+        "size": 37483
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-02-conformance.md",
+        "sha": "b3eea49e0b92419db29ffca23940e8776108c204",
+        "size": 25752
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md",
+        "sha": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341",
+        "size": 35783
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+        "sha": "3936ab4f89ebe8437f54f21c0581e26f6d33920a",
+        "size": 34009
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md",
+        "sha": "db863e658a74e7657bac3072f6edea27eba33e82",
+        "size": 32112
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md",
+        "sha": "0746b850f795eef519bd8858b55c32e9cea7a8cb",
+        "size": 18932
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md",
+        "sha": "85ed61c24af9d8903701acb1d2956067f6b52b07",
+        "size": 17149
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md",
+        "sha": "e6ec298d61b8b52be3390c165de4976b984d6d71",
+        "size": 14812
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md",
+        "sha": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2",
+        "size": 9285
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md",
+        "sha": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07",
+        "size": 6382
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md",
+        "sha": "174747f3897963653295b3e9433fec65b93893f7",
+        "size": 6821
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md",
+        "sha": "172d81d7667e3478a05af4bca48177520460c840",
+        "size": 6821
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md",
+        "sha": "8155d23ee83be07526a12062efac3a1073cc2d34",
+        "size": 8372
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md",
+        "sha": "8fe1f320ef28490a00d4eb66f739cf5db7e57931",
+        "size": 8276
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md",
+        "sha": "92d903925fc2fcaf27c238816620ff7239af3acf",
+        "size": 42338
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-03-conformance.md",
+        "sha": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b",
+        "size": 35383
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md",
+        "sha": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5",
+        "size": 49204
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-03-professional-practice-map.md",
+        "sha": "7556e450ab5ae548881cb33d556d68d0e6f5efb4",
+        "size": 67861
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md",
+        "sha": "bf924b1355ac808d1b4126449d02b4500197eeca",
+        "size": 38818
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-04-conformance.md",
+        "sha": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81",
+        "size": 26637
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-05-conformance.md",
+        "sha": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0",
+        "size": 23517
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md",
+        "sha": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d",
+        "size": 30400
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md",
+        "sha": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916",
+        "size": 22638
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-05-research-and-checks.md",
+        "sha": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301",
+        "size": 28640
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-06-conformance.md",
+        "sha": "4f33bce2c7294fd17e2f565684369626f865dc28",
+        "size": 27704
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+        "sha": "091c8b69416c045042f4412caf348f59dad27c16",
+        "size": 35703
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-06-research-and-checks.md",
+        "sha": "225dbfcc90632287deff207be152132376257ac4",
+        "size": 38536
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-07-conformance.md",
+        "sha": "7af32ad9b55130a7fe7f59c9e365325df1489040",
+        "size": 50451
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md",
+        "sha": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df",
+        "size": 24523
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-07-research-and-checks.md",
+        "sha": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876",
+        "size": 39391
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+        "sha": "154cdcae565b9c1708cde7650680cf64226ebd71",
+        "size": 33621
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+        "sha": "a939843b6a262753ce64b5faef171d920beb925c",
+        "size": 28131
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-08-conformance.md",
+        "sha": "b008eeed22083dbf4d90dc695a3137127703a836",
+        "size": 40988
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+        "sha": "c626781cd0dbcaac139ab99d54b69beaadafdd29",
+        "size": 16415
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-08-research-and-checks.md",
+        "sha": "6a3ef07398a94ff1f736f6f882280e450db7d2bb",
+        "size": 21622
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md",
+        "sha": "6a777ddf779c75dda854794770fe0e21c421dbf1",
+        "size": 31121
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-09-conformance.md",
+        "sha": "005f6213dd06dce5ad86687514b4112e694b4067",
+        "size": 33857
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+        "sha": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c",
+        "size": 31526
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-09-research-and-sources.md",
+        "sha": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c",
+        "size": 22940
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-capability-landscape.md",
+        "sha": "fa0dab2aa8c6f4925309aeb125013ae8338ef886",
+        "size": 43915
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-conformance.md",
+        "sha": "a4d6db234ad2084352b59d4fde129260e8375e93",
+        "size": 33506
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md",
+        "sha": "fd6b74e5f3ff7512fe2d978b662484131635fdc2",
+        "size": 37229
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md",
+        "sha": "849b0ae2d806344027c099668bf48fc5423edc62",
+        "size": 25853
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-verification-receipt.md",
+        "sha": "38b506a07394ca43078f8fc62226d448b3c9aac3",
+        "size": 3056
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-11-conformance.md",
+        "sha": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3",
+        "size": 16343
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-11-execution-layer.md",
+        "sha": "58f7cd494d7361fc3beac569f1932174a76496a4",
+        "size": 18991
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-11-research-and-checks.md",
+        "sha": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7",
+        "size": 9920
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-11-verifier.py",
+        "sha": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464",
+        "size": 11488
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-12-conformance.md",
+        "sha": "764a552a4d364a21ffc71509ce599b695c0c5d64",
+        "size": 19294
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-12-gap-analysis.md",
+        "sha": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7",
+        "size": 18734
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-12-guardrails.md",
+        "sha": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f",
+        "size": 10308
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-12-verifier.py",
+        "sha": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5",
+        "size": 7130
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-build-command-contracts.md",
+        "sha": "7b303e39d7dd210c3a78b3f3f45f767338f1d936",
+        "size": 24881
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-conformance.md",
+        "sha": "a4b08bf60a2034ce499e138473135b48aefd8760",
+        "size": 27585
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md",
+        "sha": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c",
+        "size": 22329
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md",
+        "sha": "45b7a15eabc8009742846879f2668449ab2c2da6",
+        "size": 20885
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md",
+        "sha": "e6de03d32950a6f20ca6773f715adc1a75503731",
+        "size": 18296
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-selection-and-checks.md",
+        "sha": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9",
+        "size": 25983
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-skill-architecture.md",
+        "sha": "a622f8edc429d2510f7673e9fd0981fe978495eb",
+        "size": 19173
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-verifier.py",
+        "sha": "b564e634ed2cdff275d271c65d58fc179d9fd3d9",
+        "size": 18779
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md",
+        "sha": "60f29a0e74be247cbb0bb416d97725409daa8ff8",
+        "size": 38061
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-conformance.md",
+        "sha": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3",
+        "size": 17318
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-design-probes.md",
+        "sha": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406",
+        "size": 24609
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-executed-checks.json",
+        "sha": "63cd99a496c230287f34780136b24ce7f5912134",
+        "size": 26991
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-pack-authoring.md",
+        "sha": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62",
+        "size": 15348
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-pack-model.md",
+        "sha": "8c5c0ee64f42410c33842405817f62c5250cc9da",
+        "size": 14624
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-research-and-sources.md",
+        "sha": "181eccc3d68296edee67858831225eebbe0e3d64",
+        "size": 17351
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-verifier.py",
+        "sha": "9d828b230d49258c40df0c5b7293c28b750011f0",
+        "size": 26424
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-candidate-pool.json",
+        "sha": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13",
+        "size": 37431
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-conformance.md",
+        "sha": "003154d3b8203c6b12f946af209fdc0b37f25f2b",
+        "size": 20264
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-executed-checks.json",
+        "sha": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c",
+        "size": 15915
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+        "sha": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+        "size": 13930
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-02.md",
+        "sha": "58240671642aceacb1ce95fdd12f26303d26e750",
+        "size": 15547
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-03.md",
+        "sha": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+        "size": 21087
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+        "sha": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+        "size": 16055
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+        "sha": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+        "size": 26455
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md",
+        "sha": "d632cdee381483d6151a02b1eb10200a7bdf22f1",
+        "size": 19191
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-verifier.py",
+        "sha": "b881846db73a520f4cb5580d6fd1d36b4ade1710",
+        "size": 32061
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md",
+        "sha": "023af49f61ea3e9fb5475cafcb4885068f770f14",
+        "size": 18481
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-16.md",
+        "sha": "ad8ef4df33941999316b1776ba6386234516c98e",
+        "size": 6299
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-17.md",
+        "sha": "eb84c93b9f6ef697ad9fc840863ffc324857b7bf",
+        "size": 11143
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-cases.json",
+        "sha": "9dd91fd385401c2ebf03c2c473fc42d70fdf69ab",
+        "size": 106433
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-executed-checks.json",
+        "sha": "3da33ce2c0871640a004e7ab594d7eb6ebeba9f4",
+        "size": 69297
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md",
+        "sha": "6355a11cec15ac77ff9ccc3c4d5edf280862c42b",
+        "size": 31862
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-kakeibo.md",
+        "sha": "cd1d7b2e4d84ae19660a59de7ee0b5e6263d0f86",
+        "size": 32201
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md",
+        "sha": "01f91e41d8cd49c5849453715c67e833c0f6d8bf",
+        "size": 32788
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-stress-test-design.md",
+        "sha": "e8e9de03faac6458645b07af75ca09c8ce56240d",
+        "size": 25213
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-verifier.py",
+        "sha": "ceed0bfbfb84d0374f50dca2ac5ed2e9bd079bd1",
+        "size": 16487
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-adversarial-fixtures.md",
+        "sha": "5f2174ea442f86db79ee20ba8f222729999a3aca",
+        "size": 21937
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-benchmark-design.md",
+        "sha": "e57729b80aacc11e3279be346cc4bad5f4b6be20",
+        "size": 28642
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-calibration.md",
+        "sha": "90ee5a9491513c787466b1e2ac81cf270aa639f5",
+        "size": 10442
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-case-contracts.json",
+        "sha": "926a5cf7c0989b6f685cd7c2331bcc66b8d39a05",
+        "size": 186926
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-executed-checks.json",
+        "sha": "80dae3cfe70a9b4eb767ce96b212a883f4c33a03",
+        "size": 89223
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-rubrics-and-regression.md",
+        "sha": "cadb5780a79ad2808da2df4fdb8baffdf7c482c1",
+        "size": 30981
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-verifier.py",
+        "sha": "0bd2e8e9e785065d2b1f56a5feceeb42c8ac8898",
+        "size": 12917
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-18-canonical-specifications.md",
+        "sha": "12a01cb14f756d7937423f03504d4e62cd3becac",
+        "size": 38256
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-18-executed-checks.json",
+        "sha": "dd5aa073af89ef7e17b474c9735d42b26a9fd176",
+        "size": 206891
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-18-specification-contracts.json",
+        "sha": "9bc3b6124287ddd76e847bafccabf92304bc7d77",
+        "size": 58290
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-18-verifier.py",
+        "sha": "448fb1df48687030e39275b437a32a6974a33021",
+        "size": 16946
+      },
+      {
+        "path": "docs/research-logs/README.md",
+        "sha": "55d53c7b137970fb727b1458ca4b70498c3a12de",
+        "size": 1023
+      },
+      {
+        "path": "docs/research-logs/bootstrap-2-progress.md",
+        "sha": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7",
+        "size": 8927
+      },
+      {
+        "path": "docs/research-logs/bootstrap-3-progress.md",
+        "sha": "42727efd8c461ca25f49100e2c37c319e45ba0c5",
+        "size": 18417
+      }
+    ]
+  },
+  "original_spec_blob": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+  "prerequisite_receipt": {
+    "head": "8dea24cd8772d4e0ce711829d5c46b040fbce6b5",
+    "parent": "60259c647ec33a08f9cd55e44c7a708bc5647ce0",
+    "tree": "8588e830963fca26eb8a3f68a71f420272dc8491",
+    "only_changed_path": "docs/research-logs/bootstrap-3-progress.md",
+    "progress_blob": "42727efd8c461ca25f49100e2c37c319e45ba0c5",
+    "verification": "Fresh GitHub connector branch, Git commit, comparison, tree and full progress fetch; complete local mirror matches all 112 remote blobs."
+  },
+  "required_h2": [
+    "What business work it can perform",
+    "Evidence, experiments and commitments",
+    "Truthful growth",
+    "Installation",
+    "Quick start",
+    "Learn by Building — 5 levels × 3 examples",
+    "Project structure grows with the business work",
+    "Core skills",
+    "Extension Packs",
+    "Execution tools",
+    "Evaluation and benchmark",
+    "Canonical stress tests",
+    "Source-book lineage",
+    "Documentation",
+    "Boundary",
+    "Contributing",
+    "Licence"
+  ],
+  "positioning_location": "Opening paragraphs immediately after the exact H1; one of 18 target topics, not an extra H2.",
+  "primary_cases": [
+    {
+      "id": "E01",
+      "title": "Fixed fee or hourly price",
+      "level": 1,
+      "prompt_sha256": "68fdcdb02adb0fdceccd2a8c7c4cdec6d4a34b416287a6746a02e694076b554b",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+      "source_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+    },
+    {
+      "id": "E02",
+      "title": "Paid-channel hypothesis against a referral baseline",
+      "level": 1,
+      "prompt_sha256": "5356010c63c91a4dc1c80bd70687666e7952152db9ceb879e39c53f87e653413",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+      "source_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+    },
+    {
+      "id": "E03",
+      "title": "Digital offer covers copying but not creation",
+      "level": 1,
+      "prompt_sha256": "fcc53613dccc7d929dd4b8dc4937ddd3b3d9ff6a551487c3ca37649d8d4d440e",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+      "source_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa"
+    },
+    {
+      "id": "E04",
+      "title": "Bounded reporting diagnostic offer",
+      "level": 2,
+      "prompt_sha256": "7a0f8cf4d72ad1feb1f2672658d549befed50e48f20e904b5abe8d6d6524b6a3",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-02.md",
+      "source_blob": "58240671642aceacb1ce95fdd12f26303d26e750"
+    },
+    {
+      "id": "E05",
+      "title": "Readiness checklist to qualified sale",
+      "level": 2,
+      "prompt_sha256": "c80c75fe62e5a412ee8398289d17aa49399b00130ae104f54d25c64b9ead0285",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-02.md",
+      "source_blob": "58240671642aceacb1ce95fdd12f26303d26e750"
+    },
+    {
+      "id": "E06",
+      "title": "Subscription renewal and recovery component",
+      "level": 2,
+      "prompt_sha256": "ce6abce9af2a381fd0e35fe0bf2692f3c9649c29f6e8b25e282e49cc8110111d",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-02.md",
+      "source_blob": "58240671642aceacb1ce95fdd12f26303d26e750"
+    },
+    {
+      "id": "E07",
+      "title": "Solo local bicycle service",
+      "level": 3,
+      "prompt_sha256": "8c62913d6aa602ea2ae6eaf8438b0a0b423221830fa1010ffe99e4395b9ed56d",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-03.md",
+      "source_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+    },
+    {
+      "id": "E08",
+      "title": "Small team-reporting SaaS",
+      "level": 3,
+      "prompt_sha256": "3324b5f106b89c44f080827c39d8a8123c9185a76903d52c3e37718648cfcfb0",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-03.md",
+      "source_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+    },
+    {
+      "id": "E09",
+      "title": "Small notebook ecommerce business",
+      "level": 3,
+      "prompt_sha256": "888856a7e2bd0fce2cc4679b7ed804031e90d722db981d65acc5b342796665f1",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-03.md",
+      "source_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325"
+    },
+    {
+      "id": "E10",
+      "title": "Lead growth without qualified growth",
+      "level": 4,
+      "prompt_sha256": "dfbd605da79152d72499abdc5bedd706635bd1337b4810c97dda03725661197d",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+      "source_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+    },
+    {
+      "id": "E11",
+      "title": "Profitable service is over capacity",
+      "level": 4,
+      "prompt_sha256": "b4cd89e48b4c447b93866f82868970d5f6638a46c1fd7d9a05868be981a88da0",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+      "source_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+    },
+    {
+      "id": "E12",
+      "title": "Growing orders with an earlier cash crisis",
+      "level": 4,
+      "prompt_sha256": "5c5ef0e4afc7701de2ba94ed7940d2872966883eb46b4bbdb918e55e06859f9f",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+      "source_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8"
+    },
+    {
+      "id": "E13",
+      "title": "Kakeibo consumer subscription thesis",
+      "level": 5,
+      "prompt_sha256": "988cb949e098c51d79654ad31838a99352f534cbc98548170a1c1039e177a9b5",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+    },
+    {
+      "id": "E14",
+      "title": "One-person FDE consultancy thesis",
+      "level": 5,
+      "prompt_sha256": "7d3dd65131591330982febd6e760d177985b6d7a5769f7f326523bb138e36311",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+    },
+    {
+      "id": "E15",
+      "title": "Production Skills commercial ecosystem thesis",
+      "level": 5,
+      "prompt_sha256": "14278036bf91852821ed3ca6ff1322af705e813d691d278b734eb5574291fcfc",
+      "source_path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "source_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a"
+    }
+  ],
+  "scope": "README design, documentation review and deterministic quick-start calculation; no installed-agent or business execution claim."
+}
