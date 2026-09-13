@@ -18,10 +18,10 @@ Continuation started at `5d973121ecf87d40f6d9f97e0794be2723b0985b`, one commit a
 | 18 | COMPLETE | [Six canonical specifications and conformance](2026-09-12-stage-18-canonical-specifications.md), [actual checks](2026-09-12-stage-18-executed-checks.json) |
 | 19 | COMPLETE | [Public README design and conformance](2026-09-13-stage-19-readme-design.md), [actual checks](2026-09-13-stage-19-executed-checks.json) |
 | 20 | COMPLETE | [Cross-project review](2026-09-13-stage-20-cross-project-review.md), [actual checks](2026-09-13-stage-20-executed-checks.json) |
-| 21 | LOCAL PASS; remote receipt follows | [Production scaffold and conformance](2026-09-13-stage-21-production-scaffold.md) |
+| 21 | COMPLETE | [Production scaffold and conformance](2026-09-13-stage-21-production-scaffold.md) |
 | 22–26 | NOT STARTED | No later-stage work has begun |
 
-The committed boundary remains Stage 20; the Stage 21 scaffold now includes the user-authorised MIT licence and passes final local verification. It is not an installed, working, benchmarked or mature Agent Skills product. Synthetic business fixtures are not live commercial validation. No PR, merge, release, registry promotion or live business action is included.
+The Stage 21 production scaffold is complete, including the user-authorised MIT licence. Installed skill behaviour is the next stage. It is not an installed, working, benchmarked or mature Agent Skills product. Synthetic business fixtures are not live commercial validation. No PR, merge, release, registry promotion or live business action is included.
 
 ## Stage 16 completion receipt
 
@@ -262,3 +262,31 @@ This receipt changes only the live continuation index after actual content verif
 The user selected MIT on 13 September 2026, resolving the initial licence block. The scaffold contains the complete public entry, MIT LICENSE, contribution/change documents, all four command inventories, all fifteen exact example inputs with separate oracles, executable checks and scoped CI. Final local results and subsequent remote completion are recorded below. No Stage 22 work has begun.
 
 Final local evidence: 223 passing repository checks, eight passing tests and 131 passing preservation/review checks, all exit 0; no mandatory local failures or blocks. All fifteen accepted examples, complete command contracts and prior accepted research are preserved. The Stage 21 content commit and remote verification follow; progression remains conditional on their completion.
+
+## Stage 21 completion receipt
+
+**Status:** COMPLETE  
+**Content commit:** [`1856f4c742fa2961e65330e868dddf110373ee4f`](https://github.com/sb-dev/business-building-skills/commit/1856f4c742fa2961e65330e868dddf110373ee4f)  
+**Parent:** `7642d6bf326bca92c32337a0cb3560e37e520938`  
+**Content tree:** `8d370f71320163516b398afc5bdded1ddf4b6e90`  
+**Branch:** `feat/bootstrap-3`
+
+The complete production scaffold contains the public README, owner-authorised MIT licence, contribution guide and accurate change history; four full accepted command inventories with 32 nine-field selectors (10/8/7/7); all fifteen exact prompts and fixed facts (3/3/3/3/3); separate complete benchmark oracles; executable repository and arithmetic checks; and scoped CI. All six canonical specifications and accepted earlier research are preserved. No CRM, database, warehouse, marketing platform, accounting engine or speculative optional integration is created.
+
+Final local execution: **223 repository checks PASS**, **8 tests PASS**, **131 preservation/review checks PASS**, all exit 0, with no mandatory failures or blocks. The initial missing-licence results remain historical evidence; the user's `MIT` reply resolved that requirement. Verification covers 88 local links, all case/contract contents and the exact authorised licence text.
+
+[GitHub Actions run 34758297475](https://github.com/sb-dev/business-building-skills/actions/runs/34758297475) completed **success** on the exact content commit. The deterministic job and both repository/calculation steps passed. This is an actual remote CI result; it does not establish installed-agent or commercial behaviour.
+
+Remote verification checked the branch head, single exact parent and content tree, one-commit forward comparison with zero divergence, and all **71 changed files** individually at the immutable commit, comparing both complete UTF-8 content and Git blob identity. Exact scope: 69 added files and two authorised modifications (root README and live progress); no deletions. All 121 other inherited files remain unchanged, and exact pre-stage snapshots retain the old README and progress.
+
+| Final gate | Evidence | Result |
+|---|---|---|
+| Original Stage 21 exit and complete required scaffold | [Conformance](2026-09-13-stage-21-production-scaffold.md) and actual production paths | PASS |
+| User-owned distribution terms | Explicit MIT choice; LICENSE and recorded authority | PASS |
+| Required counts, prompts, contracts, links and calculations | [Complete executed checks](2026-09-13-stage-21-executed-checks.json) | PASS |
+| Earlier accepted work preserved | 123-file baseline; 121 unchanged files and two exact snapshots | PASS |
+| Actual remote CI | Successful workflow on `1856f4c742fa2961e65330e868dddf110373ee4f` | PASS |
+| Commit parent/tree/branch/scope and immutable bytes | Exact 71-file comparison and full-content verification | PASS |
+| Accurate claims and stage boundary | Scaffold and synthetic checks only; no installed/pack/commercial claim | PASS |
+
+Remaining blockers: **none**. After this progress-only receipt is verified, report Stage 21 COMPLETE and continue to Stage 22. The next stage must actually implement and exercise installed skills through the bounded idea-to-evidence-to-repair vertical.
