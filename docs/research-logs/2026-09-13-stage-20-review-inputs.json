@@ -1,0 +1,1087 @@
+{
+  "stage": 20,
+  "baseline": {
+    "files": [
+      {
+        "path": "README.md",
+        "sha": "c2311bac2170cec37102ade6da92c1b2c7a803cd",
+        "size": 592
+      },
+      {
+        "path": "docs/01-business-building-skills-system-spec.md",
+        "sha": "c7a6647d5c772fd7b629e5c2529e4f83e6a40f60",
+        "size": 30271
+      },
+      {
+        "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+        "sha": "26bffd61baa32c419927594e57ddf5b76260b249",
+        "size": 232932
+      },
+      {
+        "path": "docs/03-business-building-skills-repository-and-contracts-spec.md",
+        "sha": "f6d6832490485daf5592465b865d5cbff3c5d7be",
+        "size": 106101
+      },
+      {
+        "path": "docs/04-testing-and-benchmark-spec.md",
+        "sha": "799f7c24ad0c0cb1f5d4e453b84bd7fb1ae56359",
+        "size": 139531
+      },
+      {
+        "path": "docs/05-business-building-customisation-packs-spec.md",
+        "sha": "20b485dc9c9c224cf68a07a54efb1b634000b3fc",
+        "size": 31763
+      },
+      {
+        "path": "docs/06-business-building-extension-pack-catalogue.md",
+        "sha": "cca6a3dab8c192518df9cd7deadbba33ed616f59",
+        "size": 74710
+      },
+      {
+        "path": "docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+        "sha": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+        "size": 50813
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md",
+        "sha": "570081b938e618480fbcea577cd55a7cfb820a5a",
+        "size": 15464
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-01-conformance.md",
+        "sha": "611728b0058d54a9b2d776373934036da5a51f41",
+        "size": 16653
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md",
+        "sha": "12c8ded9b8ed852690278031689b5e0649af3d0a",
+        "size": 37483
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-02-conformance.md",
+        "sha": "b3eea49e0b92419db29ffca23940e8776108c204",
+        "size": 25752
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md",
+        "sha": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341",
+        "size": 35783
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+        "sha": "3936ab4f89ebe8437f54f21c0581e26f6d33920a",
+        "size": 34009
+      },
+      {
+        "path": "docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md",
+        "sha": "db863e658a74e7657bac3072f6edea27eba33e82",
+        "size": 32112
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md",
+        "sha": "0746b850f795eef519bd8858b55c32e9cea7a8cb",
+        "size": 18932
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md",
+        "sha": "85ed61c24af9d8903701acb1d2956067f6b52b07",
+        "size": 17149
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md",
+        "sha": "e6ec298d61b8b52be3390c165de4976b984d6d71",
+        "size": 14812
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md",
+        "sha": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2",
+        "size": 9285
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md",
+        "sha": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07",
+        "size": 6382
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md",
+        "sha": "174747f3897963653295b3e9433fec65b93893f7",
+        "size": 6821
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md",
+        "sha": "172d81d7667e3478a05af4bca48177520460c840",
+        "size": 6821
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md",
+        "sha": "8155d23ee83be07526a12062efac3a1073cc2d34",
+        "size": 8372
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md",
+        "sha": "8fe1f320ef28490a00d4eb66f739cf5db7e57931",
+        "size": 8276
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md",
+        "sha": "92d903925fc2fcaf27c238816620ff7239af3acf",
+        "size": 42338
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-03-conformance.md",
+        "sha": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b",
+        "size": 35383
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md",
+        "sha": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5",
+        "size": 49204
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-03-professional-practice-map.md",
+        "sha": "7556e450ab5ae548881cb33d556d68d0e6f5efb4",
+        "size": 67861
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md",
+        "sha": "bf924b1355ac808d1b4126449d02b4500197eeca",
+        "size": 38818
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-04-conformance.md",
+        "sha": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81",
+        "size": 26637
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-05-conformance.md",
+        "sha": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0",
+        "size": 23517
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md",
+        "sha": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d",
+        "size": 30400
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md",
+        "sha": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916",
+        "size": 22638
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-05-research-and-checks.md",
+        "sha": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301",
+        "size": 28640
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-06-conformance.md",
+        "sha": "4f33bce2c7294fd17e2f565684369626f865dc28",
+        "size": 27704
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+        "sha": "091c8b69416c045042f4412caf348f59dad27c16",
+        "size": 35703
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-06-research-and-checks.md",
+        "sha": "225dbfcc90632287deff207be152132376257ac4",
+        "size": 38536
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-07-conformance.md",
+        "sha": "7af32ad9b55130a7fe7f59c9e365325df1489040",
+        "size": 50451
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md",
+        "sha": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df",
+        "size": 24523
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-07-research-and-checks.md",
+        "sha": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876",
+        "size": 39391
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+        "sha": "154cdcae565b9c1708cde7650680cf64226ebd71",
+        "size": 33621
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+        "sha": "a939843b6a262753ce64b5faef171d920beb925c",
+        "size": 28131
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-08-conformance.md",
+        "sha": "b008eeed22083dbf4d90dc695a3137127703a836",
+        "size": 40988
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+        "sha": "c626781cd0dbcaac139ab99d54b69beaadafdd29",
+        "size": 16415
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-08-research-and-checks.md",
+        "sha": "6a3ef07398a94ff1f736f6f882280e450db7d2bb",
+        "size": 21622
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md",
+        "sha": "6a777ddf779c75dda854794770fe0e21c421dbf1",
+        "size": 31121
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-09-conformance.md",
+        "sha": "005f6213dd06dce5ad86687514b4112e694b4067",
+        "size": 33857
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+        "sha": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c",
+        "size": 31526
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-09-research-and-sources.md",
+        "sha": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c",
+        "size": 22940
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-capability-landscape.md",
+        "sha": "fa0dab2aa8c6f4925309aeb125013ae8338ef886",
+        "size": 43915
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-conformance.md",
+        "sha": "a4d6db234ad2084352b59d4fde129260e8375e93",
+        "size": 33506
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md",
+        "sha": "fd6b74e5f3ff7512fe2d978b662484131635fdc2",
+        "size": 37229
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md",
+        "sha": "849b0ae2d806344027c099668bf48fc5423edc62",
+        "size": 25853
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-10-verification-receipt.md",
+        "sha": "38b506a07394ca43078f8fc62226d448b3c9aac3",
+        "size": 3056
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-11-conformance.md",
+        "sha": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3",
+        "size": 16343
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-11-execution-layer.md",
+        "sha": "58f7cd494d7361fc3beac569f1932174a76496a4",
+        "size": 18991
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-11-research-and-checks.md",
+        "sha": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7",
+        "size": 9920
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-11-verifier.py",
+        "sha": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464",
+        "size": 11488
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-12-conformance.md",
+        "sha": "764a552a4d364a21ffc71509ce599b695c0c5d64",
+        "size": 19294
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-12-gap-analysis.md",
+        "sha": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7",
+        "size": 18734
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-12-guardrails.md",
+        "sha": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f",
+        "size": 10308
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-12-verifier.py",
+        "sha": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5",
+        "size": 7130
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-build-command-contracts.md",
+        "sha": "7b303e39d7dd210c3a78b3f3f45f767338f1d936",
+        "size": 24881
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-conformance.md",
+        "sha": "a4b08bf60a2034ce499e138473135b48aefd8760",
+        "size": 27585
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md",
+        "sha": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c",
+        "size": 22329
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md",
+        "sha": "45b7a15eabc8009742846879f2668449ab2c2da6",
+        "size": 20885
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md",
+        "sha": "e6de03d32950a6f20ca6773f715adc1a75503731",
+        "size": 18296
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-selection-and-checks.md",
+        "sha": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9",
+        "size": 25983
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-skill-architecture.md",
+        "sha": "a622f8edc429d2510f7673e9fd0981fe978495eb",
+        "size": 19173
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-13-verifier.py",
+        "sha": "b564e634ed2cdff275d271c65d58fc179d9fd3d9",
+        "size": 18779
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md",
+        "sha": "60f29a0e74be247cbb0bb416d97725409daa8ff8",
+        "size": 38061
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-conformance.md",
+        "sha": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3",
+        "size": 17318
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-design-probes.md",
+        "sha": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406",
+        "size": 24609
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-executed-checks.json",
+        "sha": "63cd99a496c230287f34780136b24ce7f5912134",
+        "size": 26991
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-pack-authoring.md",
+        "sha": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62",
+        "size": 15348
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-pack-model.md",
+        "sha": "8c5c0ee64f42410c33842405817f62c5250cc9da",
+        "size": 14624
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-research-and-sources.md",
+        "sha": "181eccc3d68296edee67858831225eebbe0e3d64",
+        "size": 17351
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-14-verifier.py",
+        "sha": "9d828b230d49258c40df0c5b7293c28b750011f0",
+        "size": 26424
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-candidate-pool.json",
+        "sha": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13",
+        "size": 37431
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-conformance.md",
+        "sha": "003154d3b8203c6b12f946af209fdc0b37f25f2b",
+        "size": 20264
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-executed-checks.json",
+        "sha": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c",
+        "size": 15915
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-01.md",
+        "sha": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+        "size": 13930
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-02.md",
+        "sha": "58240671642aceacb1ce95fdd12f26303d26e750",
+        "size": 15547
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-03.md",
+        "sha": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+        "size": 21087
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-04.md",
+        "sha": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+        "size": 16055
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-level-05.md",
+        "sha": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+        "size": 26455
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md",
+        "sha": "d632cdee381483d6151a02b1eb10200a7bdf22f1",
+        "size": 19191
+      },
+      {
+        "path": "docs/research-logs/2026-09-10-stage-15-verifier.py",
+        "sha": "b881846db73a520f4cb5580d6fd1d36b4ade1710",
+        "size": 32061
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md",
+        "sha": "023af49f61ea3e9fb5475cafcb4885068f770f14",
+        "size": 18481
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-16.md",
+        "sha": "ad8ef4df33941999316b1776ba6386234516c98e",
+        "size": 6299
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-17.md",
+        "sha": "eb84c93b9f6ef697ad9fc840863ffc324857b7bf",
+        "size": 11143
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-cases.json",
+        "sha": "9dd91fd385401c2ebf03c2c473fc42d70fdf69ab",
+        "size": 106433
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-executed-checks.json",
+        "sha": "3da33ce2c0871640a004e7ab594d7eb6ebeba9f4",
+        "size": 69297
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md",
+        "sha": "6355a11cec15ac77ff9ccc3c4d5edf280862c42b",
+        "size": 31862
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-kakeibo.md",
+        "sha": "cd1d7b2e4d84ae19660a59de7ee0b5e6263d0f86",
+        "size": 32201
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md",
+        "sha": "01f91e41d8cd49c5849453715c67e833c0f6d8bf",
+        "size": 32788
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-stress-test-design.md",
+        "sha": "e8e9de03faac6458645b07af75ca09c8ce56240d",
+        "size": 25213
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-16-verifier.py",
+        "sha": "ceed0bfbfb84d0374f50dca2ac5ed2e9bd079bd1",
+        "size": 16487
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-adversarial-fixtures.md",
+        "sha": "5f2174ea442f86db79ee20ba8f222729999a3aca",
+        "size": 21937
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-benchmark-design.md",
+        "sha": "e57729b80aacc11e3279be346cc4bad5f4b6be20",
+        "size": 28642
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-calibration.md",
+        "sha": "90ee5a9491513c787466b1e2ac81cf270aa639f5",
+        "size": 10442
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-case-contracts.json",
+        "sha": "926a5cf7c0989b6f685cd7c2331bcc66b8d39a05",
+        "size": 186926
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-executed-checks.json",
+        "sha": "80dae3cfe70a9b4eb767ce96b212a883f4c33a03",
+        "size": 89223
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-rubrics-and-regression.md",
+        "sha": "cadb5780a79ad2808da2df4fdb8baffdf7c482c1",
+        "size": 30981
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-17-verifier.py",
+        "sha": "0bd2e8e9e785065d2b1f56a5feceeb42c8ac8898",
+        "size": 12917
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-18-canonical-specifications.md",
+        "sha": "12a01cb14f756d7937423f03504d4e62cd3becac",
+        "size": 38256
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-18-executed-checks.json",
+        "sha": "dd5aa073af89ef7e17b474c9735d42b26a9fd176",
+        "size": 206891
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-18-specification-contracts.json",
+        "sha": "9bc3b6124287ddd76e847bafccabf92304bc7d77",
+        "size": 58290
+      },
+      {
+        "path": "docs/research-logs/2026-09-12-stage-18-verifier.py",
+        "sha": "448fb1df48687030e39275b437a32a6974a33021",
+        "size": 16946
+      },
+      {
+        "path": "docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-18.md",
+        "sha": "42727efd8c461ca25f49100e2c37c319e45ba0c5",
+        "size": 18417
+      },
+      {
+        "path": "docs/research-logs/2026-09-13-stage-19-executed-checks.json",
+        "sha": "69eae061a804dc8018a23e97aa8122e2f51b12a7",
+        "size": 69814
+      },
+      {
+        "path": "docs/research-logs/2026-09-13-stage-19-public-readme.md",
+        "sha": "863e8db3d1546badaa3ffa589e720ea457c65a3f",
+        "size": 25664
+      },
+      {
+        "path": "docs/research-logs/2026-09-13-stage-19-readme-design.md",
+        "sha": "4f5d821155fb289951a097ed2ef650047aa4ea7d",
+        "size": 29005
+      },
+      {
+        "path": "docs/research-logs/2026-09-13-stage-19-verification-inputs.json",
+        "sha": "008a92bc4f4b91907a1db761094052350ca0d150",
+        "size": 26471
+      },
+      {
+        "path": "docs/research-logs/2026-09-13-stage-19-verifier.py",
+        "sha": "c6b7108cf694fd60849b947953f6da35f6f5b3f3",
+        "size": 12883
+      },
+      {
+        "path": "docs/research-logs/README.md",
+        "sha": "55d53c7b137970fb727b1458ca4b70498c3a12de",
+        "size": 1023
+      },
+      {
+        "path": "docs/research-logs/bootstrap-2-progress.md",
+        "sha": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7",
+        "size": 8927
+      },
+      {
+        "path": "docs/research-logs/bootstrap-3-progress.md",
+        "sha": "5ea320b2d9318d353252eef548e7e95b33f48229",
+        "size": 26001
+      }
+    ],
+    "head": "e42a44fee5ca6291348b317a0d3edbd762b49198",
+    "tree": "a21376d277b4f02b9718a7e820340c9d5f208eef"
+  },
+  "sources": [
+    {
+      "head": "80b209968b366662c01a8ded5ecb6c30bb6beb0b",
+      "path": "README.md",
+      "repo": "deep-research-skills",
+      "sha": "bf998f74284b23bdc844b46182ec637b67391948",
+      "id": "S01",
+      "url": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/README.md",
+      "size": 508,
+      "sha256": "db73f42d6765955be2f0a474c55866523b20f43f9890b7cf31dca8a1efed6ee9",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete README; bootstrap state."
+    },
+    {
+      "head": "80b209968b366662c01a8ded5ecb6c30bb6beb0b",
+      "path": "docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md",
+      "repo": "deep-research-skills",
+      "sha": "8ff62c92bada2861ece3684a9e73a83da75d9d94",
+      "id": "S02",
+      "url": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md",
+      "size": 45755,
+      "sha256": "ace7b5c73242d68f0391d3571300e96a0d92f6d8c6f7a9e1b1822e3defa05cf0",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Purpose and governing principles; question/evidence/claim/provenance model (§9); workflow/artifacts (§11); effort and stopping (§12). Seed citations are attributed source content, not reverified legal/provider facts."
+    },
+    {
+      "head": "b15f3134552ea763d434783d655aea44c0e01925",
+      "path": "README.md",
+      "repo": "legal-skills",
+      "sha": "9969886778f338c660afd44db23adea5192203c4",
+      "id": "S03",
+      "url": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/README.md",
+      "size": 533,
+      "sha256": "38c1844934f422b650c4e3a50909c1f5a10f4edf38f1e1cc7e0092ecd71d8b15",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete README; bootstrap state."
+    },
+    {
+      "head": "b15f3134552ea763d434783d655aea44c0e01925",
+      "path": "docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md",
+      "repo": "legal-skills",
+      "sha": "21d5589e3980b1d707341b43bebec467329d4fa3",
+      "id": "S04",
+      "url": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md",
+      "size": 65587,
+      "sha256": "2b578f07f95206a06f0d6c7ce3b262ecf3c9398a6c1975e29e80e057691e7adf",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Purpose, boundary and principles; jurisdiction/authority/time (§11), matter records (§12), change traceability (§14), uncertainty/escalation (§15), confidentiality (§16). Underlying legal authorities were not newly accessed or adopted as live advice."
+    },
+    {
+      "head": "684986785ceafbc031419d6fc7287dbfe0578dba",
+      "path": "README.md",
+      "repo": "software-engineering-skills",
+      "sha": "e1c8629ff57115a504a3d786f47b7903195510e6",
+      "id": "S05",
+      "url": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/README.md",
+      "size": 516,
+      "sha256": "9f9a0cfc77a835af6062799c7226c86f856c104a61cdcca8e239d5102261f6d6",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete README; bootstrap state."
+    },
+    {
+      "head": "684986785ceafbc031419d6fc7287dbfe0578dba",
+      "path": "docs/research-logs/2026-09-07-software-engineering-skills-new-project-bootstrap-process.md",
+      "repo": "software-engineering-skills",
+      "sha": "fde2441221ec34867621e9a847a18733918dda4e",
+      "id": "S06",
+      "url": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/docs/research-logs/2026-09-07-software-engineering-skills-new-project-bootstrap-process.md",
+      "size": 69876,
+      "sha256": "92b878253d211949419d7302572042a978fe18489e432b4e78ef6365d51e3652",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Thesis/principles (§§4–5), change/contract model (§12), workflow (§13), risk/verification (§14), optional Pactwright boundary (§28). No execution of this bootstrap."
+    },
+    {
+      "head": "db888866787542311e9e29e15ed92362f5f283e5",
+      "path": "README.md",
+      "repo": "ui-ux-design-skills",
+      "sha": "41e77239ccfffe9f02ac60de573014c8e28b5b22",
+      "id": "S07",
+      "url": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/README.md",
+      "size": 13629,
+      "sha256": "4986c5ed5b8bba97f495dcb35945d4df6c2b68583f26bb24b78a9fda79df7973",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Opening capabilities, approval, installation advertisement and quick start; tools/checks/documentation/boundary/status/licence. Advertised installer was not run."
+    },
+    {
+      "head": "db888866787542311e9e29e15ed92362f5f283e5",
+      "path": "docs/01-ui-ux-design-skills-system-spec.md",
+      "repo": "ui-ux-design-skills",
+      "sha": "5e295b408d9a6d6dc4b7f99e38159ad4b849f5bd",
+      "id": "S08",
+      "url": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/01-ui-ux-design-skills-system-spec.md",
+      "size": 16389,
+      "sha256": "113fdc0599b67f61224f3441477176d96b64f5de5eda87523e66e4d31c77c82a",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Purpose/goals/non-goals/principles; uiux-handoff responsibility, independent skills and family boundary (§19)."
+    },
+    {
+      "head": "db888866787542311e9e29e15ed92362f5f283e5",
+      "path": "docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md",
+      "repo": "ui-ux-design-skills",
+      "sha": "c548fb36864619ae7f4395f9cd3701c0683de1ab",
+      "id": "S09",
+      "url": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md",
+      "size": 20404,
+      "sha256": "226bf4caf6483d9040ced3045227c5a6331c193594186e025472fa88210fd5d8",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Evidence/confidence/conflicts (§§7–9), interaction hypotheses (§14), fidelity/approval/preservation (§§22–24), evaluation/diagnosis (§§31–34), handoff/traceability (§§39–43), consumer-state boundary (§46)."
+    },
+    {
+      "head": "db888866787542311e9e29e15ed92362f5f283e5",
+      "path": "skills/uiux-handoff/SKILL.md",
+      "repo": "ui-ux-design-skills",
+      "sha": "3a787d5c364c87a6e894126d5c86cd048cddefc7",
+      "id": "S10",
+      "url": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/skills/uiux-handoff/SKILL.md",
+      "size": 2257,
+      "sha256": "c5b3885db35f5f3cfb395cddbf0b0460502f8fd7683e9695a035ba7fb69730a8",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete actual uiux-handoff SKILL.md; activation, commands, artefacts, external execution and ownership. No installed execution."
+    },
+    {
+      "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+      "path": "README.md",
+      "repo": "production-skills",
+      "sha": "64f4eda77e55f509c4b51a543f7cff8467ae4369",
+      "id": "S11",
+      "url": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/README.md",
+      "size": 12994,
+      "sha256": "76c1849aaa2da322e80ec0fb76e987eb221ba65fbe4a1935b20699ca4160b2d1",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete README, including family-owned/consumer-owned state and explicit non-retroactive bootstrap migration."
+    },
+    {
+      "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+      "path": "docs/specs/01-production-skills-family-system.md",
+      "repo": "production-skills",
+      "sha": "6b6f8aaa293c4918d0a9d6fe32156c71ea7cafb8",
+      "id": "S12",
+      "url": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/01-production-skills-family-system.md",
+      "size": 7681,
+      "sha256": "0dc023e0a99f943db2a92bfc277f22fe5214b9a6f23c090274b0e05073d25b5e",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Architecture, ownership, principles, terminology, maturity, anti-goals and change rule (§§3–9)."
+    },
+    {
+      "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+      "path": "docs/specs/02-production-skills-project-contract.md",
+      "repo": "production-skills",
+      "sha": "2141714623094e04e2a1127b72af9754a7749648",
+      "id": "S13",
+      "url": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/02-production-skills-project-contract.md",
+      "size": 15249,
+      "sha256": "92388370f1abf3cafad356389060de58a8fdf1ebc96e4a3b57b1e799bb95e674",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Required responsibilities; production baseline; skill/command/resource/tool/pack/standalone/binding contracts (§§8–14); working/benchmarked/mature and compatibility gates (§§16–20)."
+    },
+    {
+      "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+      "path": "docs/specs/04-cross-domain-orchestration-and-integration.md",
+      "repo": "production-skills",
+      "sha": "2be3cdecaf8e326d1c1076bb6044d60bbbe14616",
+      "id": "S14",
+      "url": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/04-cross-domain-orchestration-and-integration.md",
+      "size": 6368,
+      "sha256": "55fa0a8ad34aecf05d7a0809899c8d491209384b0b2aa434afde100cc3b21aba",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete canonical cross-domain integration specification."
+    },
+    {
+      "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+      "path": "registry/projects/business-building-skills.json",
+      "repo": "production-skills",
+      "sha": "23dc277a74130c6ea4404c8e2653519639948352",
+      "id": "S15",
+      "url": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/registry/projects/business-building-skills.json",
+      "size": 577,
+      "sha256": "9f0ad9f54695c6e83607b86743ed156d528d14f2dce634dc88d80d8ce631de1b",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete actual business-building registry record; proposed status and planned Pactwright compatibility."
+    },
+    {
+      "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+      "path": "README.md",
+      "repo": "pactwright",
+      "sha": "d606902f6f75aaa68b0552efb97fbcd9770d30df",
+      "id": "S16",
+      "url": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/README.md",
+      "size": 5151,
+      "sha256": "9998c1587640b4c8b23ec12b5e67f522b5b200a7bed01ffa453a98e5f0fe7ed6",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete current README. CLI and release statements are documented interfaces/claims, not new install/release evidence."
+    },
+    {
+      "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+      "path": "docs/research-logs/2026-08-11-pactwright-system-architecture.md",
+      "repo": "pactwright",
+      "sha": "34ffa4ca49a160cc344e27e32c6e399ff665af70",
+      "id": "S17",
+      "url": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-system-architecture.md",
+      "size": 16409,
+      "sha256": "2b9ce9f38516bce22879d83ba073665925317279b343dd790c08785b7948501e",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Purpose/system model (§§1–2), architectural boundaries (§4), state model (§6), invariants/governing rules (§§11–12). Historical architecture is distinguished from inspected runtime code."
+    },
+    {
+      "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+      "path": "docs/research-logs/2026-08-11-pactwright-delivery-graph-and-lifecycle-engineering-spec.md",
+      "repo": "pactwright",
+      "sha": "9d1e3970305cad71d64c64e79ca1d2b1d4db51b3",
+      "id": "S18",
+      "url": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-delivery-graph-and-lifecycle-engineering-spec.md",
+      "size": 26163,
+      "sha256": "9bf5eabc87e55a031df1b49027bf59a22de0c976ba8c560dda15cd5f7cce04f0",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Stable semantics (§2), decision/contract/brief (§§8–10), delivery Evidence (§12), supersession (§15)."
+    },
+    {
+      "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+      "path": "packages/standard/skills/contract-writing.md",
+      "repo": "pactwright",
+      "sha": "a4069406ed3b27003cafb7786f70c1961ddd1df8",
+      "id": "S19",
+      "url": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/packages/standard/skills/contract-writing.md",
+      "size": 656,
+      "sha256": "c971dc4b623df00fa40b0516c3d7fd38cdd02322500afe7f12c651fbdd8c37d6",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete default agent-pack contract-writing resource."
+    },
+    {
+      "repo": "pactwright",
+      "path": "src/pack/manifest.ts",
+      "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+      "sha": "ab48f8494eda93006900bf5fce3acb36eaa264c2",
+      "id": "S20",
+      "url": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/src/pack/manifest.ts",
+      "size": 8514,
+      "sha256": "2e796eec08881af3412e2b32f6ab95b04e7100e863794a22622c95b374160aca",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete actual TypeScript pack manifest parser, pack.yml identity and flat skill-path resolution. Read, not executed."
+    },
+    {
+      "repo": "pactwright",
+      "path": "src/graph/schema.ts",
+      "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+      "sha": "168dac3367a49398672713364b6fe3702164be2f",
+      "id": "S21",
+      "url": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/src/graph/schema.ts",
+      "size": 5502,
+      "sha256": "0d3c86697794b99575ab4cae0e176fb78f69e43590f5b8b22e215a407637af91",
+      "access": "GitHub connector; full UTF-8 fetched and blob identity matched",
+      "read_scope": "Complete actual TypeScript core node schema and decision outcomes. Read, not executed."
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "CP01",
+      "project": "Deep Research Skills",
+      "repo": "deep-research-skills",
+      "sources": [
+        "S01",
+        "S02"
+      ],
+      "business_owns": "Commercial question, customer/value decision, experiment and economic consequence.",
+      "other_owns": "Question-driven source acquisition, provenance, contradiction analysis, synthesis and claim audit.",
+      "handoff": "Decision/use, population, claim, required freshness, known facts and unknowns, source restrictions, effort ceiling and requested evidence.",
+      "return": "Attributable source/evidence/claim links, underlying-source independence, contrary evidence, dates and uncertainty; not invented local customers.",
+      "limit": "Default main contains only three bootstrap files. Compare declared architecture; do not claim installed capability.",
+      "decision": "Compose through a bounded research brief and evidence return; keep the business decision with Business Building."
+    },
+    {
+      "id": "CP02",
+      "project": "Legal Skills",
+      "repo": "legal-skills",
+      "sources": [
+        "S03",
+        "S04"
+      ],
+      "business_owns": "Commercial intention, actual terms/behaviour, economics, customer obligations and authorised business response.",
+      "other_owns": "Legal scoping, authoritative research, applicability, legal drafting/review and professional escalation.",
+      "handoff": "HF01–HF07 issue packet: exact versions, actors, jurisdictions, dates, conduct, data-use limits, contradictions and precise legal question.",
+      "return": "Author/remit, reviewed facts, authority/status, jurisdiction, effective/valid-as-of dates, conditions, required/prohibited acts and re-review trigger.",
+      "limit": "Default main contains only bootstrap intent. This review makes no current substantive-law finding or professional clearance.",
+      "decision": "Consume attributed, applicable constraints; unresolved jurisdiction/authority blocks the affected commitment, not honest draft work."
+    },
+    {
+      "id": "CP03",
+      "project": "UI/UX Design Skills",
+      "repo": "ui-ux-design-skills",
+      "sources": [
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "business_owns": "Customer/value hypothesis, offer and terms, commercial experiment, money/capacity constraints and scale decision.",
+      "other_owns": "Interaction requirements, hypotheses, lowest useful fidelity, accessibility, states, UX validation and engineering handoff.",
+      "handoff": "Accepted offer/price/rights, target task, evidence and unknowns, experiment question, no-change constraints and any applicable legal finding.",
+      "return": "Interaction contract, states/recovery/accessibility, measured task outcomes and limits, hypothesis state, accepted design version and unresolved implementation risk.",
+      "limit": "Actual SKILL.md and command references exist; README says semantic benchmark and clean installation remain gates. No installation was performed here.",
+      "decision": "Use UX to resolve interaction uncertainty; retain its confidence vocabulary without upgrading it to paid demand, retention or commercial approval."
+    },
+    {
+      "id": "CP04",
+      "project": "Software Engineering Skills",
+      "repo": "software-engineering-skills",
+      "sources": [
+        "S05",
+        "S06"
+      ],
+      "business_owns": "Business outcome in scope, accepted commercial facts/obligations, decision rule and permitted commitment.",
+      "other_owns": "Repository inspection, affected technical contracts, code change, appropriate verification, failure diagnosis and implementation repair.",
+      "handoff": "Bounded behaviour, exact inputs/outputs, invariants, privacy/rights/quality constraints, acceptance examples and change authority; UX contract if relevant.",
+      "return": "Actual revision/diff, tests and results, remaining limitations, operational assumptions and any business-relevant behaviour change.",
+      "limit": "Default main has three bootstrap files. Engineering intent is not an implemented/validated skill product.",
+      "decision": "Keep architecture and tools in engineering; a passing test proves only tested behaviour, not demand, delivered customer value or permission to deploy."
+    },
+    {
+      "id": "CP05",
+      "project": "Production Skills family",
+      "repo": "production-skills",
+      "sources": [
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15"
+      ],
+      "business_owns": "Reusable business semantics, skills/packs/cases/benchmarks and domain evidence. Consuming business owns its actual records and choices.",
+      "other_owns": "Family principles, packaging/evaluation/composition contracts, registry/maturity and evidence-qualified shared abstractions.",
+      "handoff": "Stable project identity, revision, scoped capabilities, actual gate evidence and optional compatibility status; no customer state or private project knowledge.",
+      "return": "Structural conformance and registry metadata; no central commercial-quality score.",
+      "limit": "Observed registry status remains proposed, Pactwright planned; no registry mutation or maturity promotion in Stage 20.",
+      "decision": "Preserve independent distribution and domain-owned evaluation. New bootstrap recipes do not retroactively reopen accepted Stages 1–15."
+    },
+    {
+      "id": "CP06",
+      "project": "Pactwright",
+      "repo": "pactwright",
+      "sources": [
+        "S14",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21"
+      ],
+      "business_owns": "Business meaning, assumptions, evidence interpretation, commercial constraints and smallest-change proposal.",
+      "other_owns": "Delivery lifecycle authority, typed canonical nodes, authorised decisions/contracts/briefs and delivery Evidence; optional extensions own their additional state.",
+      "handoff": "A proposed bounded deliverable and acceptance conditions with preserved versions, scope/non-scope, limits and actual owner authority; through the consuming project’s configured agent pack.",
+      "return": "Delivered outputs, verification/results, deviations and residual risks tied to actual revision; post-delivery observations separate.",
+      "limit": "Inspected runtime uses `pack.yml` and `skills/<name>.md`; no inference that `PACK.md` or `integrations/pactwright.yml` is automatically loaded. No integration executed.",
+      "decision": "Keep optional explicit binding and existing lifecycle. Business review cannot directly create/mutate graph nodes or turn delivery Evidence into commercial validation."
+    }
+  ],
+  "abstraction_candidates": [
+    {
+      "id": "A01",
+      "name": "Assumption / evidence / decision handoff",
+      "sources": [
+        "S02",
+        "S04",
+        "S09",
+        "S14",
+        "S17"
+      ],
+      "common_need": "Preserve the meaning, provenance, uncertainty and authority of information at an ownership transition.",
+      "variations": "Research source/claim distinctions; legal authority/applicability; UX mechanism/hypothesis; business observation/interpretation/commitment; Pactwright canonical delivery records.",
+      "decision": "Use existing documented handoffs. Candidate only; no common database, schema migration or runtime.",
+      "production_evidence": "Architecture and source-contract recurrence observed; no independent implemented Business Building handoff run yet."
+    },
+    {
+      "id": "A02",
+      "name": "Experiment contract",
+      "sources": [
+        "S02",
+        "S06",
+        "S09",
+        "S18"
+      ],
+      "common_need": "Choose a bounded question, adequate method, comparison and predeclared decision-changing evidence.",
+      "variations": "Research may resolve uncertainty without intervention; UX tests an interaction/human outcome; software verifies behaviour; business needs actual customer/economic evidence. Pactwright Contract records agreed delivery, not experimental validity.",
+      "decision": "Retain domain records and terminology. Link dependent tests; do not create one experiment platform or treat every test pass as market validation.",
+      "production_evidence": "Repeated design needs, including existing UX/source contracts; no measured cross-domain equivalence established."
+    },
+    {
+      "id": "A03",
+      "name": "Constraint diagnosis and smallest sufficient correction",
+      "sources": [
+        "S02",
+        "S04",
+        "S06",
+        "S08",
+        "S09",
+        "S12",
+        "S18"
+      ],
+      "common_need": "Locate the owning failure layer, preserve sound work and review only true dependencies.",
+      "variations": "Research claim/source; legal fact/authority/clause; UX requirement/flow/state; engineering requirement/interface/code/test; business channel/price/delivery/cash. Pactwright scope changes return through its lifecycle.",
+      "decision": "Share the already accepted principle; retain domain repair units and authority. No central diagnosis engine or cross-project automatic rewrite.",
+      "production_evidence": "Strong architectural recurrence; owning-domain runtime/business repair evidence still needed for new shared implementation."
+    },
+    {
+      "id": "A04",
+      "name": "Validity / confidence metadata",
+      "sources": [
+        "S02",
+        "S04",
+        "S09",
+        "S17",
+        "S21"
+      ],
+      "common_need": "Prevent evidence from becoming stronger, more current or more broadly applicable during translation.",
+      "variations": "Event/publication/retrieval dates; legal commencement and valid-as-of; UX VALIDATED_IN_CONTEXT; business cohort/window/cost basis; graph byte revision and delivery completion. None is a universal confidence number.",
+      "decision": "Preserve original field meanings and add explicit context in the receiving record. No scalar score or enum conversion that invents confidence.",
+      "production_evidence": "Source-level semantic differences observed; insufficient evidence for a universal validity engine."
+    }
+  ],
+  "handoff_reviews": [
+    {
+      "id": "H01",
+      "comparison": "CP01",
+      "kind": "Authored synthetic handoff review, not a research run",
+      "input": "A research report attributes the same acquisition-cost claim to three articles that repeat one underlying source. Local paid-customer data is absent.",
+      "adequate_return": "Retain all locators but identify one underlying evidence source; preserve claim scope/dates and missing local cohort data. Business Building can propose a test, not report verified local CAC.",
+      "reject": "Count three independent validations or import the advertised number as the business’s observed CAC.",
+      "preserved": "Accepted customer/offer and actual evidence states.",
+      "result": "PASS"
+    },
+    {
+      "id": "H02",
+      "comparison": "CP02",
+      "kind": "Authored synthetic handoff review, not legal research or advice",
+      "input": "A cancellation proposal has exact current terms and observed UI behaviour, but applicable jurisdiction and reviewer finding are unknown.",
+      "adequate_return": "Prepare the bounded issue packet, preserve rights and facts, request applicability/conditions through an authorised reviewer. Keep the dependent legal commitment unresolved.",
+      "reject": "Infer the jurisdiction from the business-model pack or call the proposal legally approved because copy is clear.",
+      "preserved": "Existing refund/cancellation obligations; no message sent or terms changed.",
+      "result": "PASS"
+    },
+    {
+      "id": "H03",
+      "comparison": "CP03",
+      "kind": "Authored synthetic vocabulary/ownership review, not a UX trial",
+      "input": "UX marks a cancellation interaction VALIDATED_IN_CONTEXT for observed task completion in a stated small study. The business has no subsequent paid-renewal evidence.",
+      "adequate_return": "Retain the scoped task observation and confidence label, study limits and accepted terms. Paid renewal and satisfaction remain separate unresolved claims.",
+      "reject": "Map the UX label to business PASS for retention or permission to scale paid acquisition.",
+      "preserved": "Price, renewal/refund terms, audience and accepted interaction scope.",
+      "result": "PASS"
+    },
+    {
+      "id": "H04",
+      "comparison": "CP04",
+      "kind": "Authored synthetic delivery review, not a software execution",
+      "input": "Engineering reports a tested calculation fix at a named revision; unit tests pass on synthetic input. The customer experiment has not run.",
+      "adequate_return": "Record the implementation and exact tested numerical behaviour. Recalculate affected business scenarios with actual inputs when available; keep demand and experiment outcome unknown.",
+      "reject": "Treat the synthetic test pass as observed demand, new revenue or authorisation to deploy/charge.",
+      "preserved": "Metric definitions, input evidence states, unrelated code and commercial decisions.",
+      "result": "PASS"
+    },
+    {
+      "id": "H05",
+      "comparison": "CP05",
+      "kind": "Actual registry/source inspection with an authored adverse interpretation",
+      "input": "The pinned family registry records business-building-skills as proposed with Pactwright planned; local documents and design checks exist.",
+      "adequate_return": "Retain the actual registered status and separate current design evidence. Later promotion requires its own gates and authority.",
+      "reject": "Overwrite the registry to mature because the structural files and links pass.",
+      "preserved": "Family registry and all other repositories remain unchanged.",
+      "result": "PASS"
+    },
+    {
+      "id": "H06",
+      "comparison": "CP06",
+      "kind": "Authored synthetic semantic/format review, not Pactwright execution",
+      "input": "A Pactwright Evidence record says a prototype was delivered and verified. A Business Extension Pack has PACK.md; the inspected agent-pack parser requires pack.yml and flat skill resources.",
+      "adequate_return": "Keep prototype delivery distinct from exposure/customer outcome; keep the business pack outside the agent-pack loader. An optional binding must be explicitly implemented and tested at compatible versions.",
+      "reject": "Mark the business experiment successful from delivery Evidence or claim that copying PACK.md installs a Pactwright agent pack.",
+      "preserved": "Core node/lifecycle semantics, original business evidence and standalone skill distribution.",
+      "result": "PASS"
+    }
+  ],
+  "prerequisite_receipt": {
+    "head": "e42a44fee5ca6291348b317a0d3edbd762b49198",
+    "parent": "7527bfbd53c5cf07e7d23e14e48c621d83bfd610",
+    "progress_blob": "5ea320b2d9318d353252eef548e7e95b33f48229",
+    "only_changed_path": "docs/research-logs/bootstrap-3-progress.md"
+  },
+  "claim_scope": "Actual repository/source comparison and authored bounded handoff reviews. No installed cross-project execution, commercial observation, professional legal conclusion or maturity promotion."
+}

@@ -17,8 +17,7 @@ Continuation started at `5d973121ecf87d40f6d9f97e0794be2723b0985b`, one commit a
 | 17 | COMPLETE | [Benchmark design and conformance](2026-09-12-stage-17-benchmark-design.md), [actual design checks](2026-09-12-stage-17-executed-checks.json) |
 | 18 | COMPLETE | [Six canonical specifications and conformance](2026-09-12-stage-18-canonical-specifications.md), [actual checks](2026-09-12-stage-18-executed-checks.json) |
 | 19 | COMPLETE | [Public README design and conformance](2026-09-13-stage-19-readme-design.md), [actual checks](2026-09-13-stage-19-executed-checks.json) |
-| 20 | Content PASS; remote commit/receipt pending | [Cross-project review](2026-09-13-stage-20-cross-project-review.md), [actual checks](2026-09-13-stage-20-executed-checks.json) |
-| 21–26 | NOT STARTED | No later-stage outputs are included |
+| 20–26 | NOT STARTED | No later-stage outputs are included |
 
 This remains a bootstrap design workspace. It is not an installed, working, benchmarked or mature Agent Skills product. Synthetic business fixtures are not live commercial validation. No PR, merge, release, registry promotion or live business action is included.
 
@@ -102,7 +101,7 @@ This receipt follows those actual checks and changes only the live continuation 
 
 ## Continuation rule
 
-Complete, verify, commit and remotely verify the current stage before beginning the next. Reconstruct every new stage from the original specification and accepted branch evidence. Preserve Stages 1–15; a genuine contradiction requiring their modification needs the user's decision under execution-contract §2. Stage 18 content and completion receipt are verified. Stage 19 content and completion receipt are verified. The user explicitly directed continued sequential execution after each completed stage; historical stop notes do not require a new pause. Stage 20 is the current task. Proceed to Stage 21 after its complete content and remote receipt pass unless a genuine blocker requires user input.
+Complete, verify, commit and remotely verify the current stage before beginning the next. Reconstruct every new stage from the original specification and accepted branch evidence. Preserve Stages 1–15; a genuine contradiction requiring their modification needs the user's decision under execution-contract §2. Stage 18 content and completion receipt are verified. Stage 19 content and its remote commit are verified. Verify the completion receipt commit/ref before beginning Stage 20, Cross-Project Review.
 
 ## Stage 18 content verification at the content commit
 
@@ -206,9 +205,4 @@ A non-force update advanced only `feat/bootstrap-3`. Fresh connector reads verif
 
 This receipt follows those actual checks and changes only the live continuation index. Its pre-receipt form remains at the content commit; all six other Stage 19 files remain unchanged. Verify the receipt's actual commit, parent, resulting blob and branch ref before the next stage. Remote identity checks do not imply signing, independent professional endorsement or commercial validation.
 
-**Historical Stage 19 continuation boundary:** Stage 19 is complete; Stages 20–26 have not started. This session stops at the verified stage boundary under execution-contract §9 after reconstructing the extensive accepted specification and documentation contracts. The next task is Stage 20, Cross-Project Review, beginning with the original specification and these immutable outputs. There is no unresolved Stage 19 blocker and no permission request.
-
-
-## Stage 20 content verification
-
-The complete cross-project review compares all six named projects using 21 actual pinned source files. It records six bounded integration opportunities and handoff reviews, all four suggested repeated concepts, concrete Pactwright pack-format differences and separate domain/evidence/approval meanings. The three bootstrap-only default branches are explicitly limited to architectural intent; no installed cross-project run, registry promotion or shared implementation is claimed. All 118 inherited identities are preserved, with this index’s previous bytes in the Stage 19 snapshot. Final local verification returned 264 PASS, 0 FAIL, exit 0 on Python 3.12.14, covering all 21 sources and 72 links. Remote completion evidence follows this local conformance.
+**Continuation boundary:** Stage 19 is complete; Stages 20–26 have not started. This session stops at the verified stage boundary under execution-contract §9 after reconstructing the extensive accepted specification and documentation contracts. The next task is Stage 20, Cross-Project Review, beginning with the original specification and these immutable outputs. There is no unresolved Stage 19 blocker and no permission request.

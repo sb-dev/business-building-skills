@@ -1,0 +1,1908 @@
+{
+  "stage": 20,
+  "kind": "Executed source/documentation integrity verification",
+  "executed_at": "2026-09-13T10:58:01.682682+00:00",
+  "python": "3.12.14",
+  "baseline_head": "e42a44fee5ca6291348b317a0d3edbd762b49198",
+  "source_count": 21,
+  "comparison_count": 6,
+  "abstraction_count": 4,
+  "handoff_review_count": 6,
+  "links_checked": 72,
+  "checks": [
+    {
+      "check": "Original comparison subjects",
+      "result": "PASS",
+      "evidence": [
+        "Deep Research Skills",
+        "Legal Skills",
+        "UI/UX Design Skills",
+        "Software Engineering Skills",
+        "Production Skills family",
+        "Pactwright"
+      ]
+    },
+    {
+      "check": "Six exact comparison subjects",
+      "result": "PASS",
+      "evidence": [
+        "Deep Research Skills",
+        "Legal Skills",
+        "UI/UX Design Skills",
+        "Software Engineering Skills",
+        "Production Skills family",
+        "Pactwright"
+      ]
+    },
+    {
+      "check": "Four suggested concept families",
+      "result": "PASS",
+      "evidence": [
+        "Assumption / evidence / decision handoff",
+        "Experiment contract",
+        "Constraint diagnosis and smallest sufficient correction",
+        "Validity / confidence metadata"
+      ]
+    },
+    {
+      "check": "Six bounded reviews and opportunities",
+      "result": "PASS",
+      "evidence": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06"
+      ]
+    },
+    {
+      "check": "Twenty-one accessed sources",
+      "result": "PASS",
+      "evidence": 21
+    },
+    {
+      "check": "Sources cover all six named repositories",
+      "result": "PASS",
+      "evidence": [
+        "deep-research-skills",
+        "legal-skills",
+        "pactwright",
+        "production-skills",
+        "software-engineering-skills",
+        "ui-ux-design-skills"
+      ]
+    },
+    {
+      "check": "Accessed source S01",
+      "result": "PASS",
+      "evidence": {
+        "repository": "deep-research-skills",
+        "head": "80b209968b366662c01a8ded5ecb6c30bb6beb0b",
+        "path": "README.md",
+        "blob": "bf998f74284b23bdc844b46182ec637b67391948",
+        "read_scope": "Complete README; bootstrap state."
+      }
+    },
+    {
+      "check": "Pinned source URL S01",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/README.md"
+    },
+    {
+      "check": "Accessed source S02",
+      "result": "PASS",
+      "evidence": {
+        "repository": "deep-research-skills",
+        "head": "80b209968b366662c01a8ded5ecb6c30bb6beb0b",
+        "path": "docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md",
+        "blob": "8ff62c92bada2861ece3684a9e73a83da75d9d94",
+        "read_scope": "Purpose and governing principles; question/evidence/claim/provenance model (§9); workflow/artifacts (§11); effort and stopping (§12). Seed citations are attributed source content, not reverified legal/provider facts."
+      }
+    },
+    {
+      "check": "Pinned source URL S02",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Accessed source S03",
+      "result": "PASS",
+      "evidence": {
+        "repository": "legal-skills",
+        "head": "b15f3134552ea763d434783d655aea44c0e01925",
+        "path": "README.md",
+        "blob": "9969886778f338c660afd44db23adea5192203c4",
+        "read_scope": "Complete README; bootstrap state."
+      }
+    },
+    {
+      "check": "Pinned source URL S03",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/README.md"
+    },
+    {
+      "check": "Accessed source S04",
+      "result": "PASS",
+      "evidence": {
+        "repository": "legal-skills",
+        "head": "b15f3134552ea763d434783d655aea44c0e01925",
+        "path": "docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md",
+        "blob": "21d5589e3980b1d707341b43bebec467329d4fa3",
+        "read_scope": "Purpose, boundary and principles; jurisdiction/authority/time (§11), matter records (§12), change traceability (§14), uncertainty/escalation (§15), confidentiality (§16). Underlying legal authorities were not newly accessed or adopted as live advice."
+      }
+    },
+    {
+      "check": "Pinned source URL S04",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Accessed source S05",
+      "result": "PASS",
+      "evidence": {
+        "repository": "software-engineering-skills",
+        "head": "684986785ceafbc031419d6fc7287dbfe0578dba",
+        "path": "README.md",
+        "blob": "e1c8629ff57115a504a3d786f47b7903195510e6",
+        "read_scope": "Complete README; bootstrap state."
+      }
+    },
+    {
+      "check": "Pinned source URL S05",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/README.md"
+    },
+    {
+      "check": "Accessed source S06",
+      "result": "PASS",
+      "evidence": {
+        "repository": "software-engineering-skills",
+        "head": "684986785ceafbc031419d6fc7287dbfe0578dba",
+        "path": "docs/research-logs/2026-09-07-software-engineering-skills-new-project-bootstrap-process.md",
+        "blob": "fde2441221ec34867621e9a847a18733918dda4e",
+        "read_scope": "Thesis/principles (§§4–5), change/contract model (§12), workflow (§13), risk/verification (§14), optional Pactwright boundary (§28). No execution of this bootstrap."
+      }
+    },
+    {
+      "check": "Pinned source URL S06",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/docs/research-logs/2026-09-07-software-engineering-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Accessed source S07",
+      "result": "PASS",
+      "evidence": {
+        "repository": "ui-ux-design-skills",
+        "head": "db888866787542311e9e29e15ed92362f5f283e5",
+        "path": "README.md",
+        "blob": "41e77239ccfffe9f02ac60de573014c8e28b5b22",
+        "read_scope": "Opening capabilities, approval, installation advertisement and quick start; tools/checks/documentation/boundary/status/licence. Advertised installer was not run."
+      }
+    },
+    {
+      "check": "Pinned source URL S07",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/README.md"
+    },
+    {
+      "check": "Accessed source S08",
+      "result": "PASS",
+      "evidence": {
+        "repository": "ui-ux-design-skills",
+        "head": "db888866787542311e9e29e15ed92362f5f283e5",
+        "path": "docs/01-ui-ux-design-skills-system-spec.md",
+        "blob": "5e295b408d9a6d6dc4b7f99e38159ad4b849f5bd",
+        "read_scope": "Purpose/goals/non-goals/principles; uiux-handoff responsibility, independent skills and family boundary (§19)."
+      }
+    },
+    {
+      "check": "Pinned source URL S08",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/01-ui-ux-design-skills-system-spec.md"
+    },
+    {
+      "check": "Accessed source S09",
+      "result": "PASS",
+      "evidence": {
+        "repository": "ui-ux-design-skills",
+        "head": "db888866787542311e9e29e15ed92362f5f283e5",
+        "path": "docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md",
+        "blob": "c548fb36864619ae7f4395f9cd3701c0683de1ab",
+        "read_scope": "Evidence/confidence/conflicts (§§7–9), interaction hypotheses (§14), fidelity/approval/preservation (§§22–24), evaluation/diagnosis (§§31–34), handoff/traceability (§§39–43), consumer-state boundary (§46)."
+      }
+    },
+    {
+      "check": "Pinned source URL S09",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md"
+    },
+    {
+      "check": "Accessed source S10",
+      "result": "PASS",
+      "evidence": {
+        "repository": "ui-ux-design-skills",
+        "head": "db888866787542311e9e29e15ed92362f5f283e5",
+        "path": "skills/uiux-handoff/SKILL.md",
+        "blob": "3a787d5c364c87a6e894126d5c86cd048cddefc7",
+        "read_scope": "Complete actual uiux-handoff SKILL.md; activation, commands, artefacts, external execution and ownership. No installed execution."
+      }
+    },
+    {
+      "check": "Pinned source URL S10",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/skills/uiux-handoff/SKILL.md"
+    },
+    {
+      "check": "Accessed source S11",
+      "result": "PASS",
+      "evidence": {
+        "repository": "production-skills",
+        "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+        "path": "README.md",
+        "blob": "64f4eda77e55f509c4b51a543f7cff8467ae4369",
+        "read_scope": "Complete README, including family-owned/consumer-owned state and explicit non-retroactive bootstrap migration."
+      }
+    },
+    {
+      "check": "Pinned source URL S11",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/README.md"
+    },
+    {
+      "check": "Accessed source S12",
+      "result": "PASS",
+      "evidence": {
+        "repository": "production-skills",
+        "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+        "path": "docs/specs/01-production-skills-family-system.md",
+        "blob": "6b6f8aaa293c4918d0a9d6fe32156c71ea7cafb8",
+        "read_scope": "Architecture, ownership, principles, terminology, maturity, anti-goals and change rule (§§3–9)."
+      }
+    },
+    {
+      "check": "Pinned source URL S12",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/01-production-skills-family-system.md"
+    },
+    {
+      "check": "Accessed source S13",
+      "result": "PASS",
+      "evidence": {
+        "repository": "production-skills",
+        "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+        "path": "docs/specs/02-production-skills-project-contract.md",
+        "blob": "2141714623094e04e2a1127b72af9754a7749648",
+        "read_scope": "Required responsibilities; production baseline; skill/command/resource/tool/pack/standalone/binding contracts (§§8–14); working/benchmarked/mature and compatibility gates (§§16–20)."
+      }
+    },
+    {
+      "check": "Pinned source URL S13",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/02-production-skills-project-contract.md"
+    },
+    {
+      "check": "Accessed source S14",
+      "result": "PASS",
+      "evidence": {
+        "repository": "production-skills",
+        "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+        "path": "docs/specs/04-cross-domain-orchestration-and-integration.md",
+        "blob": "2be3cdecaf8e326d1c1076bb6044d60bbbe14616",
+        "read_scope": "Complete canonical cross-domain integration specification."
+      }
+    },
+    {
+      "check": "Pinned source URL S14",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/04-cross-domain-orchestration-and-integration.md"
+    },
+    {
+      "check": "Accessed source S15",
+      "result": "PASS",
+      "evidence": {
+        "repository": "production-skills",
+        "head": "20979e0c68ac4b37433374df7fe10ceb2e7ee69a",
+        "path": "registry/projects/business-building-skills.json",
+        "blob": "23dc277a74130c6ea4404c8e2653519639948352",
+        "read_scope": "Complete actual business-building registry record; proposed status and planned Pactwright compatibility."
+      }
+    },
+    {
+      "check": "Pinned source URL S15",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/registry/projects/business-building-skills.json"
+    },
+    {
+      "check": "Accessed source S16",
+      "result": "PASS",
+      "evidence": {
+        "repository": "pactwright",
+        "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+        "path": "README.md",
+        "blob": "d606902f6f75aaa68b0552efb97fbcd9770d30df",
+        "read_scope": "Complete current README. CLI and release statements are documented interfaces/claims, not new install/release evidence."
+      }
+    },
+    {
+      "check": "Pinned source URL S16",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/README.md"
+    },
+    {
+      "check": "Accessed source S17",
+      "result": "PASS",
+      "evidence": {
+        "repository": "pactwright",
+        "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+        "path": "docs/research-logs/2026-08-11-pactwright-system-architecture.md",
+        "blob": "34ffa4ca49a160cc344e27e32c6e399ff665af70",
+        "read_scope": "Purpose/system model (§§1–2), architectural boundaries (§4), state model (§6), invariants/governing rules (§§11–12). Historical architecture is distinguished from inspected runtime code."
+      }
+    },
+    {
+      "check": "Pinned source URL S17",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-system-architecture.md"
+    },
+    {
+      "check": "Accessed source S18",
+      "result": "PASS",
+      "evidence": {
+        "repository": "pactwright",
+        "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+        "path": "docs/research-logs/2026-08-11-pactwright-delivery-graph-and-lifecycle-engineering-spec.md",
+        "blob": "9d1e3970305cad71d64c64e79ca1d2b1d4db51b3",
+        "read_scope": "Stable semantics (§2), decision/contract/brief (§§8–10), delivery Evidence (§12), supersession (§15)."
+      }
+    },
+    {
+      "check": "Pinned source URL S18",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-delivery-graph-and-lifecycle-engineering-spec.md"
+    },
+    {
+      "check": "Accessed source S19",
+      "result": "PASS",
+      "evidence": {
+        "repository": "pactwright",
+        "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+        "path": "packages/standard/skills/contract-writing.md",
+        "blob": "a4069406ed3b27003cafb7786f70c1961ddd1df8",
+        "read_scope": "Complete default agent-pack contract-writing resource."
+      }
+    },
+    {
+      "check": "Pinned source URL S19",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/packages/standard/skills/contract-writing.md"
+    },
+    {
+      "check": "Accessed source S20",
+      "result": "PASS",
+      "evidence": {
+        "repository": "pactwright",
+        "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+        "path": "src/pack/manifest.ts",
+        "blob": "ab48f8494eda93006900bf5fce3acb36eaa264c2",
+        "read_scope": "Complete actual TypeScript pack manifest parser, pack.yml identity and flat skill-path resolution. Read, not executed."
+      }
+    },
+    {
+      "check": "Pinned source URL S20",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/src/pack/manifest.ts"
+    },
+    {
+      "check": "Accessed source S21",
+      "result": "PASS",
+      "evidence": {
+        "repository": "pactwright",
+        "head": "207ac08507f9687be9eca105915bbd3db1e1dd4b",
+        "path": "src/graph/schema.ts",
+        "blob": "168dac3367a49398672713364b6fe3702164be2f",
+        "read_scope": "Complete actual TypeScript core node schema and decision outcomes. Read, not executed."
+      }
+    },
+    {
+      "check": "Pinned source URL S21",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/src/graph/schema.ts"
+    },
+    {
+      "check": "Complete comparison CP01",
+      "result": "PASS",
+      "evidence": "Deep Research Skills"
+    },
+    {
+      "check": "Complete comparison CP02",
+      "result": "PASS",
+      "evidence": "Legal Skills"
+    },
+    {
+      "check": "Complete comparison CP03",
+      "result": "PASS",
+      "evidence": "UI/UX Design Skills"
+    },
+    {
+      "check": "Complete comparison CP04",
+      "result": "PASS",
+      "evidence": "Software Engineering Skills"
+    },
+    {
+      "check": "Complete comparison CP05",
+      "result": "PASS",
+      "evidence": "Production Skills family"
+    },
+    {
+      "check": "Complete comparison CP06",
+      "result": "PASS",
+      "evidence": "Pactwright"
+    },
+    {
+      "check": "Complete candidate A01",
+      "result": "PASS",
+      "evidence": "Use existing documented handoffs. Candidate only; no common database, schema migration or runtime."
+    },
+    {
+      "check": "Complete candidate A02",
+      "result": "PASS",
+      "evidence": "Retain domain records and terminology. Link dependent tests; do not create one experiment platform or treat every test pass as market validation."
+    },
+    {
+      "check": "Complete candidate A03",
+      "result": "PASS",
+      "evidence": "Share the already accepted principle; retain domain repair units and authority. No central diagnosis engine or cross-project automatic rewrite."
+    },
+    {
+      "check": "Complete candidate A04",
+      "result": "PASS",
+      "evidence": "Preserve original field meanings and add explicit context in the receiving record. No scalar score or enum conversion that invents confidence."
+    },
+    {
+      "check": "Recorded bounded review H01",
+      "result": "PASS",
+      "evidence": "Authored synthetic handoff review, not a research run"
+    },
+    {
+      "check": "Recorded bounded review H02",
+      "result": "PASS",
+      "evidence": "Authored synthetic handoff review, not legal research or advice"
+    },
+    {
+      "check": "Recorded bounded review H03",
+      "result": "PASS",
+      "evidence": "Authored synthetic vocabulary/ownership review, not a UX trial"
+    },
+    {
+      "check": "Recorded bounded review H04",
+      "result": "PASS",
+      "evidence": "Authored synthetic delivery review, not a software execution"
+    },
+    {
+      "check": "Recorded bounded review H05",
+      "result": "PASS",
+      "evidence": "Actual registry/source inspection with an authored adverse interpretation"
+    },
+    {
+      "check": "Recorded bounded review H06",
+      "result": "PASS",
+      "evidence": "Authored synthetic semantic/format review, not Pactwright execution"
+    },
+    {
+      "check": "Actual registry state retained",
+      "result": "PASS",
+      "evidence": {
+        "id": "business-building-skills",
+        "repository": "https://github.com/sb-dev/business-building-skills",
+        "domain": "business-building",
+        "status": "proposed",
+        "capabilities": [
+          "opportunity-framing",
+          "customer-problem-model",
+          "value-proposition",
+          "offer-design",
+          "pricing",
+          "monetisation",
+          "lead-generation",
+          "channel-strategy",
+          "sales-conversion",
+          "delivery-economics",
+          "retention-expansion",
+          "unit-economics",
+          "cash-risk",
+          "business-experimentation",
+          "constraint-diagnosis"
+        ],
+        "pactwright": "planned"
+      }
+    },
+    {
+      "check": "Format difference grounded in actual parser",
+      "result": "PASS",
+      "evidence": "Direct source inspection; no parser invocation or compatibility pass claimed."
+    },
+    {
+      "check": "Actual Pactwright core node ownership",
+      "result": "PASS",
+      "evidence": "Node schema inspected; no business node types added."
+    },
+    {
+      "check": "No production implementation in Stage 20",
+      "result": "PASS",
+      "evidence": "Current stage adds only review/evidence/progress files."
+    },
+    {
+      "check": "Preserve README.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c2311bac2170cec37102ade6da92c1b2c7a803cd",
+        "path": "README.md"
+      }
+    },
+    {
+      "check": "Preserve docs/01-business-building-skills-system-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c7a6647d5c772fd7b629e5c2529e4f83e6a40f60",
+        "path": "docs/01-business-building-skills-system-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/02-business-building-skills-workflows-and-artifacts-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "26bffd61baa32c419927594e57ddf5b76260b249",
+        "path": "docs/02-business-building-skills-workflows-and-artifacts-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/03-business-building-skills-repository-and-contracts-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "f6d6832490485daf5592465b865d5cbff3c5d7be",
+        "path": "docs/03-business-building-skills-repository-and-contracts-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/04-testing-and-benchmark-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "799f7c24ad0c0cb1f5d4e453b84bd7fb1ae56359",
+        "path": "docs/04-testing-and-benchmark-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/05-business-building-customisation-packs-spec.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "20b485dc9c9c224cf68a07a54efb1b634000b3fc",
+        "path": "docs/05-business-building-customisation-packs-spec.md"
+      }
+    },
+    {
+      "check": "Preserve docs/06-business-building-extension-pack-catalogue.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "cca6a3dab8c192518df9cd7deadbba33ed616f59",
+        "path": "docs/06-business-building-extension-pack-catalogue.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a0ac1b6c78a0cde8ccd9aca6fda6c5b0880c516d",
+        "path": "docs/research-logs/2026-09-08-business-building-skills-new-project-bootstrap-process.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "570081b938e618480fbcea577cd55a7cfb820a5a",
+        "path": "docs/research-logs/2026-09-09-bootstrap-2-execution-contract.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-01-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "611728b0058d54a9b2d776373934036da5a51f41",
+        "path": "docs/research-logs/2026-09-09-stage-01-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "12c8ded9b8ed852690278031689b5e0649af3d0a",
+        "path": "docs/research-logs/2026-09-09-stage-01-domain-and-professional-boundary.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-02-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b3eea49e0b92419db29ffca23940e8776108c204",
+        "path": "docs/research-logs/2026-09-09-stage-02-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "2dfc5c0d571068aef45f2416cc8f1fc1789e1341",
+        "path": "docs/research-logs/2026-09-09-stage-02-five-book-capability-corpus.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "3936ab4f89ebe8437f54f21c0581e26f6d33920a",
+        "path": "docs/research-logs/2026-09-09-stage-02-reconciliation-and-taxonomy.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "db863e658a74e7657bac3072f6edea27eba33e82",
+        "path": "docs/research-logs/2026-09-09-stage-02-source-to-capability-matrix.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "0746b850f795eef519bd8858b55c32e9cea7a8cb",
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-03.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "85ed61c24af9d8903701acb1d2956067f6b52b07",
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-06.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e6ec298d61b8b52be3390c165de4976b984d6d71",
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-08.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "34ed42fd10fb93c2b7bb91df2a2ec12429cf2ec2",
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10-content.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "cd4ed08f4a2b8caecf8683bbd4986a953d2e6c07",
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-10.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "174747f3897963653295b3e9433fec65b93893f7",
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-11.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "172d81d7667e3478a05af4bca48177520460c840",
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-12.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8155d23ee83be07526a12062efac3a1073cc2d34",
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-13.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8fe1f320ef28490a00d4eb66f739cf5db7e57931",
+        "path": "docs/research-logs/2026-09-10-bootstrap-2-progress-through-stage-14.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "92d903925fc2fcaf27c238816620ff7239af3acf",
+        "path": "docs/research-logs/2026-09-10-stage-03-claims-failures-and-principles.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-03-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c0bf6dc9f5b99eff5fcddd762ed03c94cf47757b",
+        "path": "docs/research-logs/2026-09-10-stage-03-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "3bc642bbabf5e73bb35dc093f82af6ad8af8fbb5",
+        "path": "docs/research-logs/2026-09-10-stage-03-evidence-and-terminology.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-03-professional-practice-map.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "7556e450ab5ae548881cb33d556d68d0e6f5efb4",
+        "path": "docs/research-logs/2026-09-10-stage-03-professional-practice-map.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "bf924b1355ac808d1b4126449d02b4500197eeca",
+        "path": "docs/research-logs/2026-09-10-stage-04-business-customer-and-value-model.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-04-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8b64ccfd55b54f448afcf947b15d8dbc95b90b81",
+        "path": "docs/research-logs/2026-09-10-stage-04-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-05-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "1370e121e4cc69e0ed4efa56a68010ed48ede3d0",
+        "path": "docs/research-logs/2026-09-10-stage-05-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "d918595ea9d5f3b8f3670078bcf69b4f3be3014d",
+        "path": "docs/research-logs/2026-09-10-stage-05-money-model-taxonomy.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e7f4cc70e0f386ec04a9d36f717abbbb378d8916",
+        "path": "docs/research-logs/2026-09-10-stage-05-offer-and-pricing-architecture.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-05-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "f9dcc37c9c235a5ef87ec33ba2baa5d78a8e4301",
+        "path": "docs/research-logs/2026-09-10-stage-05-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-06-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "4f33bce2c7294fd17e2f565684369626f865dc28",
+        "path": "docs/research-logs/2026-09-10-stage-06-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "091c8b69416c045042f4412caf348f59dad27c16",
+        "path": "docs/research-logs/2026-09-10-stage-06-demand-lead-and-sales-architecture.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-06-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "225dbfcc90632287deff207be152132376257ac4",
+        "path": "docs/research-logs/2026-09-10-stage-06-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-07-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "7af32ad9b55130a7fe7f59c9e365325df1489040",
+        "path": "docs/research-logs/2026-09-10-stage-07-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e5febe5b4ce59153fd2c2c8a5bce9a21e9dc17df",
+        "path": "docs/research-logs/2026-09-10-stage-07-delivery-and-retention-model.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-07-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8a15a35fbcc69c2c5a33c0b6dd9eef0f5de24876",
+        "path": "docs/research-logs/2026-09-10-stage-07-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "154cdcae565b9c1708cde7650680cf64226ebd71",
+        "path": "docs/research-logs/2026-09-10-stage-07-unit-economics-and-cash-contract.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a939843b6a262753ce64b5faef171d920beb925c",
+        "path": "docs/research-logs/2026-09-10-stage-08-assumptions-experiments-and-learning.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-08-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b008eeed22083dbf4d90dc695a3137127703a836",
+        "path": "docs/research-logs/2026-09-10-stage-08-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c626781cd0dbcaac139ab99d54b69beaadafdd29",
+        "path": "docs/research-logs/2026-09-10-stage-08-constraint-diagnosis-and-repair.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-08-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "6a3ef07398a94ff1f736f6f882280e450db7d2bb",
+        "path": "docs/research-logs/2026-09-10-stage-08-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "6a777ddf779c75dda854794770fe0e21c421dbf1",
+        "path": "docs/research-logs/2026-09-10-stage-09-adversarial-evaluation.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-09-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "005f6213dd06dce5ad86687514b4112e694b4067",
+        "path": "docs/research-logs/2026-09-10-stage-09-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "61fa3e5bba3a9a0fa6b2b0633221c631f385cb9c",
+        "path": "docs/research-logs/2026-09-10-stage-09-ethical-and-legal-handoffs.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-09-research-and-sources.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e5ff6bef7774cbe0785cc9a3d4a68df06d81301c",
+        "path": "docs/research-logs/2026-09-10-stage-09-research-and-sources.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-capability-landscape.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "fa0dab2aa8c6f4925309aeb125013ae8338ef886",
+        "path": "docs/research-logs/2026-09-10-stage-10-capability-landscape.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a4d6db234ad2084352b59d4fde129260e8375e93",
+        "path": "docs/research-logs/2026-09-10-stage-10-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "fd6b74e5f3ff7512fe2d978b662484131635fdc2",
+        "path": "docs/research-logs/2026-09-10-stage-10-execution-system-candidates.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "849b0ae2d806344027c099668bf48fc5423edc62",
+        "path": "docs/research-logs/2026-09-10-stage-10-reuse-decisions-and-boundaries.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-10-verification-receipt.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "38b506a07394ca43078f8fc62226d448b3c9aac3",
+        "path": "docs/research-logs/2026-09-10-stage-10-verification-receipt.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-11-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "88c53fc0ca4a6e54f8d526f02c251ddc665ec8e3",
+        "path": "docs/research-logs/2026-09-10-stage-11-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-11-execution-layer.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "58f7cd494d7361fc3beac569f1932174a76496a4",
+        "path": "docs/research-logs/2026-09-10-stage-11-execution-layer.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-11-research-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "f7ceea535d3e2ed3dad67f48a693443a3aad9fc7",
+        "path": "docs/research-logs/2026-09-10-stage-11-research-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-11-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a5f1a4bd11eeb0509e573d1b39ebb9309b3d2464",
+        "path": "docs/research-logs/2026-09-10-stage-11-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-12-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "764a552a4d364a21ffc71509ce599b695c0c5d64",
+        "path": "docs/research-logs/2026-09-10-stage-12-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-12-gap-analysis.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c46a2a23498f5b723eb662bfb3e6e4d74acc3ba7",
+        "path": "docs/research-logs/2026-09-10-stage-12-gap-analysis.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-12-guardrails.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a11bdb7ab24b875fde5c40d0fdbf2affc60c9d5f",
+        "path": "docs/research-logs/2026-09-10-stage-12-guardrails.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-12-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "882c8646b0e82e8a72650d4c4e6abaa1519a5ef5",
+        "path": "docs/research-logs/2026-09-10-stage-12-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-build-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "7b303e39d7dd210c3a78b3f3f45f767338f1d936",
+        "path": "docs/research-logs/2026-09-10-stage-13-build-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a4b08bf60a2034ce499e138473135b48aefd8760",
+        "path": "docs/research-logs/2026-09-10-stage-13-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b3be090d6eec57ae3f9156fb0c3e70bf28da9f8c",
+        "path": "docs/research-logs/2026-09-10-stage-13-evaluate-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "45b7a15eabc8009742846879f2668449ab2c2da6",
+        "path": "docs/research-logs/2026-09-10-stage-13-grow-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e6de03d32950a6f20ca6773f715adc1a75503731",
+        "path": "docs/research-logs/2026-09-10-stage-13-pack-command-contracts.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-selection-and-checks.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "3c106e5a24ec5d88daaef04b8cc2b10abab890c9",
+        "path": "docs/research-logs/2026-09-10-stage-13-selection-and-checks.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-skill-architecture.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "a622f8edc429d2510f7673e9fd0981fe978495eb",
+        "path": "docs/research-logs/2026-09-10-stage-13-skill-architecture.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-13-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b564e634ed2cdff275d271c65d58fc179d9fd3d9",
+        "path": "docs/research-logs/2026-09-10-stage-13-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "60f29a0e74be247cbb0bb416d97725409daa8ff8",
+        "path": "docs/research-logs/2026-09-10-stage-14-candidate-catalogue.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "02a9b0df40d1147067d7f86f520cb1b5e2a2bdd3",
+        "path": "docs/research-logs/2026-09-10-stage-14-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-design-probes.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e74f5646ce0a00385ba276b4cdf8d8c9ce001406",
+        "path": "docs/research-logs/2026-09-10-stage-14-design-probes.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "63cd99a496c230287f34780136b24ce7f5912134",
+        "path": "docs/research-logs/2026-09-10-stage-14-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-pack-authoring.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "fcc6bdb73d6e761c74aabecdd0834b2b17a81b62",
+        "path": "docs/research-logs/2026-09-10-stage-14-pack-authoring.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-pack-model.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "8c5c0ee64f42410c33842405817f62c5250cc9da",
+        "path": "docs/research-logs/2026-09-10-stage-14-pack-model.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-research-and-sources.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "181eccc3d68296edee67858831225eebbe0e3d64",
+        "path": "docs/research-logs/2026-09-10-stage-14-research-and-sources.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-14-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "9d828b230d49258c40df0c5b7293c28b750011f0",
+        "path": "docs/research-logs/2026-09-10-stage-14-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-candidate-pool.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "08c04e29d5ebf6d670c665ac5eb134c9c9438b13",
+        "path": "docs/research-logs/2026-09-10-stage-15-candidate-pool.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-conformance.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "003154d3b8203c6b12f946af209fdc0b37f25f2b",
+        "path": "docs/research-logs/2026-09-10-stage-15-conformance.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "022915fc502243aff8bb17bef0c2fb7ed9c3b43c",
+        "path": "docs/research-logs/2026-09-10-stage-15-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-01.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "9bb9c65be094401d783f2fb19361b74e23bdc1fa",
+        "path": "docs/research-logs/2026-09-10-stage-15-level-01.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-02.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "58240671642aceacb1ce95fdd12f26303d26e750",
+        "path": "docs/research-logs/2026-09-10-stage-15-level-02.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-03.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "afd49b915285fed18ac26ec9b0f91ffaf524c325",
+        "path": "docs/research-logs/2026-09-10-stage-15-level-03.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-04.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "bb74f0aa4b6a158bf5e963b704ffa3c8a86effb8",
+        "path": "docs/research-logs/2026-09-10-stage-15-level-04.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-level-05.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "ba4856c65bfa3049bc0a95405738bc898ece0a5a",
+        "path": "docs/research-logs/2026-09-10-stage-15-level-05.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "d632cdee381483d6151a02b1eb10200a7bdf22f1",
+        "path": "docs/research-logs/2026-09-10-stage-15-selection-and-coverage.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-10-stage-15-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "b881846db73a520f4cb5580d6fd1d36b4ade1710",
+        "path": "docs/research-logs/2026-09-10-stage-15-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "023af49f61ea3e9fb5475cafcb4885068f770f14",
+        "path": "docs/research-logs/2026-09-12-bootstrap-3-execution-contract.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-16.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "ad8ef4df33941999316b1776ba6386234516c98e",
+        "path": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-16.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-17.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "eb84c93b9f6ef697ad9fc840863ffc324857b7bf",
+        "path": "docs/research-logs/2026-09-12-bootstrap-3-progress-through-stage-17.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-cases.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "9dd91fd385401c2ebf03c2c473fc42d70fdf69ab",
+        "path": "docs/research-logs/2026-09-12-stage-16-cases.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "3da33ce2c0871640a004e7ab594d7eb6ebeba9f4",
+        "path": "docs/research-logs/2026-09-12-stage-16-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-fde-consultancy.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "6355a11cec15ac77ff9ccc3c4d5edf280862c42b",
+        "path": "docs/research-logs/2026-09-12-stage-16-fde-consultancy.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-kakeibo.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "cd1d7b2e4d84ae19660a59de7ee0b5e6263d0f86",
+        "path": "docs/research-logs/2026-09-12-stage-16-kakeibo.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "01f91e41d8cd49c5849453715c67e833c0f6d8bf",
+        "path": "docs/research-logs/2026-09-12-stage-16-production-skills-ecosystem.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-stress-test-design.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e8e9de03faac6458645b07af75ca09c8ce56240d",
+        "path": "docs/research-logs/2026-09-12-stage-16-stress-test-design.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-16-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "ceed0bfbfb84d0374f50dca2ac5ed2e9bd079bd1",
+        "path": "docs/research-logs/2026-09-12-stage-16-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-adversarial-fixtures.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "5f2174ea442f86db79ee20ba8f222729999a3aca",
+        "path": "docs/research-logs/2026-09-12-stage-17-adversarial-fixtures.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-benchmark-design.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "e57729b80aacc11e3279be346cc4bad5f4b6be20",
+        "path": "docs/research-logs/2026-09-12-stage-17-benchmark-design.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-calibration.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "90ee5a9491513c787466b1e2ac81cf270aa639f5",
+        "path": "docs/research-logs/2026-09-12-stage-17-calibration.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-case-contracts.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "926a5cf7c0989b6f685cd7c2331bcc66b8d39a05",
+        "path": "docs/research-logs/2026-09-12-stage-17-case-contracts.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "80dae3cfe70a9b4eb767ce96b212a883f4c33a03",
+        "path": "docs/research-logs/2026-09-12-stage-17-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-rubrics-and-regression.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "cadb5780a79ad2808da2df4fdb8baffdf7c482c1",
+        "path": "docs/research-logs/2026-09-12-stage-17-rubrics-and-regression.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-17-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "0bd2e8e9e785065d2b1f56a5feceeb42c8ac8898",
+        "path": "docs/research-logs/2026-09-12-stage-17-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-18-canonical-specifications.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "12a01cb14f756d7937423f03504d4e62cd3becac",
+        "path": "docs/research-logs/2026-09-12-stage-18-canonical-specifications.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-18-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "dd5aa073af89ef7e17b474c9735d42b26a9fd176",
+        "path": "docs/research-logs/2026-09-12-stage-18-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-18-specification-contracts.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "9bc3b6124287ddd76e847bafccabf92304bc7d77",
+        "path": "docs/research-logs/2026-09-12-stage-18-specification-contracts.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-12-stage-18-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "448fb1df48687030e39275b437a32a6974a33021",
+        "path": "docs/research-logs/2026-09-12-stage-18-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-18.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "42727efd8c461ca25f49100e2c37c319e45ba0c5",
+        "path": "docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-18.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-13-stage-19-executed-checks.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "69eae061a804dc8018a23e97aa8122e2f51b12a7",
+        "path": "docs/research-logs/2026-09-13-stage-19-executed-checks.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-13-stage-19-public-readme.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "863e8db3d1546badaa3ffa589e720ea457c65a3f",
+        "path": "docs/research-logs/2026-09-13-stage-19-public-readme.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-13-stage-19-readme-design.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "4f5d821155fb289951a097ed2ef650047aa4ea7d",
+        "path": "docs/research-logs/2026-09-13-stage-19-readme-design.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-13-stage-19-verification-inputs.json",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "008a92bc4f4b91907a1db761094052350ca0d150",
+        "path": "docs/research-logs/2026-09-13-stage-19-verification-inputs.json"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/2026-09-13-stage-19-verifier.py",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "c6b7108cf694fd60849b947953f6da35f6f5b3f3",
+        "path": "docs/research-logs/2026-09-13-stage-19-verifier.py"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/README.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "55d53c7b137970fb727b1458ca4b70498c3a12de",
+        "path": "docs/research-logs/README.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/bootstrap-2-progress.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "5f4ee0f9c9b5d29759fedd746f295a16ef3569b7",
+        "path": "docs/research-logs/bootstrap-2-progress.md"
+      }
+    },
+    {
+      "check": "Preserve docs/research-logs/bootstrap-3-progress.md",
+      "result": "PASS",
+      "evidence": {
+        "expected_blob": "5ea320b2d9318d353252eef548e7e95b33f48229",
+        "path": "docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-19.md"
+      }
+    },
+    {
+      "check": "Accepted example distribution preserved",
+      "result": "PASS",
+      "evidence": "15 accepted examples; original corpus preserved by byte identity."
+    },
+    {
+      "check": "All six canonical owners retained",
+      "result": "PASS",
+      "evidence": "All six full canonical identities also checked against predecessor."
+    },
+    {
+      "check": "Only stage-scoped additions",
+      "result": "PASS",
+      "evidence": [
+        "docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-19.md",
+        "docs/research-logs/2026-09-13-stage-20-cross-project-review.md",
+        "docs/research-logs/2026-09-13-stage-20-executed-checks.json",
+        "docs/research-logs/2026-09-13-stage-20-review-inputs.json",
+        "docs/research-logs/2026-09-13-stage-20-verifier.py"
+      ]
+    },
+    {
+      "check": "Balanced review Markdown fences",
+      "result": "PASS",
+      "evidence": "Pairing only; meaning reviewed directly."
+    },
+    {
+      "check": "Local link Original bootstrap §27",
+      "result": "PASS",
+      "evidence": "2026-09-08-business-building-skills-new-project-bootstrap-process.md#27-stage-20--cross-project-review"
+    },
+    {
+      "check": "Local anchor Original bootstrap §27",
+      "result": "PASS",
+      "evidence": "2026-09-08-business-building-skills-new-project-bootstrap-process.md#27-stage-20--cross-project-review"
+    },
+    {
+      "check": "Local link execution contract",
+      "result": "PASS",
+      "evidence": "2026-09-12-bootstrap-3-execution-contract.md"
+    },
+    {
+      "check": "Inspected external link deep-research-skills/README.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/README.md"
+    },
+    {
+      "check": "Inspected external link deep-research-skills/docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link legal-skills/README.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/README.md"
+    },
+    {
+      "check": "Inspected external link legal-skills/docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link software-engineering-skills/README.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/README.md"
+    },
+    {
+      "check": "Inspected external link software-engineering-skills/docs/research-logs/2026-09-07-software-engineering-skills-new-project-bootstrap-process.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/docs/research-logs/2026-09-07-software-engineering-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link ui-ux-design-skills/README.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/README.md"
+    },
+    {
+      "check": "Inspected external link ui-ux-design-skills/docs/01-ui-ux-design-skills-system-spec.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/01-ui-ux-design-skills-system-spec.md"
+    },
+    {
+      "check": "Inspected external link ui-ux-design-skills/docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md"
+    },
+    {
+      "check": "Inspected external link ui-ux-design-skills/skills/uiux-handoff/SKILL.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/skills/uiux-handoff/SKILL.md"
+    },
+    {
+      "check": "Inspected external link production-skills/README.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/README.md"
+    },
+    {
+      "check": "Inspected external link production-skills/docs/specs/01-production-skills-family-system.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/01-production-skills-family-system.md"
+    },
+    {
+      "check": "Inspected external link production-skills/docs/specs/02-production-skills-project-contract.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/02-production-skills-project-contract.md"
+    },
+    {
+      "check": "Inspected external link production-skills/docs/specs/04-cross-domain-orchestration-and-integration.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/04-cross-domain-orchestration-and-integration.md"
+    },
+    {
+      "check": "Inspected external link production-skills/registry/projects/business-building-skills.json",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/registry/projects/business-building-skills.json"
+    },
+    {
+      "check": "Inspected external link pactwright/README.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/README.md"
+    },
+    {
+      "check": "Inspected external link pactwright/docs/research-logs/2026-08-11-pactwright-system-architecture.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-system-architecture.md"
+    },
+    {
+      "check": "Inspected external link pactwright/docs/research-logs/2026-08-11-pactwright-delivery-graph-and-lifecycle-engineering-spec.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-delivery-graph-and-lifecycle-engineering-spec.md"
+    },
+    {
+      "check": "Inspected external link pactwright/packages/standard/skills/contract-writing.md",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/packages/standard/skills/contract-writing.md"
+    },
+    {
+      "check": "Inspected external link pactwright/src/pack/manifest.ts",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/src/pack/manifest.ts"
+    },
+    {
+      "check": "Inspected external link pactwright/src/graph/schema.ts",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/src/graph/schema.ts"
+    },
+    {
+      "check": "Inspected external link S01",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/README.md"
+    },
+    {
+      "check": "Inspected external link S02",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S03",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/README.md"
+    },
+    {
+      "check": "Inspected external link S04",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S07",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/README.md"
+    },
+    {
+      "check": "Inspected external link S08",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/01-ui-ux-design-skills-system-spec.md"
+    },
+    {
+      "check": "Inspected external link S09",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md"
+    },
+    {
+      "check": "Inspected external link S10",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/skills/uiux-handoff/SKILL.md"
+    },
+    {
+      "check": "Inspected external link S05",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/README.md"
+    },
+    {
+      "check": "Inspected external link S06",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/docs/research-logs/2026-09-07-software-engineering-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S11",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/README.md"
+    },
+    {
+      "check": "Inspected external link S12",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/01-production-skills-family-system.md"
+    },
+    {
+      "check": "Inspected external link S13",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/02-production-skills-project-contract.md"
+    },
+    {
+      "check": "Inspected external link S14",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/04-cross-domain-orchestration-and-integration.md"
+    },
+    {
+      "check": "Inspected external link S15",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/registry/projects/business-building-skills.json"
+    },
+    {
+      "check": "Inspected external link S14",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/04-cross-domain-orchestration-and-integration.md"
+    },
+    {
+      "check": "Inspected external link S16",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/README.md"
+    },
+    {
+      "check": "Inspected external link S17",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-system-architecture.md"
+    },
+    {
+      "check": "Inspected external link S18",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-delivery-graph-and-lifecycle-engineering-spec.md"
+    },
+    {
+      "check": "Inspected external link S19",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/packages/standard/skills/contract-writing.md"
+    },
+    {
+      "check": "Inspected external link S20",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/src/pack/manifest.ts"
+    },
+    {
+      "check": "Inspected external link S21",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/src/graph/schema.ts"
+    },
+    {
+      "check": "Inspected external link S02",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S04",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S09",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md"
+    },
+    {
+      "check": "Inspected external link S14",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/04-cross-domain-orchestration-and-integration.md"
+    },
+    {
+      "check": "Inspected external link S17",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-system-architecture.md"
+    },
+    {
+      "check": "Inspected external link S02",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S06",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/docs/research-logs/2026-09-07-software-engineering-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S09",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md"
+    },
+    {
+      "check": "Inspected external link S18",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-delivery-graph-and-lifecycle-engineering-spec.md"
+    },
+    {
+      "check": "Inspected external link S02",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S04",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S06",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/software-engineering-skills/blob/684986785ceafbc031419d6fc7287dbfe0578dba/docs/research-logs/2026-09-07-software-engineering-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S08",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/01-ui-ux-design-skills-system-spec.md"
+    },
+    {
+      "check": "Inspected external link S09",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md"
+    },
+    {
+      "check": "Inspected external link S12",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/production-skills/blob/20979e0c68ac4b37433374df7fe10ceb2e7ee69a/docs/specs/01-production-skills-family-system.md"
+    },
+    {
+      "check": "Inspected external link S18",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-delivery-graph-and-lifecycle-engineering-spec.md"
+    },
+    {
+      "check": "Inspected external link S02",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/deep-research-skills/blob/80b209968b366662c01a8ded5ecb6c30bb6beb0b/docs/research-logs/2026-09-07-deep-research-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S04",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/legal-skills/blob/b15f3134552ea763d434783d655aea44c0e01925/docs/research-logs/2026-09-08-legal-skills-new-project-bootstrap-process.md"
+    },
+    {
+      "check": "Inspected external link S09",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/ui-ux-design-skills/blob/db888866787542311e9e29e15ed92362f5f283e5/docs/02-ui-ux-design-skills-workflows-and-artifacts-spec.md"
+    },
+    {
+      "check": "Inspected external link S17",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/docs/research-logs/2026-08-11-pactwright-system-architecture.md"
+    },
+    {
+      "check": "Inspected external link S21",
+      "result": "PASS",
+      "evidence": "https://github.com/sb-dev/pactwright/blob/207ac08507f9687be9eca105915bbd3db1e1dd4b/src/graph/schema.ts"
+    },
+    {
+      "check": "Local link Cross-project review",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-20-cross-project-review.md"
+    },
+    {
+      "check": "Local link Review inputs",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-20-review-inputs.json"
+    },
+    {
+      "check": "Local link Verifier",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-20-verifier.py"
+    },
+    {
+      "check": "Local link Stage 19 progress snapshot",
+      "result": "PASS",
+      "evidence": "2026-09-13-bootstrap-3-progress-through-stage-19.md"
+    },
+    {
+      "check": "Local link Current progress",
+      "result": "PASS",
+      "evidence": "bootstrap-3-progress.md"
+    },
+    {
+      "check": "No unresolved mandatory conformance row",
+      "result": "PASS",
+      "evidence": "Recorded substantive conformance; no automated semantic-quality claim."
+    },
+    {
+      "check": "Emitted result link executed checks",
+      "result": "PASS",
+      "evidence": "2026-09-13-stage-20-executed-checks.json"
+    }
+  ],
+  "publication_inputs": {
+    "docs/research-logs/2026-09-13-stage-20-cross-project-review.md": {
+      "blob": "b4f5d2fdb2942df9995d5fa1776e08d5914d74b9",
+      "sha256": "a9c4a748982fb40702644e72745f76dd44419932bd922b7b361c35555091bea8"
+    },
+    "docs/research-logs/2026-09-13-stage-20-review-inputs.json": {
+      "blob": "35bc5ae5a2ac259460b53a320dab93e69f1dee5f",
+      "sha256": "5f12fff9dac232466506084cbb98ddd7266f7e84cb6567318ffafa4edd6b460c"
+    },
+    "docs/research-logs/2026-09-13-stage-20-verifier.py": {
+      "blob": "7da736a482d794d2b6ddfd57df79c4bd0eca6d88",
+      "sha256": "1bd536cf4ba123d121f55372a740f461762c10bb2023b711ca0642b13da8d708"
+    },
+    "docs/research-logs/2026-09-13-bootstrap-3-progress-through-stage-19.md": {
+      "blob": "5ea320b2d9318d353252eef548e7e95b33f48229",
+      "sha256": "56973e48e886fc8295849645fe79e797abd5bfe22289ef40cffd92c5ba101ed9"
+    },
+    "docs/research-logs/bootstrap-3-progress.md": {
+      "blob": "ac561e9b4ebc40448ca9600a1766e749358fc550",
+      "sha256": "e381d85adc80a7eff889ff8105e89b96a47d1c66476ef5333806dea77dfcbc6b"
+    }
+  },
+  "limits": [
+    "Source inspection and authored semantic review, not installed cross-project behaviour",
+    "No external law/provider/market claims reverified",
+    "No live business evidence, registry promotion or shared implementation"
+  ],
+  "results": {
+    "PASS": 264,
+    "FAIL": 0
+  },
+  "exit_code": 0
+}
